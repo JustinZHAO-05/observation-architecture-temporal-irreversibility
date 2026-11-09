@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite the research manuscript and the project repository if you use these materials."
+title: "Observation architecture and the identifiability of temporal irreversibility: code and numerical data"
+authors:
+  - family-names: "Zhao"
+    given-names: "Yanzhe"
+repository-code: "https://github.com/JustinZHAO-05/observation-architecture-temporal-irreversibility"
