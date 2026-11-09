@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.DS_Store
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.blg
+*.fdb_latexmk
+*.fls
+*.toc
+raw_eeg/
+*.edf
+*.event
