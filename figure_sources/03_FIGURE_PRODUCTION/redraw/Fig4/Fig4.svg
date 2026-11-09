@@ -1,0 +1,2769 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="178mm" height="116mm" viewBox="0 0 504.5669291338583 328.8188976377953"><title>Figure 4. Filter-invariant spectral cycles and quantitative reversal bounds</title><g id="panel-a" transform="translate(51.0236220 5.6692913) scale(1.000000000 1.000000000)"><g id="panel-a-a-geometry" transform="translate(0.0000000 0.0000000) scale(0.999999988 0.999999967)"><defs>
+<clipPath id="panel-a-a-geometry-clip_1">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M51.02362 241.61293H453.5433V323.25074H51.02362Z" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_2">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 0H504.6V328.92H0Z" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_3">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_4">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_5">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_6">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_7">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_8">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000015259 .00012207H504.59999V328.92015H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_9">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .00012207H504.59999V328.92015H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_10">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000015259 .000091553H504.59999V328.9201H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_11">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_12">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000015259 .00015259H504.59999V328.92018H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_13">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .00015259H504.59999V328.92018H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_14">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000015259 .00018311H504.60005V328.9202H.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_15">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000015259 .00015259H504.59999V328.92018H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_16">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000015259 .00015259H504.59999V328.92018H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_17">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000007629 .00015259H504.6V328.92018H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_18">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000007629 .00015259H504.6V328.92018H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_19">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000007629 .00015259H504.6V328.92018H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_20">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_21">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000015259 .00015259H504.60005V328.92018H.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_22">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000015259 .00015259H504.60005V328.92018H.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_23">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00018311H504.6V328.9202H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_24">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_25">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_26">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_27">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_28">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_29">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_30">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_31">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_32">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_33">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000015259 .00015259H504.59999V328.92018H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_34">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_35">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000015259 .00012207H504.59999V328.92015H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_36">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_37">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000015259 .000091553H504.59999V328.9201H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_38">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_39">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_40">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_41">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_42">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_43">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_44">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_45">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_46">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_47">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_48">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_49">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_50">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_51">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_52">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_53">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_54">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_55">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_56">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_57">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_58">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 0H504.59999V328.92H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_59">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_60">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_61">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_62">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_63">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_64">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_65">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_66">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_67">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000061035 0H504.59996V328.92H-.000061035Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_68">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000030518 .000091553H504.60005V328.9201H.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_69">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000030518 .000091553H504.60005V328.9201H.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_70">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000030518 .000061035H504.60005V328.92008H.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_71">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_72">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_73">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_74">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_75">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_76">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000061035 0H504.59996V328.92H-.000061035Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_77">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_78">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_79">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000030518 .000061035H504.60005V328.92008H.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_80">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_81">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_82">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .00012207H504.59999V328.92015H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_83">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_84">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_85">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_86">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_87">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_88">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_89">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_90">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_91">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_92">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_93">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_94">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_95">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_96">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_97">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M-.000061035 .000061035H504.59996V328.92008H-.000061035Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_98">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_99">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_100">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_101">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_102">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_103">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_104">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_105">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_106">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_107">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_108">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_109">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_110">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_111">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_112">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_113">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_114">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_115">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_116">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_117">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_118">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_119">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_120">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_121">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_122">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_123">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_124">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_125">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_126">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_127">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_128">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_129">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_130">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_131">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_132">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_133">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_134">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_135">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_136">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_137">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_138">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_139">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_140">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_141">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_142">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_143">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_144">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_145">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_146">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_147">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_148">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_149">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_150">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_151">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_152">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_153">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-a-a-geometry-clip_154">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+</defs>
+<g clip-path="url(#panel-a-a-geometry-clip_1)">
+<g clip-path="url(#panel-a-a-geometry-clip_2)">
+<g clip-path="url(#panel-a-a-geometry-clip_3)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M0 .045013H504.63V328.92503H0Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_4)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="12.024" font-family="Arial" font-weight="bold" x="54.72" y="-311.16">a</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_5)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="10.464" font-family="Arial" font-weight="bold" x="71.736" y="-311.76">Cycle invariance under diagonal filtering</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_6)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="12" font-family="Arial" font-weight="bold" x="309.6" y="-159.72">c</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_7)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="10.44" font-family="Arial" font-weight="bold" x="326.62" y="-160.32">Weak edges absorb phase</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_8)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#abc9da" d="M206.08 298.02H238.68" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_9)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#abc9da" d="M265.89 298.02H298.49" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_10)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cdb7cd" d="M206.08 279.17H238.68" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_11)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cdb7cd" d="M265.89 279.17H298.49" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_12)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#bbc4ca" d="M206.08 260.32H238.68" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_13)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#bbc4ca" d="M265.89 260.32H298.49" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_14)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M129.29 287.63 108.28 265.23 109.17 264.4 130.18 286.8ZM107.95 266.91 106.67 262.63 110.87 264.17Z" fill="#0072b2" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_15)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M128.35 290.94C128.35 293.63 130.54 295.81 133.23 295.81 135.92 295.81 138.1 293.63 138.1 290.94 138.1 288.24 135.92 286.06 133.23 286.06 130.54 286.06 128.35 288.24 128.35 290.94Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_16)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M128.35 290.94C128.35 293.63 130.54 295.81 133.23 295.81 135.92 295.81 138.1 293.63 138.1 290.94 138.1 288.24 135.92 286.06 133.23 286.06 130.54 286.06 128.35 288.24 128.35 290.94Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_17)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M108.28 259.51H155.17V258.29H108.28ZM154.17 260.9 158.17 258.9 154.17 256.9Z" fill="#8e5385" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_18)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M98.306 258.9C98.306 261.6 100.49 263.78 103.18 263.78 105.87 263.78 108.06 261.6 108.06 258.9 108.06 256.21 105.87 254.03 103.18 254.03 100.49 254.03 98.306 256.21 98.306 258.9Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_19)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M98.306 258.9C98.306 261.6 100.49 263.78 103.18 263.78 105.87 263.78 108.06 261.6 108.06 258.9 108.06 256.21 105.87 254.03 103.18 254.03 100.49 254.03 98.306 256.21 98.306 258.9Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_20)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M159.34 262.21 138.33 284.61 139.22 285.44 160.23 263.04ZM138 282.93 136.72 287.21 140.91 285.67Z" fill="#555d69" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_21)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M158.4 258.9C158.4 261.6 160.58 263.78 163.28 263.78 165.97 263.78 168.15 261.6 168.15 258.9 168.15 256.21 165.97 254.03 163.28 254.03 160.58 254.03 158.4 256.21 158.4 258.9Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_22)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M158.4 258.9C158.4 261.6 160.58 263.78 163.28 263.78 165.97 263.78 168.15 261.6 168.15 258.9 168.15 256.21 165.97 254.03 163.28 254.03 160.58 254.03 158.4 256.21 158.4 258.9Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_23)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M367.4 287.63 346.39 265.23 347.28 264.4 368.29 286.8ZM346.06 266.91 344.78 262.63 348.98 264.17Z" fill="#0072b2" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_24)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M366.46 290.94C366.46 293.63 368.65 295.81 371.34 295.81 374.03 295.81 376.21 293.63 376.21 290.94 376.21 288.24 374.03 286.06 371.34 286.06 368.65 286.06 366.46 288.24 366.46 290.94Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_25)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M366.46 290.94C366.46 293.63 368.65 295.81 371.34 295.81 374.03 295.81 376.21 293.63 376.21 290.94 376.21 288.24 374.03 286.06 371.34 286.06 368.65 286.06 366.46 288.24 366.46 290.94Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_26)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M346.39 259.51H393.28V258.29H346.39ZM392.28 260.9 396.28 258.9 392.28 256.9Z" fill="#8e5385" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_27)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M336.42 258.9C336.42 261.6 338.6 263.78 341.29 263.78 343.98 263.78 346.17 261.6 346.17 258.9 346.17 256.21 343.98 254.03 341.29 254.03 338.6 254.03 336.42 256.21 336.42 258.9Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_28)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M336.42 258.9C336.42 261.6 338.6 263.78 341.29 263.78 343.98 263.78 346.17 261.6 346.17 258.9 346.17 256.21 343.98 254.03 341.29 254.03 338.6 254.03 336.42 256.21 336.42 258.9Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_29)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M397.45 262.21 376.44 284.61 377.33 285.44 398.34 263.04ZM376.11 282.93 374.83 287.21 379.02 285.67Z" fill="#555d69" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_30)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M396.51 258.9C396.51 261.6 398.69 263.78 401.39 263.78 404.08 263.78 406.26 261.6 406.26 258.9 406.26 256.21 404.08 254.03 401.39 254.03 398.69 254.03 396.51 256.21 396.51 258.9Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_31)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M396.51 258.9C396.51 261.6 398.69 263.78 401.39 263.78 404.08 263.78 406.26 261.6 406.26 258.9 406.26 256.21 404.08 254.03 401.39 254.03 398.69 254.03 396.51 256.21 396.51 258.9Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_32)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M182.41 298.02H203.1" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_33)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M192.76 306.53V289.52" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_34)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M182.41 279.17H203.1" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_35)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M192.76 287.68V270.67" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_36)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M182.41 260.32H203.1" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_37)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M192.76 268.83V251.82" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_38)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M301.46 298.02H322.16" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_39)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M311.81 306.53V289.52" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_40)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M301.46 279.17H322.16" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_41)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M311.81 287.68V270.67" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_42)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M301.46 260.32H322.16" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_43)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M311.81 268.83V251.82" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_44)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M193.03 297.64 197.63 300.92 197.07 301.69 192.48 298.41ZM197.7 299.09 199.79 303.05 195.37 302.35Z" fill="#0072b2" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_45)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M192.95 278.74 198.09 281.09 197.69 281.96 192.56 279.6ZM197.81 279.29 200.61 282.78 196.14 282.93Z" fill="#8e5385" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_46)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M192.9 259.87 198.29 261.54 198.01 262.44 192.62 260.78ZM197.79 259.78 201.02 262.88 196.6 263.61Z" fill="#555d69" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_47)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M311.5 297.66 307.24 301.37 307.86 302.08 312.12 298.38ZM306.99 299.56 305.29 303.69 309.62 302.58Z" fill="#0072b2" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_48)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M312.18 279.47 315.75 275.1 315.02 274.5 311.44 278.87ZM316.3 276.84 317.29 272.48 313.21 274.31Z" fill="#8e5385" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_49)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M311.9 260.79 317.44 259.71 317.26 258.78 311.72 259.86ZM316.75 261.4 320.3 258.68 315.99 257.48Z" fill="#555d69" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_50)">
+<text fill="#555d69" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.76" font-family="Arial" x="104.9" y="-300.02">Before filtering</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_51)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.4" font-family="Arial" x="130.85" y="-287.83">1</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_52)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.4" font-family="Arial" x="100.78" y="-255.79">2</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_53)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.4" font-family="Arial" x="160.9" y="-255.79">3</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_54)">
+<text fill="#555d69" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.76" font-family="Arial" x="346.68" y="-300.02">After filtering</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_55)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.4" font-family="Arial" x="369" y="-287.83">1</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_56)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.4" font-family="Arial" x="338.95" y="-255.79">2</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_57)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.4" font-family="Arial" x="399.05" y="-255.79">3</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_58)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M323.72 130.32 336.75 144.84" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_59)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M316.06 126.53C316.06 128.87 317.97 130.78 320.31 130.78 322.66 130.78 324.57 128.87 324.57 126.53 324.57 124.18 322.66 122.27 320.31 122.27 317.97 122.27 316.06 124.18 316.06 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_60)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M316.06 126.53C316.06 128.87 317.97 130.78 320.31 130.78 322.66 130.78 324.57 128.87 324.57 126.53 324.57 124.18 322.66 122.27 320.31 122.27 317.97 122.27 316.06 124.18 316.06 126.53Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_61)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M343.57 144.84 356.59 130.32" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_62)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M335.91 148.64C335.91 150.98 337.81 152.89 340.16 152.89 342.51 152.89 344.41 150.98 344.41 148.64 344.41 146.29 342.51 144.38 340.16 144.38 337.81 144.38 335.91 146.29 335.91 148.64Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_63)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M335.91 148.64C335.91 150.98 337.81 152.89 340.16 152.89 342.51 152.89 344.41 150.98 344.41 148.64 344.41 146.29 342.51 144.38 340.16 144.38 337.81 144.38 335.91 146.29 335.91 148.64Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_64)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M354.9 126.53H325.42" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_65)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M355.75 126.53C355.75 128.87 357.65 130.78 360 130.78 362.35 130.78 364.25 128.87 364.25 126.53 364.25 124.18 362.35 122.27 360 122.27 357.65 122.27 355.75 124.18 355.75 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_66)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M355.75 126.53C355.75 128.87 357.65 130.78 360 130.78 362.35 130.78 364.25 128.87 364.25 126.53 364.25 124.18 362.35 122.27 360 122.27 357.65 122.27 355.75 124.18 355.75 126.53Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_67)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M386.09 130.32 399.11 144.84" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_68)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M378.43 126.53C378.43 128.87 380.33 130.78 382.68 130.78 385.03 130.78 386.93 128.87 386.93 126.53 386.93 124.18 385.03 122.27 382.68 122.27 380.33 122.27 378.43 124.18 378.43 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_69)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M378.43 126.53C378.43 128.87 380.33 130.78 382.68 130.78 385.03 130.78 386.93 128.87 386.93 126.53 386.93 124.18 385.03 122.27 382.68 122.27 380.33 122.27 378.43 124.18 378.43 126.53Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_70)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M405.93 144.84 418.95 130.32" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_71)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M398.27 148.64C398.27 150.98 400.17 152.89 402.52 152.89 404.87 152.89 406.77 150.98 406.77 148.64 406.77 146.29 404.87 144.38 402.52 144.38 400.17 144.38 398.27 146.29 398.27 148.64Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_72)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M398.27 148.64C398.27 150.98 400.17 152.89 402.52 152.89 404.87 152.89 406.77 150.98 406.77 148.64 406.77 146.29 404.87 144.38 402.52 144.38 400.17 144.38 398.27 146.29 398.27 148.64Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_73)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width="1.25" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M417.26 126.53H387.78" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_74)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M418.11 126.53C418.11 128.87 420.01 130.78 422.36 130.78 424.71 130.78 426.61 128.87 426.61 126.53 426.61 124.18 424.71 122.27 422.36 122.27 420.01 122.27 418.11 124.18 418.11 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_75)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M418.11 126.53C418.11 128.87 420.01 130.78 422.36 130.78 424.71 130.78 426.61 128.87 426.61 126.53 426.61 124.18 424.71 122.27 422.36 122.27 420.01 122.27 418.11 124.18 418.11 126.53Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_76)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M448.45 130.32 461.47 144.84" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_77)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M440.79 126.53C440.79 128.87 442.69 130.78 445.04 130.78 447.39 130.78 449.29 128.87 449.29 126.53 449.29 124.18 447.39 122.27 445.04 122.27 442.69 122.27 440.79 124.18 440.79 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_78)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M440.79 126.53C440.79 128.87 442.69 130.78 445.04 130.78 447.39 130.78 449.29 128.87 449.29 126.53 449.29 124.18 447.39 122.27 445.04 122.27 442.69 122.27 440.79 124.18 440.79 126.53Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_79)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M468.29 144.84 481.32 130.32" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_80)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M460.63 148.64C460.63 150.98 462.53 152.89 464.88 152.89 467.23 152.89 469.13 150.98 469.13 148.64 469.13 146.29 467.23 144.38 464.88 144.38 462.53 144.38 460.63 146.29 460.63 148.64Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_81)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M460.63 148.64C460.63 150.98 462.53 152.89 464.88 152.89 467.23 152.89 469.13 150.98 469.13 148.64 469.13 146.29 467.23 144.38 464.88 144.38 462.53 144.38 460.63 146.29 460.63 148.64Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_82)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M479.62 126.53H450.14" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_83)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M480.47 126.53C480.47 128.87 482.38 130.78 484.72 130.78 487.07 130.78 488.98 128.87 488.98 126.53 488.98 124.18 487.07 122.27 484.72 122.27 482.38 122.27 480.47 124.18 480.47 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_84)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M480.47 126.53C480.47 128.87 482.38 130.78 484.72 130.78 487.07 130.78 488.98 128.87 488.98 126.53 488.98 124.18 487.07 122.27 484.72 122.27 482.38 122.27 480.47 124.18 480.47 126.53Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_85)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M319.46 115.61H360.846V119.4368H319.46Z" fill="#f0e7e2" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_86)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M319.46 115.61H333.255V119.4368H319.46Z" fill="#d55e00" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_87)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M322.58 108.88C322.58 110.02 323.5 110.94 324.64 110.94 325.77 110.94 326.69 110.02 326.69 108.88 326.69 107.75 325.77 106.83 324.64 106.83 323.5 106.83 322.58 107.75 322.58 108.88Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_88)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".8" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#181b20" d="M322.58 108.88C322.58 110.02 323.5 110.94 324.64 110.94 325.77 110.94 326.69 110.02 326.69 108.88 326.69 107.75 325.77 106.83 324.64 106.83 323.5 106.83 322.58 107.75 322.58 108.88Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_89)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M381.83 115.61H423.216V119.4368H381.83Z" fill="#f0e7e2" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_90)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M381.83 115.61H411.444V119.4368H381.83Z" fill="#d55e00" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_91)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M384.94 106.83H389.0502V110.9402H384.94Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_92)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".8" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#181b20" d="M384.94 106.83H389.0502V110.9402H384.94Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_93)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M444.19 115.61H485.576V119.4368H444.19Z" fill="#f0e7e2" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_94)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M444.19 115.61H484.33003V119.4368H444.19Z" fill="#d55e00" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_95)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M447.31 108.88 449.36 110.94 451.42 108.88 449.36 106.83Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_96)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" stroke-width=".8" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#181b20" d="M447.31 108.88 449.36 110.94 451.42 108.88 449.36 106.83Z" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_97)">
+<path transform="matrix(1,0,0,-1,-51.02362,323.2507)" d="M333.92 97.755H343.8413V100.4479H333.92Z" fill="#d55e00" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_98)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.16" font-family="Arial" x="318.05" y="-123.46">1</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_99)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.16" font-family="Arial" x="337.9" y="-145.56">2</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_100)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.16" font-family="Arial" x="357.74" y="-123.46">3</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_101)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.4" font-family="Arial" x="332.57" y="-105.91">33%</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_102)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.16" font-family="Arial" x="380.42" y="-123.46">1</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_103)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.16" font-family="Arial" x="400.27" y="-145.56">2</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_104)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.16" font-family="Arial" x="420.12" y="-123.46">3</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_105)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.4" font-family="Arial" x="394.94" y="-105.91">72%</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_106)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.16" font-family="Arial" x="442.8" y="-123.46">1</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_107)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.16" font-family="Arial" x="462.65" y="-145.56">2</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_108)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.16" font-family="Arial" x="482.5" y="-123.46">3</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_109)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.4" font-family="Arial" x="457.32" y="-105.91">97%</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_110)">
+<text fill="#555d69" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.52" font-family="Arial" x="348.74" y="-95.904">Edge 31 phase share</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_111)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.144" font-family="Cambria Math" x="309.84" y="-312.96">arg</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_112)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.144" font-family="Cambria Math" x="324.62" y="-312.96">𝐶′</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_113)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.72" font-family="Cambria Math" x="332.42" y="-311.02">ij</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_114)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.144" font-family="Cambria Math" x="341.66" y="-312.96">=</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_115)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.144" font-family="Cambria Math" x="353.06" y="-312.96">arg</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_116)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.144" font-family="Cambria Math" x="367.82" y="-312.96">𝐶</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_117)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.72" font-family="Cambria Math" x="372.74" y="-311.02">ij</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_118)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.144" font-family="Cambria Math" x="381.5" y="-312.96">+</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_119)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.144" font-family="Cambria Math" x="392.3" y="-312.96">𝜑</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_120)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.72" font-family="Cambria Math" x="398.54" y="-311.02">i</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_121)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.144" font-family="Cambria Math" x="405.14" y="-312.96">−</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_122)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.144" font-family="Cambria Math" x="416.06" y="-312.96">𝜑</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_123)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.72" font-family="Cambria Math" x="422.18" y="-311.02">j</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_124)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="197.74" y="-244.08">𝜓′</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_125)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="211.18" y="-244.08">=</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_126)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="222.58" y="-244.08">𝜓</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_127)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="233.74" y="-244.08">=</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_128)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="245.16" y="-244.08">arg</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_129)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="257.88" y="-244.08">(</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_130)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="261.72" y="-244.08">𝐶</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_131)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.72" font-family="Cambria Math" x="266.4" y="-242.16">12</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_132)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="274.56" y="-244.08">𝐶</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_133)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.72" font-family="Cambria Math" x="279.48" y="-242.16">23</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_134)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="287.64" y="-244.08">𝐶</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_135)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.72" font-family="Cambria Math" x="292.56" y="-242.16">31</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_136)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="9.12" font-family="Cambria Math" x="300.72" y="-244.08">)</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_137)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.52" font-family="Cambria Math" x="378.7" y="-244.06">𝜔</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_138)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.52" font-family="Cambria Math" x="387.1" y="-244.06">/</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_139)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.52" font-family="Cambria Math" x="393.22" y="-244.06">π</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_140)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.52" font-family="Cambria Math" x="402.58" y="-244.06">=</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_141)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.52" font-family="Cambria Math" x="413.26" y="-244.06">1</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_142)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.52" font-family="Cambria Math" x="417.94" y="-244.06">/</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_143)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.52" font-family="Cambria Math" x="422.14" y="-244.06">2</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_144)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.904" font-family="Cambria Math" x="244.9" y="-295.08">𝐶</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_145)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.504" font-family="Cambria Math" x="249.46" y="-293.28">12</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_146)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.88" font-family="Cambria Math" x="244.75" y="-276.22">𝐶</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_147)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.48" font-family="Cambria Math" x="249.55" y="-274.42">23</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_148)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.88" font-family="Cambria Math" x="244.75" y="-257.35">𝐶</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_149)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.48" font-family="Cambria Math" x="249.55" y="-255.55">31</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_150)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.64" font-family="Cambria Math" x="443.3" y="-96.216">𝜃</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_151)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.24" font-family="Cambria Math" x="447.86" y="-94.176">31</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_152)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="6.24" font-family="Cambria Math" x="448.58" y="-99.456">∗</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_153)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.64" font-family="Cambria Math" x="457.34" y="-96.216">/</text>
+</g>
+<g clip-path="url(#panel-a-a-geometry-clip_154)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -51.02362 323.2507)" font-size="8.64" font-family="Cambria Math" x="463.46" y="-96.216">𝜓</text>
+</g>
+</g>
+</g>
+</g><g id="panel-a-a-plots" transform="translate(0.0000000 83.3385827) scale(1.000000000 0.999999996)"><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="panel-a-a-plots-figure_1">
+  <g id="panel-a-a-plots-patch_1">
+   <path d="M 0 60.377953  L 402.519685 60.377953  L 402.519685 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="panel-a-a-plots-axes_1">
+   <g id="panel-a-a-plots-patch_2">
+    <path d="M 35.421732 38.521134  L 239.901732 38.521134  L 239.901732 13.403906  L 35.421732 13.403906  z " style="fill: #ffffff" />
+   </g>
+   <g id="panel-a-a-plots-line2d_1">
+    <path d="M 35.421732 25.96252  L 239.901732 25.96252  " clip-path="url(#panel-a-a-plots-p8a577d2c37)" style="fill: none; stroke: #d8dfe3; stroke-width: 0.5; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-matplotlib.axis_1">
+    <g id="panel-a-a-plots-xtick_1">
+     <g id="panel-a-a-plots-line2d_2">
+      <defs>
+       <path id="panel-a-a-plots-m294bbf29b7" d="M 0 0  L 0 2.4  " style="stroke: #000000; stroke-width: 0.58" />
+      </defs>
+      <g>
+       <use xlink:href="#panel-a-a-plots-m294bbf29b7" x="35.421732" y="38.521134" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_1">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="35.421732" y="48.583696" transform="rotate(-0 35.421732 48.583696)">0</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-xtick_2">
+     <g id="panel-a-a-plots-line2d_3">
+      <g>
+       <use xlink:href="#panel-a-a-plots-m294bbf29b7" x="137.661732" y="38.521134" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_2">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="137.661732" y="48.583696" transform="rotate(-0 137.661732 48.583696)">0.5</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-xtick_3">
+     <g id="panel-a-a-plots-line2d_4">
+      <g>
+       <use xlink:href="#panel-a-a-plots-m294bbf29b7" x="239.901732" y="38.521134" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_3">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="239.901732" y="48.583696" transform="rotate(-0 239.901732 48.583696)">1</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-text_4">
+     
+     <g transform="translate(129.607232 57.223524)">
+      <text>
+       <tspan x="0" y="-0.71875" style="font-style: italic; font-size: 8.9px; font-family: 'Cambria'">ω</tspan>
+       <tspan x="10.803406" y="-0.71875" style="font-style: italic; font-size: 8.9px; font-family: 'Cambria'">π</tspan>
+       <tspan x="6.452576" y="-0.71875" style="font-size: 8.9px; font-family: 'Cambria'">/</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="panel-a-a-plots-matplotlib.axis_2">
+    <g id="panel-a-a-plots-ytick_1">
+     <g id="panel-a-a-plots-line2d_5">
+      <defs>
+       <path id="panel-a-a-plots-m1452459fb8" d="M 0 0  L -2.4 0  " style="stroke: #000000; stroke-width: 0.58" />
+      </defs>
+      <g>
+       <use xlink:href="#panel-a-a-plots-m1452459fb8" x="35.421732" y="36.575433" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_5">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="31.371732" y="39.581714" transform="rotate(-0 31.371732 39.581714)">−3</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-ytick_2">
+     <g id="panel-a-a-plots-line2d_6">
+      <g>
+       <use xlink:href="#panel-a-a-plots-m1452459fb8" x="35.421732" y="25.96252" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_6">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="31.371732" y="28.968801" transform="rotate(-0 31.371732 28.968801)">0</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-ytick_3">
+     <g id="panel-a-a-plots-line2d_7">
+      <g>
+       <use xlink:href="#panel-a-a-plots-m1452459fb8" x="35.421732" y="15.349606" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_7">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="31.371732" y="18.355888" transform="rotate(-0 31.371732 18.355888)">3</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-text_8">
+     
+     <g transform="translate(17.12442 47.58952) rotate(-90)">
+      <text>
+       <tspan x="0" y="-0.453125" style="font-size: 8.9px; font-family: 'Cambria'">a</tspan>
+       <tspan x="4.333496" y="-0.453125" style="font-size: 8.9px; font-family: 'Cambria'">r</tspan>
+       <tspan x="8.003967" y="-0.453125" style="font-size: 8.9px; font-family: 'Cambria'">g</tspan>
+       <tspan x="13.571089" y="-0.453125" style="font-style: italic; font-size: 8.9px; font-family: 'Cambria'">C</tspan>
+       <tspan x="18.359602" y="0.807812" style="font-style: italic; font-size: 6.23px; font-family: 'Cambria'">i</tspan>
+       <tspan x="20.043165" y="0.807812" style="font-style: italic; font-size: 6.23px; font-family: 'Cambria'">j</tspan>
+       <tspan x="21.90655" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'"> </tspan>
+       <tspan x="24.37231" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">(</tspan>
+       <tspan x="27.327754" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">r</tspan>
+       <tspan x="30.283198" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">a</tspan>
+       <tspan x="35.21905" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">d</tspan>
+       <tspan x="40.154902" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">)</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="panel-a-a-plots-line2d_8">
+    <path d="M 137.661732 38.521134  L 137.661732 13.403906  " clip-path="url(#panel-a-a-plots-p8a577d2c37)" style="fill: none; stroke-dasharray: 1.14,1.14; stroke-dashoffset: 0; stroke: #9ba8af; stroke-width: 0.57" />
+   </g>
+   <g id="panel-a-a-plots-line2d_9">
+    <path d="M 35.421732 25.96252  L 67.371732 24.575616  L 85.742982 24.006358  L 102.516732 23.706843  L 119.290482 23.628858  L 137.661732 23.769184  L 160.825482 24.183903  L 239.901732 25.96252  L 239.901732 25.96252  " clip-path="url(#panel-a-a-plots-p8a577d2c37)" style="fill: none; stroke: #0072b2; stroke-width: 1.14; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-line2d_10">
+    <path d="M 35.421732 25.96252  L 67.371732 22.561916  L 85.742982 20.836913  L 102.516732 19.486069  L 119.290482 18.364578  L 136.862982 17.417747  L 156.831732 16.573222  L 179.995482 15.824079  L 203.957982 15.269359  L 227.121732 14.954751  L 239.901732 14.848703  L 239.901732 14.848703  " clip-path="url(#panel-a-a-plots-p8a577d2c37)" style="fill: none; stroke-dasharray: 4.4,2.2; stroke-dashoffset: 0; stroke: #0072b2; stroke-width: 1.1" />
+   </g>
+   <g id="panel-a-a-plots-line2d_11">
+    <path d="M 35.421732 25.96252  L 72.164232 25.756307  L 96.126732 25.383902  L 167.215482 24.065582  L 183.190482 24.136304  L 199.165482 24.433187  L 216.737982 24.99348  L 239.901732 25.96252  L 239.901732 25.96252  " clip-path="url(#panel-a-a-plots-p8a577d2c37)" style="fill: none; stroke: #8e5385; stroke-width: 1.14; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-line2d_12">
+    <path d="M 35.421732 25.96252  L 71.365482 27.439985  L 94.529232 28.155249  L 123.284232 28.793897  L 155.234232 29.541311  L 173.605482 30.203925  L 188.781732 30.968915  L 201.561732 31.821815  L 211.945482 32.724553  L 219.932982 33.622103  L 227.121732 34.654736  L 233.511732 35.788271  L 239.901732 37.076337  L 239.901732 37.076337  " clip-path="url(#panel-a-a-plots-p8a577d2c37)" style="fill: none; stroke-dasharray: 4.4,2.2; stroke-dashoffset: 0; stroke: #8e5385; stroke-width: 1.1" />
+   </g>
+   <g id="panel-a-a-plots-line2d_13">
+    <path d="M 35.421732 25.96252  L 59.384232 24.582759  L 72.962982 24.025431  L 84.944232 23.746698  L 96.925482 23.691572  L 108.906732 23.854579  L 122.485482 24.261911  L 141.655482 25.085104  L 168.812982 26.235249  L 183.190482 26.614388  L 196.769232 26.75086  L 210.347982 26.668351  L 226.322982 26.344825  L 239.901732 25.96252  L 239.901732 25.96252  " clip-path="url(#panel-a-a-plots-p8a577d2c37)" style="fill: none; stroke: #555d69; stroke-width: 1.14; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-line2d_14">
+    <path d="M 35.421732 25.96252  L 59.384232 24.974682  L 72.962982 24.642122  L 84.944232 24.56446  L 96.925482 24.713558  L 108.906732 25.084166  L 122.485482 25.730427  L 141.655482 26.893394  L 166.416732 28.375571  L 179.995482 28.957729  L 191.177982 29.222932  L 201.561732 29.241996  L 210.347982 29.038434  L 218.335482 28.621612  L 224.725482 28.079726  L 231.115482 27.316281  L 238.304232 26.223075  L 239.901732 25.96252  L 239.901732 25.96252  " clip-path="url(#panel-a-a-plots-p8a577d2c37)" style="fill: none; stroke-dasharray: 4.4,2.2; stroke-dashoffset: 0; stroke: #555d69; stroke-width: 1.1" />
+   </g>
+   <g id="panel-a-a-plots-patch_3">
+    <path d="M 35.421732 38.521134  L 35.421732 13.403906  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-patch_4">
+    <path d="M 35.421732 38.521134  L 239.901732 38.521134  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-legend_1">
+    <g id="panel-a-a-plots-line2d_15">
+     <path d="M 50.609514 5.411375  L 56.887014 5.411375  L 63.164514 5.411375  " style="fill: none; stroke: #0072b2; stroke-width: 1.12; stroke-linecap: square" />
+    </g>
+    <g id="panel-a-a-plots-text_9">
+     <text style="font-size: 8.1px; font-family: 'Arial'; text-anchor: start" x="65.999514" y="8.246375" transform="rotate(-0 65.999514 8.246375)">12</text>
+    </g>
+    <g id="panel-a-a-plots-line2d_16">
+     <path d="M 82.298232 5.411375  L 88.575732 5.411375  L 94.853232 5.411375  " style="fill: none; stroke: #8e5385; stroke-width: 1.12; stroke-linecap: square" />
+    </g>
+    <g id="panel-a-a-plots-text_10">
+     <text style="font-size: 8.1px; font-family: 'Arial'; text-anchor: start" x="97.688232" y="8.246375" transform="rotate(-0 97.688232 8.246375)">23</text>
+    </g>
+    <g id="panel-a-a-plots-line2d_17">
+     <path d="M 113.986951 5.411375  L 120.264451 5.411375  L 126.541951 5.411375  " style="fill: none; stroke: #555d69; stroke-width: 1.12; stroke-linecap: square" />
+    </g>
+    <g id="panel-a-a-plots-text_11">
+     <text style="font-size: 8.1px; font-family: 'Arial'; text-anchor: start" x="129.376951" y="8.246375" transform="rotate(-0 129.376951 8.246375)">31</text>
+    </g>
+    <g id="panel-a-a-plots-line2d_18">
+     <path d="M 145.67567 5.411375  L 151.95317 5.411375  L 158.23067 5.411375  " style="fill: none; stroke: #181b20; stroke-linecap: square" />
+    </g>
+    <g id="panel-a-a-plots-text_12">
+     <text style="font-size: 8.1px; font-family: 'Arial'; text-anchor: start" x="161.06567" y="8.246375" transform="rotate(-0 161.06567 8.246375)">Before</text>
+    </g>
+    <g id="panel-a-a-plots-line2d_19">
+     <path d="M 192.219029 5.411375  L 198.496529 5.411375  L 204.774029 5.411375  " style="fill: none; stroke-dasharray: 4,2; stroke-dashoffset: 0; stroke: #181b20" />
+    </g>
+    <g id="panel-a-a-plots-text_13">
+     <text style="font-size: 8.1px; font-family: 'Arial'; text-anchor: start" x="207.609029" y="8.246375" transform="rotate(-0 207.609029 8.246375)">After</text>
+    </g>
+   </g>
+  </g>
+  <g id="panel-a-a-plots-axes_2">
+   <g id="panel-a-a-plots-patch_5">
+    <path d="M 278.543622 38.521134  L 393.261732 38.521134  L 393.261732 13.403906  L 278.543622 13.403906  z " style="fill: #ffffff" />
+   </g>
+   <g id="panel-a-a-plots-line2d_20">
+    <path d="M 278.543622 36.917907  L 393.261732 36.917907  " clip-path="url(#panel-a-a-plots-p87ba032ab0)" style="fill: none; stroke: #d8dfe3; stroke-width: 0.5; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-matplotlib.axis_3">
+    <g id="panel-a-a-plots-xtick_4">
+     <g id="panel-a-a-plots-line2d_21">
+      <g>
+       <use xlink:href="#panel-a-a-plots-m294bbf29b7" x="278.543622" y="38.521134" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_14">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="278.543622" y="48.583696" transform="rotate(-0 278.543622 48.583696)">0</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-xtick_5">
+     <g id="panel-a-a-plots-line2d_22">
+      <g>
+       <use xlink:href="#panel-a-a-plots-m294bbf29b7" x="335.902677" y="38.521134" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_15">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="335.902677" y="48.583696" transform="rotate(-0 335.902677 48.583696)">0.5</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-xtick_6">
+     <g id="panel-a-a-plots-line2d_23">
+      <g>
+       <use xlink:href="#panel-a-a-plots-m294bbf29b7" x="393.261732" y="38.521134" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_16">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="393.261732" y="48.583696" transform="rotate(-0 393.261732 48.583696)">1</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-text_17">
+     
+     <g transform="translate(327.848177 57.223524)">
+      <text>
+       <tspan x="0" y="-0.71875" style="font-style: italic; font-size: 8.9px; font-family: 'Cambria'">ω</tspan>
+       <tspan x="10.803406" y="-0.71875" style="font-style: italic; font-size: 8.9px; font-family: 'Cambria'">π</tspan>
+       <tspan x="6.452576" y="-0.71875" style="font-size: 8.9px; font-family: 'Cambria'">/</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="panel-a-a-plots-matplotlib.axis_4">
+    <g id="panel-a-a-plots-ytick_4">
+     <g id="panel-a-a-plots-line2d_24">
+      <g>
+       <use xlink:href="#panel-a-a-plots-m1452459fb8" x="278.543622" y="36.917907" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_18">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="274.493622" y="39.924188" transform="rotate(-0 274.493622 39.924188)">0</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-ytick_5">
+     <g id="panel-a-a-plots-line2d_25">
+      <g>
+       <use xlink:href="#panel-a-a-plots-m1452459fb8" x="278.543622" y="23.557679" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-a-a-plots-text_19">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="274.493622" y="26.56396" transform="rotate(-0 274.493622 26.56396)">1</text>
+     </g>
+    </g>
+    <g id="panel-a-a-plots-text_20">
+     
+     <g transform="translate(265.864435 39.62402) rotate(-90)">
+      <text>
+       <tspan x="0" y="-0.453125" style="font-style: italic; font-size: 8.9px; font-family: 'Cambria'">ψ</tspan>
+       <tspan x="6.006226" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'"> </tspan>
+       <tspan x="8.471985" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">(</tspan>
+       <tspan x="11.427429" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">r</tspan>
+       <tspan x="14.382874" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">a</tspan>
+       <tspan x="19.318726" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">d</tspan>
+       <tspan x="24.254578" y="-0.453125" style="font-size: 8.9px; font-family: 'Arial'">)</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="panel-a-a-plots-line2d_26">
+    <path d="M 335.902677 38.521134  L 335.902677 13.403906  " clip-path="url(#panel-a-a-plots-p87ba032ab0)" style="fill: none; stroke-dasharray: 1.14,1.14; stroke-dashoffset: 0; stroke: #9ba8af; stroke-width: 0.57" />
+   </g>
+   <g id="panel-a-a-plots-line2d_27">
+    <path d="M 278.543622 36.917907  L 287.505974 30.331153  L 292.435268 26.996369  L 296.468327 24.527632  L 300.053268 22.577337  L 303.638209 20.889564  L 306.775032 19.647106  L 309.911855 18.635187  L 313.048679 17.860182  L 316.185502 17.323715  L 319.322325 17.022767  L 322.459149 16.949898  L 325.595972 17.093595  L 329.180913 17.503416  L 332.765854 18.148674  L 336.798912 19.116475  L 341.280089 20.434209  L 346.6575 22.256127  L 355.619852 25.571584  L 365.47844 29.151588  L 372.200204 31.357175  L 378.921969 33.322198  L 386.539968 35.299441  L 393.261732 36.917907  L 393.261732 36.917907  " clip-path="url(#panel-a-a-plots-p87ba032ab0)" style="fill: none; stroke: #d55e00; stroke-width: 1.4; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-line2d_28">
+    <defs>
+     <path id="panel-a-a-plots-me4f1a48ddd" d="M 0 1.6  C 0.424325 1.6 0.831328 1.431414 1.131371 1.131371  C 1.431414 0.831328 1.6 0.424325 1.6 0  C 1.6 -0.424325 1.431414 -0.831328 1.131371 -1.131371  C 0.831328 -1.431414 0.424325 -1.6 0 -1.6  C -0.424325 -1.6 -0.831328 -1.431414 -1.131371 -1.131371  C -1.431414 -0.831328 -1.6 -0.424325 -1.6 0  C -1.6 0.424325 -1.431414 0.831328 -1.131371 1.131371  C -0.831328 1.431414 -0.424325 1.6 0 1.6  z " style="stroke: #d55e00; stroke-width: 0.74" />
+    </defs>
+    <g clip-path="url(#panel-a-a-plots-p87ba032ab0)">
+     <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="278.543622" y="36.917907" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+     <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="292.883386" y="26.709223" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+     <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="307.22315" y="19.488231" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+     <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="321.562913" y="16.948043" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+     <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="335.902677" y="18.881599" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+     <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="350.242441" y="23.561019" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+     <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="364.582205" y="28.840391" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+     <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="378.921969" y="33.322198" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+     <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="393.261732" y="36.917907" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+    </g>
+   </g>
+   <g id="panel-a-a-plots-patch_6">
+    <path d="M 278.543622 38.521134  L 278.543622 13.403906  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-patch_7">
+    <path d="M 278.543622 38.521134  L 393.261732 38.521134  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-a-a-plots-legend_2">
+    <g id="panel-a-a-plots-line2d_29">
+     <path d="M 297.801037 5.411375  L 303.471037 5.411375  L 309.141037 5.411375  " style="fill: none; stroke: #d55e00; stroke-width: 1.4; stroke-linecap: square" />
+    </g>
+    <g id="panel-a-a-plots-text_21">
+     <text style="font-size: 8.1px; font-family: 'Arial'; text-anchor: start" x="311.976037" y="8.246375" transform="rotate(-0 311.976037 8.246375)">Before</text>
+    </g>
+    <g id="panel-a-a-plots-line2d_30">
+     <g>
+      <use xlink:href="#panel-a-a-plots-me4f1a48ddd" x="348.394396" y="5.411375" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.74" />
+     </g>
+    </g>
+    <g id="panel-a-a-plots-text_22">
+     <text style="font-size: 8.1px; font-family: 'Arial'; text-anchor: start" x="356.899396" y="8.246375" transform="rotate(-0 356.899396 8.246375)">After</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="panel-a-a-plots-p8a577d2c37">
+   <rect x="35.421732" y="13.403906" width="204.48" height="25.117228" />
+  </clipPath>
+  <clipPath id="panel-a-a-plots-p87ba032ab0">
+   <rect x="278.543622" y="13.403906" width="114.71811" height="25.117228" />
+  </clipPath>
+ </defs>
+</g></g><g id="panel-b" transform="translate(5.6692913 155.9055118) scale(1.000000000 1.000000003)"><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="panel-b-figure_1">
+  <g id="panel-b-patch_1">
+   <path d="M 0 167.244094  L 291.968504 167.244094  L 291.968504 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="panel-b-axes_1">
+   <g id="panel-b-patch_2">
+    <path d="M 42.335433 134.631496  L 278.537953 134.631496  L 278.537953 28.933228  L 42.335433 28.933228  z " style="fill: #ffffff" />
+   </g>
+   <g id="panel-b-matplotlib.axis_1">
+    <g id="panel-b-xtick_1">
+     <g id="panel-b-line2d_1">
+      <defs>
+       <path id="panel-b-m294bbf29b7" d="M 0 0  L 0 2.4  " style="stroke: #000000; stroke-width: 0.58" />
+      </defs>
+      <g>
+       <use xlink:href="#panel-b-m294bbf29b7" x="44.909573" y="134.631496" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_1">
+      
+      <g transform="translate(36.047573 144.515559)">
+       <text>
+        <tspan x="0" y="-0.578125" style="font-style: italic; font-size: 8.4px; font-family: 'Cambria'">ψ</tspan>
+        <tspan x="7.005884" y="-0.578125" style="font-size: 8.4px; font-family: 'Cambria'">=</tspan>
+        <tspan x="12.98125" y="-0.578125" style="font-size: 8.4px; font-family: 'Cambria'">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="panel-b-xtick_2">
+     <g id="panel-b-line2d_2">
+      <g>
+       <use xlink:href="#panel-b-m294bbf29b7" x="160.436693" y="134.631496" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_2">
+      
+      <g transform="translate(153.590693 144.599559)">
+       <text>
+        <tspan x="0" y="-0.40625" style="font-style: italic; font-size: 8.4px; font-family: 'Cambria'">π</tspan>
+        <tspan x="4.88269" y="-0.40625" style="font-size: 8.4px; font-family: 'Cambria'">/</tspan>
+        <tspan x="8.988403" y="-0.40625" style="font-size: 8.4px; font-family: 'Cambria'">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="panel-b-xtick_3">
+     <g id="panel-b-line2d_3">
+      <g>
+       <use xlink:href="#panel-b-m294bbf29b7" x="275.963813" y="134.631496" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_3">
+      
+      <g transform="translate(266.975813 144.515559)">
+       <text>
+        <tspan x="0" y="-0.578125" style="font-style: italic; font-size: 8.4px; font-family: 'Cambria'">ψ</tspan>
+        <tspan x="12.98125" y="-0.578125" style="font-style: italic; font-size: 8.4px; font-family: 'Cambria'">π</tspan>
+        <tspan x="7.005884" y="-0.578125" style="font-size: 8.4px; font-family: 'Cambria'">=</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="panel-b-text_4">
+     <text style="font-size: 8.9px; font-family: 'Arial'; text-anchor: middle" x="160.436693" y="154.04248" transform="rotate(-0 160.436693 154.04248)">Closure phase (rad)</text>
+    </g>
+   </g>
+   <g id="panel-b-matplotlib.axis_2">
+    <g id="panel-b-ytick_1">
+     <g id="panel-b-line2d_4">
+      <path d="M 42.335433 132.187605  L 278.537953 132.187605  " clip-path="url(#panel-b-peca98065de)" style="fill: none; stroke: #dce3e6; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="panel-b-line2d_5">
+      <defs>
+       <path id="panel-b-m1452459fb8" d="M 0 0  L -2.4 0  " style="stroke: #000000; stroke-width: 0.58" />
+      </defs>
+      <g>
+       <use xlink:href="#panel-b-m1452459fb8" x="42.335433" y="132.187605" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_5">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="38.285433" y="135.193887" transform="rotate(-0 38.285433 135.193887)">0</text>
+     </g>
+    </g>
+    <g id="panel-b-ytick_2">
+     <g id="panel-b-line2d_6">
+      <path d="M 42.335433 101.638973  L 278.537953 101.638973  " clip-path="url(#panel-b-peca98065de)" style="fill: none; stroke: #dce3e6; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="panel-b-line2d_7">
+      <g>
+       <use xlink:href="#panel-b-m1452459fb8" x="42.335433" y="101.638973" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_6">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="38.285433" y="104.645254" transform="rotate(-0 38.285433 104.645254)">0.05</text>
+     </g>
+    </g>
+    <g id="panel-b-ytick_3">
+     <g id="panel-b-line2d_8">
+      <path d="M 42.335433 71.090341  L 278.537953 71.090341  " clip-path="url(#panel-b-peca98065de)" style="fill: none; stroke: #dce3e6; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="panel-b-line2d_9">
+      <g>
+       <use xlink:href="#panel-b-m1452459fb8" x="42.335433" y="71.090341" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_7">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="38.285433" y="74.096622" transform="rotate(-0 38.285433 74.096622)">0.1</text>
+     </g>
+    </g>
+    <g id="panel-b-ytick_4">
+     <g id="panel-b-line2d_10">
+      <path d="M 42.335433 40.541709  L 278.537953 40.541709  " clip-path="url(#panel-b-peca98065de)" style="fill: none; stroke: #dce3e6; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="panel-b-line2d_11">
+      <g>
+       <use xlink:href="#panel-b-m1452459fb8" x="42.335433" y="40.541709" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_8">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="38.285433" y="43.54799" transform="rotate(-0 38.285433 43.54799)">0.15</text>
+     </g>
+    </g>
+    <g id="panel-b-text_9">
+     <text style="font-size: 8.9px; font-family: 'Arial'; text-anchor: middle" x="17.065074" y="81.782362" transform="rotate(-90 17.065074 81.782362)">Reversal density (nats)</text>
+    </g>
+   </g>
+   <g id="panel-b-line2d_12">
+    <path d="M 44.909573 132.187605  L 47.476842 132.096451  L 50.044111 131.823018  L 52.611381 131.3674  L 55.17865 130.729755  L 57.745919 129.910303  L 60.313189 128.909328  L 62.880458 127.727179  L 65.447727 126.364272  L 68.014997 124.821091  L 70.582266 123.098189  L 74.43317 120.17824  L 78.284074 116.857752  L 82.134978 113.139522  L 85.985882 109.026756  L 89.836786 104.523079  L 93.68769 99.632567  L 97.538594 94.359766  L 101.389498 88.709717  L 105.240402 82.687983  L 109.091306 76.300681  L 112.94221 69.554505  L 116.793114 62.456758  L 121.927653 52.460031  L 127.062192 41.873173  L 128.345826 42.943361  L 134.764 50.649782  L 141.182173 57.998947  L 147.600346 64.991375  L 154.01852 71.62795  L 160.436693 77.909848  L 166.854866 83.838479  L 173.27304 89.415426  L 179.691213 94.642401  L 186.109386 99.521193  L 191.243925 103.174767  L 196.378464 106.607618  L 201.513002 109.820678  L 206.647541 112.814864  L 211.78208 115.591062  L 216.916618 118.150127  L 222.051157 120.49287  L 227.185696 122.620057  L 232.320234 124.532398  L 237.454773 126.230547  L 242.589312 127.715095  L 247.72385 128.986567  L 252.858389 130.045418  L 257.992928 130.892034  L 263.127466 131.526722  L 268.262005 131.949717  L 273.396544 132.161175  L 275.963813 132.187605  L 275.963813 132.187605  " clip-path="url(#panel-b-peca98065de)" style="fill: none; stroke: #d55e00; stroke-width: 1.45; stroke-linecap: square" />
+   </g>
+   <g id="panel-b-line2d_13">
+    <defs>
+     <path id="panel-b-mb962eb2e75" d="M 0 1.725  C 0.457475 1.725 0.896275 1.543243 1.219759 1.219759  C 1.543243 0.896275 1.725 0.457475 1.725 0  C 1.725 -0.457475 1.543243 -0.896275 1.219759 -1.219759  C 0.896275 -1.543243 0.457475 -1.725 0 -1.725  C -0.457475 -1.725 -0.896275 -1.543243 -1.219759 -1.219759  C -1.543243 -0.896275 -1.725 -0.457475 -1.725 0  C -1.725 0.457475 -1.543243 0.896275 -1.219759 1.219759  C -0.896275 1.543243 -0.457475 1.725 0 1.725  z " style="stroke: #d55e00; stroke-width: 0.78" />
+    </defs>
+    <g clip-path="url(#panel-b-peca98065de)">
+     <use xlink:href="#panel-b-mb962eb2e75" x="44.909573" y="132.187605" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="64.164093" y="127.068292" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="83.418613" y="111.812267" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="102.673133" y="86.74348" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="121.927653" y="52.460031" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="141.182173" y="57.998947" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="160.436693" y="77.909848" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="179.691213" y="94.642401" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="198.945733" y="108.241564" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="218.200253" y="118.756062" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="237.454773" y="126.230547" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="256.709293" y="130.700259" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+     <use xlink:href="#panel-b-mb962eb2e75" x="275.963813" y="132.187605" style="fill: #ffffff; stroke: #d55e00; stroke-width: 0.78" />
+    </g>
+   </g>
+   <g id="panel-b-line2d_14">
+    <path d="M 44.909573 132.187605  L 51.327746 132.078797  L 57.745919 131.755266  L 64.164093 131.225626  L 71.865901 130.33824  L 79.567709 129.208773  L 88.553151 127.643681  L 100.105864 125.368955  L 124.494922 120.465105  L 133.480365 118.928215  L 141.182173 117.836442  L 147.600346 117.121814  L 154.01852 116.608372  L 160.436693 116.312898  L 166.854866 116.24636  L 173.27304 116.413483  L 179.691213 116.812462  L 186.109386 117.434824  L 192.52756 118.265461  L 200.229368 119.506372  L 207.931176 120.967152  L 218.200253 123.151902  L 242.589312 128.460843  L 250.29112 129.863327  L 256.709293 130.828439  L 263.127466 131.562429  L 268.262005 131.957014  L 273.396544 132.161429  L 275.963813 132.187605  L 275.963813 132.187605  " clip-path="url(#panel-b-peca98065de)" style="fill: none; stroke-dasharray: 6.75,2.7; stroke-dashoffset: 0; stroke: #009e73; stroke-width: 1.35" />
+   </g>
+   <g id="panel-b-patch_3">
+    <path d="M 42.335433 134.631496  L 42.335433 28.933228  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-b-patch_4">
+    <path d="M 42.335433 134.631496  L 278.537953 134.631496  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-b-legend_1">
+    <g id="panel-b-line2d_15">
+     <path d="M 47.903433 37.905103  L 55.298433 37.905103  L 62.693433 37.905103  " style="fill: none; stroke: #d55e00; stroke-width: 1.45; stroke-linecap: square" />
+    </g>
+    <g id="panel-b-text_10">
+     
+     <g transform="translate(66.173433 40.950103)">
+      <text>
+       <tspan x="0" y="-0.953125" style="font-size: 8.7px; font-family: 'Comic Sans MS'">E</tspan>
+       <tspan x="6.516597" y="0.307813" style="font-size: 6.09px; font-family: 'Cambria'">*</tspan>
+      </text>
+     </g>
+    </g>
+    <g id="panel-b-line2d_16">
+     <path d="M 84.704433 37.905103  L 92.099433 37.905103  L 99.494433 37.905103  " style="fill: none; stroke-dasharray: 6.75,2.7; stroke-dashoffset: 0; stroke: #009e73; stroke-width: 1.35" />
+    </g>
+    <g id="panel-b-text_11">
+     
+     <g transform="translate(102.974433 40.950103)">
+      <text>
+       <tspan x="0" y="-0.6875" style="font-style: italic; font-size: 8.7px; font-family: 'Cambria'">L</tspan>
+       <tspan x="7.91687" y="-0.6875" style="font-style: italic; font-size: 8.7px; font-family: 'Cambria'">C</tspan>
+       <tspan x="4.575806" y="-0.6875" style="font-size: 8.7px; font-family: 'Cambria'">(</tspan>
+       <tspan x="12.637939" y="-0.6875" style="font-size: 8.7px; font-family: 'Cambria'">)</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="panel-b-axes_2">
+   <g id="panel-b-patch_5">
+    <path d="M 187.151811 72.751181  L 275.618268 72.751181  L 275.618268 30.605669  L 187.151811 30.605669  z " style="fill: #ffffff" />
+   </g>
+   <g id="panel-b-matplotlib.axis_3">
+    <g id="panel-b-xtick_4">
+     <g id="panel-b-line2d_17">
+      <defs>
+       <path id="panel-b-me46c3d43c5" d="M 0 0  L 0 2  " style="stroke: #000000; stroke-width: 0.58" />
+      </defs>
+      <g>
+       <use xlink:href="#panel-b-me46c3d43c5" x="188.365053" y="72.751181" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_12">
+      <text style="font-size: 7.8px; font-family: 'Arial'; text-anchor: middle" x="188.365053" y="81.384275" transform="rotate(-0 188.365053 81.384275)">0.006</text>
+     </g>
+    </g>
+    <g id="panel-b-xtick_5">
+     <g id="panel-b-line2d_18">
+      <g>
+       <use xlink:href="#panel-b-me46c3d43c5" x="216.842671" y="72.751181" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_13">
+      <text style="font-size: 7.8px; font-family: 'Arial'; text-anchor: middle" x="216.842671" y="81.384275" transform="rotate(-0 216.842671 81.384275)">0.02</text>
+     </g>
+    </g>
+    <g id="panel-b-xtick_6">
+     <g id="panel-b-line2d_19">
+      <g>
+       <use xlink:href="#panel-b-me46c3d43c5" x="254.91077" y="72.751181" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_14">
+      <text style="font-size: 7.8px; font-family: 'Arial'; text-anchor: middle" x="254.91077" y="81.384275" transform="rotate(-0 254.91077 81.384275)">0.1</text>
+     </g>
+    </g>
+    <g id="panel-b-xtick_7" />
+    <g id="panel-b-xtick_8" />
+    <g id="panel-b-xtick_9" />
+    <g id="panel-b-xtick_10" />
+    <g id="panel-b-xtick_11" />
+    <g id="panel-b-xtick_12" />
+    <g id="panel-b-xtick_13" />
+    <g id="panel-b-xtick_14" />
+    <g id="panel-b-xtick_15" />
+    <g id="panel-b-xtick_16" />
+    <g id="panel-b-xtick_17" />
+    <g id="panel-b-text_15">
+     
+     <g transform="translate(208.630039 89.420525)">
+      <text>
+       <tspan x="0" y="-0.171875" style="font-style: italic; font-size: 8.2px; font-family: 'Cambria'">ρ</tspan>
+       <tspan x="11.670044" y="-0.171875" style="font-style: italic; font-size: 8.2px; font-family: 'Cambria'">ψ</tspan>
+       <tspan x="24.457544" y="-0.171875" style="font-style: italic; font-size: 8.2px; font-family: 'Cambria'">ρ</tspan>
+       <tspan x="4.338501" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'"> </tspan>
+       <tspan x="6.630615" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'"> </tspan>
+       <tspan x="8.922729" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">(</tspan>
+       <tspan x="28.796045" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'"> </tspan>
+       <tspan x="31.088159" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">r</tspan>
+       <tspan x="33.835474" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">a</tspan>
+       <tspan x="38.42373" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">d</tspan>
+       <tspan x="43.011987" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">)</tspan>
+       <tspan x="18.571362" y="-0.171875" style="font-size: 8.2px; font-family: 'Cambria'">=</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="panel-b-matplotlib.axis_4">
+    <g id="panel-b-ytick_5">
+     <g id="panel-b-line2d_20">
+      <defs>
+       <path id="panel-b-m9aa407769a" d="M 0 0  L -2 0  " style="stroke: #000000; stroke-width: 0.58" />
+      </defs>
+      <g>
+       <use xlink:href="#panel-b-m9aa407769a" x="187.151811" y="68.784545" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_16">
+      <text style="font-size: 7.8px; font-family: 'Arial'; text-anchor: end" x="184.101811" y="71.576092" transform="rotate(-0 184.101811 71.576092)">0.3</text>
+     </g>
+    </g>
+    <g id="panel-b-ytick_6">
+     <g id="panel-b-line2d_21">
+      <g>
+       <use xlink:href="#panel-b-m9aa407769a" x="187.151811" y="53.909658" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_17">
+      <text style="font-size: 7.8px; font-family: 'Arial'; text-anchor: end" x="184.101811" y="56.701205" transform="rotate(-0 184.101811 56.701205)">0.6</text>
+     </g>
+    </g>
+    <g id="panel-b-ytick_7">
+     <g id="panel-b-line2d_22">
+      <g>
+       <use xlink:href="#panel-b-m9aa407769a" x="187.151811" y="34.076476" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-b-text_18">
+      <text style="font-size: 7.8px; font-family: 'Arial'; text-anchor: end" x="184.101811" y="36.868023" transform="rotate(-0 184.101811 36.868023)">1</text>
+     </g>
+    </g>
+    <g id="panel-b-text_19">
+     
+     <g transform="translate(170.387811 60.698425) rotate(-90)">
+      <text>
+       <tspan x="0" y="-0.734375" style="font-style: italic; font-size: 8.2px; font-family: 'Cambria'">L</tspan>
+       <tspan x="4.314331" y="-0.734375" style="font-size: 8.2px; font-family: 'Cambria'">/</tspan>
+       <tspan x="8.358765" y="-0.734375" style="font-size: 8.2px; font-family: 'Comic Sans MS'">E</tspan>
+       <tspan x="14.498984" y="0.385937" style="font-size: 5.74px; font-family: 'Cambria'">*</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="panel-b-FillBetweenPolyCollection_1">
+    <defs>
+     <path id="panel-b-m132d55273f" d="M 188.365053 -131.502124  L 188.365053 -131.418057  L 191.113283 -131.207905  L 193.861513 -130.972933  L 196.609743 -130.71049  L 199.357973 -130.417629  L 202.106203 -130.091122  L 204.854434 -129.727462  L 207.602664 -129.322847  L 210.350894 -128.873191  L 213.099124 -128.374123  L 215.847354 -127.821015  L 218.595584 -127.208997  L 221.343814 -126.533009  L 224.092044 -125.787854  L 226.840274 -124.968282  L 229.588504 -124.069095  L 232.336734 -123.085275  L 235.084964 -122.012154  L 237.833194 -120.845605  L 240.581424 -119.582273  L 243.329654 -118.219842  L 246.077884 -116.757322  L 248.826114 -115.195367  L 251.574344 -113.5366  L 254.322574 -111.785932  L 257.070804 -109.950857  L 259.819034 -108.041691  L 262.567264 -106.071729  L 265.315494 -104.057286  L 268.063724 -102.017585  L 270.811954 -99.974468  L 273.560184 -97.951899  L 273.560184 -97.951899  L 273.560184 -97.951899  L 270.811954 -99.974468  L 268.063724 -102.017585  L 265.315494 -104.057286  L 262.567264 -106.071729  L 259.819034 -108.041691  L 257.070804 -109.950857  L 254.322574 -111.785933  L 251.574344 -113.536601  L 248.826114 -115.195369  L 246.077884 -116.757325  L 243.329654 -118.219847  L 240.581424 -119.582282  L 237.833194 -120.845619  L 235.084964 -122.012178  L 232.336734 -123.085314  L 229.588504 -124.069158  L 226.840274 -124.968386  L 224.092044 -125.788023  L 221.343814 -126.533284  L 218.595584 -127.209445  L 215.847354 -127.82174  L 213.099124 -128.375297  L 210.350894 -128.875086  L 207.602664 -129.325902  L 204.854434 -129.732381  L 202.106203 -130.099032  L 199.357973 -130.430335  L 196.609743 -130.730898  L 193.861513 -131.005657  L 191.113283 -131.260354  L 188.365053 -131.502124  z " />
+    </defs>
+    <g clip-path="url(#panel-b-p020c8511a4)">
+     <use xlink:href="#panel-b-m132d55273f" x="0" y="167.244094" style="fill: #cfece2" />
+    </g>
+   </g>
+   <g id="panel-b-line2d_23">
+    <path d="M 187.151811 34.076476  L 275.618268 34.076476  " clip-path="url(#panel-b-p020c8511a4)" style="fill: none; stroke-dasharray: 1.3,1.3; stroke-dashoffset: 0; stroke: #555d69; stroke-width: 0.65" />
+   </g>
+   <g id="panel-b-line2d_24">
+    <path d="M 188.365053 35.784004  L 191.113283 36.009965  L 193.861513 36.254799  L 196.609743 36.523401  L 199.357973 36.820113  L 202.106203 37.149017  L 204.854434 37.514173  L 207.602664 37.91972  L 210.350894 38.369956  L 213.099124 38.869384  L 215.847354 39.422717  L 218.595584 40.034874  L 221.343814 40.710948  L 224.092044 41.456156  L 226.840274 42.27576  L 229.588504 43.174968  L 232.336734 44.1588  L 235.084964 45.231928  L 237.833194 46.398482  L 240.581424 47.661817  L 243.329654 49.02425  L 246.077884 50.486771  L 248.826114 52.048727  L 251.574344 53.707494  L 254.322574 55.458162  L 257.070804 57.293237  L 259.819034 59.202404  L 262.567264 61.172365  L 265.315494 63.186808  L 268.063724 65.226509  L 270.811954 67.269627  L 273.560184 69.292195  " clip-path="url(#panel-b-p020c8511a4)" style="fill: none; stroke: #009e73; stroke-width: 1.25; stroke-linecap: square" />
+   </g>
+   <g id="panel-b-patch_6">
+    <path d="M 187.151811 72.751181  L 187.151811 30.605669  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-b-patch_7">
+    <path d="M 275.618268 72.751181  L 275.618268 30.605669  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-b-patch_8">
+    <path d="M 187.151811 72.751181  L 275.618268 72.751181  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-b-patch_9">
+    <path d="M 187.151811 30.605669  L 275.618268 30.605669  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+  </g>
+  <g id="panel-b-text_20">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="3.795591" y="13.941186" transform="rotate(-0 3.795591 13.941186)">b</text>
+  </g>
+  <g id="panel-b-text_21">
+   <text style="font-weight: 700; font-size: 10.4px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="21.897638" y="13.464912" transform="rotate(-0 21.897638 13.464912)">Quantitative reversal bound</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="panel-b-peca98065de">
+   <rect x="42.335433" y="28.933228" width="236.20252" height="105.698268" />
+  </clipPath>
+  <clipPath id="panel-b-p020c8511a4">
+   <rect x="187.151811" y="30.605669" width="88.466457" height="42.145512" />
+  </clipPath>
+ </defs>
+</g><g id="panel-c" transform="translate(306.1417323 155.9055118) scale(1.000000000 1.000000000)"><g id="panel-c-c-geometry" transform="translate(0.0000000 0.0000000) scale(1.000000029 1.000000009)"><defs>
+<clipPath id="panel-c-c-geometry-clip_1">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M306.14173 91.66017H498.89765V173.0145H306.14173Z" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_2">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 0H504.6V328.92H0Z" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_3">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_4">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_5">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_6">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_7">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_8">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000015259 .00012207H504.59999V328.92015H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_9">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .00012207H504.59999V328.92015H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_10">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000015259 .000091553H504.59999V328.9201H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_11">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_12">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000015259 .00015259H504.59999V328.92018H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_13">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .00015259H504.59999V328.92018H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_14">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000015259 .00018311H504.60005V328.9202H.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_15">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000015259 .00015259H504.59999V328.92018H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_16">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000015259 .00015259H504.59999V328.92018H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_17">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000007629 .00015259H504.6V328.92018H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_18">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000007629 .00015259H504.6V328.92018H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_19">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000007629 .00015259H504.6V328.92018H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_20">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_21">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000015259 .00015259H504.60005V328.92018H.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_22">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000015259 .00015259H504.60005V328.92018H.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_23">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00018311H504.6V328.9202H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_24">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_25">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_26">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_27">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_28">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_29">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_30">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_31">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_32">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_33">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000015259 .00015259H504.59999V328.92018H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_34">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_35">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000015259 .00012207H504.59999V328.92015H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_36">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_37">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000015259 .000091553H504.59999V328.9201H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_38">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_39">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_40">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_41">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_42">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_43">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_44">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_45">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_46">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_47">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_48">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_49">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00015259H504.6V328.92018H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_50">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_51">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_52">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_53">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_54">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_55">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_56">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_57">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_58">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 0H504.59999V328.92H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_59">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_60">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_61">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000061035H504.59999V328.92008H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_62">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_63">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_64">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_65">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_66">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_67">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000061035 0H504.59996V328.92H-.000061035Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_68">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000030518 .000091553H504.60005V328.9201H.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_69">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000030518 .000091553H504.60005V328.9201H.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_70">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000030518 .000061035H504.60005V328.92008H.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_71">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_72">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_73">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_74">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_75">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_76">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000061035 0H504.59996V328.92H-.000061035Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_77">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_78">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_79">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000030518 .000061035H504.60005V328.92008H.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_80">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_81">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .00012207H504.6V328.92015H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_82">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .00012207H504.59999V328.92015H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_83">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_84">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_85">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_86">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_87">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_88">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_89">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_90">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_91">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_92">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_93">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_94">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000030518 .000091553H504.59999V328.9201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_95">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_96">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .000091553H504.6V328.9201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_97">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M-.000061035 .000061035H504.59996V328.92008H-.000061035Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_98">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_99">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_100">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_101">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_102">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_103">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_104">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_105">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_106">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_107">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_108">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_109">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_110">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_111">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_112">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_113">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_114">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_115">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_116">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_117">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_118">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_119">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_120">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_121">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_122">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_123">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_124">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_125">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_126">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_127">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_128">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_129">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_130">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_131">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_132">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_133">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_134">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_135">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_136">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_137">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_138">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_139">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_140">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_141">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_142">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_143">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_144">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_145">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_146">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_147">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_148">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_149">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_150">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_151">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_152">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_153">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="panel-c-c-geometry-clip_154">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M.000007519 0H504.6V328.92H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+</defs>
+<g clip-path="url(#panel-c-c-geometry-clip_1)">
+<g clip-path="url(#panel-c-c-geometry-clip_2)">
+<g clip-path="url(#panel-c-c-geometry-clip_3)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M0 .045013H504.63V328.92503H0Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_4)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="12.024" font-family="Arial" font-weight="bold" x="54.72" y="-311.16">a</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_5)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="10.464" font-family="Arial" font-weight="bold" x="71.736" y="-311.76">Cycle invariance under diagonal filtering</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_6)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="12" font-family="Arial" font-weight="bold" x="309.6" y="-159.72">c</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_7)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="10.44" font-family="Arial" font-weight="bold" x="326.62" y="-160.32">Weak edges absorb phase</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_8)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#abc9da" d="M206.08 298.02H238.68" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_9)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#abc9da" d="M265.89 298.02H298.49" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_10)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cdb7cd" d="M206.08 279.17H238.68" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_11)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#cdb7cd" d="M265.89 279.17H298.49" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_12)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#bbc4ca" d="M206.08 260.32H238.68" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_13)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".6" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#bbc4ca" d="M265.89 260.32H298.49" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_14)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M129.29 287.63 108.28 265.23 109.17 264.4 130.18 286.8ZM107.95 266.91 106.67 262.63 110.87 264.17Z" fill="#0072b2" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_15)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M128.35 290.94C128.35 293.63 130.54 295.81 133.23 295.81 135.92 295.81 138.1 293.63 138.1 290.94 138.1 288.24 135.92 286.06 133.23 286.06 130.54 286.06 128.35 288.24 128.35 290.94Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_16)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M128.35 290.94C128.35 293.63 130.54 295.81 133.23 295.81 135.92 295.81 138.1 293.63 138.1 290.94 138.1 288.24 135.92 286.06 133.23 286.06 130.54 286.06 128.35 288.24 128.35 290.94Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_17)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M108.28 259.51H155.17V258.29H108.28ZM154.17 260.9 158.17 258.9 154.17 256.9Z" fill="#8e5385" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_18)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M98.306 258.9C98.306 261.6 100.49 263.78 103.18 263.78 105.87 263.78 108.06 261.6 108.06 258.9 108.06 256.21 105.87 254.03 103.18 254.03 100.49 254.03 98.306 256.21 98.306 258.9Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_19)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M98.306 258.9C98.306 261.6 100.49 263.78 103.18 263.78 105.87 263.78 108.06 261.6 108.06 258.9 108.06 256.21 105.87 254.03 103.18 254.03 100.49 254.03 98.306 256.21 98.306 258.9Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_20)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M159.34 262.21 138.33 284.61 139.22 285.44 160.23 263.04ZM138 282.93 136.72 287.21 140.91 285.67Z" fill="#555d69" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_21)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M158.4 258.9C158.4 261.6 160.58 263.78 163.28 263.78 165.97 263.78 168.15 261.6 168.15 258.9 168.15 256.21 165.97 254.03 163.28 254.03 160.58 254.03 158.4 256.21 158.4 258.9Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_22)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M158.4 258.9C158.4 261.6 160.58 263.78 163.28 263.78 165.97 263.78 168.15 261.6 168.15 258.9 168.15 256.21 165.97 254.03 163.28 254.03 160.58 254.03 158.4 256.21 158.4 258.9Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_23)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M367.4 287.63 346.39 265.23 347.28 264.4 368.29 286.8ZM346.06 266.91 344.78 262.63 348.98 264.17Z" fill="#0072b2" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_24)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M366.46 290.94C366.46 293.63 368.65 295.81 371.34 295.81 374.03 295.81 376.21 293.63 376.21 290.94 376.21 288.24 374.03 286.06 371.34 286.06 368.65 286.06 366.46 288.24 366.46 290.94Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_25)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M366.46 290.94C366.46 293.63 368.65 295.81 371.34 295.81 374.03 295.81 376.21 293.63 376.21 290.94 376.21 288.24 374.03 286.06 371.34 286.06 368.65 286.06 366.46 288.24 366.46 290.94Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_26)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M346.39 259.51H393.28V258.29H346.39ZM392.28 260.9 396.28 258.9 392.28 256.9Z" fill="#8e5385" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_27)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M336.42 258.9C336.42 261.6 338.6 263.78 341.29 263.78 343.98 263.78 346.17 261.6 346.17 258.9 346.17 256.21 343.98 254.03 341.29 254.03 338.6 254.03 336.42 256.21 336.42 258.9Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_28)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M336.42 258.9C336.42 261.6 338.6 263.78 341.29 263.78 343.98 263.78 346.17 261.6 346.17 258.9 346.17 256.21 343.98 254.03 341.29 254.03 338.6 254.03 336.42 256.21 336.42 258.9Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_29)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M397.45 262.21 376.44 284.61 377.33 285.44 398.34 263.04ZM376.11 282.93 374.83 287.21 379.02 285.67Z" fill="#555d69" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_30)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M396.51 258.9C396.51 261.6 398.69 263.78 401.39 263.78 404.08 263.78 406.26 261.6 406.26 258.9 406.26 256.21 404.08 254.03 401.39 254.03 398.69 254.03 396.51 256.21 396.51 258.9Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_31)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M396.51 258.9C396.51 261.6 398.69 263.78 401.39 263.78 404.08 263.78 406.26 261.6 406.26 258.9 406.26 256.21 404.08 254.03 401.39 254.03 398.69 254.03 396.51 256.21 396.51 258.9Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_32)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M182.41 298.02H203.1" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_33)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M192.76 306.53V289.52" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_34)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M182.41 279.17H203.1" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_35)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M192.76 287.68V270.67" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_36)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M182.41 260.32H203.1" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_37)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M192.76 268.83V251.82" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_38)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M301.46 298.02H322.16" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_39)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M311.81 306.53V289.52" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_40)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M301.46 279.17H322.16" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_41)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M311.81 287.68V270.67" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_42)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M301.46 260.32H322.16" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_43)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#97a2aa" d="M311.81 268.83V251.82" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_44)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M193.03 297.64 197.63 300.92 197.07 301.69 192.48 298.41ZM197.7 299.09 199.79 303.05 195.37 302.35Z" fill="#0072b2" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_45)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M192.95 278.74 198.09 281.09 197.69 281.96 192.56 279.6ZM197.81 279.29 200.61 282.78 196.14 282.93Z" fill="#8e5385" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_46)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M192.9 259.87 198.29 261.54 198.01 262.44 192.62 260.78ZM197.79 259.78 201.02 262.88 196.6 263.61Z" fill="#555d69" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_47)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M311.5 297.66 307.24 301.37 307.86 302.08 312.12 298.38ZM306.99 299.56 305.29 303.69 309.62 302.58Z" fill="#0072b2" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_48)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M312.18 279.47 315.75 275.1 315.02 274.5 311.44 278.87ZM316.3 276.84 317.29 272.48 313.21 274.31Z" fill="#8e5385" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_49)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M311.9 260.79 317.44 259.71 317.26 258.78 311.72 259.86ZM316.75 261.4 320.3 258.68 315.99 257.48Z" fill="#555d69" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_50)">
+<text fill="#555d69" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.76" font-family="Arial" x="104.9" y="-300.02">Before filtering</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_51)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.4" font-family="Arial" x="130.85" y="-287.83">1</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_52)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.4" font-family="Arial" x="100.78" y="-255.79">2</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_53)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.4" font-family="Arial" x="160.9" y="-255.79">3</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_54)">
+<text fill="#555d69" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.76" font-family="Arial" x="346.68" y="-300.02">After filtering</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_55)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.4" font-family="Arial" x="369" y="-287.83">1</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_56)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.4" font-family="Arial" x="338.95" y="-255.79">2</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_57)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.4" font-family="Arial" x="399.05" y="-255.79">3</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_58)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M323.72 130.32 336.75 144.84" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_59)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M316.06 126.53C316.06 128.87 317.97 130.78 320.31 130.78 322.66 130.78 324.57 128.87 324.57 126.53 324.57 124.18 322.66 122.27 320.31 122.27 317.97 122.27 316.06 124.18 316.06 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_60)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M316.06 126.53C316.06 128.87 317.97 130.78 320.31 130.78 322.66 130.78 324.57 128.87 324.57 126.53 324.57 124.18 322.66 122.27 320.31 122.27 317.97 122.27 316.06 124.18 316.06 126.53Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_61)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M343.57 144.84 356.59 130.32" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_62)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M335.91 148.64C335.91 150.98 337.81 152.89 340.16 152.89 342.51 152.89 344.41 150.98 344.41 148.64 344.41 146.29 342.51 144.38 340.16 144.38 337.81 144.38 335.91 146.29 335.91 148.64Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_63)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M335.91 148.64C335.91 150.98 337.81 152.89 340.16 152.89 342.51 152.89 344.41 150.98 344.41 148.64 344.41 146.29 342.51 144.38 340.16 144.38 337.81 144.38 335.91 146.29 335.91 148.64Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_64)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M354.9 126.53H325.42" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_65)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M355.75 126.53C355.75 128.87 357.65 130.78 360 130.78 362.35 130.78 364.25 128.87 364.25 126.53 364.25 124.18 362.35 122.27 360 122.27 357.65 122.27 355.75 124.18 355.75 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_66)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M355.75 126.53C355.75 128.87 357.65 130.78 360 130.78 362.35 130.78 364.25 128.87 364.25 126.53 364.25 124.18 362.35 122.27 360 122.27 357.65 122.27 355.75 124.18 355.75 126.53Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_67)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M386.09 130.32 399.11 144.84" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_68)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M378.43 126.53C378.43 128.87 380.33 130.78 382.68 130.78 385.03 130.78 386.93 128.87 386.93 126.53 386.93 124.18 385.03 122.27 382.68 122.27 380.33 122.27 378.43 124.18 378.43 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_69)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M378.43 126.53C378.43 128.87 380.33 130.78 382.68 130.78 385.03 130.78 386.93 128.87 386.93 126.53 386.93 124.18 385.03 122.27 382.68 122.27 380.33 122.27 378.43 124.18 378.43 126.53Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_70)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M405.93 144.84 418.95 130.32" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_71)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M398.27 148.64C398.27 150.98 400.17 152.89 402.52 152.89 404.87 152.89 406.77 150.98 406.77 148.64 406.77 146.29 404.87 144.38 402.52 144.38 400.17 144.38 398.27 146.29 398.27 148.64Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_72)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M398.27 148.64C398.27 150.98 400.17 152.89 402.52 152.89 404.87 152.89 406.77 150.98 406.77 148.64 406.77 146.29 404.87 144.38 402.52 144.38 400.17 144.38 398.27 146.29 398.27 148.64Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_73)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width="1.25" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M417.26 126.53H387.78" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_74)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M418.11 126.53C418.11 128.87 420.01 130.78 422.36 130.78 424.71 130.78 426.61 128.87 426.61 126.53 426.61 124.18 424.71 122.27 422.36 122.27 420.01 122.27 418.11 124.18 418.11 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_75)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M418.11 126.53C418.11 128.87 420.01 130.78 422.36 130.78 424.71 130.78 426.61 128.87 426.61 126.53 426.61 124.18 424.71 122.27 422.36 122.27 420.01 122.27 418.11 124.18 418.11 126.53Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_76)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M448.45 130.32 461.47 144.84" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_77)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M440.79 126.53C440.79 128.87 442.69 130.78 445.04 130.78 447.39 130.78 449.29 128.87 449.29 126.53 449.29 124.18 447.39 122.27 445.04 122.27 442.69 122.27 440.79 124.18 440.79 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_78)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M440.79 126.53C440.79 128.87 442.69 130.78 445.04 130.78 447.39 130.78 449.29 128.87 449.29 126.53 449.29 124.18 447.39 122.27 445.04 122.27 442.69 122.27 440.79 124.18 440.79 126.53Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_79)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width="2.5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M468.29 144.84 481.32 130.32" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_80)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M460.63 148.64C460.63 150.98 462.53 152.89 464.88 152.89 467.23 152.89 469.13 150.98 469.13 148.64 469.13 146.29 467.23 144.38 464.88 144.38 462.53 144.38 460.63 146.29 460.63 148.64Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_81)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M460.63 148.64C460.63 150.98 462.53 152.89 464.88 152.89 467.23 152.89 469.13 150.98 469.13 148.64 469.13 146.29 467.23 144.38 464.88 144.38 462.53 144.38 460.63 146.29 460.63 148.64Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_82)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".5" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M479.62 126.53H450.14" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_83)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M480.47 126.53C480.47 128.87 482.38 130.78 484.72 130.78 487.07 130.78 488.98 128.87 488.98 126.53 488.98 124.18 487.07 122.27 484.72 122.27 482.38 122.27 480.47 124.18 480.47 126.53Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_84)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M480.47 126.53C480.47 128.87 482.38 130.78 484.72 130.78 487.07 130.78 488.98 128.87 488.98 126.53 488.98 124.18 487.07 122.27 484.72 122.27 482.38 122.27 480.47 124.18 480.47 126.53Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_85)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M319.46 115.61H360.846V119.4368H319.46Z" fill="#f0e7e2" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_86)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M319.46 115.61H333.255V119.4368H319.46Z" fill="#d55e00" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_87)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M322.58 108.88C322.58 110.02 323.5 110.94 324.64 110.94 325.77 110.94 326.69 110.02 326.69 108.88 326.69 107.75 325.77 106.83 324.64 106.83 323.5 106.83 322.58 107.75 322.58 108.88Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_88)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".8" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#181b20" d="M322.58 108.88C322.58 110.02 323.5 110.94 324.64 110.94 325.77 110.94 326.69 110.02 326.69 108.88 326.69 107.75 325.77 106.83 324.64 106.83 323.5 106.83 322.58 107.75 322.58 108.88Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_89)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M381.83 115.61H423.216V119.4368H381.83Z" fill="#f0e7e2" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_90)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M381.83 115.61H411.444V119.4368H381.83Z" fill="#d55e00" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_91)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M384.94 106.83H389.0502V110.9402H384.94Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_92)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".8" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#181b20" d="M384.94 106.83H389.0502V110.9402H384.94Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_93)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M444.19 115.61H485.576V119.4368H444.19Z" fill="#f0e7e2" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_94)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M444.19 115.61H484.33003V119.4368H444.19Z" fill="#d55e00" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_95)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M447.31 108.88 449.36 110.94 451.42 108.88 449.36 106.83Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_96)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" stroke-width=".8" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#181b20" d="M447.31 108.88 449.36 110.94 451.42 108.88 449.36 106.83Z" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_97)">
+<path transform="matrix(1,0,0,-1,-306.1417,173.01453)" d="M333.92 97.755H343.8413V100.4479H333.92Z" fill="#d55e00" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_98)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.16" font-family="Arial" x="318.05" y="-123.46">1</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_99)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.16" font-family="Arial" x="337.9" y="-145.56">2</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_100)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.16" font-family="Arial" x="357.74" y="-123.46">3</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_101)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.4" font-family="Arial" x="332.57" y="-105.91">33%</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_102)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.16" font-family="Arial" x="380.42" y="-123.46">1</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_103)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.16" font-family="Arial" x="400.27" y="-145.56">2</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_104)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.16" font-family="Arial" x="420.12" y="-123.46">3</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_105)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.4" font-family="Arial" x="394.94" y="-105.91">72%</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_106)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.16" font-family="Arial" x="442.8" y="-123.46">1</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_107)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.16" font-family="Arial" x="462.65" y="-145.56">2</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_108)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.16" font-family="Arial" x="482.5" y="-123.46">3</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_109)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.4" font-family="Arial" x="457.32" y="-105.91">97%</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_110)">
+<text fill="#555d69" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.52" font-family="Arial" x="348.74" y="-95.904">Edge 31 phase share</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_111)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.144" font-family="Cambria Math" x="309.84" y="-312.96">arg</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_112)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.144" font-family="Cambria Math" x="324.62" y="-312.96">𝐶′</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_113)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.72" font-family="Cambria Math" x="332.42" y="-311.02">ij</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_114)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.144" font-family="Cambria Math" x="341.66" y="-312.96">=</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_115)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.144" font-family="Cambria Math" x="353.06" y="-312.96">arg</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_116)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.144" font-family="Cambria Math" x="367.82" y="-312.96">𝐶</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_117)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.72" font-family="Cambria Math" x="372.74" y="-311.02">ij</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_118)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.144" font-family="Cambria Math" x="381.5" y="-312.96">+</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_119)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.144" font-family="Cambria Math" x="392.3" y="-312.96">𝜑</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_120)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.72" font-family="Cambria Math" x="398.54" y="-311.02">i</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_121)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.144" font-family="Cambria Math" x="405.14" y="-312.96">−</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_122)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.144" font-family="Cambria Math" x="416.06" y="-312.96">𝜑</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_123)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.72" font-family="Cambria Math" x="422.18" y="-311.02">j</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_124)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="197.74" y="-244.08">𝜓′</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_125)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="211.18" y="-244.08">=</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_126)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="222.58" y="-244.08">𝜓</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_127)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="233.74" y="-244.08">=</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_128)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="245.16" y="-244.08">arg</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_129)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="257.88" y="-244.08">(</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_130)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="261.72" y="-244.08">𝐶</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_131)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.72" font-family="Cambria Math" x="266.4" y="-242.16">12</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_132)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="274.56" y="-244.08">𝐶</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_133)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.72" font-family="Cambria Math" x="279.48" y="-242.16">23</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_134)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="287.64" y="-244.08">𝐶</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_135)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.72" font-family="Cambria Math" x="292.56" y="-242.16">31</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_136)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="9.12" font-family="Cambria Math" x="300.72" y="-244.08">)</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_137)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.52" font-family="Cambria Math" x="378.7" y="-244.06">𝜔</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_138)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.52" font-family="Cambria Math" x="387.1" y="-244.06">/</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_139)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.52" font-family="Cambria Math" x="393.22" y="-244.06">π</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_140)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.52" font-family="Cambria Math" x="402.58" y="-244.06">=</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_141)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.52" font-family="Cambria Math" x="413.26" y="-244.06">1</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_142)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.52" font-family="Cambria Math" x="417.94" y="-244.06">/</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_143)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.52" font-family="Cambria Math" x="422.14" y="-244.06">2</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_144)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.904" font-family="Cambria Math" x="244.9" y="-295.08">𝐶</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_145)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.504" font-family="Cambria Math" x="249.46" y="-293.28">12</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_146)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.88" font-family="Cambria Math" x="244.75" y="-276.22">𝐶</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_147)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.48" font-family="Cambria Math" x="249.55" y="-274.42">23</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_148)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.88" font-family="Cambria Math" x="244.75" y="-257.35">𝐶</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_149)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.48" font-family="Cambria Math" x="249.55" y="-255.55">31</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_150)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.64" font-family="Cambria Math" x="443.3" y="-96.216">𝜃</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_151)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.24" font-family="Cambria Math" x="447.86" y="-94.176">31</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_152)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="6.24" font-family="Cambria Math" x="448.58" y="-99.456">∗</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_153)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.64" font-family="Cambria Math" x="457.34" y="-96.216">/</text>
+</g>
+<g clip-path="url(#panel-c-c-geometry-clip_154)">
+<text fill="#181b20" xml:space="preserve" transform="matrix(1 0 -0 1 -306.1417 173.01453)" font-size="8.64" font-family="Cambria Math" x="463.46" y="-96.216">𝜓</text>
+</g>
+</g>
+</g>
+</g><g id="panel-c-c-plots" transform="translate(0.0000000 81.3543307) scale(0.999999997 0.999999997)"><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="panel-c-c-plots-figure_1">
+  <g id="panel-c-c-plots-patch_1">
+   <path d="M 0 85.889764  L 192.755906 85.889764  L 192.755906 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="panel-c-c-plots-axes_1">
+   <g id="panel-c-c-plots-patch_2">
+    <path d="M 31.611969 62.355969  L 183.503622 62.355969  L 183.503622 12.883465  L 31.611969 12.883465  z " style="fill: #ffffff" />
+   </g>
+   <g id="panel-c-c-plots-matplotlib.axis_1">
+    <g id="panel-c-c-plots-xtick_1">
+     <g id="panel-c-c-plots-line2d_1">
+      <defs>
+       <path id="panel-c-c-plots-m294bbf29b7" d="M 0 0  L 0 2.4  " style="stroke: #000000; stroke-width: 0.58" />
+      </defs>
+      <g>
+       <use xlink:href="#panel-c-c-plots-m294bbf29b7" x="47.058577" y="62.355969" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-c-c-plots-text_1">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="47.058577" y="72.418531" transform="rotate(-0 47.058577 72.418531)">0.02</text>
+     </g>
+    </g>
+    <g id="panel-c-c-plots-xtick_2">
+     <g id="panel-c-c-plots-line2d_2">
+      <g>
+       <use xlink:href="#panel-c-c-plots-m294bbf29b7" x="85.675099" y="62.355969" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-c-c-plots-text_2">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="85.675099" y="72.418531" transform="rotate(-0 85.675099 72.418531)">0.05</text>
+     </g>
+    </g>
+    <g id="panel-c-c-plots-xtick_3">
+     <g id="panel-c-c-plots-line2d_3">
+      <g>
+       <use xlink:href="#panel-c-c-plots-m294bbf29b7" x="124.291622" y="62.355969" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-c-c-plots-text_3">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="124.291622" y="72.418531" transform="rotate(-0 124.291622 72.418531)">0.08</text>
+     </g>
+    </g>
+    <g id="panel-c-c-plots-xtick_4">
+     <g id="panel-c-c-plots-line2d_4">
+      <g>
+       <use xlink:href="#panel-c-c-plots-m294bbf29b7" x="162.908144" y="62.355969" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-c-c-plots-text_4">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle" x="162.908144" y="72.418531" transform="rotate(-0 162.908144 72.418531)">0.11</text>
+     </g>
+    </g>
+    <g id="panel-c-c-plots-text_5">
+     
+     <g transform="translate(78.410295 81.746031)">
+      <text>
+       <tspan x="0" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'">W</tspan>
+       <tspan x="8.376648" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'">e</tspan>
+       <tspan x="13.3125" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'">a</tspan>
+       <tspan x="18.248352" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'">k</tspan>
+       <tspan x="22.685852" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'"> </tspan>
+       <tspan x="25.151611" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'">e</tspan>
+       <tspan x="30.087463" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'">d</tspan>
+       <tspan x="35.023315" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'">g</tspan>
+       <tspan x="39.959167" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'">e</tspan>
+       <tspan x="44.89502" y="-0.5625" style="font-size: 8.9px; font-family: 'Arial'"> </tspan>
+       <tspan x="47.360779" y="-0.5625" style="font-style: italic; font-size: 8.9px; font-family: 'Cambria'">r</tspan>
+       <tspan x="50.974915" y="0.698437" style="font-size: 6.23px; font-family: 'Cambria'">3</tspan>
+       <tspan x="54.414844" y="0.698437" style="font-size: 6.23px; font-family: 'Cambria'">1</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="panel-c-c-plots-matplotlib.axis_2">
+    <g id="panel-c-c-plots-ytick_1">
+     <g id="panel-c-c-plots-line2d_5">
+      <path d="M 31.611969 61.464572  L 183.503622 61.464572  " clip-path="url(#panel-c-c-plots-p45a8edf15b)" style="fill: none; stroke: #dfe6e8; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="panel-c-c-plots-line2d_6">
+      <defs>
+       <path id="panel-c-c-plots-m1452459fb8" d="M 0 0  L -2.4 0  " style="stroke: #000000; stroke-width: 0.58" />
+      </defs>
+      <g>
+       <use xlink:href="#panel-c-c-plots-m1452459fb8" x="31.611969" y="61.464572" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-c-c-plots-text_6">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="27.561969" y="64.470853" transform="rotate(-0 27.561969 64.470853)">0</text>
+     </g>
+    </g>
+    <g id="panel-c-c-plots-ytick_2">
+     <g id="panel-c-c-plots-line2d_7">
+      <path d="M 31.611969 43.636643  L 183.503622 43.636643  " clip-path="url(#panel-c-c-plots-p45a8edf15b)" style="fill: none; stroke: #dfe6e8; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="panel-c-c-plots-line2d_8">
+      <g>
+       <use xlink:href="#panel-c-c-plots-m1452459fb8" x="31.611969" y="43.636643" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-c-c-plots-text_7">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="27.561969" y="46.642924" transform="rotate(-0 27.561969 46.642924)">2</text>
+     </g>
+    </g>
+    <g id="panel-c-c-plots-ytick_3">
+     <g id="panel-c-c-plots-line2d_9">
+      <path d="M 31.611969 25.808713  L 183.503622 25.808713  " clip-path="url(#panel-c-c-plots-p45a8edf15b)" style="fill: none; stroke: #dfe6e8; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="panel-c-c-plots-line2d_10">
+      <g>
+       <use xlink:href="#panel-c-c-plots-m1452459fb8" x="31.611969" y="25.808713" style="stroke: #000000; stroke-width: 0.58" />
+      </g>
+     </g>
+     <g id="panel-c-c-plots-text_8">
+      <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: end" x="27.561969" y="28.814995" transform="rotate(-0 27.561969 28.814995)">4</text>
+     </g>
+    </g>
+    <g id="panel-c-c-plots-text_9">
+     
+     <g transform="translate(18.932781 65.254217) rotate(-90)">
+      <text>
+       <tspan x="0" y="-0.835938" style="font-size: 8.9px; font-family: 'Comic Sans MS'">E</tspan>
+       <tspan x="6.60864" y="0.425" style="font-size: 6.23px; font-family: 'Cambria'">*</tspan>
+       <tspan x="25.788734" y="-3.778125" style="font-size: 6.23px; font-family: 'Cambria'">−</tspan>
+       <tspan x="29.228663" y="-3.778125" style="font-size: 6.23px; font-family: 'Cambria'">4</tspan>
+       <tspan x="10.465607" y="-0.835938" style="font-size: 8.9px; font-family: 'Arial'"> </tspan>
+       <tspan x="12.931366" y="-0.835938" style="font-size: 8.9px; font-family: 'Arial'">(</tspan>
+       <tspan x="32.878749" y="-0.835938" style="font-size: 8.9px; font-family: 'Arial'"> </tspan>
+       <tspan x="35.344508" y="-0.835938" style="font-size: 8.9px; font-family: 'Arial'">n</tspan>
+       <tspan x="40.28036" y="-0.835938" style="font-size: 8.9px; font-family: 'Arial'">a</tspan>
+       <tspan x="45.216212" y="-0.835938" style="font-size: 8.9px; font-family: 'Arial'">t</tspan>
+       <tspan x="47.681971" y="-0.835938" style="font-size: 8.9px; font-family: 'Arial'">s</tspan>
+       <tspan x="52.119471" y="-0.835938" style="font-size: 8.9px; font-family: 'Arial'">)</tspan>
+       <tspan x="15.88681" y="-0.835938" style="font-size: 8.9px; font-family: 'Cambria'">1</tspan>
+       <tspan x="20.800995" y="-0.835938" style="font-size: 8.9px; font-family: 'Cambria'">0</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="panel-c-c-plots-line2d_11">
+    <path d="M 36.760838 60.457818  L 42.167151 59.658885  L 48.345795 58.50123  L 54.524438 57.119482  L 62.247743 55.141343  L 71.515708 52.509763  L 86.962317 47.83873  L 103.953587 42.772644  L 115.538543 39.557377  L 126.351169 36.795342  L 136.391465 34.453415  L 146.431761 32.326016  L 157.244387 30.264688  L 168.057013 28.424747  L 175.780318 27.234948  L 175.780318 27.234948  " clip-path="url(#panel-c-c-plots-p45a8edf15b)" style="fill: none; stroke: #d55e00; stroke-width: 1.35; stroke-linecap: square" />
+   </g>
+   <g id="panel-c-c-plots-line2d_12">
+    <defs>
+     <path id="panel-c-c-plots-m003353e5ea" d="M 0 1.85  C 0.490626 1.85 0.961223 1.655072 1.308148 1.308148  C 1.655072 0.961223 1.85 0.490626 1.85 0  C 1.85 -0.490626 1.655072 -0.961223 1.308148 -1.308148  C 0.961223 -1.655072 0.490626 -1.85 0 -1.85  C -0.490626 -1.85 -0.961223 -1.655072 -1.308148 -1.308148  C -1.655072 -0.961223 -1.85 -0.490626 -1.85 0  C -1.85 0.490626 -1.655072 0.961223 -1.308148 1.308148  C -0.961223 1.655072 -0.490626 1.85 0 1.85  z " style="stroke: #181b20; stroke-width: 0.78" />
+    </defs>
+    <g clip-path="url(#panel-c-c-plots-p45a8edf15b)">
+     <use xlink:href="#panel-c-c-plots-m003353e5ea" x="175.780318" y="17.34435" style="fill: #ffffff; stroke: #181b20; stroke-width: 0.78" />
+    </g>
+   </g>
+   <g id="panel-c-c-plots-line2d_13">
+    <defs>
+     <path id="panel-c-c-plots-m676c92d5d5" d="M -1.85 1.85  L 1.85 1.85  L 1.85 -1.85  L -1.85 -1.85  z " style="stroke: #181b20; stroke-width: 0.78; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#panel-c-c-plots-p45a8edf15b)">
+     <use xlink:href="#panel-c-c-plots-m676c92d5d5" x="98.547273" y="40.879354" style="fill: #ffffff; stroke: #181b20; stroke-width: 0.78; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="panel-c-c-plots-line2d_14">
+    <defs>
+     <path id="panel-c-c-plots-mbcb29ec2ba" d="M 0 2.616295  L 2.616295 0  L 0 -2.616295  L -2.616295 0  z " style="stroke: #181b20; stroke-width: 0.78; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#panel-c-c-plots-p45a8edf15b)">
+     <use xlink:href="#panel-c-c-plots-mbcb29ec2ba" x="52.207447" y="57.339807" style="fill: #ffffff; stroke: #181b20; stroke-width: 0.78; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="panel-c-c-plots-patch_3">
+    <path d="M 31.611969 62.355969  L 31.611969 12.883465  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-c-c-plots-patch_4">
+    <path d="M 31.611969 62.355969  L 183.503622 62.355969  " style="fill: none; stroke: #000000; stroke-width: 0.62; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="panel-c-c-plots-legend_1">
+    <g id="panel-c-c-plots-line2d_15">
+     <path d="M 37.187969 21.575465  L 43.337969 21.575465  L 49.487969 21.575465  " style="fill: none; stroke: #d55e00; stroke-width: 1.35; stroke-linecap: square" />
+    </g>
+    <g id="panel-c-c-plots-text_10">
+     
+     <g transform="translate(52.767969 24.445465)">
+      <text>
+       <tspan x="0" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">Q</tspan>
+       <tspan x="6.417114" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">u</tspan>
+       <tspan x="11.005371" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">a</tspan>
+       <tspan x="15.593628" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">d</tspan>
+       <tspan x="20.181885" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">r</tspan>
+       <tspan x="22.929199" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">a</tspan>
+       <tspan x="27.517456" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">t</tspan>
+       <tspan x="29.80957" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">i</tspan>
+       <tspan x="31.642456" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">c</tspan>
+       <tspan x="35.767456" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'"> </tspan>
+       <tspan x="38.05957" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">l</tspan>
+       <tspan x="39.892456" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">i</tspan>
+       <tspan x="41.725342" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">m</tspan>
+       <tspan x="48.597656" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">i</tspan>
+       <tspan x="50.430542" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">t</tspan>
+       <tspan x="52.722656" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">,</tspan>
+       <tspan x="55.014771" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'"> </tspan>
+       <tspan x="85.490625" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'"> </tspan>
+       <tspan x="87.782739" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">r</tspan>
+       <tspan x="90.530054" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">a</tspan>
+       <tspan x="95.118311" y="-0.171875" style="font-size: 8.2px; font-family: 'Arial'">d</tspan>
+       <tspan x="57.306885" y="-0.171875" style="font-style: italic; font-size: 8.2px; font-family: 'Cambria'">ψ</tspan>
+       <tspan x="64.208203" y="-0.171875" style="font-size: 8.2px; font-family: 'Cambria'">=</tspan>
+       <tspan x="70.094385" y="-0.171875" style="font-size: 8.2px; font-family: 'Cambria'">0</tspan>
+       <tspan x="74.6625" y="-0.171875" style="font-size: 8.2px; font-family: 'Cambria'">.</tspan>
+       <tspan x="76.354395" y="-0.171875" style="font-size: 8.2px; font-family: 'Cambria'">2</tspan>
+       <tspan x="80.92251" y="-0.171875" style="font-size: 8.2px; font-family: 'Cambria'">0</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="panel-c-c-plots-p45a8edf15b">
+   <rect x="31.611969" y="12.883465" width="151.891654" height="49.472504" />
+  </clipPath>
+ </defs>
+</g></g></svg>

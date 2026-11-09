@@ -1,0 +1,255 @@
+{
+  "matrices": {
+    "n_optimized_3x3": 300,
+    "min_numerical_Estar_minus_L": 6.816274222095421e-07,
+    "max_noise_E_increase": -4.641061286414505e-05,
+    "max_cycle_invariance_error": 6.684427777288335e-16,
+    "max_3x3_determinant_identity_error": 5.4001247917767614e-12,
+    "first_five": [
+      {
+        "lower_bound": 0.016690579583619,
+        "numerical_min": 0.26110435891916084,
+        "raw_E": 0.5682822494493518
+      },
+      {
+        "lower_bound": 0.018049856331446283,
+        "numerical_min": 0.06454537871814559,
+        "raw_E": 12.426489247553866
+      },
+      {
+        "lower_bound": 0.009990388108649797,
+        "numerical_min": 0.05524095082178082,
+        "raw_E": 0.5195483350930408
+      },
+      {
+        "lower_bound": 0.0034857127848161172,
+        "numerical_min": 0.027637452238710836,
+        "raw_E": 0.7062900175135152
+      },
+      {
+        "lower_bound": 0.01218527596558397,
+        "numerical_min": 0.2939696654948101,
+        "raw_E": 2.10164667963119
+      }
+    ]
+  },
+  "wishart": [
+    {
+      "K": 1,
+      "wick_error": 6.938893903907228e-18,
+      "exact_real": 1.3325,
+      "exact_imag": -6.938893903907228e-18,
+      "MC_real": 1.3360468279235123,
+      "MC_imag": -5.7367078350482855e-19,
+      "MC_imag_SE": 1.2860531049609472e-18,
+      "max_abs_imag": 1.3432153663802814e-14
+    },
+    {
+      "K": 2,
+      "wick_error": 5.551115123125783e-17,
+      "exact_real": 0.4125,
+      "exact_imag": 0.0225,
+      "MC_real": 0.40965560148454594,
+      "MC_imag": 0.024221357928449046,
+      "MC_imag_SE": 0.0012905279548709463,
+      "max_abs_imag": 27.986249712192873
+    },
+    {
+      "K": 3,
+      "wick_error": 0.0,
+      "exact_real": 0.2152777777777778,
+      "exact_imag": 0.026666666666666665,
+      "MC_real": 0.21758087983607632,
+      "MC_imag": 0.025788940135351015,
+      "MC_imag_SE": 0.0007867582518244702,
+      "max_abs_imag": 5.782407266063295
+    },
+    {
+      "K": 8,
+      "wick_error": 0.0,
+      "exact_real": 0.045703125000000004,
+      "exact_imag": 0.02953125,
+      "MC_real": 0.045487211955356044,
+      "MC_imag": 0.0294959492902492,
+      "MC_imag_SE": 0.00033881151153409845,
+      "max_abs_imag": 1.7714708753793083
+    },
+    {
+      "K": 24,
+      "wick_error": 0.0,
+      "exact_real": 0.001814236111111111,
+      "exact_imag": 0.029947916666666664,
+      "MC_real": 0.001716594572497469,
+      "MC_imag": 0.029947097697861504,
+      "MC_imag_SE": 0.00015871181565052503,
+      "max_abs_imag": 0.48794363105071353
+    }
+  ],
+  "leakage": {
+    "three_channel_results": [
+      {
+        "delay_s": 0,
+        "T_s": 1,
+        "max_abs_expected_closure": 1.6635544590466815e-15,
+        "mean_squared_expected_closure": 1.3337632434376338e-31,
+        "peak_frequency": 7.0
+      },
+      {
+        "delay_s": 0,
+        "T_s": 2,
+        "max_abs_expected_closure": 1.1469602330373888e-15,
+        "mean_squared_expected_closure": 1.4576897628429736e-31,
+        "peak_frequency": 7.0
+      },
+      {
+        "delay_s": 0,
+        "T_s": 4,
+        "max_abs_expected_closure": 2.297006373672121e-15,
+        "mean_squared_expected_closure": 2.9865762032894564e-31,
+        "peak_frequency": 7.0
+      },
+      {
+        "delay_s": 0,
+        "T_s": 8,
+        "max_abs_expected_closure": 3.1090304910163197e-15,
+        "mean_squared_expected_closure": 3.6669316727063944e-31,
+        "peak_frequency": 6.625
+      },
+      {
+        "delay_s": 0,
+        "T_s": 16,
+        "max_abs_expected_closure": 3.64065947581827e-15,
+        "mean_squared_expected_closure": 3.759491961603506e-31,
+        "peak_frequency": 5.25
+      },
+      {
+        "delay_s": 0.025,
+        "T_s": 1,
+        "max_abs_expected_closure": 0.011124566957686157,
+        "mean_squared_expected_closure": 6.346627795999205e-06,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.025,
+        "T_s": 2,
+        "max_abs_expected_closure": 0.008968075075643532,
+        "mean_squared_expected_closure": 1.936006385783735e-06,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.025,
+        "T_s": 4,
+        "max_abs_expected_closure": 0.0052396465120196295,
+        "mean_squared_expected_closure": 3.426449084276072e-07,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.025,
+        "T_s": 8,
+        "max_abs_expected_closure": 0.001679095204102545,
+        "mean_squared_expected_closure": 2.6000474985345305e-08,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.025,
+        "T_s": 16,
+        "max_abs_expected_closure": 0.00043454437594185586,
+        "mean_squared_expected_closure": 1.7108135691545147e-09,
+        "peak_frequency": 9.9375
+      },
+      {
+        "delay_s": 0.125,
+        "T_s": 1,
+        "max_abs_expected_closure": 0.05288962350024412,
+        "mean_squared_expected_closure": 0.00013694684333396485,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.125,
+        "T_s": 2,
+        "max_abs_expected_closure": 0.043596932844731436,
+        "mean_squared_expected_closure": 4.5488538097261155e-05,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.125,
+        "T_s": 4,
+        "max_abs_expected_closure": 0.025876514032010533,
+        "mean_squared_expected_closure": 8.36659050933872e-06,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.125,
+        "T_s": 8,
+        "max_abs_expected_closure": 0.008367661494064597,
+        "mean_squared_expected_closure": 6.45936595578785e-07,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.125,
+        "T_s": 16,
+        "max_abs_expected_closure": 0.0021710191198542872,
+        "mean_squared_expected_closure": 4.270461315019443e-08,
+        "peak_frequency": 9.9375
+      },
+      {
+        "delay_s": 0.5,
+        "T_s": 1,
+        "max_abs_expected_closure": 0.0984857445174942,
+        "mean_squared_expected_closure": 0.0004102093299785702,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.5,
+        "T_s": 2,
+        "max_abs_expected_closure": 0.11100025544371672,
+        "mean_squared_expected_closure": 0.00027407996221606707,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.5,
+        "T_s": 4,
+        "max_abs_expected_closure": 0.08512537312763709,
+        "mean_squared_expected_closure": 9.228939793346988e-05,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.5,
+        "T_s": 8,
+        "max_abs_expected_closure": 0.031777984012649974,
+        "mean_squared_expected_closure": 9.36679446645493e-06,
+        "peak_frequency": 10.0
+      },
+      {
+        "delay_s": 0.5,
+        "T_s": 16,
+        "max_abs_expected_closure": 0.008578417844950385,
+        "mean_squared_expected_closure": 6.670535909494215e-07,
+        "peak_frequency": 9.9375
+      }
+    ],
+    "twelve_channel_2s_delay125ms_mean_v2": 1.3233029264657834e-05,
+    "twelve_channel_2s_delay125ms_peak_abs_v": 0.043596932844731616,
+    "interpretation": "Exact expected finite tapered spectral matrices; infinite independent replica score. This is a stationary Gaussian reversible latent model with post-mixture diagonal pure-delay channel filters and independent sensor noise."
+  },
+  "finite_record_counterexample": {
+    "n_records": 500,
+    "mean": 1.0117296291711353e-05,
+    "SE": 8.66060859923043e-07,
+    "mean_95_normal_CI": [
+      8.41981700626219e-06,
+      1.1814775577160518e-05
+    ],
+    "proportion_positive": 0.706,
+    "first99_mean": 8.87982067742064e-06,
+    "first99_signflip_p": 8e-05,
+    "score_file": "adversarial_M0_60s_scores.npy"
+  },
+  "quadratic_certificate": {
+    "n_cases": 200,
+    "max_quadratic_identity_error": 1.9895196601282805e-13,
+    "max_finite_difference_gradient_error": 1.0714614369355946e-08,
+    "min_shifted_dual_eigenvalue": 1.011465217137797e-12,
+    "max_dual_lower_minus_candidate_upper": -0.001209258849887207
+  }
+}

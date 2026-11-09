@@ -1,0 +1,3 @@
+**Figure S3. General construction and coordinate audit.**
+(a–c) Thirty independent VAR(1) networks at each observed dimension $d=3,6,12$, evaluated at 83 frequencies per network. Each point is one network. The three panels show its maximum relative reconstruction error, minimum latent spectral eigenvalue and maximum observed Gaussian reversal density across the grid. Black marks give medians.
+(d) Six hundred three-channel spectra and their paired real orthogonal rotations, replayed with seed 341903. Changes are rotated minus original. Raw reversal varies at floating-point scale. Phase-relaxed changes are midpoints of numerical primal–dual change intervals, computed with seed 261112. The CSV gives both endpoints. These are floating-point optimization bounds.

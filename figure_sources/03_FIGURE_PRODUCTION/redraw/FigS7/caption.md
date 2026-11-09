@@ -1,0 +1,5 @@
+**Figure S7. Sample complexity at fixed and continuous frequencies.**
+(a) All 12 fixed-grid cells at $b=0.35$, with counts out of 128 independent trajectories per cell.
+(b) Positive-certificate fractions at $b=0.65$ and $0.90$, stratified by maximum delay. The three series have small fixed horizontal offsets for visibility. All lengths within a model–delay setting use the same trajectories. The 24 null cells are supplied as a separate table, with zero positive certificates out of 128 in each cell.
+(c) All 384 continuous-rate estimates, including zeros, from 128 independent long trajectories. Black marks give median and central 95% empirical quantiles. The dashed line gives the common population triangle integral.
+(d) Each thin line links three prefixes of the same trajectory within one delay group (64 per group). Points show deviations from the median for their delay and prefix length, making individual variation visible. The two delay panels use the same units with different vertical limits. Panel (c) uses a symmetric-log scale with a linear region around zero.

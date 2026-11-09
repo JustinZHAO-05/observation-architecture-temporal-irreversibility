@@ -1,0 +1,5 @@
+**Figure S8. EEG selection and observation-coordinate sensitivity.**
+(a) The archived acquisition and QC funnel, counting records and distinct participants at each step. Status OK under both references precedes the restriction to complete windows.
+(b) Observed complete-window membership among the 99 post-pilot participants per eye condition. A complete record has status OK and all 12 predefined windows in each half. The joint cells contain 52 eyes-open and 61 eyes-closed records.
+(c) The mean within-record reference difference for each of the 71 participants, using the matched runs available to that participant. Markers distinguish 29 participants with one matched run and 42 with both.
+(d) The signed contribution of alpha (8 to below 13 Hz) versus full $Q$, across all 226 record–reference combinations. The band contribution uses the full frequency–triplet denominator and equals $10/57$ times the alpha-band mean. The diagonal marks equality with full $Q$. The comparison is exploratory and eye condition follows the source recording order.

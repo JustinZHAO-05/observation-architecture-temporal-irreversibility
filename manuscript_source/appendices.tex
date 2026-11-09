@@ -1,0 +1,149 @@
+\section{Gaussian spectral reversal and the triangle bound}\label{app:triangle}
+
+\subsection{Spectral reversal of a stationary Gaussian process}
+For a real zero-mean stationary Gaussian process, time reversal sends the lag covariance sequence $\Gamma(\ell)$ to $\Gamma(-\ell)=\Gamma(\ell)^\mathsf T$. Its frequency-domain counterpart is the transpose $S^\mathsf T$. The Kullback--Leibler divergence between the corresponding Gaussian spectral modes takes the trace--log-determinant form. The determinant contribution vanishes because $S$ and $S^\mathsf T$ have the same determinant, leaving the density in Eq.~\eqref{eq:1}. Integration over the full angular-frequency circle gives Eq.~\eqref{eq:2} when the reversal rate exists and is finite. For a process possessing additional non-Gaussian structure, this spectral quantity refers to its Gaussian second-order projection.
+
+\subsection{A real-gauge criterion}
+Let $C$ be Hermitian positive definite, with an undirected support graph containing an edge $i\!\leftrightarrow\!j$ whenever $C_{ij}\ne0$. Under $C\mapsto UCU^*$, $U=\mathrm{diag}(e^{i\phi_1},\ldots,e^{i\phi_d})$, an edge phase changes by $\phi_i-\phi_j$. The product around any oriented cycle is unchanged. If a real gauge exists, every such product is real. Conversely, choose a spanning tree in each connected component and define the node phases recursively so that each spanning-tree edge becomes positive real. Every non-tree edge closes a fundamental cycle; if that cycle product is real, its remaining edge becomes real as well. Thus all cycles real is necessary and sufficient for a diagonal unitary gauge making $C$ real. When the graph is complete, triangles generate its cycle space; in sparse graphs, longer cycles must be inspected. A real cycle product may be negative, corresponding to phase $\pi$.
+
+\subsection{Reversal density controls the imaginary spectrum}
+For any fixed phase choice, write $Z=UCU^*=R+iY$ where $R$ is real symmetric positive definite and $Y$ is real skew symmetric. Set $B=R^{-1/2}YR^{-1/2}$. Positive definiteness of $I+iB$ implies that the eigenvalues of $iB$ lie in $(-1,1)$, and those eigenvalues occur in pairs $\pm b_k$. The contribution of a pair to $\mathcal E(Z)$ is
+\begin{equation}
+ \frac12\left[\frac{1+b_k}{1-b_k}+\frac{1-b_k}{1+b_k}-2\right]
+ =\frac{2b_k^2}{1-b_k^2}.
+\end{equation}
+As $\|B\|_F^2=2\sum_k b_k^2$, this yields
+\begin{equation}
+ \mathcal E(Z)\ge\|B\|_F^2
+ \ge \frac{\|Y\|_F^2}{\lambda_{\max}(R)^2}
+ \ge \frac{\|Y\|_F^2}{\lambda_{\max}(C)^2}.
+\end{equation}
+The last inequality uses $\lambda_{\max}(R)\le\lambda_{\max}(Z)=\lambda_{\max}(C)$.
+
+For the three oriented edges of a triangle, let $z_e=r_e e^{i\theta_e}$ with $r_e\ge0$. The absolute sine inequality for a sum of three phases, followed by Cauchy--Schwarz, gives
+\begin{align}
+ |\operatorname{Im}(z_1z_2z_3)|
+ &\le\sum_e \Big(\prod_{j\ne e}r_j\Big)|\operatorname{Im}z_e|,\\
+ [\operatorname{Im}(z_1z_2z_3)]^2
+ &\le\Big(\sum_e\prod_{j\ne e}r_j^2\Big)
+       \Big(\sum_e [\operatorname{Im}z_e]^2\Big).
+\end{align}
+The first factor is precisely $D_\triangle$ and the second is $\|Y\|_F^2/2$. Since both the imaginary cycle and its amplitude products are invariant under the phase gauge, combining the inequalities and minimizing over $U$ establishes Eq.~\eqref{eq:18}. The statement extends to any triangle principal submatrix of a larger spectrum by data processing, but different triangles are statistically dependent and their bounds are not additive.
+
+\subsection{Weak-coherence sharpness}
+Set $r_e=\varepsilon a_e$ with fixed $a_e>0$ and let the cycle phase displacement $\psi$ be small. The leading contribution to the phase-relaxed reversal density is
+\begin{equation}
+ \min_{\theta_1+\theta_2+\theta_3=\psi}
+ 2\sum_e r_e^2\theta_e^2.
+\end{equation}
+By a Lagrange multiplier, $\theta_e=\psi r_e^{-2}/\sum_j r_j^{-2}$. Substitution gives
+\begin{equation}
+ \mathcal E_*(C)=\frac{2\psi^2}{\sum_e r_e^{-2}}[1+o(1)].
+\end{equation}
+The explicit triangle bound has the same leading expression because $\lambda_{\max}(C)\to1$ and $\sin\psi\sim\psi$. Hence the coefficient in Eq.~\eqref{eq:18} is sharp in the stated joint limit. This derivation also identifies the weak-edge allocation of the residual phase.
+
+\section{Detailed construction and positivity of the one-step latent lift}\label{app:lift}
+For the target $S=R+iY$, the matrices $R$ and $Y$ are real, with $R^\mathsf T=R>0$ and $Y^\mathsf T=-Y$. For $s=\sin\omega\ne0$ set $A=R^{-1/2}(Y/s)R^{-1/2}$ and $a=\|A\|_2$. The normal form of a real skew-symmetric matrix implies that the eigenvalues of $iR^{-1/2}YR^{-1/2}$ occur in pairs $\pm\beta_k$. As $S>0$, all satisfy $|\beta_k|<1$; hence $\beta=\max|\beta_k|=|s|a<1$. With $\eta=(1-\beta^2)/2$, $k=(a^2+\eta)/2$, $V=kR$, $J=Y/(2s)$, $Q=-cV+J$, and $P=R+(2c^2-1)V$, the block matrix $G=\left(\begin{smallmatrix}P&Q\\Q^\mathsf T&V\end{smallmatrix}\right)$ is real symmetric.
+
+The identity $HGH^*=S$, with $H=[I,e^{-i\omega}I]$, follows by direct expansion. Positivity follows from the Schur complement. After congruence by $R^{-1/2}$, the Schur complement equals
+\begin{equation}
+ I-s^2kI+\frac{A^2}{4k}.
+\end{equation}
+The spectrum of $A^2$ lies in $[-a^2,0]$. Using $a^2/(4k)<1/2$ and $s^2k\le(1+\beta^2)/4$, we obtain
+\begin{equation}
+ \lambda_{\min}\!\left(I-s^2kI+\frac{A^2}{4k}\right)>
+ \frac{1-\beta^2}{4}>0.
+\end{equation}
+Because $V>0$, this completes the proof of $G>0$.
+
+For a real stationary process $S(-\omega)=\overline{S(\omega)}=S(\omega)^{\mathsf T}$, hence $R$ is even and $Y$ odd. At $\omega=0,\pi$, the imaginary part vanishes. The differentiability assumption provides a finite limit for $Y(\omega)/\sin\omega$ at those points; the limit is real skew symmetric. Every block of $G$ extends continuously and evenly across those points. Strict positive definiteness and compactness then ensure a valid, bounded real even matrix spectrum. Therefore $G$ defines a real stationary reversible Gaussian process with the claimed full observation law.
+
+\subsection{Short-covariance-support example}
+For $K$ and $S_y$ defined in Eq.~\eqref{eq:10}, the positive-definite latent spectrum can be represented by the real covariance polynomial $G(\omega)=G_0+2G_1\cos\omega+2G_2\cos(2\omega)$, with matrices given in Sec.~III.D. These matrices satisfy $G_{-\ell}=G_\ell$ and $G_\ell=0$ for $|\ell|>2$. The observation covariance then has $\Gamma_y(0)=I$, $\Gamma_y(1)=bK/2$, $\Gamma_y(-1)=-bK/2$, and zero higher-lag terms. Thus $S_y(\omega)=I-ib\sin\omega K$ exactly. The finite-block covariance is determined by these terms for every record length $N$.
+
+The observed KL rate of this model is obtained from the two nontrivial spectral eigenmodes of $iK$; using Eq.~\eqref{eq:1}, one finds $\mathcal E(S_y(\omega))=2b^2\sin^2\omega/(1-b^2\sin^2\omega)$. The integral over the frequency circle is
+\begin{equation}
+ \mathcal R_y=2[(1-b^2)^{-1/2}-1],
+\end{equation}
+while the real latent spectrum gives $\mathcal R_x=0$.
+
+\section{Fixed-gain hidden-spectral-power minimization}\label{app:cost}
+Consider $S=I_2+ibJ$, $J^\mathsf T=-J$, $J^2=-I$, and the observation $y=u+e^{-i\theta}v$. A feasible reversible latent spectral matrix has real blocks $G=\left(\begin{smallmatrix}P&Q\\Q^\mathsf T&V\end{smallmatrix}\right)\succeq0$. Every simultaneous planar rotation of $u$ and $v$ leaves the target spectrum invariant. Averaging over these rotations preserves feasibility and the trace objective, reducing the blocks without loss of optimality to $P=pI$, $V=vI$, $Q=qI+jJ$. The observation constraint becomes $p+v+2q\cos\theta=1$ and $2j\sin\theta=b$.
+
+The block matrix is positive semidefinite if and only if $p,v\ge0$ and $pv\ge q^2+j^2$. For fixed $t=p+v$, its largest achievable product $pv=t^2/4$ is attained at $p=v=t/2$. Hence the feasible set is characterized by
+\begin{equation}
+ \frac{t^2}{4}\ge\frac{(1-t)^2}{4\cos^2\theta}
+ +\frac{b^2}{4\sin^2\theta},
+\end{equation}
+whenever $\cos\theta\ne0$. Rearranging yields
+\begin{equation}
+ \sin^2\theta\,t^2-2t+1
+ +\frac{b^2\cos^2\theta}{\sin^2\theta}\le0.
+\end{equation}
+Its two roots are $[1\pm|\cos\theta|\sqrt{1-b^2}]/\sin^2\theta$. The smaller root gives the exact trace minimum, Eq.~\eqref{eq:14}. At $\cos\theta=0$, the real-part constraint directly gives $t=1$, again matching the formula. A feasible positive-semidefinite optimizer is obtained with $p=v=t_{\min}/2$, $j=b/(2\sin\theta)$, and $q=(1-t_{\min})/(2\cos\theta)$ when $\cos\theta\ne0$; the optimal value is continuous, but $q$ has different one-sided limits as $\cos\theta$ changes sign. At $\cos\theta=0$, one may choose $q=0$ and $t=1$. For $b>0$ and $\theta\to0$, expansion of $\cos\theta$ and $\sin\theta$ establishes Eq.~\eqref{eq:15}. The infimum over strictly positive-definite matrices is approached from within the positive-semidefinite feasible set.
+
+\section{Finite-bandwidth closure bias}\label{app:band}
+Let $K_T(\delta)$ be a nonnegative normalized even frequency kernel, and let $\mu_j=\int\delta^j K_T(\delta)d\delta$ denote its moments, with frequency measured in hertz. For each oriented edge $e$, write $z_e(\delta)=r_e(\delta)e^{id_e(\delta)}$ around the center frequency, with $r_e$ real and the cycle constraint $\sum_ed_e(\delta)=0$. Under four continuous derivatives and finite fourth kernel moment,
+\begin{equation}
+ \overline z_e=z_e(0)+\frac{\mu_2}{2}z_e''(0)+\rho_e,
+ \quad|\rho_e|\le \frac{\mu_4}{24}\sup|z_e''''|.
+\end{equation}
+Since $d_e(0)=0$, the imaginary part of $z_e''(0)$ is $2r_e'd_e'+r_ed_e''$. Upon multiplication of the three averaged edges, the $d_e''$ contributions factor as $(\prod_e r_e)\sum_e d_e''$ and cancel. This gives Eq.~\eqref{eq:21}. For an explicit remainder, let $a_e=\mu_4\sup|z_e''''|/24$ and $t_e=\mu_2|z_e''|/2+a_e$. The absolute remainder after subtracting the leading $\mu_2$ term is bounded by
+\begin{equation}
+ \sum_e a_e\prod_{j\ne e}|r_j|+
+ \sum_{e<j}t_et_j|r_k|+\prod_e t_e,
+\end{equation}
+where $k$ is the remaining edge in the middle sum. Division by the positive product of the smoothed autospectra provides a corresponding coherency-cycle control.
+
+For the continuous undetrended Hann window $w(t)=\sin^2(\pi t/T)$ on $[0,T]$, its normalized power-spectrum window has moments
+\begin{equation}
+ \mu_2=\frac{\int_0^T|w'(t)|^2dt}{4\pi^2\int_0^T|w(t)|^2dt}=\frac1{3T^2},
+ \quad\mu_4=\frac1{3T^4}.
+\end{equation}
+The leading imaginary closure bias has order $T^{-2}$ under bounded derivatives, while a product of independent-half means has order $T^{-4}$. Discretization and linear detrending alter the exact window kernel, and are handled by the exact finite-dimensional calculation in the reproducibility package.
+
+\section{Finite-record Gaussian concentration and rate certification}\label{app:finite}
+\subsection{Gaussian quadratic-form bound}
+Let $Z$ be a centered Gaussian vector with covariance $\Sigma\succeq0$ and $\|\Sigma\|_2\le B$. For a real symmetric matrix $A$, diagonalization of $\Sigma^{1/2}A\Sigma^{1/2}$ and a bound on the centered weighted-$\chi^2$ moment-generating function give, for $\nu>0$,
+\begin{equation}
+\begin{aligned}
+ \Pr\!\Big\{&\big|Z^\mathsf TAZ-\mathbb E[Z^\mathsf TAZ]\big|\\
+ &>2B\|A\|_F\sqrt\nu+2B\|A\|_2\nu\Big\}\le2e^{-\nu}.
+\end{aligned}
+\end{equation}
+We employ this conservative specialization of the general Gaussian quadratic-form inequality~\cite{hsu2012}; the symmetric matrix may be indefinite. The stacked record covariance has operator norm at most $B$ by spectral representation and Parseval's identity.
+
+\subsection{Norms of the truncated lag-spectrum kernel}
+For a fixed frequency, the scalar time kernel associated with the lag estimate is
+\begin{equation}
+ K_{ts}=\begin{cases}
+  e^{-i\omega(t-s)}/(N-|t-s|),& |t-s|\le L,\\
+  0,&\text{otherwise}.
+ \end{cases}
+\end{equation}
+Its squared Frobenius norm equals $V_{N,L}=1/N+2\sum_{\ell=1}^L1/(N-\ell)$. Its operator norm is at most $V_{N,L}$ by an absolute row-sum bound. Real and imaginary parts of off-diagonal spectral entries are represented by real symmetric block quadratic forms on the stacked vector of all channels. For each off-diagonal real or imaginary component, these symmetric forms have Frobenius norm at most $\sqrt{V_{N,L}/2}$ and operator norm at most $V_{N,L}/2$. Combining the two component errors by the Euclidean norm yields a radius no larger than Eq.~\eqref{eq:25}. The $d$ real diagonals and $d(d-1)$ off-diagonal real components give $d^2F$ events; their two-sided Gaussian tail bounds and the chosen $\nu$ establish the union bound.
+
+If a constant mean is unknown, global centering replaces the kernel $K$ by $(I-P_0)K(I-P_0)$ for the constant-vector projector $P_0$. Centering contracts its operator and Frobenius norms. The expectation difference is bounded by $3B\|K\|_2$, because
+\begin{equation}
+ (I-P_0)K(I-P_0)-K=-P_0K-KP_0+P_0KP_0,
+\end{equation}
+whose nuclear norm is at most $3\|K\|_2$. Adding $3BV_{N,L}$ to the confidence radius therefore covers the centering bias.
+
+\subsection{Cycle propagation and a continuous-frequency lower sum}
+For estimated cross edges $\hat a,\hat b,\hat c$ with simultaneous error at most $\epsilon$, telescoping gives the product-error bound in Eq.~\eqref{eq:27}. In raw cross-spectral variables the denominator of the coherency triangle inequality becomes
+\begin{equation}
+ |ab|^2p_1p_3+|bc|^2p_1p_2+|ca|^2p_2p_3,
+\end{equation}
+where $p_i=S_{ii}$. Every unknown term can be bounded conservatively with $|\hat a|+\epsilon$ and $\hat p_i+\epsilon$, yielding Eq.~\eqref{eq:28}. A positive certificate has simultaneous coverage at least $1-\alpha$ under the stated external assumptions.
+
+The sampling-error polynomial $Z(\omega)=\hat S_L(\omega)-\mathbb E\hat S_L(\omega)$ has trigonometric degree $L$. For $F$ equally spaced frequencies with $F>\pi L$, the Bernstein inequality $\|Z'\|_\infty\le L\|Z\|_\infty$ gives
+\begin{equation}
+ \|Z\|_\infty\le
+ \frac{\max_{f=1,\ldots,F}|Z(\omega_f)|}{1-\pi L/F}.
+\end{equation}
+The grid confidence bound then implies Eq.~\eqref{eq:31} at all frequencies. Partition the full circle into $M$ cells. The derivative of the empirical spectrum is bounded entrywise by
+\begin{equation}
+ D_{\mathrm{emp}}=\max_{i,j}\sum_{\ell=1}^L
+ \ell\left(|\hat\Gamma_{ij}(\ell)|+|\hat\Gamma_{ji}(\ell)|\right).
+\end{equation}
+Within each cell, adding $\pi D_{\mathrm{emp}}/M$ to the all-frequency radius bounds the difference between its center estimate and any true spectrum in the cell. The raw-cycle certificate supplies a constant lower bound $l_j$ throughout that cell, and their average establishes Eq.~\eqref{eq:32}. For a fixed process with absolutely summable covariance tails, taking $L=L_N$ with $L_N\log L_N/N\to0$ and $T_{L_N}\to0$ gives consistency of the conservative spectral error radius as $N\to\infty$ (with fixed dimension and an appropriately growing frequency grid).

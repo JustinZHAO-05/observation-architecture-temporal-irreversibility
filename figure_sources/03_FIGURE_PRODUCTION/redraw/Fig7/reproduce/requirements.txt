@@ -1,0 +1,2 @@
+-r ../../Fig4/reproduce/requirements.txt
+fonttools==4.68.0

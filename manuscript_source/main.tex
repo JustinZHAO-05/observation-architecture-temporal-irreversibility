@@ -1,0 +1,1639 @@
+\documentclass[aps,pre,reprint,amsmath,amssymb,superscriptaddress]{revtex4-2}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{microtype}
+\hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue,pdftitle={Observation architecture and the identifiability of temporal irreversibility},pdfauthor={Yanzhe Zhao}}
+\setlength{\emergencystretch}{2em}
+\makeatletter
+\AtBeginDocument{\immediate\write\@auxout{\string\citation{apsrev42Control}}}
+\makeatother
+\begin{document}
+\title{Observation architecture and the identifiability of temporal irreversibility}
+\author{Yanzhe Zhao}
+\email{justinzhaoyz@outlook.com}
+\affiliation{School of Future Technology, Tianjin University}
+\date{November 10, 2026}
+\begin{abstract}
+Temporal irreversibility in a recording reflects both latent dynamics and the architecture of observation. For every continuously differentiable, positive-definite spectral matrix of a real stationary Gaussian process, we construct an exactly equivalent observation of a reversible latent process with twice the dimension, a fixed real mixing matrix, and one sample of differential delay. For finite-order target spectra, the latent representation can also have finite covariance support. We derive the minimum hidden spectral-trace cost at a fixed frequency and its broadband optimum in a rotational spectral family, distinguishing fixed-strength short-delay divergence from a finite joint low-frequency limit. Under independent filtering of defined channels, spectral cycles instead preserve a quantitative component of time-reversal asymmetry. We characterize the finite-bandwidth bias of these cycles and construct confidence lower bounds from finite recordings. Independent calibration records yield a spectral upper confidence bound without knowing the normalized spectrum, provided a relative covariance-tail envelope is specified. Simulations quantify calibration, power, and the loss of sensitivity for long correlations. Controlled transformations of an archived EEG recording complement a matched-window cohort illustration of reference sensitivity. These results identify the observation assumptions and quantitative resources that connect an observable time arrow to latent dynamics.
+\end{abstract}
+\maketitle
+
+\section{INTRODUCTION}
+
+Temporal irreversibility describes a fundamental distinction between the forward and time-reversed evolution of a dynamical system. In stochastic dynamics, this distinction can be expressed through the relative probabilities of trajectories and their time-reversed counterparts. The resulting asymmetry provides a quantitative signature of broken time-reversal symmetry and, in systems equipped with an appropriate thermodynamic description, is related to entropy production. Multivariate dynamics are particularly informative because temporal asymmetry may reside in the relationships among variables even when each individual time series is statistically reversible. This has motivated methods that characterize irreversibility through cross-spectral structure, time-lagged correlations, and higher-order interactions, including applications to neural systems in which distributed populations exhibit coordinated activity across multiple spatial and temporal scales \cite{seara2021,nartallo2025,yao2024}.
+
+The dynamics available to an experimenter are shaped by the process of observation. Latent fluctuations may propagate through a physical medium, undergo temporal integration, encounter measurement-dependent delays, and be combined into recorded channels. In neural recordings, these transformations arise from the interaction of physiological signals with the spatial and temporal responses of measurement systems. Consequently, the statistical arrow of time in a recording reflects both the underlying dynamics and the architecture through which those dynamics become observable. A temporally asymmetric cross-correlation, for example, may arise from the interaction of latent variables or from the differential temporal responses through which correlated sources enter the measurement. Understanding the origin of an observed time asymmetry therefore requires characterizing the admissible mapping between latent dynamics and measured signals.
+
+A growing body of work has clarified the relationship between partial observation and irreversible dynamics. Spectral formulations provide a quantitative decomposition of Gaussian time-reversal asymmetry \cite{seara2021}, while studies of incomplete information have demonstrated that reduced observations can conceal nonequilibrium dynamics \cite{lucente2022}. Recent developments in thermodynamic inference have further emphasized the role of memory in defining and estimating time reversal from coarse observations \cite{schwarz2026}. At the same time, multivariate measurements can preserve structures unavailable to scalar observations. Cross-spectral approaches have identified information about shared hidden dynamics under specified channel-separable observation models \cite{bi2026}, and recent methodological work has examined the identification and estimation of directional structure under temporal filtering and sampling \cite{bhandari2026}. Neural latent-variable modeling already exploits temporal delays in Gaussian-process factor models \cite{gokcen2015}, while non-reversible Gaussian-process priors can identify rotational structure from population recordings \cite{rutten2020}. A separate recent calibration analysis addresses two-branch spectral aliasing under bounded phase uncertainty \cite{xu2026}. These neighboring models differ in latent independence, operator structure, and inferential target. Here we allow correlated reversible latent sources, a fixed real mixing operator, and a single differential sample delay, and ask which observed Gaussian laws these assumptions can generate exactly.
+
+Classical matrix spectral factorization realizes Gaussian processes through target-dependent causal filters acting on white innovations~\cite{ephremidze2007,ephremidze2014}. We instead fix the observation operator as $[I,e^{-i\omega}I]$ and construct a positive-definite, reversible latent spectrum for an arbitrary regular target. This fixed-operator representation is the central mathematical distinction. Delayed Gaussian-process factor models~\cite{gokcen2015}, non-reversible latent priors~\cite{rutten2020}, and two-branch spectral calibration~\cite{xu2026} provide complementary approaches with different latent and observation constraints. Their precise assumptions and inferential targets are compared in the Supplemental Material.
+
+A particularly consequential distinction concerns the ordering of temporal filtering and spatial mixing. When independent filters are applied to already defined observation channels, their phases cancel around closed cross-spectral cycles. This property, closely related to closure-phase invariance in interferometry and matrix geometry \cite{thyagarajan2022,chien2016}, preserves a component of multivariate spectral structure. When correlated latent sources instead undergo distinct temporal responses before spatial mixing, the resulting cross spectra combine contributions with different phases. Their imaginary components can encode temporal asymmetry even when the joint latent process is statistically reversible. We ask how broadly this second architecture can reproduce irreversible observations, and whether a simple, finite-memory observation map is sufficient to generate complete observational equivalence.
+
+We establish that the equivalence is remarkably general. For any continuously differentiable, everywhere positive-definite spectral matrix of a real stationary Gaussian process, we construct a correlated, time-reversible latent Gaussian process with twice the observed dimension whose outputs reproduce the prescribed observation law exactly. The observation map consists of a fixed real spatial mixing rule and a differential delay of one sample. The equality holds for the complete stationary Gaussian process and therefore for records of arbitrary length. An exact three-channel realization demonstrates how a process with positive Gaussian time-reversal divergence can share its entire observation law with a reversible latent representation. We then quantify a resource requirement of such representations. In a rotational two-channel spectral block, the minimum hidden spectral power needed to reproduce a prescribed asymmetry under fixed mixing gains increases as the inverse square of the delay phase. This result connects observational equivalence to an explicit physical constraint on admissible representations.
+
+We next identify conditions under which positive inference becomes possible. For independent temporal filtering of defined observation channels, spectral-cycle products retain a phase obstruction to time reversal. We quantify this obstruction through a phase-relaxed Gaussian reversal divergence and derive an explicit, asymptotically sharp triangle lower bound. We then investigate how these population-level properties behave when spectra are estimated from finite recordings. A local expansion identifies the interaction between spectral amplitude variation and differential group delay as a source of finite-bandwidth closure bias. Under externally specified spectral-power and covariance-tail bounds, we obtain simultaneous finite-record confidence intervals and a conservative lower bound on the integrated Gaussian reversal rate. Numerical experiments quantify their validity and sensitivity to signal strength, observation delay, and record length. Finally, we examine how spatial rereferencing changes spectral-cycle statistics in human electroencephalographic recordings. The fixed one-sample equivalence establishes the identification boundary; physical resource constraints and calibrated channelwise spectral certificates then establish distinct, quantitative routes to positive inference.
+
+\section{OBSERVATION ARCHITECTURE AND TEMPORAL ASYMMETRY}
+
+\subsection{Spectral representation of time reversal}
+
+Let \(\mathbf y_t\in\mathbb R^d\) be a centered, real-valued, stationary Gaussian process. We define its lagged covariance and spectral matrix by
+
+\[
+\Gamma_y(\ell)
+=
+\mathbb E[\mathbf y_{t+\ell}\mathbf y_t^{\mathsf T}],
+\]
+
+\[
+S_y(\omega)
+=
+\sum_{\ell\in\mathbb Z}
+\Gamma_y(\ell)e^{-i\ell\omega}.
+\]
+
+We use $A^*$ for the conjugate transpose, $A^{\mathsf T}$ for the transpose, and $\overline A$ for entrywise conjugation. The spectral matrix is Hermitian and satisfies the real-process symmetry
+
+\[
+S_y(-\omega)=\overline{S_y(\omega)}=S_y(\omega)^{\mathsf T}.
+\]
+
+Throughout this work, the observables are even under time reversal. For a centered stationary Gaussian process, statistical time reversibility is equivalent to the symmetry of every lag covariance matrix,
+
+\[
+\Gamma_y(\ell)=\Gamma_y(\ell)^{\mathsf T},
+\]
+
+or, equivalently, to a real spectral matrix at every frequency.
+
+The spectral representation is particularly useful because the finite-dimensional probability distributions of a stationary Gaussian process are fully determined by its mean and covariance. Two centered Gaussian processes with identical spectral matrices therefore possess identical finite-dimensional probability laws.
+
+For a positive-definite spectral matrix \(S\), we use the Gaussian reversal-density functional
+
+\begin{equation}\label{eq:1}
+\boxed{
+\mathcal E(S)
+=
+\frac12
+\left[
+\operatorname{tr}\left((S^{\mathsf T})^{-1}S\right)-d
+\right].
+}
+\end{equation}
+
+The transpose represents the spectral transformation under time reversal. Under the usual integrability conditions, the time-reversal Kullback--Leibler divergence rate is
+
+\begin{equation}\label{eq:2}
+\boxed{
+\mathcal R_y
+=
+\int_{-\pi}^{\pi}
+\mathcal E(S_y(\omega))
+\frac{d\omega}{2\pi}.
+}
+\end{equation}
+
+The rate is expressed in nats per sample. It characterizes the statistical asymmetry between forward and reversed Gaussian trajectories. Its thermodynamic interpretation depends on the physical model used to identify trajectory probabilities with entropy production \cite{seara2021}.
+
+\begin{table*}[t]
+\caption{\label{tab:objects}Distinct observables and inferential targets. Phase relaxation is pointwise in frequency and relative to a nominated channel basis.}
+\begin{ruledtabular}
+\begin{tabular}{p{.13\textwidth}p{.27\textwidth}p{.50\textwidth}}
+Quantity & Object being quantified & Interpretation\\
+$\mathcal E(S_y)$ & Raw observed Gaussian reversal density & Its frequency integral is the observed reversal KL rate; invariant to real invertible instantaneous coordinate changes.\\
+$\mathcal E_*(S)$ & Minimum reversal density over diagonal phases & The component retained by the channelwise phase model; a frequencywise relaxation of physical filter constraints.\\
+$L(C_\triangle)$ & Explicit triangle lower bound & A computable bound on the phase-relaxed quantity and, within Model A, latent reversal density.\\
+$Q$ & Cross-half windowed closure score & A dimensionless sensor-level repeatability statistic combining cycle amplitude and alignment; not a KL rate.\\
+$U_B$ & Independently calibrated spectral upper bound & Conditional on the specified covariance-tail class, covers $\sup_\omega\lambda_{\max}S_y$ with the stated probability.\\
+$\underline{\mathcal R}$ & Integrated confidence lower sum & A lower bound on the phase-relaxed rate and, under Model A, on the latent rate, in nats per sample.\\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+\subsection{Latent dynamics and observation maps}
+
+Suppose a latent stationary process \(\mathbf z_t\) is observed through a linear time-invariant map,
+
+\[
+\mathbf y=\mathcal O[\mathbf z].
+\]
+
+In the frequency domain, the observation spectrum takes the form
+
+\begin{equation}\label{eq:3}
+\boxed{
+S_y(\omega)
+=
+H(\omega)S_z(\omega)H(\omega)^*,
+}
+\end{equation}
+
+where \(H(\omega)\) contains the temporal responses and mixing properties of the observation system.
+
+The inverse problem is to determine which properties of \(S_z\) are constrained by the observed \(S_y\).
+
+The answer depends on the admissible class of transfer matrices \(H\). Different observation architectures can lead to different families of latent processes reproducing the same data.
+
+Table~\ref{tab:models} summarizes the identification regimes distinguished below.
+
+We distinguish two classes.
+
+In the first, independent temporal filters act on already defined channels:
+
+\begin{equation}\label{eq:4}
+\boxed{
+\mathbf y(\omega)
+=
+D(\omega)\mathbf x(\omega),
+}
+\end{equation}
+
+where
+
+\[
+D(\omega)
+=
+\operatorname{diag}
+\left(
+h_1(\omega),\ldots,h_d(\omega)
+\right).
+\]
+
+We refer to this as the \textbf{channelwise observation architecture}, or Model A.
+
+In the second, latent sources undergo source-specific temporal filtering before entering a spatial mixing operator:
+
+\begin{equation}\label{eq:5}
+\boxed{
+\mathbf y(\omega)
+=
+M D_s(\omega)\mathbf z(\omega),
+}
+\end{equation}
+
+where \(M\) is a fixed real mixing matrix and \(D_s(\omega)\) is diagonal in the latent-source coordinates.
+
+We refer to this as the \textbf{source-filter-then-mix architecture}, or Model B.
+
+The distinction becomes apparent if an underlying set of sources is first mapped into defined channels by a matrix \(M_0\). Channelwise filtering then gives \(DM_0\mathbf z\), whereas source-specific filtering followed by mixing gives \(MD_s\mathbf z\). These operations generally produce different cross-spectral structures.
+
+\subsection{Differential temporal responses and correlated sources}
+
+A real instantaneous transformation of a time-reversible Gaussian process preserves time reversibility. Indeed, if \(S_z(\omega)\) is real, then
+
+\[
+MS_z(\omega)M^{\mathsf T}
+\]
+
+is also real for any real mixing matrix \(M\).
+
+Source-specific temporal responses create a different possibility.
+
+Consider correlated latent components whose cross-spectra are real. If the components undergo different temporal responses, their cross spectra acquire frequency-dependent phases. Subsequent spatial mixing combines the delayed and undelayed contributions, allowing imaginary cross-spectral terms to emerge.
+
+Two ingredients are therefore central to this mechanism: cross-source dependence and differential temporal response.
+
+For mutually independent Gaussian latent sources, the latent spectrum is diagonal, and diagonal temporal filtering followed by real mixing produces a real observation spectrum. A common temporal phase across all source filters also preserves a real spectrum. Correlated sources with distinct temporal phases admit a richer class of observations.
+
+This leads to the central identification problem of the paper:
+
+Given a prescribed, temporally irreversible Gaussian observation process, how much of its probability law can be reproduced through the observation of time-reversible latent dynamics?
+
+Figure~\ref{fig:1} juxtaposes the observation architectures with the temporal and spectral statistics used to define the problem.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\linewidth]{figures/fig01.pdf}
+\caption{\label{fig:1}
+\textbf{From temporal structure to observation architecture.} (a) One 25-sample realization of the three-channel Gaussian MA(1) process ($b=0.9$). Exact population lag covariances $\Gamma(1)$, $\Gamma(-1)$, and their antisymmetric difference reveal multichannel time asymmetry; heatmap values are in squared population-standard-deviation units. (b) Real symmetric and imaginary skew-symmetric components of the corresponding spectral matrix at $\omega=\pi/2$ rad/sample, with a complex-plane illustration of individual spectral entries. (c) Model A applies independent temporal filters to defined channels, $\mathbf y=D\mathbf x$. Model B filters correlated latent sources before spatial mixing, $\mathbf y=MD_s\mathbf z$. The illustrated six-dimensional Model-B construction uses direct $u_i(t)$ and one-sample-delayed $v_i(t-1)$ branches to produce $y_i(t)=u_i(t)+v_i(t-1)$; thin undirected lines denote nonzero instantaneous correlations between latent variables.
+}
+\end{figure*}
+
+\begin{table*}[t]
+\caption{\label{tab:models}Observation regimes and the identification questions they support. Model A is the sensor-diagonal architecture; Model B filters correlated latent sources before mixing.}
+\begin{ruledtabular}
+\begin{tabular}{p{0.38\linewidth}p{0.54\linewidth}}
+Observation regime & Identification conclusion \\
+\hline
+Model A, exact population spectra & Spectral cycle phases survive independent channel filtering; a reversal lower bound can be computed.\\
+Model A, unrestricted filter memory and fixed record & Uniform finite-record inference is affected by the delayed-innovation serialization theorem (Supplementary Sec. S2).\\
+Model B with correlated reversible latent components & One-sample differential delay and mixing reproduce the entire Gaussian observation law.\\
+Model A with external spectral/tail bounds & Finite-record and rate confidence certificates are available.\\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+\section{EXACT OBSERVATIONAL EQUIVALENCE FROM A ONE-SAMPLE DELAY}
+
+\subsection{A general reversible representation theorem}
+
+We begin with the principal theoretical result.
+
+\textbf{Theorem 1 (One-sample observational equivalence).}
+
+Let \(S(\omega)\) be a continuously differentiable, \(2\pi\)-periodic spectral matrix of a real, centered, stationary Gaussian process, positive definite at every frequency.
+
+Then there exists a centered, stationary, \(2d\)-dimensional Gaussian process
+
+\[
+\mathbf x_t=
+\begin{pmatrix}
+\mathbf u_t\\
+\mathbf v_t
+\end{pmatrix}
+\]
+
+whose spectral matrix is everywhere real, even, and positive definite, such that the observed process
+
+\begin{equation}\label{eq:6}
+\boxed{
+\mathbf y_t=\mathbf u_t+\mathbf v_{t-1}
+}
+\end{equation}
+
+has spectral matrix exactly equal to \(S(\omega)\).
+
+Consequently, the latent process \(\mathbf x_t\) is statistically time reversible, while the observed process possesses the prescribed Gaussian probability law.
+
+The observation map uses the fixed real mixing matrix
+
+\[
+M=[I,I]
+\]
+
+and source-specific filters consisting of the identity and a one-sample delay.
+
+Theorem 1 establishes an exact equivalence at the level of complete stationary processes. The same constructed latent representation reproduces the target covariance at every lag and hence the joint Gaussian distribution of records of every finite length.
+
+The required temporal transformation is remarkably simple: one group of latent coordinates enters the observation directly, while the other enters after a single sampling interval.
+
+\subsection{Construction of the reversible latent spectrum}
+Write $S=R+iY$, with $R$ real symmetric positive definite and $Y$ real skew symmetric. Set $s=\sin\omega$, $c=\cos\omega$, $A=R^{-1/2}(Y/s)R^{-1/2}$, $a=\|A\|_2$, and $\beta=|s|a<1$. Define
+\[
+ \begin{aligned}\eta&=(1-\beta^2)/2, &k&=(a^2+\eta)/2,\\V&=kR, &J&=Y/(2s).\end{aligned}
+\]
+\[
+ Q=-cV+J,\qquad P=R+(2c^2-1)V.
+\]
+The candidate latent spectrum is
+\begin{equation}\label{eq:7}
+ G(\omega)=\begin{pmatrix}P&Q\\Q^{\mathsf T}&V\end{pmatrix}.
+\end{equation}
+For $H=[I,e^{-i\omega}I]$, direct multiplication gives
+\begin{equation}\label{eq:8}
+ \begin{aligned}HGH^*&=P+V+c(Q+Q^{\mathsf T})\\&\quad+is(Q-Q^{\mathsf T})=S.\end{aligned}
+\end{equation}
+The required positivity follows from the Schur complement
+\begin{equation}\label{eq:9}
+ P-QV^{-1}Q^{\mathsf T}=R-s^2V+JV^{-1}J.
+\end{equation}
+After whitening by $R$, its minimum eigenvalue exceeds $(1-\beta^2)/4>0$. The needed bounds are
+\[a^2/(4k)<1/2,\qquad s^2k\le(1+\beta^2)/4.\]
+Thus $G>0$. Real-process symmetry makes $R$ even and $Y$ odd. At $0$ and $\pi$, differentiability provides finite limits of $Y/\sin\omega$, so all blocks extend continuously to a real even positive-definite spectrum. It defines a reversible stationary Gaussian process, and Eq.~\eqref{eq:8} supplies equality of the complete observed Gaussian laws. Appendix~\ref{app:lift} gives the full positivity and endpoint argument.
+
+\subsection{Mechanism and interpretation}
+
+The construction converts an imaginary antisymmetric component of the target spectrum into the interaction of two features of the latent representation: correlations between latent coordinates and a differential temporal phase.
+
+The latent spectrum \(G\) remains real at every frequency. Its associated stationary Gaussian process therefore has no statistical time arrow.
+
+The observation map applies the phase factor \(e^{-i\omega}\) to one group of latent coordinates and combines both groups through the fixed matrix \([I,I]\). The resulting cross-spectral contributions can acquire an imaginary part, reproducing the target time-reversal structure.
+
+The additional latent dimensions provide the freedom required to encode these contributions while maintaining positive definiteness.
+
+The theorem identifies an observational equivalence class containing latent systems with different time-reversal properties. The observation map is temporally extended: reversing the output changes the temporal operator acting on the reversed latent trajectory. Forward and reversed observations therefore involve distinct measurement channels, resolving the apparent tension with data-processing inequalities applied to a common channel. Statistical reversibility of the latent coordinates specifies their path law; a thermodynamic model of the recording device would be an additional physical description. Within the source-filter-then-mix model class, the full probability law of the recorded process can be consistent with a reversible latent explanation.
+
+The equivalence holds at every lag and for all record lengths. Distinguishing the latent explanations therefore requires information about the observation architecture, latent variables, or admissible model class.
+
+\subsection{An explicit short-range example}
+
+To make the construction concrete, consider the three-channel target
+
+\begin{equation}\label{eq:10}
+\boxed{
+S_y(\omega)=I-ib\sin\omega K,
+}
+\end{equation}
+
+where \(0<b<1\) and
+
+\[
+K=
+\frac1{\sqrt3}
+\begin{pmatrix}
+0&-1&1\\
+1&0&-1\\
+-1&1&0
+\end{pmatrix}.
+\]
+
+The matrix \(K\) is real and skew symmetric, with
+
+\[
+\|K\|_2=1.
+\]
+
+Therefore, \(S_y\) is positive definite for \(0<b<1\).
+
+The target has a Gaussian moving-average realization of order one. Define
+
+\[
+a=\frac{b}{1+\sqrt{1-b^2}},
+\]
+
+\[
+A_0=(I+a^2KK^{\mathsf T})^{-1/2},
+\qquad
+A_1=aA_0K,
+\]
+
+and let
+
+\[
+\mathbf y_t
+=
+A_0\boldsymbol\epsilon_t+
+A_1\boldsymbol\epsilon_{t-1},
+\]
+
+where the innovations are independent standard Gaussian vectors.
+
+A reversible latent realization can be specified through the covariance matrices
+
+\[
+G_0=
+\begin{pmatrix}
+I&-bK/2\\
+bK/2&kI
+\end{pmatrix},
+\]
+
+\[
+G_1=
+\begin{pmatrix}
+0&-kI/2\\
+-kI/2&0
+\end{pmatrix},
+\]
+
+and
+
+\[
+G_2=
+\begin{pmatrix}
+kI/2&0\\
+0&0
+\end{pmatrix},
+\]
+
+where
+
+\[
+k=\frac{1+b^2}{4}.
+\]
+
+All higher-lag covariance matrices vanish and \(G_{-\ell}=G_\ell\). The associated latent spectrum is real, even, and positive definite.
+
+Applying Eq.~\eqref{eq:6} recovers the target spectrum in Eq.~\eqref{eq:10} exactly.
+
+This construction has a particularly simple temporal correlation structure: latent covariances vanish beyond lag two. A stronger representation is available for the entire normalized sine-skew family. For any $d\ge2$, any real skew matrix $K$ with $\|K\|_2=1$, and $0<b<1$, define a \emph{temporally white} correlated Gaussian latent process with instantaneous covariance
+\begin{equation}\label{eq:white_lift}
+ G_{\mathrm{white}}=\frac12
+ \begin{pmatrix}I&-bK\\ bK&I\end{pmatrix}.
+\end{equation}
+Its minimum eigenvalue is $(1-b)/2>0$. With $y_t=u_t+v_{t-1}$, the observed spectrum is $I-ib\sin\omega K$ at every frequency. The result isolates an especially simple mechanism: instantaneous cross-source dependence in temporally white latent dynamics, combined with a one-sample observation delay, generates a positive observed Gaussian reversal rate. This sine-skew construction provides an explicit realization of the broader fixed-operator theorem. We tested this identity in 23,520 dimension--parameter--frequency settings ($d=3,6,12,24$), obtaining a maximum relative spectral error of $1.33\times10^{-16}$ and a minimum latent eigenvalue of $0.05$ across the tested values; see Supplemental Fig.~S9.
+
+At \(b=0.9\), the target observation has Gaussian reversal rate
+
+\begin{equation}\label{eq:11}
+\boxed{
+\mathcal R_y
+=
+2\left[
+(1-b^2)^{-1/2}-1
+\right]
+=
+2.588315
+}
+\end{equation}
+
+nats per sample.
+
+The reversible latent process has
+
+\begin{equation}\label{eq:12}
+\boxed{\mathcal R_x=0.}
+\end{equation}
+
+Numerically, the complete covariance matrix of a 32-sample, three-channel record agrees between the target and constructed observation to double-precision accuracy. Across 513 frequency points, the maximum absolute spectral discrepancy is \(2.25\times10^{-16}\). The smallest latent spectral eigenvalue on this grid is approximately 0.0475.
+
+The observed three-channel spectral cycle has a maximum imaginary magnitude of approximately 0.140296, while the maximum spectral reversal-density value is 8.526316.
+
+These results demonstrate a striking separation between latent and observed time-reversal properties: the observation exhibits a positive Gaussian reversal rate even though its constructed latent source is statistically reversible.
+
+\subsection{Numerical verification across random dynamical systems}
+
+We tested the general construction using 90 stable vector autoregressive networks, with dimensions \(d=3,6,\) and \(12\). Each dimension contained 30 independently generated networks.
+
+For every target spectrum, we constructed the corresponding real latent spectrum and evaluated its positivity and reconstruction accuracy at 83 frequencies.
+
+Across 7,470 network-frequency settings, the maximum relative Frobenius reconstruction error was
+
+\[
+5.83\times10^{-14}.
+\]
+
+The minimum latent spectral eigenvalue across the numerical checks was 0.02065.
+
+Figure~\ref{fig:2} combines the construction, lag covariance asymmetry, full observed-law agreement, and spectral reversal comparison. The theorem establishes the general existence result; the numerical tests assess its computational realization.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.91\linewidth]{figures/fig02.pdf}
+\caption{\label{fig:2}
+\textbf{Exact observational equivalence from a one-sample delay.} (a) Six-dimensional reversible Gaussian latent process $x_t=(u_t,v_t)$; direct and one-sample-delayed branches sum to the three-channel observation $y_i(t)=u_i(t)+v_i(t-1)$. Undirected links indicate cross-covariance, not causal connections. (b) Lag-one covariance matrices, their transposes, and antisymmetric differences for the latent (upper) and observed (lower) processes on one signed scale. The latent difference vanishes; the observed difference is nonzero. (c) Target and constructed full 32-sample covariance matrices, represented by their nonzero lag blocks; the bottom trace gives the maximum residual across all $96\times96$ entries. (d) Observed coherency-cycle imaginary part and Gaussian spectral reversal densities: the constructed observation matches the target spectrum to numerical precision, while the reversible latent rate is zero and the observed reversal rate is $2.588315$ nats/sample ($b=0.9$).
+}
+\end{figure*}
+
+\subsection{Finite-order latent dynamics}
+The general lift also admits a finite-order refinement. If the target spectrum is a strictly positive trigonometric polynomial, a real even positive-definite \emph{polynomial} latent spectrum can reproduce it through the same one-sample observation map. Approximate the continuous block $V$ in the lift uniformly by even Fej\'er polynomials, while enforcing the other blocks through the exact observation identity. Strict positivity persists once the approximation is sufficiently accurate. Matrix spectral factorization then gives a finite-order causal moving-average realization~\cite{ephremidze2007,ephremidze2014}; Appendix~\ref{app:finiteorderR4} gives the proof.
+
+We tested 72 independently generated target spectra with dimensions $2,3,6$ and moving-average orders $1,2,3$. All admitted positive finite-support lifts at tested latent orders between 4 and 34. The maximum relative reconstruction error was $1.22\times10^{-15}$. The all-frequency positivity check uses derivative bounds between grid points. Across these polynomial targets, the construction yields a finite-order reversible representation, with the required latent order determined by the target spectrum.
+
+\subsection{The identification consequence}
+
+The observation map in Eq.~\eqref{eq:6} combines a fixed spatial projection with a one-sample differential delay. Both are simple operations, yet their interaction with correlated latent components produces a broad observational equivalence class.
+
+This result extends the conceptual scope of incomplete-observation problems. Even complete knowledge of a multivariate Gaussian observation law can leave the time-reversal properties of latent dynamics unidentified when the observation architecture permits source-dependent temporal responses followed by mixing.
+
+The result also identifies the information required to make progress: constraints on the latent representation, restrictions on the observation operator, or independently measured quantities that distinguish otherwise equivalent models.
+
+We next investigate one such constraint quantitatively.
+
+\section{THE RESOURCE COST OF OBSERVATIONAL EQUIVALENCE}
+
+\subsection{From existence to constrained realization}
+
+Theorem 1 establishes the existence of reversible latent representations for a broad class of irreversible observations. In a physical system, admissible representations may also be constrained by signal amplitudes, observation gains, response delays, and other measurable resources.
+
+These constraints introduce a second question: what resources are required for a reversible latent system to reproduce a specified temporal asymmetry?
+
+We address this question through a spectral-power optimization that can be solved exactly.
+
+Consider a normalized two-channel target with rotational antisymmetry,
+
+\begin{equation}\label{eq:13}
+\boxed{
+S=I_2+ibJ,
+}
+\end{equation}
+
+where
+
+\[
+J=
+\begin{pmatrix}
+0&1\\
+-1&0
+\end{pmatrix},
+\qquad
+0\le b<1.
+\]
+
+The parameter \(b\) controls the magnitude of the antisymmetric spectral component.
+
+We consider a reversible latent representation with frequency-domain observation map
+
+\[
+\mathbf y=\mathbf u+e^{-i\theta}\mathbf v,
+\]
+
+where \(\theta\) is the differential phase delay and the mixing gains are fixed at unity.
+
+Let
+
+\[
+G=
+\begin{pmatrix}
+P&Q\\
+Q^{\mathsf T}&V
+\end{pmatrix}
+\succeq0
+\]
+
+be the real latent spectral matrix.
+
+The resource to be minimized is the ratio of latent to observed spectral trace,
+
+\[
+t=
+\frac{\operatorname{tr}G}{\operatorname{tr}S}.
+\]
+
+This quantity measures the latent spectral power required by an admissible reversible representation at the selected frequency.
+
+\subsection{Exact minimum-power theorem}
+
+\textbf{Theorem 2 (Minimum hidden spectral power).}
+
+For the target in Eq.~\eqref{eq:13}, fixed unit mixing gains, and \(\sin\theta\ne0\), the minimum latent-to-observed spectral trace ratio over all admissible real positive-semidefinite latent spectra is
+
+\begin{equation}\label{eq:14}
+\boxed{
+t_{\min}(b,\theta)
+=
+\frac{
+1-|\cos\theta|\sqrt{1-b^2}
+}{
+\sin^2\theta
+}.
+}
+\end{equation}
+
+The minimum is attained within the positive-semidefinite class and gives the infimum within the strictly positive-definite class.
+
+This expression provides a sharp resource requirement for a reversible latent explanation of the prescribed rotational spectral asymmetry.
+
+\subsection{Proof by rotational symmetrization}
+
+The target spectrum is invariant under simultaneous planar rotations. We can therefore average any feasible latent spectral matrix over the corresponding rotations of \(\mathbf u\) and \(\mathbf v\).
+
+This averaging preserves positive semidefiniteness, the observation constraint, and the trace objective.
+
+The averaged latent blocks take the form
+
+\[
+P=pI,\qquad
+V=vI,\qquad
+Q=qI+jJ.
+\]
+
+Matching the imaginary component of the target spectrum gives
+
+\[
+j=\frac{b}{2\sin\theta},
+\]
+
+while matching the real component gives
+
+\[
+p+v+2q\cos\theta=1.
+\]
+
+Define
+
+\[
+t=p+v.
+\]
+
+Positive semidefiniteness requires
+
+\[
+pv\ge q^2+j^2.
+\]
+
+Since
+
+\[
+pv\le\frac{t^2}{4},
+\]
+
+with equality at \(p=v=t/2\), feasibility reduces to a scalar inequality.
+
+Substituting the real-part constraint yields
+
+\[
+\sin^2\theta\,t^2
+-
+2t
++
+1+
+\frac{b^2\cos^2\theta}{\sin^2\theta}
+\le0.
+\]
+
+The smaller feasible root is Eq.~\eqref{eq:14}. The special case \(\cos\theta=0\) gives \(t=1\), consistent with the same expression.
+
+This establishes the exact optimum.
+
+\subsection{An inverse-square short-delay cost}
+
+For a fixed nonzero \(b\), the small-delay expansion of Eq.~\eqref{eq:14} gives
+
+\begin{equation}\label{eq:15}
+\boxed{
+t_{\min}(b,\theta)
+\sim
+\frac{
+1-\sqrt{1-b^2}
+}{
+\theta^2
+},
+\qquad \theta\to0.
+}
+\end{equation}
+
+Thus the hidden spectral power required to reproduce a fixed observed antisymmetric component increases quadratically with inverse phase delay.
+
+For example, a target asymmetry of \(b=0.8\) and differential phase \(\theta=0.05\) require
+
+\[
+t_{\min}\approx160.4336.
+\]
+
+This pointwise inverse-square divergence follows a path on which $b$ remains fixed as $\theta\to0$. In a fixed smooth real Gaussian spectrum, the imaginary spectral part vanishes at zero frequency. Along the physically motivated joint path $b(\omega)=\beta\sin\omega$, $\theta=\omega$, the same optimum becomes
+\begin{equation}\label{eq:jointlimit}
+ t_{\min}(\beta\sin\omega,\omega)=
+ \frac{1+\beta^2\cos^2\omega}{1+|\cos\omega|\sqrt{1-\beta^2\sin^2\omega}}
+ \longrightarrow \frac{1+\beta^2}{2}.
+\end{equation}
+Hence the short-delay cost depends on the path through asymmetry--delay space. The fixed-$b$ singular law and the finite joint low-frequency limit are complementary results of the same exact pointwise optimum. A 440-setting numerical check found a maximum relative discrepancy of $2.04\times10^{-7}$ from the joint-limit prediction for $\theta<10^{-3}$; see Supplemental Fig.~S10. This distinction separates a fixed-frequency resource bound from a broadband physical realization.
+
+The normalization of the mixing gains is essential to the resource definition. Under this normalization, the optimization ranges over all admissible latent spectral covariance matrices. The resulting cost provides a sharp constraint on the corresponding class of explanations.
+
+\subsection{An exact broadband optimum}
+For the entire rotational spectrum $S_\beta(\omega)=g(\omega)[I_2+i\beta\sin\omega J]$, with a positive even scalar spectrum $g$, the resource optimum can be realized consistently across frequency. Over real even integrable positive-semidefinite latent spectra and the fixed observation $[I,e^{-i\omega}I]$, the minimum total latent-to-observed trace ratio is
+\begin{equation}\label{eq:broadmain}
+ \mathcal T_{\min}=\frac{\int_{-\pi}^{\pi}g(\omega)f_\beta(\omega)\,d\omega}
+ {\int_{-\pi}^{\pi}g(\omega)\,d\omega},
+\end{equation}
+where $f_\beta$ is the finite joint-limit expression in Eq.~\eqref{eq:jointlimit}. An explicit real even optimizer attains the pointwise minimum almost everywhere. Continuous, strictly positive-definite feasible spectra approach the same integrated value, and each admits a causal square-summable spectral factor (Appendix~\ref{app:broadbandR4}). Thus this is an optimization over valid full-process spectra, with unrestricted causal realization order.
+
+For $\beta=0.8$ and $g=1$, the minimum ratio is $0.854239$, compared with 1 for the white-latent representation. For the normalized AR spectrum with pole 0.8 it is $0.829345$. Fifteen strength--color settings were evaluated by quadrature; their explicit optimizing spectra reproduced the target with maximum elementwise discrepancy $1.78\times10^{-15}$. Fixed-strength divergence and the finite low-frequency path describe different resource questions, while Eq.~\eqref{eq:broadmain} supplies the full-band answer for this specified family.
+
+\subsection{Independent numerical optimization}
+
+We evaluated the analytic minimum against a full-matrix positive-semidefinite cutting-plane linear-programming implementation.
+
+An independent full-matrix constrained solver verified the analytic optimum.
+
+Across 32 parameter settings, the maximum relative numerical bracket width was \(2.31\times10^{-6}\), and the maximum equality-constraint residual was \(6.00\times10^{-15}\).
+
+The numerical results agreed with the analytic prediction across the tested conditions.
+
+The analytic tradeoff, its short-delay limit, and the two-dimensional cost landscape are displayed in Fig.~\ref{fig:3}.
+
+The inverse-square scaling provides a practical direction for constraining observational explanations: independent information about delay phase, mixing gains, and admissible latent spectral power can restrict the reversible representations compatible with a measured time asymmetry.
+
+A complementary route is to restrict the observation architecture itself. We now examine the temporal structure preserved by such restrictions.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\linewidth]{figures/fig03.pdf}
+\caption{\label{fig:3}
+\textbf{Spectral-power cost of observational equivalence.} At one frequency, the target is $S=I_2+ibJ$ and the unit-gain observation is $y=u+e^{-i\theta}v$. (a) Two reversible latent representations produce the same observation at $b=0.8$, with phase delays $\theta=0.80$ and $0.05$ rad. Bars show the minimum latent-to-observed spectral trace ratio on a common logarithmic scale. (b) Exact minimum $t_{\min}$ for four asymmetry strengths, with the $b=0.8$ small-delay asymptote proportional to $|\theta|^{-2}$. (c) Parameter landscape $\log_{10}t_{\min}$ with contours at ratios $1,10,100,1000$. Matched symbols in (a)--(c) indicate the same two configurations. Independent full-matrix numerical checks appear in Fig.~S4.
+}
+\end{figure*}
+
+\section{FILTER-INVARIANT TEMPORAL STRUCTURE}
+
+\subsection{Independent filtering at defined channels}
+
+We return to the channelwise observation architecture,
+
+\[
+\mathbf y(\omega)
+=
+D(\omega)\mathbf x(\omega),
+\]
+
+where \(D(\omega)\) is diagonal.
+
+At a fixed frequency, the observed spectral matrix is
+
+\[
+S_y=DS_xD^*.
+\]
+
+Writing
+
+\[
+h_i=|h_i|e^{i\phi_i},
+\]
+
+the cross spectrum between channels \(i\) and \(j\) acquires a phase shift
+
+\[
+\phi_i-\phi_j.
+\]
+
+This phase transformation has a special property in multichannel recordings: along a closed cycle, all channel-specific phases cancel.
+
+For three channels, define the coherency matrix
+
+\[
+C_{ij}
+=
+\frac{S_{ij}}{\sqrt{S_{ii}S_{jj}}},
+\]
+
+and the triangle product
+
+\begin{equation}\label{eq:16}
+\boxed{
+P=C_{12}C_{23}C_{31}.
+}
+\end{equation}
+
+Under independent channel filtering without additive observation noise, the coherency matrix changes by diagonal unitary congruence,
+
+\[
+C_y=UC_xU^*,
+\]
+
+with \(U\) diagonal and unitary.
+
+Consequently, the three phase contributions around the triangle cancel, leaving \(P\) invariant.
+
+This is a specialization of the closure-phase principle familiar from interferometric measurement and matrix-phase geometry \cite{thyagarajan2022,chien2016}.
+
+For a reversible real Gaussian process, the spectral matrix is real, so every cycle product is real. A nonzero imaginary component of a cycle therefore provides an obstruction to transforming the spectrum into a real matrix using independent channel phases.
+
+\subsection{Phase-relaxed Gaussian reversal divergence}
+
+We quantify the time-reversal structure preserved under channel-specific phase freedom by defining
+
+\begin{equation}\label{eq:17}
+\boxed{
+\mathcal E_*(S)
+=
+\min_{U\in\mathcal U_d}
+\mathcal E(USU^*),
+}
+\end{equation}
+
+where \(\mathcal U_d\) is the group of diagonal unitary matrices.
+
+The quantity \(\mathcal E_*(S)\) represents the minimum Gaussian reversal density remaining after independent phase adjustments at the specified observation channels.
+
+Its definition differs from the raw reversal density in Eq.~\eqref{eq:1}. The latter characterizes the complete temporal asymmetry of the observed process; the former quantifies the component that survives the selected channelwise phase freedom.
+
+The minimum exists because the diagonal phase group is compact.
+
+For a positive-definite Hermitian spectrum, \(\mathcal E_*(S)=0\) exactly when a diagonal unitary transformation can make the spectrum real.
+
+The corresponding matrix-phase characterization can be expressed in terms of its nonzero-support graph: a Hermitian matrix can be made real by diagonal unitary congruence if all cycle products in that graph are real.
+
+For a complete support graph, triangle cycles suffice. In sparse graphs, longer cycles may carry additional information.
+
+Thus spectral cycles provide the geometric obstruction associated with the phase-relaxed reversal quantity.
+
+\subsection{A quantitative triangle lower bound}
+
+An observable cycle obstruction becomes especially useful when it can be converted into a quantitative bound.
+
+For a positive-definite three-channel coherency matrix \(C\), let
+
+\[
+a=C_{12},\qquad
+b=C_{23},\qquad
+c=C_{31},
+\]
+
+and define
+
+\[
+D_\triangle
+=
+|ab|^2+|bc|^2+|ca|^2.
+\]
+
+\textbf{Theorem 3 (Triangle reversal bound).}
+
+For every positive-definite three-channel coherency matrix,
+
+\begin{equation}\label{eq:18}
+\boxed{
+\mathcal E_*(C)
+\ge
+\frac{
+2[\operatorname{Im}(abc)]^2
+}{
+\lambda_{\max}(C)^2D_\triangle
+}.
+}
+\end{equation}
+
+When \(D_\triangle=0\), the right-hand side is defined as zero.
+
+The numerator measures the nonreal part of the invariant cycle product. The denominator incorporates the strengths of the three coherent relationships and the spectral scale of the matrix.
+
+The bound holds after minimization over all independent channel phases.
+
+To see the mechanism of the proof, write a phase-transformed coherency matrix as
+
+\[
+Z=UCU^*=R+iY,
+\]
+
+where \(R\) is real symmetric and \(Y\) is real skew symmetric.
+
+The Gaussian reversal density controls the size of the antisymmetric spectral component through
+
+\[
+\mathcal E(Z)
+\ge
+\frac{\|Y\|_F^2}{\lambda_{\max}(C)^2}.
+\]
+
+The imaginary part of the triangle product is bounded by the phase components of its three edges. Using the triangle inequality for their phase sines and Cauchy--Schwarz gives
+
+\[
+\|Y\|_F^2
+\ge
+\frac{
+2[\operatorname{Im}(abc)]^2
+}{
+D_\triangle
+}.
+\]
+
+Combining these inequalities yields Eq.~\eqref{eq:18} for every diagonal phase transformation, and therefore for their minimum.
+
+The theorem transforms a geometric obstruction into a computable lower bound on phase-relaxed reversal density.
+
+\subsection{The weakest-link mechanism}
+
+The triangle bound also has a useful asymptotic interpretation.
+
+Let the three coherency magnitudes be
+
+\[
+r_1,\ r_2,\ r_3,
+\]
+
+and let \(\psi\) be a small displacement of the triangle phase from a real cycle.
+
+In the joint weak-coherence and weak-phase regime,
+
+\begin{equation}\label{eq:19}
+\boxed{
+\mathcal E_*(C)
+\sim
+\frac{
+2\psi^2
+}{
+r_1^{-2}+r_2^{-2}+r_3^{-2}
+}.
+}
+\end{equation}
+
+The same leading expression is obtained from Eq.~\eqref{eq:18}, establishing asymptotic sharpness of its coefficient.
+
+This relation reveals how the irreversible phase mismatch is distributed across the edges.
+
+When minimizing reversal density over channel phases, larger residual phase adjustments can be assigned to weaker coherency edges at lower cost. As a result, the weakest edge can dominate the amount of temporal structure certified by the triangle.
+
+The quantity is therefore determined jointly by cycle phase and coherency geometry.
+
+\subsection{From observed cycles to latent reversal}
+
+Within the channelwise observation class, the phase-relaxed quantity is invariant under invertible independent channel filters without additive observation noise.
+
+Independent diagonal observation noise contracts the relevant Gaussian reversal divergence through data processing. This gives
+
+\begin{equation}\label{eq:20}
+\boxed{
+\mathcal E_*(S_y)
+\le
+\mathcal E_*(S_x)
+\le
+\mathcal E(S_x).
+}
+\end{equation}
+
+Thus the observable phase-relaxed reversal density bounds the corresponding latent Gaussian reversal density from below.
+
+The result is tied to the specified observation architecture. In particular, it uses the channel basis on which the independent filters act.
+
+For any invertible real instantaneous transformation \(M\), the raw reversal density satisfies
+
+\[
+\mathcal E(MSM^{\mathsf T})
+=
+\mathcal E(S).
+\]
+
+The phase-relaxed quantity has a different transformation property because the admissible diagonal phase group depends on the chosen coordinates.
+
+This distinction can be demonstrated in the three-channel model of Section III. At \(b=0.9\) and \(\omega=\pi/2\), an orthogonal change of coordinates preserves the raw reversal density at 8.526316, while transforming the triangle lower bound from 0.049861 to zero.
+
+Across 600 random orthogonal transformations, the maximum numerical discrepancy in the raw reversal density was \(1.60\times10^{-14}\).
+
+The phase-relaxed quantity is therefore associated with a spectrum together with a specified channelwise observation model.
+
+Figure~\ref{fig:4} shows phase cancellation, the analytic triangle bound, and the weakest-coherence-edge mechanism.
+
+The population result provides an exact statement about retained spectral structure. Applying it to recorded data requires a corresponding treatment of finite-window estimation and statistical uncertainty.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\linewidth]{figures/fig04.pdf}
+\caption{\label{fig:4}
+\textbf{Filter-invariant cycles and quantitative reversal bounds.} (a) Independent channel filters rotate individual coherency phases, but their increments cancel around a three-channel cycle. The complex phasors and frequency-dependent closure phases are shown before and after filtering. (b) Numerically minimized phase-relaxed Gaussian reversal density $\mathcal E_*$ and its analytic triangle lower bound for equal coherency magnitudes $r_{ij}=0.30$; the inset tests asymptotic sharpness as $r_{ij}=\psi\to0$. Both $\psi=0$ and $\psi=\pi$ correspond to real cycles. (c) Weakening one edge ($r_{12}=r_{23}=0.12$, $r_{31}=0.12,0.06,0.024$, $\psi=0.20$ rad) shifts the optimal residual phase toward that edge and reduces the minimized reversal density. Symbols match the analytic weak-coherence prediction.
+}
+\end{figure*}
+
+\section{FROM POPULATION IDENTIFIABILITY TO FINITE-RECORD INFERENCE}
+
+\subsection{Finite-bandwidth distortion of spectral cycles}
+
+Population closure invariance concerns cross spectra evaluated at an exact frequency.
+
+Finite recordings require spectral estimation, typically involving a temporal window and the resulting averaging of neighboring population frequencies.
+
+These operations change the behavior of the closure product.
+
+For channelwise filtering, independent phases cancel when the three cross spectra are multiplied at the same exact frequency. When each cross spectrum is averaged separately over a frequency band, multiplication combines spectral contributions from different frequencies. Their mixed-frequency products generate additional terms outside the exact-frequency cancellation identity.
+
+We quantify this effect through a local frequency expansion.
+
+Let \(K(\delta)\) be a normalized symmetric frequency kernel, with second and fourth moments \(\mu_2\) and \(\mu_4\).
+
+After removing the channel phases at the central frequency, write each of the three spectral edges locally as
+
+\[
+z_e(\delta)
+=
+r_e(\delta)e^{id_e(\delta)},
+\]
+
+where \(r_e\) is real, \(d_e(0)=0\), and
+
+\[
+\sum_e d_e(\delta)=0.
+\]
+
+Assuming bounded fourth derivatives, symmetric kernel averaging gives
+
+\[
+\overline z_e
+=
+r_e+
+\frac{\mu_2}{2}z_e''
++
+O(\mu_4).
+\]
+
+The imaginary part of the second derivative contains
+
+\[
+2r_e'd_e'+r_ed_e''.
+\]
+
+Upon multiplying the three averaged edges, the phase-curvature terms cancel because their sum around the cycle vanishes. The leading term is
+
+\begin{equation}\label{eq:21}
+\boxed{
+\operatorname{Im}
+\prod_e\overline z_e
+=
+\mu_2
+\sum_e
+\left(
+\prod_{j\ne e}r_j
+\right)
+r_e'd_e'
++
+O(\mu_4+\mu_2^2).
+}
+\end{equation}
+
+The expression identifies an interaction between the frequency dependence of spectral amplitudes and the slopes of channel-phase differences.
+
+For the continuous, undetrended Hann window
+
+\[
+w(t)=\sin^2\left(\frac{\pi t}{T}\right),
+\]
+
+the frequency-kernel moments, expressed using frequencies in hertz, satisfy
+
+\[
+\mu_2=\frac1{3T^2},
+\qquad
+\mu_4=\frac1{3T^4}.
+\]
+
+Under fixed smoothness and power bounds, the imaginary closure bias therefore scales as
+
+\[
+T^{-2},
+\]
+
+and the corresponding squared independent-half population score scales as
+
+\[
+T^{-4}.
+\]
+
+The bias has a precise observational origin: spectral amplitude variation interacts with differential group delay within the estimator's bandwidth.
+
+\subsection{A reversible-latent counterexample}
+
+We constructed a targeted counterexample containing two reversible Gaussian oscillatory sources, real spatial mixing, differential observation delays, and independent measurement noise.
+
+The oscillatory components were centered at 9.75 and 10.25 Hz. Selected observation channels had an additional delay of 125 ms.
+
+We analyzed simulated records using the same two-second windowing, detrending, frequency band, and triangle-statistic construction employed in the original EEG analysis.
+
+The exact finite-window calculation produced a maximum imaginary closure magnitude of 0.04360 and a mean-squared imaginary closure of approximately
+
+\[
+1.3233\times10^{-5}.
+\]
+
+Across 500 simulated 60-second records, the mean cross-half score was approximately
+
+\[
+1.0117\times10^{-5}.
+\]
+
+The frozen test applied to the initial 99 records returned
+
+\[
+p=0.00008.
+\]
+
+The nominal sign-flip test therefore rejects a score-symmetry null in a model with reversible latent dynamics and real population closure. Its randomization reference distribution assumes symmetry of participant-level signed scores, including the requisite joint-conjugation and between-half conditions. Spectral tapering under structured filtering changes that score distribution. The false attribution concerns latent reversibility under unknown filtering; the observed process itself may have positive raw reversal divergence.
+
+The result identifies why cross-half replication alone provides an incomplete calibration of the population invariant. Independent measurement noise is reduced by cross-half multiplication, while a reproducible spectral-window bias remains.
+
+The bias also followed the predicted window-length scaling. For the exact discrete calculation, the mean-squared closure ratio between 16- and 32-second windows was approximately 15.48, approaching the predicted factor of 16.
+
+This links the analytic bandwidth expansion to the nominal rejection of a reversible-latent model under a sign-flip calibration that omits the observation mechanism. The reported $p$ value belongs to that score-symmetry test; full reversal symmetry of the observed process is a distinct hypothesis.
+
+We isolated the two leading ingredients in a controlled local spectral model. Three off-diagonal coherences with base magnitude $0.13$ were assigned edge phase slopes $(-2,3,-1)$, which sum to zero, and amplitude slopes $(1,-0.6,0.2)$. The resulting $3\times3$ spectra were positive definite throughout the averaging interval (minimum numerical eigenvalue above $0.85$). A compact symmetric averaging kernel generated a nonzero imaginary cycle, with leading $h^2/3$ prediction accurate within $0.005\%$ at halfwidth $h=0.005$. Removing either amplitude slopes or differential phase slopes reduced the computed imaginary cycle to numerical zero. This positive-definite mechanism ablation supports the analytic amplitude-slope--phase-slope coupling; see Supplemental Fig.~S11. Figure~\ref{fig:5} traces the finite-window bias from its source to its statistical consequence.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.91\linewidth]{figures/fig05.pdf}
+\caption{\label{fig:5}
+\textbf{Finite bandwidth generates repeatable apparent closure.} (a) Multiplication of cross spectra at each exact frequency followed by averaging gives a real closure under the reversible-latent null; separately averaging the cross spectra before multiplication produces a nonzero imaginary cycle. Points are exact detrended-window expectations. (b) Two reversible oscillatory sources at $9.75$ and $10.25$ Hz, the two-second Hann response, and differential phase slopes produced by channel delays $(0,125,0)$ ms explain the amplitude-slope--phase-slope interaction. (c) Exact discrete-window calculations show closure bias approaching $T^{-2}$ and squared cross-half bias approaching $T^{-4}$. (d) Scores from 500 independent simulated 60-s records; the mean is $1.0117\times10^{-5}$. The frozen nominal sign-flip test on the first 99 records yields $p=0.00008$ despite the reversible latent dynamics.
+}
+\end{figure*}
+
+\subsection{Quantitative conditions for reliable inference}
+
+The finite-window analysis motivates explicit control of spectral estimation error.
+
+We now return to the channelwise observation architecture and assume that the observed process is stationary Gaussian with externally supplied bounds
+
+\begin{equation}\label{eq:22}
+\boxed{
+\sup_\omega
+\lambda_{\max}(S_y(\omega))
+\le B
+}
+\end{equation}
+
+and
+
+\begin{equation}\label{eq:23}
+\boxed{
+T_L
+\ge
+\max_{i,j}
+\sum_{|\ell|>L}
+|\Gamma_{ij}(\ell)|.
+}
+\end{equation}
+
+The first bound controls the observed spectral power. The second controls the covariance remaining beyond a selected truncation lag \(L\).
+
+Together, they constrain the random estimation error and spectral truncation error.
+
+For \(0\le L<N\), define the unbiased lag-covariance estimator
+
+\[
+\widehat\Gamma(\ell)
+=
+\frac1{N-\ell}
+\sum_{t=1}^{N-\ell}
+\mathbf y_{t+\ell}\mathbf y_t^{\mathsf T},
+\]
+
+and construct
+
+\begin{equation}\label{eq:24}
+\boxed{
+\widehat S_L(\omega)
+=
+\widehat\Gamma(0)
++
+\sum_{\ell=1}^{L}
+\left[
+\widehat\Gamma(\ell)e^{-i\ell\omega}
++
+\widehat\Gamma(\ell)^{\mathsf T}e^{i\ell\omega}
+\right].
+}
+\end{equation}
+
+The estimator is Hermitian. Its finite-sample realization need not be positive semidefinite; the subsequent confidence construction accounts for this possibility.
+
+\subsection{A simultaneous finite-record spectral bound}
+
+\textbf{Theorem 4 (Simultaneous spectral confidence bound).}
+
+Let \(F\) frequencies be fixed in advance and define
+
+\[
+V_{N,L}
+=
+\frac1N+
+2\sum_{\ell=1}^{L}\frac1{N-\ell},
+\]
+
+\[
+\nu=
+\log\left(\frac{2d^2F}{\alpha}\right).
+\]
+
+Under Eqs.~\eqref{eq:22} and~\eqref{eq:23}, define
+
+\begin{equation}\label{eq:25}
+\boxed{
+\epsilon=
+2B
+\left[
+\sqrt{V_{N,L}\nu}
++
+V_{N,L}\nu
+\right]
++
+T_L.
+}
+\end{equation}
+
+Then, with probability at least \(1-\alpha\),
+
+\begin{equation}\label{eq:26}
+\boxed{
+|\widehat S_{ij}(\omega_f)-S_{ij}(\omega_f)|
+\le\epsilon
+}
+\end{equation}
+
+simultaneously for every matrix entry and every selected frequency.
+
+The proof uses the concentration of Gaussian quadratic forms applied to the complete correlated time record.
+
+The stacked covariance matrix has operator norm at most \(B\). Each estimated spectral entry can be represented by a quadratic form with a time-domain kernel whose squared Frobenius norm is controlled by \(V_{N,L}\).
+
+A union bound over the selected matrix entries and frequencies establishes the simultaneous radius.
+
+The construction accounts for dependence between adjacent observations and overlapping covariance lags.
+
+If the process has an unknown constant mean, subtraction of the global sample mean is accommodated by adding
+
+\[
+3BV_{N,L}
+\]
+
+to the confidence radius.
+
+The resulting guarantee applies to fixed choices of \(N\), \(L\), and frequency set.
+
+\subsection{Propagating spectral uncertainty to irreversible structure}
+
+For a three-channel spectral submatrix, write the estimated raw cross-spectral entries as
+
+\[
+\widehat a=\widehat S_{12},\qquad
+\widehat b=\widehat S_{23},\qquad
+\widehat c=\widehat S_{31}.
+\]
+
+On the simultaneous confidence event, the uncertainty in their product is bounded by
+
+\begin{equation}\label{eq:27}
+\begin{aligned}
+\Delta_P={}&
+\epsilon
+\left(
+|\widehat a\widehat b|
++
+|\widehat b\widehat c|
++
+|\widehat c\widehat a|
+\right)\\
+&+
+\epsilon^2
+\left(
+|\widehat a|+
+|\widehat b|+
+|\widehat c|
+\right)
++
+\epsilon^3.
+\end{aligned}
+\end{equation}
+
+Define the nonnegative residual
+
+\[
+r=
+\left(
+|\operatorname{Im}(\widehat a\widehat b\widehat c)|
+-\Delta_P
+\right)_+.
+\]
+
+Let
+
+\[
+a^+=|\widehat a|+\epsilon,
+\]
+
+with analogous definitions for \(b^+\) and \(c^+\), and let
+
+\[
+p_i^+=\widehat S_{ii}+\epsilon.
+\]
+
+Set
+
+\[
+\begin{aligned}
+D^+={}&
+(a^+b^+)^2p_1^+p_3^+
++
+(b^+c^+)^2p_2^+p_1^+\\
+&+
+(c^+a^+)^2p_3^+p_2^+.
+\end{aligned}
+\]
+
+A conservative phase-relaxed reversal-density certificate is then
+
+\begin{equation}\label{eq:28}
+\boxed{
+\underline{\mathcal E}_*
+=
+\frac{2r^2}{9D^+},
+}
+\end{equation}
+
+with value zero when the required power or denominator bounds are invalid.
+
+This certificate follows by expressing the triangle bound in terms of raw spectral entries and replacing each uncertain quantity with an appropriate conservative bound.
+
+The simultaneous spectral confidence event therefore implies a valid lower bound on phase-relaxed reversal density.
+
+Under the channelwise filtering and independent diagonal observation-noise assumptions, Eq.~\eqref{eq:20} further connects this bound to the latent Gaussian reversal density.
+
+\subsection{Record-length requirements and continuous-frequency inference}
+
+The ability to produce a positive certificate depends on the strength of the coherent relationships and the amount of uncertainty remaining after estimation.
+
+For equal coherence magnitudes \(r_0\), unit spectral powers, and closure phase \(\psi\), a sufficient condition for a positive certificate is
+
+\begin{equation}\label{eq:29}
+\epsilon
+<
+\frac{r_0}{2}
+\left[
+(1+|\sin\psi|)^{1/3}-1
+\right].
+\end{equation}
+
+For weak phase displacement, this threshold is approximately
+
+\[
+\frac{r_0|\psi|}{6}.
+\]
+
+With negligible covariance-tail error and \(L\ll N\), the corresponding sufficient sample-length scaling is
+
+\begin{equation}\label{eq:30}
+\boxed{
+N=
+O\left(
+\frac{
+B^2(2L+1)\log(d^2F/\alpha)
+}{
+r_0^2\psi^2
+}
+\right).
+}
+\end{equation}
+
+This relation makes the statistical cost of identifying weak closure structure explicit.
+
+A positive pointwise bound can also be converted into a lower bound on the integrated reversal rate.
+
+The sampling-error part of Eq.~\eqref{eq:24} is a trigonometric polynomial of degree \(L\). For a uniform frequency grid with \(F>\pi L\), the standard Bernstein inequality provides
+
+\[
+\|Z\|_\infty
+\le
+\frac{
+\max_f|Z(\omega_f)|
+}{
+1-\pi L/F
+}.
+\]
+
+This yields an all-frequency confidence radius
+
+\begin{equation}\label{eq:31}
+\boxed{
+\epsilon_\infty
+=
+\frac{
+2B\left[
+\sqrt{V_{N,L}\nu}
++
+V_{N,L}\nu
+\right]
+}{
+1-\pi L/F
+}
++
+T_L.
+}
+\end{equation}
+
+After partitioning the frequency interval into \(M\) cells and including the variation of the estimated spectrum within each cell, we obtain conservative local lower bounds \(l_j\).
+
+Their integrated lower sum is
+
+\begin{equation}\label{eq:32}
+\boxed{
+\underline{\mathcal R}
+=
+\frac1M\sum_{j=1}^{M}l_j
+\le
+\int_{-\pi}^{\pi}
+\mathcal E_*(S_y(\omega))
+\frac{d\omega}{2\pi}.
+}
+\end{equation}
+
+The inequality holds on the same simultaneous confidence event.
+
+Thus quantitative regularity information about the observed process can be transformed into a statistically certified lower bound on its integrated phase-relaxed reversal rate.
+
+\subsection{Numerical validity and detection power}
+
+We evaluated the finite-record construction in five Gaussian model families: two reversible correlated null models and three asymmetric MA(1) alternatives with \(b=0.35\), \(0.65\), and \(0.9\).
+
+We considered channel-delay patterns
+
+\[
+(0,0,0),\qquad
+(0,1,2),\qquad
+(0,4,8),
+\]
+
+and record lengths
+
+\[
+N=2048,\ 8192,\ 32768,\ 131072.
+\]
+
+Each model-delay condition contained 128 independently generated longest trajectories. Shorter records were taken as nested prefixes of those trajectories.
+
+The fixed-frequency study comprised 7,680 analyses from 1,920 independent trajectories.
+
+Across the evaluated conditions, all computed spectral error envelopes contained their corresponding population spectra, and all returned reversal certificates remained below the analytic population triangle bounds.
+
+All 3,072 null analyses returned a zero certificate.
+
+For a single condition with 128 independent repetitions, the observation of zero positive certificates gives a two-sided 95\% Clopper--Pearson upper endpoint of approximately 2.84\% for the rejection probability.
+
+The formal confidence theorem supplies the nominal error guarantee; the simulations assess its finite-sample implementation.
+
+Detection power depended strongly on signal strength, channel delay, and record length.
+
+For the strongest alternative, \(b=0.9\), the no-delay condition produced positive pointwise lower bounds in all 128 repetitions at \(N=32768\).
+
+With maximum channel delay eight, all 128 repetitions returned positive bounds at \(N=131072\).
+
+Several weaker conditions retained zero detection power over the tested length range, including \(b=0.35\) with maximum delay two or eight, and \(b=0.65\) with maximum delay eight.
+
+These results quantify the conservative nature of the confidence procedure and the additional record length required when the identifiable spectral structure is weak.
+
+To replace oracle-supplied scale information with an independent calibration record, we also analyzed a restricted, fully specified Gaussian MA(1) shape family $S_y(\omega)=\sigma^2 S_0(\omega)$ with unknown scale $\sigma^2$. For an independent calibration record of length $m$ whose normalized $md\times md$ covariance $\Sigma_0$ is known, the quadratic statistic $Q=z^\mathsf T\Sigma_0^{-1}z$ obeys $Q/\sigma^2\sim\chi^2_{md}$. Hence $U=Q/\chi^2_{\alpha_{\rm cal},md}$ is a one-sided upper confidence bound for $\sigma^2$. Using $B=U\sup_\omega\lambda_{\max}(S_0)$ and $T_L=0$ for the known MA(1) support, the calibration and test error budgets are combined by $\alpha_{\rm cal}+\alpha_{\rm test}=0.05$. Test records were independent of calibration records. In 90 independent test trajectories per condition, the strong alternative ($b=0.9$, $N=32768$) yielded positive certificates in 15/90, 59/90, and 79/90 runs as calibration length increased from $m=16$ to $64$ and $128$; the known-scale reference gave 90/90. The reversible null had 0/90 positives at each calibration length, and every returned bound was below the analytic population bound. This known-shape experiment establishes the power cost of estimating scale from an independent calibration record (Supplemental Fig.~S12). The next section extends the procedure to unknown normalized spectra within specified dependence classes.
+
+\subsection{Integrated-rate validation}
+
+We also tested the continuous-frequency certificate for the strong alternative \(b=0.9\).
+
+The experiment used 128 independent longest trajectories, 64 for each of two delay conditions. Three nested record lengths were analyzed per trajectory, giving 384 analyses.
+
+The full continuous-frequency certificate outcomes are tabulated in Table~\ref{tab:rate}.
+
+The corresponding population triangle integral was approximately
+
+\[
+0.02977
+\]
+
+in both delay conditions, whereas the unrelaxed observed Gaussian reversal rate was
+
+\[
+2.588315
+\]
+
+nats per sample.
+
+For the no-delay condition, the median certified rate increased from zero at \(N=32768\) to
+
+\[
+0.002067
+\]
+
+at \(N=131072\), and
+
+\[
+0.008313
+\]
+
+at \(N=524288\).
+
+For the maximum-delay-eight condition, the median certificate remained zero at \(N=131072\). At \(N=524288\), all 64 repetitions produced positive certificates, with median
+
+\[
+0.000256.
+\]
+
+These results demonstrate how increasing record length can recover a positive guaranteed lower rate within the calibrated model class.
+
+Additional numerical checks compared independently implemented covariance estimators, tested general Hermitian perturbations, and examined unknown-mean corrections. The largest discrepancy between the lag-loop estimator and an independently constructed full time-domain quadratic-form implementation was \(8.94\times10^{-16}\).
+
+Together, the theoretical and computational results establish a route from population-level spectral invariants to finite-record statistical guarantees. The estimator construction and its finite-sample performance are summarized in Fig.~\ref{fig:6}.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.91\linewidth]{figures/fig06.pdf}
+\caption{\label{fig:6}
+\textbf{Calibrated inference of temporal irreversibility.} (a) A single simulated Gaussian MA(1) record ($b=0.9$) illustrates the sequence from time series and lag-covariance truncation to a simultaneous spectral error envelope, a positive raw-cycle excess, and a cellwise integrated reversal-rate lower bound. The generating model supplies $B=1.9$, $T_L=0$ and $1-\alpha=0.95$; the illustrated rate certificate is $0.008317$ nats/sample. (b) Detection fractions for three asymmetric alternatives over record length and maximum channel delay. Each cell uses 128 independent longest trajectories; shorter lengths are nested prefixes. The two reversible null families produce no positive certificates among 3,072 analyses. (c) Continuous-frequency certified rate for $b=0.9$: each delay condition has 64 independent longest trajectories observed at three nested lengths. Symbols are individual estimates; black marks show medians and 10th--90th percentiles; the gray line is the population triangle integral $0.02977$ nats/sample.
+}
+\end{figure*}
+
+\begin{table*}[t]
+\caption{\label{tab:rate}Continuous-frequency certificates for the strong asymmetric model ($b=0.9$). Each condition has 64 independent longest trajectories; shorter prefixes reuse those trajectories. The median rate lower bound is in nats per sample.}
+\begin{ruledtabular}
+\begin{tabular}{rrrr}
+Maximum delay & Samples & Positive /64 & Median lower rate\\
+\hline
+0 & 32768 & 3 & 0\\
+0 & 131072 & 64 & 0.002067\\
+0 & 524288 & 64 & 0.008313\\
+8 & 32768 & 0 & 0\\
+8 & 131072 & 0 & 0\\
+8 & 524288 & 64 & 0.000256\\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+\subsection{Independent calibration without a known spectral shape}\label{sec:unknowncalR4}
+The preceding simulations supplied $B$ from the generating model. We now remove knowledge of the normalized spectrum. Suppose a deterministic dependence-class constraint gives $T_L\le\tau_L B_*$, where $B_*=\sup_\omega\lambda_{\max}S(\omega)$ is unknown. An independent calibration record of length $m$ yields an upper confidence bound for $B_*$. With $F_c>\pi L$, define
+\begin{align}
+ c_L&=1-\pi L/F_c,\quad \nu_c=\log(2d^2F_c/\alpha_c),\\
+ r_c&=2[\sqrt{V_{m,L}\nu_c}+V_{m,L}\nu_c],\\
+ A_c&=\max_j\|\widehat S_L^{\rm cal}(\omega_j)\|_2.
+\end{align}
+If $\Delta_c=c_L-dr_c-dc_L\tau_L>0$, then
+\begin{equation}\label{eq:calUmain}
+ U_B=A_c/\Delta_c,\qquad
+ \Pr(B_*\le U_B)\ge1-\alpha_c.
+\end{equation}
+Otherwise the procedure abstains. The proof in Appendix~\ref{app:unknowncalR4} solves a self-consistent bound: the unknown $B_*$ controls the estimation error, and the empirical spectrum bounds $B_*$ once the error coefficient is smaller than one. The procedure takes a calibration record and a structural covariance-tail envelope as inputs and estimates the spectral scale and upper bound directly from the record. With an independent test record, substituting $B=U_B$ and $T_L=\tau_LU_B$ into the original certificate gives total failure probability at most $\alpha_c+\alpha_t$.
+
+We used $\alpha_c=\alpha_t=0.025$ in 600 independent calibration--test pairs. Multiple calibration and test lengths were nested prefixes, producing 1,680 calibration analyses and 8,520 test analyses, including oracle and sensitivity controls. Among the calibration analyses, 1,320 produced finite upper bounds; 360 short-record cases abstained. All finite bounds exceeded the population spectral maximum on the diagnostic grid, and all valid-model certificates remained below their known population triangle bounds. Every calibrated null analysis returned a zero certificate.
+
+For the unknown-shape MA(1) alternative with $b=0.9$, a test record of 32,768 samples yielded 120/120 positive certificates after 65,536 independent calibration samples. At 131,072 test samples, 16,384 calibration samples sufficed for 120/120 positives. The median calibration bound divided by the true grid maximum fell from 2.68 at $m=4096$ to 1.20 at $m=65536$. These are distinct from the earlier known-shape scale experiments. The full null, weaker-signal, and oracle comparisons are retained in the Supplemental Material.
+
+We also tested infinite-correlation AR--MA processes with unknown poles within specified bounds. The AR--MA calibration envelopes maintained coverage; long-range correlations kept the conservative lower-bound certificates at zero through 524,288 test samples. In a separate delayed reversible-source stress test, falsely imposing finite covariance support caused all 80 spectral envelopes to miss the true spectrum; the valid tail class covered in all 80 repetitions. Both arms returned zero certificates at the tested length. This separates uncertainty about spectral shape from the essential dependence-class assumption and documents the method's current power cost.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=.98\linewidth]{figures/fig_calibration_R4.pdf}
+\caption{\label{fig:calibrationR4}\textbf{Independent calibration with unknown spectral shape.} (a) Distribution of $U_B/B_*$ in the strong MA(1) condition; points summarize 120 independent pairs at each length, with medians and 10th--90th percentiles. $B_*$ is evaluated on the population diagnostic grid only for validation, and is not supplied to calibration. At $m=1,024$ the deterministic resolution condition triggers abstention, indicated by ``A'' in the heatmap. (b) Fraction of positive certificates as calibration and test lengths increase, using $b=0.9$; each cell contains 120 pairs. Lengths within a pair are nested, so cells are dependent. (c) For the two long-correlation AR--MA conditions ($a=0.3$ and $a=0.6$), $N=524,288$ and $m=131,072$ yielded $0/60$ positive certificates in each condition; error bars show two-sided exact 95\% binomial intervals. Valid pole/tail bounds give spectral coverage under the calibrated model class. (d) Weaker MA(1) signal $b=0.65$, $m=16,384$, 120 independent calibration--test pairs per setting, with nested test-record lengths; boxes show quartiles and median, whiskers extend to 1.5 interquartile ranges.}
+\end{figure*}
+
+\section{OBSERVATION-COORDINATE SENSITIVITY IN HUMAN EEG}
+
+\subsection{Motivation and data}
+
+The preceding results establish that the structure of the observation map and the definition of observation channels determine the phase-relaxed temporal information available for inference.
+
+Electroencephalographic recordings provide a natural setting for examining this principle because measured channel signals depend on the spatial reference used to represent electrode potentials~\cite{yao2005}.
+
+We therefore investigated how spatial rereferencing changes a multichannel spectral-cycle statistic while holding the analyzed time windows fixed.
+
+We used the EEG Motor Movement/Imagery Dataset available through PhysioNet \cite{schalk2009}, which contains 64-channel EEG recordings, including eyes-open and eyes-closed resting baselines.
+
+The original analysis archive included derived spectral-cycle arrays from 218 baseline recordings. The present rereferencing analysis used those archived arrays and recomputed the statistics for matched windows.
+
+We restricted the analysis to participants S011--S109 and required every predefined window to pass quality control under both the original reference and 64-channel average reference.
+
+The resulting dataset contained 113 recordings from 71 participants: 52 eyes-open and 61 eyes-closed recordings. Forty-two participants had valid matched recordings under both conditions.
+
+Because this analysis followed inspection of the original dataset, it was treated as an exploratory comparison.
+
+\subsection{A matched-window spectral-cycle statistic}
+
+For each recording, the time series was divided into two halves, labeled \(A\) and \(B\).
+
+At each frequency and for each selected channel triangle, we calculated the imaginary component of the coherency-cycle product in both halves.
+
+The participant-level statistic was
+
+\begin{equation}\label{eq:33}
+\boxed{
+Q=
+\operatorname{mean}_{\omega,\triangle}
+\left[
+\operatorname{Im}(P_A)
+\operatorname{Im}(P_B)
+\right].
+}
+\end{equation}
+
+This quantity measures the reproducibility of signed spectral-cycle structure across the two halves, averaged over the selected frequencies and triangles.
+
+The use of identical accepted windows under both reference schemes isolates the reference comparison from changes in recording inclusion or temporal window selection.
+
+\subsection{Rereferencing changes the magnitude of spectral-cycle structure}
+Under the original reference, mean $Q$ was $7.4189\times10^{-5}$ for eyes open and $1.9855\times10^{-4}$ for eyes closed. Under 64-channel average reference these means were $3.8283\times10^{-4}$ and $5.2276\times10^{-4}$, respectively: ratios of group means of 5.16 and 2.63. With 20,000 participant-level bootstrap resamples, the paired mean increases were $3.0864\times10^{-4}$ (95\% interval $[2.5625,3.6244]\times10^{-4}$) and $3.2421\times10^{-4}$ ($[2.5814,3.9207]\times10^{-4}$). Thus rereferencing changes the observable substantially even with participants and windows fixed.
+
+\subsection{Condition contrasts across reference schemes}
+For the 42 participants with both conditions, the mean eyes-closed minus eyes-open difference was $1.3288\times10^{-4}$ under the original reference (95\% bootstrap interval $[0.7981,1.8597]\times10^{-4}$) and $1.2634\times10^{-4}$ under average reference ($[0.8114,1.7345]\times10^{-4}$). The positive direction of this group contrast persists under both references, although the baseline contrast is associated with the dataset's fixed condition/run ordering. Absolute score sensitivity and persistence of a particular contrast are distinct empirical observations.
+
+The matched EEG observations and their amplitude--alignment decomposition are presented in Fig.~\ref{fig:7}.
+
+
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.91\linewidth]{figures/fig07.pdf}
+\caption{\label{fig:7}
+\textbf{Observation-coordinate sensitivity in human EEG.} (a) Scalp montage with 12 analysis channels highlighted; identical Fz signal segments before and after 64-channel common-average rereferencing. Scalp outline adapted from Peter Kraemer, \emph{EEG\_10\_20} (SciDraw, CC BY 4.0; \url{https://doi.org/10.5281/zenodo.3926093}). (b) Identical accepted 2-s windows in two analysis halves, for both reference schemes. (c) Paired original- and average-reference spectral-cycle scores $Q$ for 113 records from 71 participants (52 eyes open, 61 eyes closed); the dashed diagonal marks equality. (d) Exact per-record amplitude--alignment factorization $Q=\mathrm{RMS}(\mathbf v_A)\mathrm{RMS}(\mathbf v_B)\cos\varphi$ and the paired reference changes; dotted curves denote constant $Q$. (e) Eyes-closed minus eyes-open contrasts for 42 participants with both conditions, displaying paired subject changes and bootstrap means with 95\% intervals. The contrast is exploratory and follows the original recording order.
+}
+\end{figure*}
+
+\subsection{Known transformations of an archived EEG spectrum}
+To test the observation-level transformation laws directly, we reprocessed the archived raw record S011R01. Pooling the 24 predefined two-second windows yielded positive-definite 12-channel spectral estimates at 57 frequencies between 2 and 30 Hz. Across 80 independently drawn complex diagonal frequency responses, the largest change in any normalized triangle product was $1.22\times10^{-15}$. Across 80 real orthogonal channel rotations, the maximum relative change in the raw reversal density was $7.92\times10^{-14}$, while triangle products generally changed. The 64-channel average-reference operation supplied a third, noninvertible comparison.
+
+The biological sample is one real EEG recording. The 161 controlled transformations test the observation-level identities on its estimated spectra. The diagonal responses were applied to the estimated spectra \emph{after} windowing; filtering time series before windowing introduces the distinct finite-bandwidth effect analyzed above. Together with the matched-cohort comparison, this experiment connects the exact transformation laws to the data-processing pipeline while keeping the EEG application at the level of observed statistics.
+
+\subsection{Implications for neural time-asymmetry analysis}
+
+The EEG analysis demonstrates a practical consequence of observation-coordinate dependence in multivariate spectral measurements.
+
+The choice of reference changes the joint representation of the recorded potentials and can substantially alter a closure-based summary, even when the underlying recording segments are identical.
+
+The result connects naturally to the theoretical distinction between raw Gaussian reversal divergence and phase-relaxed quantities defined relative to a specified channel basis.
+
+It also motivates a more systematic integration of observation models into studies of neural temporal asymmetry.
+
+The EEG results quantify a sensor-level spectral-cycle statistic under known spatial transformations. A certified latent reversal rate in these recordings requires independent spectral-power and covariance-tail calibration. Common-average rereferencing and the time-delayed source-mixing map of Theorem 1 represent distinct observation architectures, providing complementary insights into observation-coordinate sensitivity and latent attribution.
+
+This empirical result provides a concrete example of how the observation coordinates influence the temporal structure extracted from neural recordings.
+
+\section{DISCUSSION}
+
+A multichannel Gaussian recording has a well-defined time-reversal divergence determined by its complete joint probability law. Assigning that divergence to unobserved degrees of freedom additionally requires a model of how those degrees of freedom become measurements. The two observation architectures studied here expose the consequences of this distinction. Source-specific temporal responses followed by spatial mixing admit exact full-law equivalence between reversible latent dynamics and irreversible observations. Independent filtering of already defined channels instead preserves closed spectral-cycle structure and, through the phase-relaxed reversal quantity, an identifiable component of the latent time arrow. The observation map thus enters the physical interpretation of temporal asymmetry as a structural part of the inverse problem.
+
+The one-sample representation establishes this ambiguity with an especially simple measurement operation. For every regular positive-definite Gaussian target spectrum, a correlated, reversible $2d$-dimensional latent process observed through $y_t=u_t+v_{t-1}$ reproduces all target covariances and hence every finite-dimensional Gaussian distribution. The equivalent descriptions remain observationally indistinguishable as record length increases. In the sine-skew subclass, the latent coordinates can even be temporally white: their instantaneous cross-correlations become observed lag asymmetry after the differential delay. This fixed-operator construction complements earlier results on hidden irreversibility under incomplete observation~\cite{lucente2022}, classical matrix spectral factorization~\cite{ephremidze2007,ephremidze2014}, and dynamical Gaussian latent-variable models~\cite{gokcen2015,rutten2020}. A temporally extended measurement changes how output paths transform under reversal, providing the mechanism by which latent and observed reversal laws differ.
+
+Observation equivalence can also be constrained quantitatively. In the rotational two-channel family with fixed mixing gain, the minimum latent spectral trace depends jointly on asymmetry strength and differential phase. Holding asymmetry fixed while shortening the delay produces the sharp inverse-square cost. Along the low-frequency path of a smooth real spectrum, where the antisymmetric component scales with frequency, the trace cost instead approaches a finite limit. The broadband result integrates these local constraints and establishes an optimal total spectral-trace ratio for a full rotational spectral family, together with admissible positive-definite approximations. These results give a concrete role to independently measured gains, temporal responses, and source-power budgets when comparing latent explanations; additional constraints on latent order or anatomical structure define further physical inference problems.
+
+For channelwise filtering, spectral cycles retain phase information under independent diagonal responses. Their nonreal component obstructs reduction to a real spectrum by channelwise phases, while the explicit triangle inequality converts this geometry into a conservative time-reversal bound. The weak-coherence asymptotics reveal how the obstruction is distributed among the three edges: a weak coherence allows more residual phase to accumulate at lower reversal cost and limits the amount of structure certified by the cycle. This gives phase-relaxed divergence an interpretation as a measurement-model-specific resource, rather than simply another scalar summary of the observed spectrum. The choice of channel coordinates and nuisance transformations therefore belongs in the definition of the quantity being inferred.
+
+Reliable estimation requires a further link between population invariance and finite data. Tapering averages neighboring frequencies before their cross-spectral products are formed; the interaction of amplitude slope and differential group delay then creates systematic closure bias. The reversible-latent example and slope ablations identify that mechanism directly, including its $T^{-2}$ and $T^{-4}$ asymptotic consequences. A separate, constructive route to positive inference uses upper spectral-power and covariance-tail bounds to control the entire spectral estimator and propagate that control into a reversal-rate lower certificate. Independent calibration estimates the needed spectral envelope without a known normalized spectrum within specified dependence classes. For strongly asymmetric finite-memory models, independent calibration and sufficiently long records produce positive certified bounds with the stated coverage. In the tested long-correlation AR--MA regimes, the global envelope returned zero positive certificates even at $N=524,288$, pinpointing the need for sharper dependence-sensitive or frequency-local calibration. Independent characterization of temporal responses and covariance tails can tighten these bounds in experimental settings.
+
+The neural recording analysis shows why observation coordinates deserve explicit attention. Common-average rereferencing changed the absolute spectral-cycle score on matched EEG windows, while the paired eyes-closed minus eyes-open contrast retained a positive group mean. Controlled transformations of an archived empirical spectrum separately verified the population identities for diagonal channel phases and real orthogonal changes of basis. These experiments establish sensor-level behavior of known transformations, linking mathematical observables to familiar measurement operations. External spectral-power and covariance-tail calibration would extend this analysis from observation-level scores to certified bounds on latent Gaussian reversal rates. Such calibration could be developed using independently measured channel responses, controlled reference changes, or simultaneous recording modalities.
+
+The present results characterize real stationary Gaussian processes with time-reversal-even variables. Model B allows correlated latent coordinates and a dimension-$2d$ constructive representation; the resource optima use fixed gain and a rotational spectral family. The finite-record certificates apply to channelwise observation with quantitative dependence-class bounds. These conditions make the theory directly testable in appropriately calibrated experiments. Extensions to non-Gaussian dynamics, restricted latent networks, and experimentally characterized transfer operators would further distinguish the temporal structure of latent systems from that introduced by the observation pipeline.
+
+\section{CONCLUSION}
+
+The time arrow measured in a multichannel recording is defined by its joint probability law, while the range of latent explanations is set by the observation architecture. We establish complete Gaussian observational equivalence through a one-sample-delay mapping of reversible latent dynamics, quantify the spectral resources of such representations, and derive filter-invariant reversal bounds under a more restricted measurement architecture. Finite-record calibration turns those population structures into statistically controlled lower certificates, and human EEG illustrates the importance of observation coordinates. Together, these results connect the geometry of measurement, physical resource constraints, and statistical identifiability in a unified theory of observed temporal irreversibility.
+
+\section*{Data availability}
+The EEG recordings analyzed here are publicly available from the EEG Motor Movement/Imagery Dataset, version 1.0.0, at PhysioNet~\cite{schalk2009}. The numerical results, simulation configurations, derived EEG spectral-cycle arrays, and figure source data are distributed through the project repository~\cite{zhao2026repository}. The original EDF recordings are obtained from PhysioNet using the documented acquisition procedure.
+
+\section*{Code availability}
+Analysis and figure-generation code, numerical verification scripts, and reproducibility instructions are available at \url{https://github.com/JustinZHAO-05/observation-architecture-temporal-irreversibility}~\cite{zhao2026repository}.
+
+\noindent Further proofs, simulation controls, and technical details are given in Supplemental Material~\cite{suppinfo}.
+
+\appendix
+\input{appendices}
+\input{r4_appendices}
+
+\nocite{boumal2016,litam1994,schalk2004,oszmaniec2024,brinkerink2016,lachaume2013,ephremidze2007,ephremidze2014}
+\bibliographystyle{apsrev4-2}
+\bibliography{references}
+\end{document}

@@ -1,0 +1,87 @@
+{
+  "pages": 16,
+  "out_of_page_blocks": [],
+  "page_map": [
+    {
+      "page": 1,
+      "characters": 2185,
+      "start": "Observation Architecture and the Identifiability of Temporal\nIrreversibility\nSecond-round research d"
+    },
+    {
+      "page": 2,
+      "characters": 4128,
+      "start": "Executive conclusion\nThe second sprint changes the strongest scientific claim.\nUnknown, arbitrarily "
+    },
+    {
+      "page": 3,
+      "characters": 3014,
+      "start": "For a positive-definite Hermitian matrix,\nE(S) = 1\n2\n\b\ntr[(ST )\u22121S] \u2212d\n\t\n,\nE\u2217(S) =\nmin\nU diagonal un"
+    },
+    {
+      "page": 4,
+      "characters": 1579,
+      "start": "Constructive proof\nWrite S = R + iY , where R is real symmetric positive definite and Y is real skew"
+    },
+    {
+      "page": 5,
+      "characters": 2367,
+      "start": "Scope and mechanisms\nThe construction allows correlated latent coordinates and doubles the latent di"
+    },
+    {
+      "page": 6,
+      "characters": 1217,
+      "start": "Figure 1: Exact population equivalence. Markers from the reversible latent realization coincide with"
+    },
+    {
+      "page": 7,
+      "characters": 1449,
+      "start": "Figure 2: Coordinate dependence of the triangle bound. The full observed reversal density is unchang"
+    },
+    {
+      "page": 8,
+      "characters": 1456,
+      "start": "For fixed nonzero b and small phase delay,\ntmin \u223c1 \u2212\n\u221a\n1 \u2212b2\n\u03b82\n.\nFor example, b = 0.8 and \u03b8 = 0.05 "
+    },
+    {
+      "page": 9,
+      "characters": 2796,
+      "start": "For 0 \u2264L < N, use unbiased lag covariances\nb\u0393(\u2113) =\n1\nN \u2212\u2113\nN\u2212\u2113\nX\nt=1\nyt+\u2113yT\nt\nand the Hermitian trunc"
+    },
+    {
+      "page": 10,
+      "characters": 2631,
+      "start": "8. Propagating uncertainty into a reversal lower bound\nFor a selected triangle let \u02c6a = bS12, \u02c6b = b"
+    },
+    {
+      "page": 11,
+      "characters": 2865,
+      "start": "\u2225Z\u2225\u221e\u2264maxj=1,...,F |Z(\u03c9j)|\n1 \u2212\u03c0L/F\n.\nApply the finite-grid probability bound to obtain a simultaneous"
+    },
+    {
+      "page": 12,
+      "characters": 1256,
+      "start": "weak-power cases: b = 0.35 with delay two or eight and b = 0.65 with delay eight had zero positives "
+    },
+    {
+      "page": 13,
+      "characters": 2000,
+      "start": "Figure 5: Rate lower bounds. Error bars show interquartile simulation ranges, not confidence interva"
+    },
+    {
+      "page": 14,
+      "characters": 1622,
+      "start": "Condition\nMatched records\nOriginal-reference\nmean Q\nAverage-reference\nmean Q\nRatio of means\nEyes ope"
+    },
+    {
+      "page": 15,
+      "characters": 3709,
+      "start": "12. Publication claims and stopping decision\nThe scientific core can now be organized around four qu"
+    },
+    {
+      "page": 16,
+      "characters": 3270,
+      "start": "References\n1. W. Yao. Permutation time irreversibility in sleep electroencephalograms: Dependence on"
+    }
+  ],
+  "visual_review": "All-page contact sheet reviewed; final proof and EEG pages inspected at readable resolution after figure-placement correction."
+}

@@ -1,0 +1,17 @@
+{
+  "b": 0.8,
+  "examples": [
+    {
+      "id": 1,
+      "theta_rad": 0.8,
+      "trace_ratio": 1.1309293519499566,
+      "marker": "o"
+    },
+    {
+      "id": 2,
+      "theta_rad": 0.05,
+      "trace_ratio": 160.433587604617,
+      "marker": "D"
+    }
+  ]
+}

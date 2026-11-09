@@ -1,0 +1,626 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,bm,mathtools}
+\usepackage{geometry}
+\geometry{margin=22mm}
+\usepackage{graphicx}
+\usepackage{longtable,booktabs,tabularx,array}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{natbib}
+\hypersetup{pdftitle={Supplemental Material: Observation architecture and the identifiability of temporal irreversibility},pdfauthor={Yanzhe Zhao}}
+\setlength{\emergencystretch}{3em}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theequation}{S\arabic{equation}}
+\captionsetup{font=small,labelfont=bf}
+\title{Supplemental Material for \\ \emph{Observation architecture and the identifiability of temporal irreversibility}}
+\author{Yanzhe Zhao\\School of Future Technology, Tianjin University\\\texttt{justinzhaoyz@outlook.com}}
+\date{}
+\begin{document}
+\maketitle
+
+\section*{Purpose and scope}
+
+This document gives the proofs, numerical controls, full experimental settings, and additional results supporting the accompanying Physical Review E manuscript. The main text establishes the one-sample reversible latent representation, the short-delay trace optimum, the phase-relaxed triangle bound, and the externally calibrated finite-record certificate. Here we provide the spectral-gauge details, the distinct finite-record serialization theorem under unrestricted sensor memory, independent algebraic checks, targeted finite-window counterexamples, and the complete EEG selection and sensitivity results. The underlying time-domain processes are real-valued Gaussian, with coordinates even under time reversal unless explicitly stated; their spectral matrices may be complex. The independent channel-filtering model and the source-filter-then-mix model have different admissible observation operators and are treated separately throughout.
+
+\section{Spectral-cycle invariance, real gauges, and the sharp triangle bound}
+
+\subsection{Variables, spectra, and assumptions}
+
+Let x(t) be a real, stationary n-channel process with finite second moments. Processes are centered; removing a constant channel mean preserves time reversibility. All recorded variables are even under time reversal. The observation equation is
+
+\[y_i(t)=(h_i*x_i)(t)+\eta_i(t).\]
+
+Each $h_i$ is a fixed scalar linear time-invariant filter. The observation noises are independent of the latent process and of one another. With the convention \(S_{ij}=\mathbb E[X_i\overline{X_j}]\),
+
+\[S_y(\omega)=H(\omega)S_x(\omega)H(\omega)^*+N(\omega).\]
+
+The transfer matrix \(H\) is diagonal, with nonzero transfer functions almost everywhere, and $N$ is real nonnegative diagonal. Positive-definite spectral matrices are used when an inverse or divergence is evaluated. The cycle statements also apply on the nonzero support of singular matrices.
+
+The order of operations in this model is substantive. The channels $x_{i}$ may already contain instantaneous real mixtures of neural sources. Separate filtering at these recorded channels is the modeled nuisance. Source-specific temporal filtering followed by spatial mixing is a different observation class, investigated by a counterexample below.
+
+Define the coherency matrix by
+
+\[C_{ij}=\frac{S_{ij}}{\sqrt{S_{ii}S_{jj}}}.\]
+
+For any directed cycle, let \(P_\gamma\) be the product of its cross-spectral entries. Every channel transfer factor appears once conjugated and once unconjugated. Hence the raw cycle product is multiplied by a positive real factor. In the absence of observation noise, normalized coherency cycle products are exactly invariant. Independent additive noise attenuates their magnitudes by positive factors and preserves the real/nonreal distinction.
+
+This cancellation is the established closure-phase principle \cite{thyagarajan2022}. The corresponding invariant-polynomial and spanning-tree geometry is established in frame and quantum-state theory \cite{chien2016,oszmaniec2024}.
+
+\subsection{Population results used by the numerical study}
+The main text and Appendix A give the real-gauge characterization, the reversal-specific triangle bound, and its weak-coherence sharpness proof. These results use real cycle products, including negative products of phase $\pi$. For a complete support graph triangles suffice; sparse graphs can require longer cycles. Figure~\ref{fig:s1} illustrates the geometry and retained sharpness checks. The numerical procedure below estimates the same phase-relaxed functional and preserves its unresolved optimization gaps.
+
+\subsubsection{Numerical intervals using established phase synchronization}
+
+The objective can be reduced to a standard unit-modulus quadratic problem:
+
+\[A=(C^{\mathsf T})^{-1}\odot C^{\mathsf T},\qquad
+\mathcal E(UCU^*)=\frac12(v^*Av-n),\qquad v_i=e^{2i\phi_i}.\]
+
+The Hadamard product defines a Hermitian positive-definite matrix. We apply the existing phase-synchronization dual certificate of Boumal \cite{boumal2016}, rather than interpreting a local optimum as a lower bound. For a unit-modulus candidate $v$, define $d_i=\operatorname{Re}[\overline{v_i}(Av)_i]$. Shift $d$ downward until $A-\operatorname{diag}(d)$ is positive semidefinite. Then
+
+\[\frac12\left(\sum_i d_i-n\right)\leq\mathcal E_*(C)
+\leq\frac12(v^*Av-n).\]
+
+The lower end is clipped at zero. The final implementation propagates a padded inverse-residual bound through the Schur product and expands both endpoints, in addition to using an eigenvalue buffer. It returns condition numbers and residuals. These are ordinary floating-point numerical intervals; rigorous machine-verified certification would additionally require interval or directed-rounding error control.
+
+For three channels, the complex unit-diagonal semidefinite relaxation is exact: an extreme correlation matrix of rank r obeys r squared at most n \cite{litam1994}. At n = 3, its extreme points have rank one. In higher dimensions, the relaxation can have a gap. Our results retain that gap explicitly.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.98\linewidth]{supp_figures/figS01.pdf}
+\caption{\label{fig:s1}
+\textbf{Phase geometry and allocation.} (a) A five-vertex example has four spanning-tree edges and two closing edges. Channel phases make the tree edges real. The two closing edges carry the fundamental-cycle phases. (b) After the tree gauge, the two example cycle phases are \(0.83\) and \(\pi\) rad. A real gauge requires every fundamental-cycle phase to be \(0\) modulo \(\pi\). (c) Archived sharpness scans along the joint path \(\epsilon=\psi\), with \(r_e=\epsilon a_e\). The triangle lower bound and the numerical phase minimum agree to leading order as \(\epsilon\) decreases. The full 75-point scan is provided. (d) Fractions of the closure phase borne by each edge at \(\epsilon=\psi=0.003\). Bars give the numerical phase optimum and black marks the leading weights \(a_e^{-2}/\sum_j a_j^{-2}\).
+}
+\end{figure}
+
+\section{Finite-record observational equivalence with unrestricted sensor memory}
+
+\subsection{Exact representation by delayed shared innovations}
+
+\textbf{Theorem 3.} Consider any n-channel, q-input finite moving-average Gaussian process of order L,
+
+\[y_i(t)=\sum_{a=1}^{q}\sum_{k=0}^{L}b_{ia,k}\epsilon_a(t-k),\]
+
+where the innovations $\epsilon_{a}$ are mutually independent standard real white noises. For every finite observation length N, there is a reversible shared white-noise latent process and real causal finite-impulse-response filters whose observed N-point joint law is identical.
+
+\textbf{Construction and proof.} Take a single standard white-noise process xi. Choose delays $D_{a}$ = (a-1)(N+L+1). Set $x_{i}$(t) = xi(t) for every channel, and define
+
+\[h_i(z)=\sum_{a=1}^{q}\sum_{k=0}^{L}b_{ia,k}z^{D_a+k}.\]
+
+Here z denotes one unit of delay. For t from 1 to N, all noise indices needed for innovation stream a lie in
+
+\[[\,1-L-D_a,\ N-D_a\,].\]
+
+These intervals are disjoint for different streams. Therefore the collections xi(t-$D_{a}$-k) have exactly the same joint law as the independent innovation collections they replace. Applying the same linear coefficients yields equality of the entire multivariate N-record Gaussian distribution.
+
+The latent process is white and time reversible. Every channel filter is causal and has finite memory. Its population spectrum is h h*, whose cycle products are real at every frequency. Its finite-record distribution can nevertheless match that of a target with a nonzero population cycle obstruction.
+
+The essential resource is filter memory that can grow with the length of the observed record. The construction uses a causal finite-impulse-response filter.
+
+\subsection{Positive-definite and general Gaussian versions}
+
+The exact shared-source construction has a singular latent spectral matrix. If positive definiteness is required, replace $x_{i}$ by xi plus sqrt(epsilon) times independent channel white noise. Its covariance is the all-ones matrix plus epsilon times the identity, which is positive definite and real. Optional independent white output noise supplies an everywhere positive observed spectral floor.
+
+As epsilon tends to zero, every finite-record covariance approaches that of the exact construction. For a nonsingular target record covariance, Gaussian laws converge in total variation, for example by continuity of Gaussian KL and Pinsker's inequality. Every approximating model remains a filtered reversible-latent model with real population cycles.
+
+There is also an exact positive-definite version when the target has an independent white output floor of variance sigma squared. Choose a small positive delta, use latent spectrum 11-transpose plus delta I, and give channel i independent observation-noise spectrum sigma squared minus delta times \textbar $H_{i}$\textbar{} squared. The noise spectra are nonnegative for sufficiently small delta because FIR transfer functions are bounded. The observed spectrum is then exactly h h* plus sigma squared I. This preserves equality of the record laws while making both latent and observed spectra positive definite.
+
+For a stationary Gaussian process with a continuous positive-definite spectral density, approximate its continuous matrix square root by finite Fourier polynomials with the real-process conjugate symmetry. Multiplying by a common delay makes the matrix filter causal without changing its spectrum. The resulting finite moving-average spectra converge to the target spectrum; their finite-block covariances and nonsingular Gaussian laws converge as well. An L2 approximation supplies the corresponding extension for regular integrable spectra.
+
+\subsection{Consequence for any finite-record test}
+
+\textbf{Corollary 3a.} Suppose a test based on a finite record has rejection probability at most alpha uniformly over reversible latent processes with arbitrary causal channel-filter memory. Its power against every regular Gaussian finite-record alternative in the approximation class is at most alpha.
+
+For any alternative record law, choose a sequence of null laws approaching it in total variation. The expectation of any test with values between zero and one converges along that sequence. Each null expectation is bounded by alpha; the limiting alternative expectation therefore has the same upper bound.
+
+This result applies to the full finite-record distribution, beyond a particular taper, frequency bin, or statistic. It resolves the apparent tension between an exact population invariant and misleading finite-record evidence. Population identification can coexist with failure of uniform finite-sample identification when the nuisance class has no memory or regularity bound.
+
+Useful inference becomes possible after adding quantitative information: a bound on filter memory or group delay, calibrated transfer functions, derivative bounds across the spectral estimation bandwidth, repeated measurements with known observation changes, or an experimental model that restricts the nuisance class. These are identifiable ingredients for an experiment, rather than generic appeals to obtain more data.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.98\linewidth]{supp_figures/figS02.pdf}
+\caption{\label{fig:s2}
+\textbf{Finite-record serialization and population spectral differences.} (a) With \(N=16\) and MA order \(L=4\), shifts of 0, 21 and 42 samples select disjoint blocks of one white-noise stream. Pale segments are the four additional innovations before each record. (b) Target and serialized \(48\times48\) covariance matrices in time-major order, with maximum absolute discrepancy \(4.44\times10^{-16}\). The common color scale gives covariance in the model's variance units. (c) Imaginary cycle and spectral-matrix Frobenius discrepancy on a common angular-frequency grid, including independent output noise of variance 0.2 in each construction. The serialized cycle is real.
+}
+\end{figure}
+
+\section{One-delay spectral lift and coordinate dependence}
+
+\subsection{population observational equivalence}
+
+Let \(S(\omega)\) be a continuously differentiable, \(2\pi\)-periodic spectral matrix of a real centered stationary Gaussian process, positive definite at every frequency. There exists a \(2d\)-dimensional centered stationary Gaussian process \(x_t=(u_t^T,v_t^T)^T\) with an everywhere positive-definite, real, even spectral matrix such that
+
+\[
+y_t=u_t+v_{t-1}
+\]
+
+has spectral matrix exactly \(S\). Thus the latent process is statistically time reversible, while the observed process has the prescribed Gaussian law. The observation uses a fixed real mixing matrix \([I,I]\) and diagonal filters consisting only of identity and a one-sample delay.
+
+\subsection{Construction and regularity}
+The complete construction and its positivity and endpoint proofs appear in main-text Appendix B. Here we retain its numerical instances, model-scope checks, and coordinate transformations. The extension to finite-order latent models appears in the new main-text Appendix F.
+
+\subsection{Scope and mechanisms}
+
+The construction allows correlated latent coordinates and doubles the latent dimension. It does not impose a fixed physical network model on the latent system. For independent Gaussian latent sources, the latent spectrum is diagonal; diagonal filtering followed by real mixing then leaves the observed spectrum real. Likewise, a common temporal phase across all source filters preserves realness. Differential source phases and cross-source dependence are therefore substantive ingredients.
+
+The theorem is stronger than the initial finite-record equivalence in its observation scope: the same constructed model matches all record lengths simultaneously. The full-law representation and the sensor-diagonal invariant concern different observation classes.
+
+\subsection{Exact example with finite covariance range}
+
+Let
+
+\[
+K=\frac1{\sqrt3}\begin{pmatrix}0&-1&1\\1&0&-1\\-1&1&0\end{pmatrix},\qquad
+S_y(\omega)=I-i b\sin\omega K,\quad 0<b<1.
+\]
+
+Here \(\|K\|_2=1\), so \(S_y\) is positive definite. This target has a Gaussian MA(1) realization. Put
+
+\[
+a=\frac{b}{1+\sqrt{1-b^2}},\qquad
+A_0=(I+a^2KK^T)^{-1/2},\qquad A_1=aA_0K,
+\]
+
+and use \(y_t=A_0\epsilon_t+A_1\epsilon_{t-1}\) with independent standard Gaussian innovations.
+
+For a reversible realization, take \(k=(1+b^2)/4\) and latent covariance matrices
+
+\[
+G_0=\begin{pmatrix}I&-bK/2\\bK/2&kI\end{pmatrix},\quad
+G_1=\begin{pmatrix}0&-kI/2\\-kI/2&0\end{pmatrix},\quad
+G_2=\begin{pmatrix}kI/2&0\\0&0\end{pmatrix}.
+\]
+
+Set all higher-lag covariances to zero and use \(G_{-\ell}=G_\ell\). The spectrum is \(G_0+2G_1\cos\omega+2G_2\cos2\omega\), real and positive definite by the preceding construction. Observing \(u_t+v_{t-1}\) gives exactly the target spectrum.
+
+This example has \textbf{covariance support two}. Finite covariance support describes the unconditional correlation range. The general theorem establishes the scope of the representation for regular Gaussian target spectra.
+
+At \(b=0.9\), the numerical checks give:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4286}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5714}}@{}}
+\caption{Numerical properties of the explicit $3$-to-$6$ reversible-latent construction at $b=0.9$.}\label{tab:s1}\\
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Quantity
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Result
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\multicolumn{2}{@{}l}{\emph{Table S1 (continued)}}\\
+\toprule\noalign{}
+Quantity & Result \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Observed / latent dimensions & 3 / 6 \\
+Observation delay & 1 sample \\
+Maximum covariance difference for the complete 32-point record & 0.0 in double precision \\
+Maximum spectral difference on 513 frequencies & \(2.25\times10^{-16}\) \\
+Minimum latent spectral eigenvalue on that grid & 0.0475 \\
+Maximum absolute imaginary triangle & 0.140296 \\
+Maximum observed reversal density & 8.526316 \\
+\end{longtable}
+
+The target's observed reversal rate is exactly \(2[(1-b^2)^{-1/2}-1]\), or 2.588315 nats/sample at \(b=0.9\). The latent reversal rate is zero. These quantities refer to different processes connected by a time-extended observation map.
+
+\subsection{Spatial coordinates and the phase-relaxed quantity}
+
+For any real invertible instantaneous matrix \(M\), \(\mathcal E(MSM^T)=\mathcal E(S)\) by trace invariance. Thus an invertible real change of coordinates preserves the observed Gaussian reversal information.
+
+The diagonal-phase relaxation is different: its nuisance class is tied to a specified channel basis. For the preceding target, choose a real orthogonal matrix whose last row is \((1,1,1)/\sqrt3\). It rotates \(K\) into a two-dimensional skew block with an isolated third coordinate. All three-channel cycles then vanish. A diagonal phase change makes the remaining two-channel spectral block real, so its relaxed reversal quantity is zero.
+
+At \(b=0.9\), \(\omega=\pi/2\), the raw reversal density remains 8.526316 before and after the transformation. The analytic triangle bound changes from 0.049861 to numerical zero. Across 600 random orthogonal transformations, the largest raw-density discrepancy was \(1.60\times10^{-14}\). A phase-relaxed quantity is therefore defined jointly by the spectrum and its specified channelwise phase-transformation model.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.98\linewidth]{supp_figures/figS03.pdf}
+\caption{\label{fig:s3}
+\textbf{General construction and coordinate audit.} (a--c) Thirty independent VAR(1) networks at each observed dimension \(d=3,6,12\), evaluated at 83 frequencies per network. Each point is one network. The three panels show its maximum relative reconstruction error, minimum latent spectral eigenvalue and maximum observed Gaussian reversal density across the grid. Black marks give medians. (d) Six hundred three-channel spectra and their paired real orthogonal rotations, replayed with seed 341903. Changes are rotated minus original. Raw reversal varies at floating-point scale. Phase-relaxed changes are midpoints of numerical primal--dual change intervals, computed with seed 261112. The CSV gives both endpoints. These are floating-point optimization bounds.
+}
+\end{figure}
+
+\section{Fixed-gain trace-budget optimization and numerical verification}
+
+\subsection{minimum spectral trace for a rotational block}
+
+At a fixed frequency, consider the normalized target \(S=I_2+i bJ\), with \(J=\left(\begin{smallmatrix}0&1\\-1&0\end{smallmatrix}\right)\) and \(0\le b<1\). Let \(y=u+e^{-i\theta}v\) with fixed unit mixing gains, and let the latent spectrum \(G=\left(\begin{smallmatrix}P&Q\\Q^T&V\end{smallmatrix}\right)\) be real positive semidefinite. For \(\sin\theta\ne0\), the minimum latent-to-observed spectral trace ratio is
+
+\[
+t_{\min}(b,\theta)=
+\frac{1-|\cos\theta|\sqrt{1-b^2}}{\sin^2\theta}.
+\]
+
+The minimum is attained in the positive-semidefinite class; it is the infimum in the strictly positive-definite class.
+
+\subsection{Optimization verification}
+The exact rotational-symmetrization proof is in main-text Appendix C. The numerical study uses the original full-matrix constraints rather than the scalar formula. Thirty-two parameter settings give a maximum relative primal--dual bracket width of $2.31\times10^{-6}$ and maximum equality residual of $6.00\times10^{-15}$. Early SLSQP attempts with unreliable convergence remain archived and are excluded from correctness claims. The joint low-frequency and full-band extensions are reported below.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.98\linewidth]{supp_figures/figS04.pdf}
+\caption{\label{fig:s4}
+\textbf{Spectral-power optimization and feasibility.} (a) All 32 independent linear-programming checks of the closed form. Marks are the bracket midpoints, with lower and PSD-feasible upper endpoints. The widths are smaller than the markers at this scale. (b) Relative bracket width \((t_{\mathrm{upper}}-t_{\mathrm{lower}})/t_{\min}\) in parts per million. The maximum is 2.30 ppm. (c) Equality residual and smallest latent eigenvalue for each feasible LP upper endpoint and each earlier SLSQP output. A zero residual on the log axis would be plotted at \(10^{-18}\). Negative eigenvalues identify indefinite SLSQP outputs. The vertical axis is symmetric log with a linear interval near zero. (d) Analytic \(t_{\min}(b,\theta)\) on an extended deterministic grid, with fixed unit gains. Lines denote contours of the untransformed ratio.
+}
+\end{figure}
+
+\section{Spectral window bias and targeted null controls}
+
+\subsection{Population-window relation and uncertainty}
+Main-text Appendix D supplies the local amplitude-slope/group-delay expansion, explicit fourth-order remainder, and continuous Hann-window moments. Its coefficient concerns separately averaged raw cross spectra; coherency normalization divides by positive smoothed diagonal powers. The archived exact discrete implementation incorporates linear detrending and the actual sampling grid. The following tests examine algebraic invariance, finite-replica sampling, and the structured filtered-latent counterexample as separate questions.
+
+\subsection{Computational validation and adversarial tests}
+
+All simulations use CPU linear algebra, Fourier transforms, and small phase optimizations. The numerical studies use direct Gaussian simulation, covariance calculations, and matrix optimization. Seeds, settings, invalid covariance settings, and unsuccessful examples are preserved.
+
+\subsubsection{Broad population checks}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\caption{Population-level and variational checks of spectral-cycle invariance.}\label{tab:s2}\\
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Validation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Scope
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Observed result
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Random positive-definite matrices & 540 matrices; dimensions 3, 8, 24, 64 & Maximum cycle-invariance error 1.87e-16 \\
+Stable linear stochastic network ensemble & 192 conditions; dimensions 3, 8, 24, 64; 12 networks per dimension; 4 asymmetry levels & Maximum cycle change after causal pole/delay filters 9.28e-17 \\
+Reversible members of the network ensemble & 48 symmetric networks & Mean filtered pairwise imaginary-coherency RMS 0.1068; maximum cycle RMS 2.08e-17 \\
+Independent mathematical implementation & 300 random 3 by 3 matrices & No violation of the triangle inequality; minimum numerical margin 6.82e-7 \\
+Phase optimization certificates & 480 matrices; dimensions 2, 3, 8, 24 & Numerical intervals reported explicitly; higher-dimensional gaps retained \\
+Wick-moment calculation & All six pairings; Monte Carlo at 5 replica counts & Exact algebra agrees to 5.55e-17; simulations agree within sampling error \\
+\end{longtable}
+
+The stochastic networks use a symmetric plus antisymmetric coupling matrix, scaled to remain stable, with independent Gaussian innovations. The chosen network size and asymmetry grids test a class of models rather than fitting a single illustrative circuit. The inequalities themselves hold beyond these simulated families.
+
+For the three-channel certificate sample, all 300 phase minima have tightly matching primal and dual values. The final implementation propagates matrix-inverse residuals into both interval ends; archived results from the earlier computed-matrix-only implementation are retained separately. The analytic proof of Theorem 2 supplies the exact guarantee independently of these optimization checks.
+
+\subsubsection{Necessary counterexamples}
+
+A directed feedforward chain has a mean Gaussian reversal density of 1.081 in the evaluated frequency grid, while its triangle imaginary part remains below 2.43e-17. The relaxed quantity intentionally removes temporal asymmetry that an unknown channel phase can absorb. Thus the retained component is a restricted, identifiable aspect of directionality.
+
+Filtering reversible correlated sources and then spatially mixing them produces sensor closure as large as 0.08234, despite source closure at roundoff. This establishes the importance of specifying the location of the filter relative to spatial mixing.
+
+A four-node spectral support graph can have zero triangle products but a four-cycle imaginary part of 0.00050625, with a positive minimum eigenvalue of 0.7228. This confirms the need for longer cycles when support is sparse.
+
+The finite-record representation theorem is also tested by directly comparing full covariance matrices of a target finite moving-average model and a delayed shared-source model. Its proof applies to arbitrary record length and channel count; the numerical example checks the implementation of the construction.
+
+\subsubsection{Ideal spectral calibration}
+
+A single noisy squared cycle has a positive estimation floor. We therefore use two independent spectral estimates and multiply their signed imaginary cycles. Under a proper complex Gaussian real-gauge null, the entire phase-adjusted law within a half must be invariant under conjugation, and the two halves must be independent. Conjugating one half flips the sign of every triangle statistic; the aggregated cross-half score is then symmetric about zero.
+
+We tested 9 null settings: replica counts 6, 12, and 24 crossed with equal coherencies 0.2, 0.5, and 0.8. Each setting contained 300 synthetic studies with 40 participants. Across the 2,700 null studies, rejection fractions ranged from 0.0367 to 0.0633; every setting's 95\% binomial interval included the nominal 0.05.
+
+Here 0.2, 0.5, and 0.8 denote coherency magnitudes, rather than their squares. Power varies with coherency magnitude, replica count, and closure phase. At magnitude 0.5 and closure phase 0.5 radians, rejection fractions were 0.59, 1.00, and 1.00 for 6, 12, and 24 replicas. Magnitude 0.2 remained difficult, reaching only 0.153 at 24 replicas and phase 0.5. Three proposed magnitude-0.8, phase-0.5 settings failed the positive-definiteness check and remain recorded as invalid covariance settings.
+
+The full calibration contains 7,200 studies across 24 valid settings, including 4,500 alternative studies. A further 960 time-domain reversible records, spread over four randomized filter regimes, had group intervals containing zero and sign-flip p values from 0.129 to 0.809. These successful calibrations describe those families. The next deliberately structured member of the same broad null fails.
+
+\subsubsection{A reversible latent model that rejects the frozen test}
+
+Two independent reversible Gaussian oscillatory modes have frequencies 9.75 and 10.25 Hz, linewidth 0.15 Hz, and variances 1 and 0.4. Twelve latent channels use real loadings (1,1,1) and (1,1,-1), repeated four times. Channel delays are (0,125,0) ms, repeated four times; independent sensor-noise variance is 0.2. The latent cross-covariances are even, and every true-frequency cycle is real.
+
+For the exact 2-second Hann window with linear detrending, covariance-based evaluation gives a peak imaginary coherency cycle of 0.04360. Its mean square over the frozen frequency and triangle set is 1.3233e-5. This is a finite-window population bias, present even with infinitely many independent epochs.
+
+An independent simulation of 500 actual 60-second records, processed with the frozen EEG epoch schedule, gives mean Q = 1.0117e-5, with 95\% Monte Carlo interval {[}8.4198e-6, 1.1815e-5{]}. Of these records, 70.6\% have positive Q. The first 99 records yield p = 0.00008 under 49,999 one-sided sign flips.
+
+This experiment refutes the proposed interpretation of a significant finite-window score as rejection of the unrestricted reversible-latent/filter null. It also demonstrates why split-half products remove independent squaring noise while retaining reproducible observation bias.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.98\linewidth]{supp_figures/figS05.pdf}
+\caption{\label{fig:s5}
+\textbf{Finite-window mechanism and reversible-null behavior.} (a) Exact expected detrended Hann spectra and imaginary coherency cycles for the 125-ms differential-delay example, at four window lengths. Dashed curves give the population cross-spectrum and zero imaginary cycle. Exact expectations are displayed on each window's discrete frequency grid. (b) The magnitude of the expected 10-Hz imaginary cycle at six window lengths for delays of 25, 125 and 500 ms. The dashed line uses the analytic coefficient for the 125-ms delay. (c) Top: the scaled cycle magnitude divided by the corresponding leading coefficient \(a_2\). Bottom: \(T^4Q_{\rm bias}\), divided by its numerical value at 32 s for each delay. Colors match (b). The archived 12-channel expected score is the mean squared expected imaginary cycle. (d) Nominal one-sided sign-flip p values for four randomized reversible filter controls (240 records per regime) and the frozen first 99 records of the structured reversible model (\(p=8\times10^{-5}\)). The dashed line marks 0.05. Each point is one group test under its own simulation design. The 500 structured-record scores are included in the data.
+}
+\end{figure}
+
+\section{Finite-record simultaneous Gaussian confidence radius}
+The main text defines the lag estimator, finite-grid confidence radius, raw-cycle perturbation bound, and sufficient signal-strength condition. Main-text Appendix E gives the Gaussian quadratic-form proof, including dependence between overlapping lags and adjacent observations, the $d^2F$ real-component union bound, and the unknown-constant-mean allowance. The computed bound refers to fixed choices of record length, lag cutoff, and frequency grid. The diagnostic figure below records the independent implementation and perturbation checks; all parameter-level outputs are supplied in the archive.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.98\linewidth]{supp_figures/figS06.pdf}
+\caption{\label{fig:s6}
+\textbf{Confidence envelopes and their numerical validity.} (a) Representative known-mean MA(1) spectrum, estimated from the same \(N=524{,}288\) trajectory as Fig. 6a. The band gives the simultaneous radius \(\epsilon\) for the imaginary cross-spectrum. (b) Unknown-mean extension, checked by replaying 300 global-centering simulations (100 independent records per length). The largest normalized error is 0.284. The dashed line is the theoretical threshold. (c) All 2,500 seeded Hermitian perturbations. The diagonal marks the population triangle bound. There were 1,713 positive certificates and all certificates were below their population bound, including trials with indefinite estimates. Both axes retain zero with symmetric-log scaling. (d) Theoretical simultaneous coverage corresponds to an error-to-radius ratio at most one. Every one of the 7,680 fixed-grid analyses was within that threshold. They use 1,920 independent long trajectories, with nested lengths within each model--delay setting. The CDF pools lengths and delays descriptively. The nominal coverage level is 95\%.
+}
+\end{figure}
+
+\section{Continuous-frequency lower sum and power simulations}
+The main-text rate construction uses a simultaneous all-frequency error event and an explicit within-cell derivative allowance. Appendix E gives the proof. The following subsections report the fixed-grid and continuous-frequency sampling designs, including nested prefixes, zero-power settings, and implementation checks. These numerical outcomes are separate from the analytic probability guarantee.
+
+\subsection{Numerical experiments and complete outcomes}
+
+\subsection{Population construction and coordinate checks}
+
+Ninety stable VAR networks were generated in dimensions 3, 6 and 12, with 30 networks per dimension and 83 frequency points per network. All 7,470 reconstructed spectra agreed with their targets to a maximum relative Frobenius error of \(5.83\times10^{-14}\). The minimum latent spectral eigenvalue in these checks was 0.02065. The exact finite-covariance example was separately verified using a complete observation matrix and block covariance matrices.
+
+\subsection{Fixed-grid confidence study}
+
+Five model families were used: two reversible correlated Gaussian nulls (white and MA(1)), and the three-dimensional MA(1) alternative with \(b=0.35,0.65,0.9\). Channel delays were \((0,0,0)\), \((0,1,2)\) and \((0,4,8)\). Record lengths were 2,048, 8,192, 32,768 and 131,072, with 128 independent longest trajectories per model/delay cell and nested prefixes for shorter records. Five frequencies were fixed in advance. The externally known spectral bound and covariance support were supplied to the procedure.
+
+The study contains \textbf{1,920 independent trajectories} evaluated at four nested record lengths, giving 7,680 analyses. All spectral error envelopes covered in this run, and every returned certificate lay below the known population analytic triangle bound. The 3,072 null analyses had zero positive certificates. Within a particular cell, the 0/128 result has a two-sided 95\% Clopper--Pearson upper endpoint of approximately 2.84\%, quantifying uncertainty in the underlying false-positive probability. The theorem supplies the nominal error guarantee.
+
+For the strong alternative \(b=0.9\), the no-delay condition returned positive pointwise bounds in 128/128 runs at 32,768 samples; the maximum-delay-eight condition required 131,072 samples for 128/128 positives. We retain the weak-power cases: \(b=0.35\) with delay two or eight and \(b=0.65\) with delay eight had zero positives throughout the tested record grid. Positive certificates require longer records as asymmetry weakens or correlation duration grows.
+
+\subsection{Continuous-frequency study}
+
+The rate study used \(b=0.9\), 64 independent longest trajectories per delay condition, three nested record lengths, \(F=\max(16,16L)\), and 2,048 integral cells. It contains 384 analyses on 128 independent trajectories. The population triangle integral is approximately 0.02977 in both delay conditions, while the target's unrelaxed observed KL rate is 2.588315 nats/sample.
+
+\begin{longtable}[]{@{}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\caption{Continuous-frequency lower-rate certificates for the strong asymmetric alternative.}\label{tab:s3}\\
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedleft
+Maximum delay
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Samples
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Positive bounds / 64
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Median rate lower bound
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+0 & 32,768 & 3 & 0 \\
+0 & 131,072 & 64 & 0.002067 \\
+0 & 524,288 & 64 & 0.008313 \\
+8 & 32,768 & 0 & 0 \\
+8 & 131,072 & 0 & 0 \\
+8 & 524,288 & 64 & 0.000256 \\
+\end{longtable}
+
+The largest record length was an explicitly recorded extension after the first grid produced zero positive rate bounds in the delayed condition. Earlier outputs are preserved. Each confidence statement applies to its prespecified record length. Sequential monitoring would require simultaneous control across stopping times.
+
+\subsection{Additional implementation checks}
+
+The lag-loop spectral estimator agreed with a separately constructed full time-kernel quadratic form within \(8.94\times10^{-16}\). Across 2,500 general Hermitian perturbations, 1,713 certificates were positive and none exceeded the true analytic population bound. All 300 unknown-mean simulations lay inside the extended radius. All 450 bounded perturbations satisfying the weak-signal sufficient condition yielded positive certificates. A further 120 random matrices in dimensions 3, 6 and 12 verified the maximum-triangle wrapper against the full-vector raw reversal density; all 120 bounds were positive and below that density. Independent code paths and algebraic stress tests provide computational cross-validation.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.98\linewidth]{supp_figures/figS07.pdf}
+\caption{\label{fig:s7}
+\textbf{Sample complexity at fixed and continuous frequencies.} (a) All 12 fixed-grid cells at \(b=0.35\), with counts out of 128 independent trajectories per cell. (b) Positive-certificate fractions at \(b=0.65\) and \(0.90\), stratified by maximum delay. The three series have small fixed horizontal offsets for visibility. All lengths within a model--delay setting use the same trajectories. The 24 null cells are supplied as a separate table, with zero positive certificates out of 128 in each cell. (c) All 384 continuous-rate estimates, including zeros, from 128 independent long trajectories. Black marks give median and central 95\% empirical quantiles. The dashed line gives the common population triangle integral. (d) Each thin line links three prefixes of the same trajectory within one delay group (64 per group). Points show deviations from the median for their delay and prefix length, making individual variation visible. The two delay panels use the same units with different vertical limits. Panel (c) uses a symmetric-log scale with a linear region around zero.
+}
+\end{figure}
+
+\section{EEG acquisition, holdout, QC and matched rereferencing}
+
+\subsection{Data and analysis decisions}
+
+We used the public PhysioNet EEG Motor Movement/Imagery Dataset, version 1.0.0 (DOI 10.13026/C28G6P)~\cite{schalk2009,schalk2004}. The data provide 64-channel EEG at 160 Hz, including eyes-open and eyes-closed baseline runs. We downloaded both baseline files for all 109 available participants, for a total of 218 records. Their native EDF scaling was preserved.
+
+The protocol was internally frozen at 18:26:52 UTC on 6 November 2026, before opening the signals of participants S011-S109. Only S001R01 had been read at the freeze. Participants S001-S010 were reserved as pilot data; the other 99 participants formed the held-out cohort. The analysis decisions were frozen in a timestamped internal specification before the holdout records were inspected.
+
+The fixed channels were F3, F4, Fz, C3, C4, Cz, P3, P4, Pz, O1, O2, and Oz, in the original reference. Half A used 12 nonoverlapping 2-second epochs beginning at 2,4,\ldots,24 seconds; half B used epochs beginning at 34,36,\ldots,56 seconds. Each epoch was linearly detrended and Hann tapered. A record required at least eight accepted epochs in each half. Epochs were rejected for any selected-channel peak-to-peak amplitude above 500 microvolts, standard deviation below 0.1 microvolt, or nonfinite values.
+
+For each half, spectra were estimated across accepted epochs and normalized to coherency. All 220 channel triangles and all frequency bins from 2 to 30 Hz inclusive entered the primary score:
+
+\[Q_s=\operatorname{mean}_{f,\triangle}
+\left[\operatorname{Im}P_{s,A}(f,\triangle)\,
+\operatorname{Im}P_{s,B}(f,\triangle)\right].\]
+
+A positive score describes closure structure that repeats between the two time intervals. It is weighted by coherency magnitudes. The score quantifies the repeatability of signed windowed closure and is dimensionless.
+
+The unit of inference was the participant. The two primary one-sided sign-flip tests used 49,999 random patterns and Holm correction across the two conditions. Mean intervals used 20,000 participant bootstrap resamples. The paired condition comparison was designated exploratory in advance. Frequency plots are descriptive, without selecting a post hoc band for confirmatory testing.
+
+\subsection{Primary held-out results}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1364}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1818}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1818}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1818}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1364}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1818}}@{}}
+\caption{Frozen first-stage EEG analysis in the held-out cohort.}\label{tab:s4}\\
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Condition
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Included participants
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Positive Q
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Mean Q
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+95\% subject-bootstrap interval
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Holm-adjusted sign-flip p
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Eyes open & 78 & 62 & 6.9845e-5 & {[}5.2742e-5, 8.6895e-5{]} & 0.00004 \\
+Eyes closed & 84 & 77 & 1.9844e-4 & {[}1.6301e-4, 2.3502e-4{]} & 0.00004 \\
+\end{longtable}
+
+The standardized mean divided by participant standard deviation is 0.900 for eyes open and 1.175 for eyes closed. The unadjusted p = 0.00002 is the resolution floor of the specified random sign-flip calculation.
+
+Among 73 participants with both retained recordings, the exploratory eyes-closed minus eyes-open difference is 1.2748e-4, with 95\% bootstrap interval {[}8.5331e-5, 1.7217e-4{]} and two-sided sign-flip p = 0.00002.
+
+The empirical conclusion is \textbf{repeatable, coherence-weighted, finite-window sensor closure in both conditions}. The conditional sign-symmetry test and positive participant mean are well supported. The structured null counterexample and Theorem 3 establish that these p values do not identify a latent non-equilibrium mechanism over arbitrary filters.
+
+\subsection{Window, reference, and filter sensitivities}
+
+With 4-second windows, both held-out condition means remain positive.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1429}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1429}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1905}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1905}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1429}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1905}}@{}}
+\caption{Four-second-window sensitivity of the initial EEG analysis.}\label{tab:s5}\\
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Sensitivity
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Condition
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+N
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Mean Q
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+95\% subject-bootstrap interval
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Holm p
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+4-second window & Open & 64 & 5.5308e-5 & {[}2.4288e-5, 8.5545e-5{]} & 0.00046 \\
+4-second window & Closed & 76 & 1.0680e-4 & {[}7.5198e-5, 1.3780e-4{]} & 0.00004 \\
+\end{longtable}
+
+The reduction persists when comparing only the same participants: open, n = 64, 6.9742e-5 to 5.5308e-5; closed, n = 76, 2.0205e-4 to 1.0680e-4. Window length changes spectral smoothing, the number of replicas, accepted epochs, and coherency-estimation bias together. These comparisons establish resolution dependence rather than isolating a unique source of it.
+
+An alternating-block sensitivity also retains positive means. Common-average referencing substantially changes the score and inclusion counts. Since rereferencing mixes channels, it tests a different aspect of the observation geometry. The resulting magnitude changes remain present in matched-participant comparisons.
+
+The initial causal-filter branch recomputed quality-control masks and consequently changed which records and epochs entered. A corrected perturbation analysis held the original participants and accepted epoch masks fixed. It applied channel-specific causal one-pole filters with time constants 4-25 ms and delays 0-4 samples. The results were:
+
+\begin{longtable}[]{@{}lrr@{}}
+\caption{Matched-mask mild channel-filter perturbation of primary EEG scores.}\label{tab:s6}\\
+\toprule\noalign{}
+Same-mask perturbation & Open & Closed \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+N & 78 & 84 \\
+Pearson correlation of original and filtered Q & 0.99683 & 0.99917 \\
+Spearman correlation & 0.99530 & 0.99719 \\
+Relative change in group mean & -0.591\% & -0.368\% \\
+Maximum exact Fourier-domain cycle change & 7.82e-16 & 8.50e-16 \\
+\end{longtable}
+
+Thus these particular mild temporal perturbations have little effect on group Q. This quantitative robustness coexists with the structured narrow-band counterexample and the unrestricted-memory theorem.
+
+\subsection{Independent empirical audit}
+
+A separate implementation decoded all 218 EDF files without importing the project's EDF reader, periodogram functions, or record-analysis function. It independently checked physical units, scaling, channel labels, linear detrending, tapering, spectral normalization, cycle orientation, rejection rules, and participant statistics.
+
+Every inclusion decision and every available accepted-epoch count matched. All 177 retained primary-record scores were reproduced, with maximum absolute error 9.8649e-17. The 41 excluded records all failed the prespecified accepted-epoch requirement; no download failed. The audit separately checked the complete held-out exclusion lists.
+
+The audit also identified the interpretation of the score. Each product contains six coherency magnitudes and two closure-phase sine terms. Condition effects can therefore reflect coherence, signal quality, phase relationships, and their temporal stability. The eye condition also follows the dataset's run ordering, so the paired difference is a condition/run association. This analysis concerns sensor-level spectral-cycle repeatability across resting EEG recordings.
+
+\subsection{EEG: matched windows separate reference effects from selection effects}
+
+The initial archive contains derived imaginary-cycle arrays from all 218 public EEGMMIDB baseline recordings \cite{schalk2009}. The matched-reference analysis recomputed the spectral-cycle statistics from archived arrays generated in the initial analysis of all 218 EDF recordings. The separate initial raw-file audit and its checksums are preserved in the accompanying reproducibility archive.
+
+We restricted to subjects S011--S109 and to records having all 12 predefined windows accepted in each half under both the original reference and 64-channel average reference. This guarantees identical time windows. It gives 52 eyes-open records and 61 eyes-closed records, from 71 distinct participants; 42 participants have both conditions in the intersection. All follow-up analyses are exploratory because these records were already inspected in round 1.
+
+The score is \(Q=\operatorname{mean}_{\omega,\triangle}\Im(P_A)\Im(P_B)\). The archive is float32; recomputed scores differ from the original float64 table by at most \(2.39\times10^{-12}\), consistent with storage precision.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1579}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2105}}@{}}
+\caption{Original-reference and common-average-reference scores on matched EEG windows.}\label{tab:s7}\\
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Condition
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Matched records
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Original-reference mean Q
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Average-reference mean Q
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Ratio of means
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Eyes open & 52 & \(7.4189\times10^{-5}\) & \(3.8283\times10^{-4}\) & 5.1602 \\
+Eyes closed & 61 & \(1.9855\times10^{-4}\) & \(5.2276\times10^{-4}\) & 2.6329 \\
+\end{longtable}
+
+Paired reference differences, using participant resampling with 20,000 draws, were:
+
+\begin{itemize}
+\tightlist
+\item
+  Eyes open: \(3.0864\times10^{-4}\), 95\% interval \([2.5625,3.6244]\times10^{-4}\).
+\item
+  Eyes closed: \(3.2421\times10^{-4}\), 95\% interval \([2.5814,3.9207]\times10^{-4}\).
+\end{itemize}
+
+For the 42 participants with both conditions, the eyes-closed minus eyes-open mean difference remained positive under both references: \(1.3288\times10^{-4}\) with original reference (95\% bootstrap interval \([0.7981,1.8597]\times10^{-4}\)) and \(1.2634\times10^{-4}\) with average reference (interval \([0.8114,1.7345]\times10^{-4}\)). This comparison remains associated with the dataset's condition/run ordering.
+
+The absolute magnitude of the cycle score is therefore strongly reference-dependent even with participants and windows held fixed. A condition contrast can nevertheless persist across that reference change. Both observations are useful, distinct empirical findings. Common-average rereferencing of the selected channels is not the same operation as the invertible three-dimensional rotations used in the population checks.
+
+The spectral envelope and covariance-tail assumptions required by the new latent-inference certificate have not been independently calibrated for these EEG recordings. The human analysis quantifies a sensor-level spectral-cycle statistic; latent reversal-rate certification would additionally use external spectral-power and covariance-tail bounds.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.98\linewidth]{supp_figures/figS08.pdf}
+\caption{\label{fig:s8}
+\textbf{EEG selection and observation-coordinate sensitivity.} (a) The archived acquisition and QC funnel, counting records and distinct participants at each step. Status OK under both references precedes the restriction to complete windows. (b) Observed complete-window membership among the 99 post-pilot participants per eye condition. A complete record has status OK and all 12 predefined windows in each half. The joint cells contain 52 eyes-open and 61 eyes-closed records. (c) The mean within-record reference difference for each of the 71 participants, using the matched runs available to that participant. Markers distinguish 29 participants with one matched run and 42 with both. (d) The signed contribution of alpha (8 to below 13 Hz) versus full \(Q\), across all 226 record--reference combinations. The band contribution uses the full frequency--triplet denominator and equals \(10/57\) times the alpha-band mean. The diagonal marks equality with full \(Q\). The comparison is exploratory and eye condition follows the source recording order.
+}
+\end{figure}
+
+\section{Reproducibility and source data}
+The companion reproducibility archive preserves the fixed EEG analysis protocol, decisions for all 218 baseline recordings, an independent EDF-processing audit, and the numerical experiments underlying the theoretical results. PhysioNet provides the original public EEG recordings; the archive includes derived spectral-cycle arrays and the example recording used for the controlled-transform analysis. Simulation configurations, independently generated replicates, and finite-sample validation results are retained with their original identifiers.
+
+The companion \path{REPRODUCIBILITY_INDEX.csv} links all main and supplementary figures to numerical inputs and generation code. Panel-level source files for Figs. S1--S8 are indexed in the figure-production data archive. Figs. S9--S17 are generated from the corresponding R4/R5 numerical tables and scripts, as specified in the same index. The archives contain a SHA-256 inventory and distinguish independent simulations from nested record-length analyses.
+
+\section{Constrained latent representations and independent calibration}
+\subsection{Exact temporally white latent representation}
+For any real $d\times d$ skew matrix $K$ with $\|K\|_2=1$ and $0<b<1$, set $G_{\mathrm{white}}=\frac12\left(\begin{smallmatrix} I&-bK\\ bK&I\end{smallmatrix}\right)$. Since $K^\mathsf T=-K$, this is a real symmetric positive-definite matrix: its smallest eigenvalue is $(1-b)/2$. Sample $x_t=(u_t,v_t)$ as independent-in-time centered Gaussian vectors with covariance $G_{\mathrm{white}}$. The latent process is statistically reversible and temporally white. For $y_t=u_t+v_{t-1}$, $H=[I,e^{-i\omega}I]$ gives $HG_{\mathrm{white}}H^*=I-ib\sin\omega K$. This establishes a particularly simple exact subclass of the general lift, with no latent temporal autocovariance at nonzero lag. We tested $d=3,6,12,24$, 30 independent random normalized skew matrices per dimension, four values of $b$, and 49 frequencies, totaling 23,520 dimension--parameter--frequency evaluations derived from 120 random skew matrices. The 23,520 evaluations reuse a structured set of randomly generated matrices and frequency values. The maximum relative Frobenius error was $1.33\times10^{-16}$; the smallest latent eigenvalue was $0.05$. The analytic result is general; the finite checks verify the implementation.
+\begin{figure}[ht]\centering\includegraphics[width=.93\linewidth]{supp_figures/figS09.pdf}\caption{Temporally white reversible latent representation. (a) Smallest latent covariance eigenvalue versus asymmetry strength $b$; the analytical value is $(1-b)/2$. (b) Maximum relative spectral-reconstruction error by observed dimension. The test uses 120 random normalized skew matrices, four values of $b$, and 49 frequencies, giving 23,520 matrix--parameter--frequency evaluations.}\end{figure}
+
+\subsection{The physically relevant joint low-frequency limit}
+The fixed-strength small-$\theta$ asymptotic $t_{\min}\sim[1-\sqrt{1-b^2}]/\theta^2$ treats $b$ as constant. The real-spectral symmetry of a fixed smooth target implies its imaginary component vanishes at $\omega=0$. Along $b(\omega)=\beta\sin\omega$ with $\theta=\omega$, rationalization gives
+\begin{equation}
+ t_{\min}(\beta\sin\omega,\omega)=\frac{1+\beta^2\cos^2\omega}{1+|\cos\omega|\sqrt{1-\beta^2\sin^2\omega}}
+ \longrightarrow\frac{1+\beta^2}{2}.
+\end{equation}
+The path dependence matters in using pointwise resource bounds to reason about an actual broadband time series. We checked 440 points in four $\beta$ conditions. At $|\omega|<10^{-3}$, the maximum relative discrepancy from the limiting expression was $2.04\times10^{-7}$.
+\begin{figure}[ht]\centering\includegraphics[width=.93\linewidth]{supp_figures/figS10.pdf}\caption{Joint low-frequency and short-delay limit. (a) Exact pointwise minimum trace ratio for $b(\omega)=\beta\sin\omega$ and $\theta=\omega$; unlike the fixed-$b$ path, this smooth spectral family has a finite limit as $\omega\to0$. (b) The ratio to $(1+\beta^2)/2$ approaches unity, confirming the analytic joint limit.}\end{figure}
+
+\subsection{Mechanism ablation with a positive-definite local spectrum}
+On a compact frequency interval $[-h,h]$ about a fixed frequency, we considered three coherency edges $C_e(\delta)=\rho(1+s_e\delta)e^{iq_e\delta}$ with $\rho=0.13$, $s=(1,-0.6,0.2)$ and $q=(-2,3,-1)$, whose phase slopes sum to zero. For the corresponding $3\times3$ Hermitian coherency matrix with unit diagonal, the smallest eigenvalue over the numerical quadrature nodes exceeded $0.85$ in all conditions. Each exact-frequency cycle is real, because the phases cancel. The uniform frequency kernel on $[-h,h]$ has $\mu_2=h^2/3$. Averaging each edge before multiplying yields the leading term $\rho^3(h^2/3)\sum_e s_eq_e$. At $h=0.005$, the exact quadrature / leading ratio was $0.999952$. With either all amplitude slopes or all differential phase slopes set to zero, the imaginary averaged cycle vanished to floating-point precision. These tests isolate the two interacting terms in the local bias mechanism.
+\begin{figure}[ht]\centering\includegraphics[width=.93\linewidth]{supp_figures/figS11.pdf}\caption{Spectral-averaging mechanism in a positive-definite local model. (a) The combined amplitude and phase slopes generate a nonzero averaged imaginary cycle; setting either slope family to zero eliminates the leading effect. The dashed curve is the analytic $O(h^2)$ contribution. (b) The ratio of exact numerical quadrature to the leading term approaches unity as kernel halfwidth $h$ decreases.}\end{figure}
+
+\subsection{Independent calibration of an unknown Gaussian scale}
+We investigated a restricted MA(1) family with known normalized spectral shape $S_0(\omega)$ and unknown positive scale $\sigma^2$. An independent calibration record $z\in\mathbb R^{md}$ has known normalized covariance $\Sigma_0$, so $Q=z^\mathsf T\Sigma_0^{-1}z$ obeys $Q/\sigma^2\sim\chi^2_{md}$. Let $q_{\alpha}$ denote the lower $\alpha$ quantile of this chi-square distribution. Then $U=Q/q_{\alpha_{\rm cal}}$ is an upper confidence bound for $\sigma^2$ with probability at least $1-\alpha_{\rm cal}$. Under the known MA(1) structure, choose $L=1$, $T_L=0$, and $B=U\sup_\omega\lambda_{\max}(S_0)$. An independent test record enters the Gaussian certificate with $\alpha_{\rm test}$; the union bound gives overall failure probability at most $\alpha_{\rm cal}+\alpha_{\rm test}$. Here both were $0.025$.
+
+We used $N=32768$ for independent test recordings, 90 replications per model and calibration length, $m=16,64,128$, a reversible white null ($b=0$) and an irreversible MA(1) alternative ($b=0.9$). The positive-certificate counts for the alternative were 15/90, 59/90, and 79/90 as $m$ increased. The null gave zero positives in 90 replications for every $m$. In the archive all returned certificates were below the analytic population bound. The median upper scale factors for the alternative were approximately $1.47,1.22,1.14$, respectively. The known-scale reference produced 90/90 positive certificates. This is a concrete out-of-sample calibration demonstration, with the substantive restriction that the normalized covariance shape and MA order are known.
+\begin{figure}[ht]\centering\includegraphics[width=.93\linewidth]{supp_figures/figS12.pdf}\caption{Independent scale calibration within a known-shape MA(1) family. (a) Frequency of positive lower-bound certificates for a reversible null ($b=0$) and an asymmetric alternative ($b=0.9$) across independent calibration lengths $m=16,64,128$; 90 independent pairs contribute to each condition. (b) One-sided upper scale bounds, showing individual runs and medians; the dashed line gives the true scale. Test length $N=32,768$ is fixed.}\end{figure}
+
+
+\input{r4_supplement}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

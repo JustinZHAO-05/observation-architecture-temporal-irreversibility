@@ -1,0 +1,6 @@
+﻿experiment,model,observed_dimension,delay_samples,record_length_samples,support_or_cutoff,frequency_design,seed,independent_units,analyses_or_cases,source_script
+Finite-record serialization,Gaussian MA(4),3,0; 21; 42,16,4 (target); 46 (serialized),501 points on the Fig. S2 grid,801242,1,1,01_RESEARCH/ROUND1/neural_time_arrow_study/src/math_review_v2_calculations.py
+Exact population example,Three-channel Gaussian MA(1),3,1,32,1 (observed); 2 (latent),513 frequencies,deterministic,1,1,01_RESEARCH/ROUND2/PRE_round2/src/theory_round2.py
+General population lift,Gaussian VAR(1),3; 6; 12,1,population,VAR(1),83 frequencies per network,2601107,90,90,01_RESEARCH/ROUND2/PRE_round2/src/theory_round2.py
+Fixed-grid spectral certificate,"Two reversible nulls; alternatives b=0.35, 0.65, 0.9",3,"(0,0,0); (0,1,2); (0,4,8)",2048; 8192; 32768; 131072,lag cutoff: base support plus maximum channel delay,π/6; π/3; π/2; 2π/3; 5π/6,260207 + 1000×model index + 17×delay index,1920,7680,01_RESEARCH/ROUND2/PRE_round2/src/finite_certificate.py
+Continuous-rate certificate,"Gaussian MA(1), b=0.9",3,"(0,0,0); (0,4,8)",32768; 131072; 524288,1 (no delay); 9 (maximum delay 8),"2,048 cells; deterministic net size max(16,16L)",713420,128,384,01_RESEARCH/ROUND2/PRE_round2/src/continuous_rate_certificate.py

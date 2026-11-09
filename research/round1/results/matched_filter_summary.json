@@ -1,0 +1,24 @@
+[
+  {
+    "run": 1,
+    "n": 78,
+    "q_pearson": 0.9968254300133562,
+    "q_spearman": 0.9952958433971092,
+    "original_mean": 6.984483107226563e-05,
+    "filtered_mean": 6.943189409867253e-05,
+    "relative_mean_change": -0.005912205201926062,
+    "median_relative_cycle_l2_change": 0.06964811066519762,
+    "max_exact_fourier_error": 7.8236028766554e-16
+  },
+  {
+    "run": 2,
+    "n": 84,
+    "q_pearson": 0.9991734957900741,
+    "q_spearman": 0.997185380176167,
+    "original_mean": 0.00019844179556892353,
+    "filtered_mean": 0.00019771101636400156,
+    "relative_mean_change": -0.0036825871426271767,
+    "median_relative_cycle_l2_change": 0.06857787092811429,
+    "max_exact_fourier_error": 8.500145032286355e-16
+  }
+]

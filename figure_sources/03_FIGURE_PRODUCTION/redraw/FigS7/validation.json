@@ -1,0 +1,55 @@
+{
+  "canvas_mm": [
+    178.0,
+    126.0
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4204,
+    2976
+  ],
+  "panels": {
+    "A": {
+      "A.csv": {
+        "rows": 12,
+        "sha256": "06962614e84f258d4352a8ed2cd71bcef272eef14f0daa40132dbcf4fece6f35"
+      },
+      "A_null_cells.csv": {
+        "rows": 24,
+        "sha256": "fb1b03e368fe9ba2ec4f24d3bfe2b8aaa12185d64e814980a3672295bad54487"
+      }
+    },
+    "B": {
+      "B.csv": {
+        "rows": 24,
+        "sha256": "8dea3578adfe53963b1be1fb96c3fd6c0b253133664b168ac8c1dea599a06652"
+      },
+      "B_replicates.csv": {
+        "rows": 7680,
+        "sha256": "2411a5a92388aa62063f061e5d2bebb38cc717c44029342acaa51c960423f894"
+      }
+    },
+    "C": {
+      "C.csv": {
+        "rows": 384,
+        "sha256": "31f495c9950cf701db391595f6da923e612d6aeb2021ad11d4fe010d71ffa2db"
+      },
+      "C_summary.csv": {
+        "rows": 6,
+        "sha256": "4a4d771e9b4e71fa9a50240fe45e58d11e3a6829e29bdea69d1bcad0e88888e9"
+      }
+    },
+    "D": {
+      "D.csv": {
+        "rows": 384,
+        "sha256": "b09621af80530dafa23cf4f23bc8cb8204cd8f2ab1fe222c75720034542c887f"
+      }
+    }
+  },
+  "sha256": {
+    "FigS7.pdf": "b6ba9e873de44db1e114990d4208630190fdb1dc671ff51df6eee4762ac5bc95",
+    "FigS7.png": "69952c7e6ba8f9762547dc6cae9d17e996b13565ccf3e45673be2a415bd724cf",
+    "FigS7.svg": "fb72bf09098a39b3223f5c5050d7e0358c743d960460bf8d2915e354133b8f34"
+  }
+}

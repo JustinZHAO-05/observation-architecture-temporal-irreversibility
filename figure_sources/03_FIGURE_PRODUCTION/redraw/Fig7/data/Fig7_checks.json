@@ -1,0 +1,23 @@
+{
+  "matched_records": 113,
+  "unique_participants": 71,
+  "eyes_open": 52,
+  "eyes_closed": 61,
+  "paired_participants": 42,
+  "reference_records": 226,
+  "ratio_of_group_means": {
+    "1": 5.16020025477787,
+    "2": 2.6328999056915174
+  },
+  "max_q_product_error": 1.0842021724855044e-19,
+  "edf_sha256": "374dfa06c6df18e3bd324f4c8aefa462bacb6bf9dcbfe8d58ae6e84ed2bbc443",
+  "asset_md5": "d2a0637fb2064d7065354d012f377fcc",
+  "example_angle_deg": 80.57185149828919,
+  "sampling_hz": 160,
+  "analysis_channels": 12,
+  "car_channels": 64,
+  "windows_per_half": 12,
+  "bootstrap_seed": 743109,
+  "bootstrap_draws": 20000,
+  "full_cycle_archive_checked": true
+}

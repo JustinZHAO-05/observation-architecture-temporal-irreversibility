@@ -1,0 +1,62 @@
+{
+  "canvas_mm": [
+    178,
+    112
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4205,
+    2646
+  ],
+  "pptx": {
+    "native_groups": 11,
+    "native_shapes": 76,
+    "editable_equations": 19,
+    "vector_data_panels": 2,
+    "page_mm": [
+      178.0205,
+      112.00694444444444
+    ]
+  },
+  "scientific": {
+    "strengths": [
+      0.2,
+      0.5,
+      0.8,
+      0.9
+    ],
+    "analytic_curve_points_per_strength": 100,
+    "archived_curve_rows": 400,
+    "example_b": 0.8,
+    "example_theta_rad": [
+      0.8,
+      0.05
+    ],
+    "example_trace_ratio": [
+      1.1309293519499566,
+      160.433587604617
+    ],
+    "example_min_latent_eigenvalue": [
+      -2.541537100097885e-16,
+      -1.3911957728186865e-14
+    ],
+    "example_max_spectral_error": [
+      1.2208643465835837e-17,
+      1.5765263757186136e-14
+    ],
+    "map_shape": [
+      201,
+      303
+    ],
+    "independent_lp_settings": 32,
+    "lp_max_relative_width": 2.300414252772742e-06,
+    "lp_max_equality_residual": 5.999187550013108e-15
+  },
+  "sha256": {
+    "Fig3.pdf": "a86f0a7d4331b12d51632984a067f5fd73f2c980b8b1259b9cd9fdd25bea6263",
+    "Fig3.pptx": "488f7db34c4450bf717610a6f99f3588fd2be8173d0c4a54c1ce32c155e47b8e",
+    "Fig3.svg": "41254734065830d4deaf41cd69e2e9e35fd5907d062f6383b9e13505be31d664",
+    "Fig3.png": "ccb6f4e1eb2ada25fd7ddd12a8cbda14b4e7d070e112d8c496c8e8aaec7188e1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "b": 0.9,
+  "draw_seed": 26110802,
+  "samples_per_channel": 32,
+  "frequencies": 513,
+  "max_covariance_difference": 0.0,
+  "max_spectral_difference": 2.245934655996687e-16,
+  "max_cycle_difference": 1.6653345369377348e-16,
+  "peak_imaginary_cycle_magnitude": 0.14029611541307913,
+  "latent_reversal_rate": 0.0,
+  "observed_reversal_rate": 2.588314677411236
+}

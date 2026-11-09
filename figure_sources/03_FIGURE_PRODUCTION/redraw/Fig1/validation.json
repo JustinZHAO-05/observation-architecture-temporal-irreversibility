@@ -1,0 +1,29 @@
+{
+  "figure": "Fig1 redraw",
+  "vector_pdf": true,
+  "canvas_mm": [
+    178,
+    112
+  ],
+  "png_dpi": 600,
+  "png_pixels": [
+    4205,
+    2646
+  ],
+  "pptx": {
+    "native_shapes": 89,
+    "native_groups": 13,
+    "editable_equations": 22,
+    "svg_data_panels": 2,
+    "page_mm": [
+      178.0205,
+      112.00694444444444
+    ]
+  },
+  "sha256": {
+    "Fig1.svg": "a443f9cfb01cc0ea7910c9a6c74d4e052d2488f230f060884eda0b159673213e",
+    "Fig1.pdf": "9b37bc766cc1d5234bc5542bf72f3a9f7e3e72ffd7e37cee5d71d25dc3630f3f",
+    "Fig1.png": "828240e77ccdbcc718c2ad91f1b242ae98ca7ebdf20dff6f26c8bd5a8363439e",
+    "Fig1.pptx": "2f5e84a903c1fd55b641ddd556a296eb9a3d503f6acee8c567900e54fe6d1b6a"
+  }
+}

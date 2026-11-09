@@ -1,0 +1,48 @@
+{
+  "canvas_mm": [
+    178.0,
+    126.0
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4205,
+    2977
+  ],
+  "panels": {
+    "A": {
+      "A.csv": {
+        "rows": 6,
+        "sha256": "9afdfae70145f759fd563b64143684d2f48ce7b38318cf4d3f02a5e369d1bc98"
+      }
+    },
+    "B": {
+      "B.csv": {
+        "rows": 2,
+        "sha256": "1fd7e14743ed04dc29a80d20c8f21bfe8513a962d0a26a8b9f05ae880853270e"
+      }
+    },
+    "C": {
+      "C.csv": {
+        "rows": 15,
+        "sha256": "b7710842c4f2473b2033adcb85d5557be63877205dc248d09475d3aa21ddbf41"
+      },
+      "C_full_scan.csv": {
+        "rows": 75,
+        "sha256": "d7056c3f1c600f9e197606af1c1a81b6a9f1dff55da602c6642dd4973840f708"
+      }
+    },
+    "D": {
+      "D.csv": {
+        "rows": 9,
+        "sha256": "01188efa19556aff2f163b13f7239f2f4e649be9b409f55b60e9f9aa28fbc718"
+      }
+    }
+  },
+  "sha256": {
+    "FigS1.pdf": "38aa01cd2603e0c0fd366284dd9a500a1653cd6caf431d2553e94866af39c14a",
+    "FigS1.png": "7c33d6e6e494c1c34b10e752a04cd64191c424123d6f92249f9174906a46b865",
+    "FigS1.pptx": "2a356f6b16e7948956c6084b119f130b9a76d8d2d3dcbe634d5ddbb3ef4dcd49",
+    "FigS1.svg": "92689ff7619b485123ab787812a82bcc1cfccd8a1dab38aed56724f5903318fb"
+  }
+}

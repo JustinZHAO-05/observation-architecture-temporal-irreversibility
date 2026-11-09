@@ -1,0 +1,9 @@
+{
+  "cases": 32,
+  "max_relative_interval_width": 2.300414252772742e-06,
+  "max_lower_minus_analytic": 1.1102230246251565e-16,
+  "max_analytic_minus_upper": 0.0,
+  "min_upper_eigenvalue": 5.744241303662307e-10,
+  "max_constraint_error": 5.999187550013108e-15,
+  "max_iterations": 500
+}

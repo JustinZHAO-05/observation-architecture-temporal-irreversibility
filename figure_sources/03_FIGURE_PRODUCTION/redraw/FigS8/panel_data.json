@@ -1,0 +1,17 @@
+{
+  "A": [
+    "A.csv",
+    "A_stages.csv"
+  ],
+  "B": [
+    "B.csv",
+    "B_membership.csv"
+  ],
+  "C": [
+    "C.csv",
+    "C_record_differences.csv"
+  ],
+  "D": [
+    "D.csv"
+  ]
+}

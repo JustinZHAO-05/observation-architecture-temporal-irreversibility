@@ -1,0 +1,13 @@
+{
+  "n_records": 500,
+  "mean": 1.0117296291711353e-05,
+  "SE": 8.66060859923043e-07,
+  "mean_95_normal_CI": [
+    8.41981700626219e-06,
+    1.1814775577160518e-05
+  ],
+  "proportion_positive": 0.706,
+  "first99_mean": 8.87982067742064e-06,
+  "first99_signflip_p": 8e-05,
+  "score_file": "adversarial_M0_60s_scores.npy"
+}

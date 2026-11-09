@@ -1,0 +1,19 @@
+{
+  "frequencies": 257,
+  "phasor_frequency_rad_sample": 1.5707963267948966,
+  "maximum_closure_phase_difference_rad": 4.440892098500626e-16,
+  "maximum_cycle_product_difference": 2.5788518451458537e-17,
+  "phase_scan_count": 181,
+  "maximum_numeric_interval_width": 2.5604934839051907e-12,
+  "weak_limit_count": 32,
+  "weak_path_first_ratio_bracket": [
+    0.964714450510293,
+    0.9664099513877638
+  ],
+  "optimization_seed": 26110904,
+  "weak_edge_example_phase_shares": [
+    0.33333333333333326,
+    0.7155553232118939,
+    0.9698944879750859
+  ]
+}

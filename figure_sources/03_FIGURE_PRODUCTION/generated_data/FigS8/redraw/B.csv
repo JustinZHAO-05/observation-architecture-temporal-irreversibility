@@ -1,0 +1,9 @@
+run,complete_original,complete_average,n
+1,False,False,19
+1,False,True,28
+1,True,False,0
+1,True,True,52
+2,False,False,17
+2,False,True,21
+2,True,False,0
+2,True,True,61

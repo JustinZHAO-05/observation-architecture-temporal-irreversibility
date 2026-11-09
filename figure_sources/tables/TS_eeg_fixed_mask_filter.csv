@@ -1,0 +1,6 @@
+﻿Same-mask perturbation,Open,Closed
+N,78,84
+Pearson correlation of original and filtered Q,0.99683,0.99917
+Spearman correlation,0.99530,0.99719
+Relative change in group mean,-0.591%,-0.368%
+Maximum exact Fourier-domain cycle change,7.82e-16,8.50e-16

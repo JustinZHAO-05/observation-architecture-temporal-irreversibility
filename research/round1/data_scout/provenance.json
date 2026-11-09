@@ -1,0 +1,29 @@
+[
+  {
+    "repository": "francescorandi/wormneuroatlas",
+    "path": "wormneuroatlas/data/aconnectome_witvliet_2020_7.csv",
+    "local_file": "witvliet_adult7.tsv",
+    "sha": "f312c4db1018229cb5707b259440cce768e1e727",
+    "url": "https://github.com/francescorandi/wormneuroatlas/blob/main/wormneuroatlas/data/aconnectome_witvliet_2020_7.csv",
+    "access": "GitHub connector fetch_file",
+    "access_date": "2026-11-06"
+  },
+  {
+    "repository": "francescorandi/wormneuroatlas",
+    "path": "wormneuroatlas/data/aconnectome_witvliet_2020_8.csv",
+    "local_file": "witvliet_adult8.tsv",
+    "sha": "b16614e2d8d9eb41973c9b6cd9795c21289fbf2f",
+    "url": "https://github.com/francescorandi/wormneuroatlas/blob/main/wormneuroatlas/data/aconnectome_witvliet_2020_8.csv",
+    "access": "GitHub connector fetch_file",
+    "access_date": "2026-11-06"
+  },
+  {
+    "repository": "francescorandi/wormneuroatlas",
+    "path": "wormneuroatlas/data/neuron_ids.txt",
+    "local_file": "neuron_ids.txt",
+    "sha": "57100c3573a1a167a375c2dff82387614db344c2",
+    "url": "https://github.com/francescorandi/wormneuroatlas/blob/main/wormneuroatlas/data/neuron_ids.txt",
+    "access": "GitHub connector fetch_file",
+    "access_date": "2026-11-06"
+  }
+]

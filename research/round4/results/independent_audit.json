@@ -1,0 +1,18 @@
+{
+  "quadratic_form_checks": 20,
+  "quadratic_form_max_abs_error": 1.2212453270876722e-15,
+  "coefficient_identity_max_abs_error": 4.440892098500626e-16,
+  "full_record_covariance_max_error": 6.661338147750939e-16,
+  "high_precision_joint_checks": 12,
+  "joint_identity_70digit_max_error": "3.883827740406162911713639794805783426054898667639812902160258807390093e-54",
+  "rotation_checks": 150,
+  "max_relative_rotation_error": 6.5520856830109735e-15,
+  "triangle_vs_full_violations": 0,
+  "finite_support_all_positive": true,
+  "finite_support_targets": 72,
+  "test_analyses": 8520,
+  "calibration_count": 1680,
+  "finite_calibration_count": 1320,
+  "invalid_certificates_under_calibrated_models": 0,
+  "all_pass": true
+}

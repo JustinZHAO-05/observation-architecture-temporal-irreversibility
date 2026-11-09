@@ -1,0 +1,1242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="504.566929pt" height="357.165354pt" viewBox="0 0 504.566929 357.165354" version="1.1">
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 357.165354  L 504.566929 357.165354  L 504.566929 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="C-1">
+   <g id="patch_2">
+    <path d="M 38.75074 325.270488  L 232.504441 325.270488  L 232.504441 217.83515  L 38.75074 217.83515  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mf10b05ffac" d="M 0 0  L 0 2.8  " style="stroke: #181b20; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#mf10b05ffac" x="47.557727" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      
+      <g style="fill: #181b20" transform="translate(39.637727 339.820488)">
+       <text>
+        <tspan x="0" y="-0.3995" style="font-size: 8px; font-family: 'Arial'; fill: #181b20">1</tspan>
+        <tspan x="4.449219" y="-0.3995" style="font-size: 8px; font-family: 'Arial'; fill: #181b20">0</tspan>
+        <tspan x="9.037825" y="-5.975" style="font-size: 5.6px; font-family: 'Arial'; fill: #181b20">−</tspan>
+        <tspan x="12.308137" y="-5.975" style="font-size: 5.6px; font-family: 'Arial'; fill: #181b20">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mf10b05ffac" x="135.627591" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      
+      <g style="fill: #181b20" transform="translate(127.707591 339.820488)">
+       <text>
+        <tspan x="0" y="-0.3995" style="font-size: 8px; font-family: 'Arial'; fill: #181b20">1</tspan>
+        <tspan x="4.449219" y="-0.3995" style="font-size: 8px; font-family: 'Arial'; fill: #181b20">0</tspan>
+        <tspan x="9.037825" y="-5.975" style="font-size: 5.6px; font-family: 'Arial'; fill: #181b20">−</tspan>
+        <tspan x="12.308137" y="-5.975" style="font-size: 5.6px; font-family: 'Arial'; fill: #181b20">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mf10b05ffac" x="223.697455" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      
+      <g style="fill: #181b20" transform="translate(215.777455 339.820488)">
+       <text>
+        <tspan x="0" y="-0.3995" style="font-size: 8px; font-family: 'Arial'; fill: #181b20">1</tspan>
+        <tspan x="4.449219" y="-0.3995" style="font-size: 8px; font-family: 'Arial'; fill: #181b20">0</tspan>
+        <tspan x="9.037825" y="-5.975" style="font-size: 5.6px; font-family: 'Arial'; fill: #181b20">−</tspan>
+        <tspan x="12.308137" y="-5.975" style="font-size: 5.6px; font-family: 'Arial'; fill: #181b20">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <defs>
+       <path id="m0d5f2222a9" d="M 0 0  L 0 2  " style="stroke: #181b20; stroke-width: 0.6" />
+      </defs>
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="39.022875" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="43.527871" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="74.069397" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="89.577731" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="100.581068" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="109.11592" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="116.089401" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="121.985396" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="127.092739" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="131.597735" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="162.139261" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="177.647595" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="188.650932" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="197.185784" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="204.159265" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="210.05526" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="215.162603" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m0d5f2222a9" x="219.667599" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.6" />
+      </g>
+     </g>
+    </g>
+    <g id="text_4">
+     
+     <g style="fill: #181b20" transform="translate(107.412591 351.566488)">
+      <text>
+       <tspan x="0" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20">J</tspan>
+       <tspan x="4.25" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20">o</tspan>
+       <tspan x="8.977295" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20">i</tspan>
+       <tspan x="10.865723" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20">n</tspan>
+       <tspan x="15.593018" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20">t</tspan>
+       <tspan x="17.95459" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20"> </tspan>
+       <tspan x="20.316162" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20">p</tspan>
+       <tspan x="25.043457" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20">a</tspan>
+       <tspan x="29.770752" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20">t</tspan>
+       <tspan x="32.132324" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20">h</tspan>
+       <tspan x="36.859619" y="-0.5625" style="font-size: 8.55px; font-family: 'Arial'; fill: #181b20"> </tspan>
+       <tspan x="39.221191" y="-0.5625" style="font-style: italic; font-size: 8.55px; font-family: 'Cambria'; fill: #181b20">ε</tspan>
+       <tspan x="50.325146" y="-0.5625" style="font-style: italic; font-size: 8.55px; font-family: 'Cambria'; fill: #181b20">ψ</tspan>
+       <tspan x="44.260596" y="-0.5625" style="font-size: 8.55px; font-family: 'Cambria'; fill: #181b20">=</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_22">
+      <defs>
+       <path id="mbc764f3258" d="M 0 0  L -2.8 0  " style="stroke: #181b20; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#mbc764f3258" x="38.75074" y="306.853002" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="32.45074" y="309.716127" transform="rotate(-0 32.45074 309.716127)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#mbc764f3258" x="38.75074" y="286.389128" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="32.45074" y="289.252253" transform="rotate(-0 32.45074 289.252253)">0.7</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mbc764f3258" x="38.75074" y="265.925254" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="32.45074" y="268.788379" transform="rotate(-0 32.45074 268.788379)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#mbc764f3258" x="38.75074" y="245.46138" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="32.45074" y="248.324505" transform="rotate(-0 32.45074 248.324505)">0.9</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#mbc764f3258" x="38.75074" y="224.997506" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="32.45074" y="227.860631" transform="rotate(-0 32.45074 227.860631)">1.0</text>
+     </g>
+    </g>
+    <g id="text_10">
+     
+     <g style="fill: #181b20" transform="translate(15.44974 286.515319) rotate(-90)">
+      <text>
+       <tspan x="0" y="-0.953125" style="font-style: italic; font-size: 8.55px; font-family: 'Cambria'; fill: #181b20">L</tspan>
+       <tspan x="7.690674" y="-0.953125" style="font-style: italic; font-size: 8.55px; font-family: 'Cambria'; fill: #181b20">C</tspan>
+       <tspan x="4.445068" y="-0.953125" style="font-size: 8.55px; font-family: 'Cambria'; fill: #181b20">(</tspan>
+       <tspan x="12.276855" y="-0.953125" style="font-size: 8.55px; font-family: 'Cambria'; fill: #181b20">)</tspan>
+       <tspan x="15.522461" y="-0.953125" style="font-size: 8.55px; font-family: 'Cambria'; fill: #181b20">/</tspan>
+       <tspan x="19.689453" y="-0.953125" style="font-size: 8.55px; font-family: 'Comic Sans MS'; fill: #181b20">E</tspan>
+       <tspan x="26.021963" y="0.307813" style="font-size: 5.985px; font-family: 'Cambria'; fill: #181b20">*</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_27">
+    <path d="M 47.557727 225.549092  L 89.577731 226.645955  L 135.627591 230.419807  L 177.647595 240.66931  L 223.697455 271.192573  " clip-path="url(#pca0d659632)" style="fill: none; stroke: #0072b2; stroke-width: 1.1; stroke-linecap: square" />
+    <defs>
+     <path id="m33f43dc88a" d="M 0 1.85  C 0.490626 1.85 0.961223 1.655072 1.308148 1.308148  C 1.655072 0.961223 1.85 0.490626 1.85 0  C 1.85 -0.490626 1.655072 -0.961223 1.308148 -1.308148  C 0.961223 -1.655072 0.490626 -1.85 0 -1.85  C -0.490626 -1.85 -0.961223 -1.655072 -1.308148 -1.308148  C -1.655072 -0.961223 -1.85 -0.490626 -1.85 0  C -1.85 0.490626 -1.655072 0.961223 -1.308148 1.308148  C -0.961223 1.655072 -0.490626 1.85 0 1.85  z " style="stroke: #0072b2" />
+    </defs>
+    <g clip-path="url(#pca0d659632)">
+     <use xlink:href="#m33f43dc88a" x="47.557727" y="225.549092" style="fill: #0072b2; stroke: #0072b2" />
+     <use xlink:href="#m33f43dc88a" x="89.577731" y="226.645955" style="fill: #0072b2; stroke: #0072b2" />
+     <use xlink:href="#m33f43dc88a" x="135.627591" y="230.419807" style="fill: #0072b2; stroke: #0072b2" />
+     <use xlink:href="#m33f43dc88a" x="177.647595" y="240.66931" style="fill: #0072b2; stroke: #0072b2" />
+     <use xlink:href="#m33f43dc88a" x="223.697455" y="271.192573" style="fill: #0072b2; stroke: #0072b2" />
+    </g>
+   </g>
+   <g id="line2d_28">
+    <path d="M 47.557727 225.73757  L 89.577731 227.207984  L 135.627591 232.254253  L 177.647595 245.856457  L 223.697455 285.384658  " clip-path="url(#pca0d659632)" style="fill: none; stroke: #d55e00; stroke-width: 1.1; stroke-linecap: square" />
+    <defs>
+     <path id="m098e23c559" d="M -1.85 1.85  L 1.85 1.85  L 1.85 -1.85  L -1.85 -1.85  z " style="stroke: #d55e00; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#pca0d659632)">
+     <use xlink:href="#m098e23c559" x="47.557727" y="225.73757" style="fill: #d55e00; stroke: #d55e00; stroke-linejoin: miter" />
+     <use xlink:href="#m098e23c559" x="89.577731" y="227.207984" style="fill: #d55e00; stroke: #d55e00; stroke-linejoin: miter" />
+     <use xlink:href="#m098e23c559" x="135.627591" y="232.254253" style="fill: #d55e00; stroke: #d55e00; stroke-linejoin: miter" />
+     <use xlink:href="#m098e23c559" x="177.647595" y="245.856457" style="fill: #d55e00; stroke: #d55e00; stroke-linejoin: miter" />
+     <use xlink:href="#m098e23c559" x="223.697455" y="285.384658" style="fill: #d55e00; stroke: #d55e00; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="line2d_29">
+    <path d="M 47.557727 226.221113  L 89.577731 228.643189  L 135.627591 236.863704  L 177.647595 258.316488  L 223.697455 314.836937  " clip-path="url(#pca0d659632)" style="fill: none; stroke: #009e73; stroke-width: 1.1; stroke-linecap: square" />
+    <defs>
+     <path id="m645029fd54" d="M 0 -1.85  L -1.85 1.85  L 1.85 1.85  z " style="stroke: #009e73; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#pca0d659632)">
+     <use xlink:href="#m645029fd54" x="47.557727" y="226.221113" style="fill: #009e73; stroke: #009e73; stroke-linejoin: miter" />
+     <use xlink:href="#m645029fd54" x="89.577731" y="228.643189" style="fill: #009e73; stroke: #009e73; stroke-linejoin: miter" />
+     <use xlink:href="#m645029fd54" x="135.627591" y="236.863704" style="fill: #009e73; stroke: #009e73; stroke-linejoin: miter" />
+     <use xlink:href="#m645029fd54" x="177.647595" y="258.316488" style="fill: #009e73; stroke: #009e73; stroke-linejoin: miter" />
+     <use xlink:href="#m645029fd54" x="223.697455" y="314.836937" style="fill: #009e73; stroke: #009e73; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="line2d_30">
+    <path d="M 38.75074 224.997506  L 232.504441 224.997506  " clip-path="url(#pca0d659632)" style="fill: none; stroke-dasharray: 2.664,1.152; stroke-dashoffset: 0; stroke: #555d69; stroke-width: 0.72" />
+   </g>
+   <g id="patch_3">
+    <path d="M 38.75074 325.270488  L 38.75074 217.83515  " style="fill: none; stroke: #000000; stroke-width: 0.64; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 38.75074 325.270488  L 232.504441 325.270488  " style="fill: none; stroke: #000000; stroke-width: 0.64; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="legend_1">
+    <g id="text_11">
+     <text style="font-size: 8.6px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="44.67574" y="284.011066" transform="rotate(-0 44.67574 284.011066)">Relative edge strengths</text>
+    </g>
+    <g id="line2d_31">
+     <path d="M 64.776068 292.660769  L 70.503568 292.660769  L 76.231068 292.660769  " style="fill: none; stroke: #0072b2; stroke-width: 1.1; stroke-linecap: square" />
+     <g>
+      <use xlink:href="#m33f43dc88a" x="70.503568" y="292.660769" style="fill: #0072b2; stroke: #0072b2" />
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 7.9px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="79.786068" y="295.425769" transform="rotate(-0 79.786068 295.425769)">1:0.7:0.05</text>
+    </g>
+    <g id="line2d_32">
+     <path d="M 64.776068 303.835566  L 70.503568 303.835566  L 76.231068 303.835566  " style="fill: none; stroke: #d55e00; stroke-width: 1.1; stroke-linecap: square" />
+     <g>
+      <use xlink:href="#m098e23c559" x="70.503568" y="303.835566" style="fill: #d55e00; stroke: #d55e00; stroke-linejoin: miter" />
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 7.9px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="79.786068" y="306.600566" transform="rotate(-0 79.786068 306.600566)">1:0.7:0.25</text>
+    </g>
+    <g id="line2d_33">
+     <path d="M 64.776068 315.010363  L 70.503568 315.010363  L 76.231068 315.010363  " style="fill: none; stroke: #009e73; stroke-width: 1.1; stroke-linecap: square" />
+     <g>
+      <use xlink:href="#m645029fd54" x="70.503568" y="315.010363" style="fill: #009e73; stroke: #009e73; stroke-linejoin: miter" />
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 7.9px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="79.786068" y="317.775363" transform="rotate(-0 79.786068 317.775363)">1:1:1</text>
+    </g>
+   </g>
+  </g>
+  <g id="D-2">
+   <g id="patch_5">
+    <path d="M 301.125543 325.270488  L 494.879244 325.270488  L 494.879244 217.83515  L 301.125543 217.83515  z " style="fill: #ffffff" />
+   </g>
+   <g id="patch_6">
+    <path d="M 309.93253 325.270488  L 323.48174 325.270488  L 323.48174 325.020026  L 309.93253 325.020026  z " clip-path="url(#p5b86d8103b)" style="fill: #0072b2; opacity: 0.78" />
+   </g>
+   <g id="patch_7">
+    <path d="M 376.026236 325.270488  L 389.575446 325.270488  L 389.575446 324.759284  L 376.026236 324.759284  z " clip-path="url(#p5b86d8103b)" style="fill: #0072b2; opacity: 0.78" />
+   </g>
+   <g id="patch_8">
+    <path d="M 442.119943 325.270488  L 455.669153 325.270488  L 455.669153 220.703391  L 442.119943 220.703391  z " clip-path="url(#p5b86d8103b)" style="fill: #0072b2; opacity: 0.78" />
+   </g>
+   <g id="patch_9">
+    <path d="M 325.134082 325.270488  L 338.683292 325.270488  L 338.683292 319.775764  L 325.134082 319.775764  z " clip-path="url(#p5b86d8103b)" style="fill: #d55e00; opacity: 0.78" />
+   </g>
+   <g id="patch_10">
+    <path d="M 391.227789 325.270488  L 404.776999 325.270488  L 404.776999 314.05063  L 391.227789 314.05063  z " clip-path="url(#p5b86d8103b)" style="fill: #d55e00; opacity: 0.78" />
+   </g>
+   <g id="patch_11">
+    <path d="M 457.321495 325.270488  L 470.870705 325.270488  L 470.870705 236.656308  L 457.321495 236.656308  z " clip-path="url(#p5b86d8103b)" style="fill: #d55e00; opacity: 0.78" />
+   </g>
+   <g id="patch_12">
+    <path d="M 340.335635 325.270488  L 353.884845 325.270488  L 353.884845 290.160901  L 340.335635 290.160901  z " clip-path="url(#p5b86d8103b)" style="fill: #009e73; opacity: 0.78" />
+   </g>
+   <g id="patch_13">
+    <path d="M 406.429341 325.270488  L 419.978551 325.270488  L 419.978551 290.160901  L 406.429341 290.160901  z " clip-path="url(#p5b86d8103b)" style="fill: #009e73; opacity: 0.78" />
+   </g>
+   <g id="patch_14">
+    <path d="M 472.523048 325.270488  L 486.072258 325.270488  L 486.072258 290.1609  L 472.523048 290.1609  z " clip-path="url(#p5b86d8103b)" style="fill: #009e73; opacity: 0.78" />
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_22">
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#mf10b05ffac" x="331.908687" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle; fill: #181b20" x="331.908687" y="337.296738" transform="rotate(-0 331.908687 337.296738)">12</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#mf10b05ffac" x="398.002394" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle; fill: #181b20" x="398.002394" y="337.296738" transform="rotate(-0 398.002394 337.296738)">23</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#mf10b05ffac" x="464.0961" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: middle; fill: #181b20" x="464.0961" y="337.296738" transform="rotate(-0 464.0961 337.296738)">31</text>
+     </g>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 8.55px; font-family: 'Arial'; text-anchor: middle; fill: #181b20" x="398.002394" y="349.006668" transform="rotate(-0 398.002394 349.006668)">Edge</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#mbc764f3258" x="301.125543" y="325.270488" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="294.825543" y="328.133613" transform="rotate(-0 294.825543 328.133613)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#mbc764f3258" x="301.125543" y="304.204736" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="294.825543" y="307.067861" transform="rotate(-0 294.825543 307.067861)">0.2</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#mbc764f3258" x="301.125543" y="283.138983" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="294.825543" y="286.002108" transform="rotate(-0 294.825543 286.002108)">0.4</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#mbc764f3258" x="301.125543" y="262.07323" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="294.825543" y="264.936355" transform="rotate(-0 294.825543 264.936355)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#mbc764f3258" x="301.125543" y="241.007478" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="294.825543" y="243.870603" transform="rotate(-0 294.825543 243.870603)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#mbc764f3258" x="301.125543" y="219.941725" style="fill: #181b20; stroke: #181b20; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end; fill: #181b20" x="294.825543" y="222.80485" transform="rotate(-0 294.825543 222.80485)">1.0</text>
+     </g>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 8.55px; font-family: 'Arial'; text-anchor: middle; fill: #181b20" x="278.006231" y="271.552819" transform="rotate(-90 278.006231 271.552819)">Fraction of closure phase</text>
+    </g>
+   </g>
+   <g id="patch_15">
+    <path d="M 301.125543 325.270488  L 301.125543 217.83515  " style="fill: none; stroke: #000000; stroke-width: 0.64; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_16">
+    <path d="M 301.125543 325.270488  L 494.879244 325.270488  " style="fill: none; stroke: #000000; stroke-width: 0.64; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m5ee5403bfe" d="M 3.674235 0  L -3.674235 -0  " style="stroke: #181b20; stroke-width: 1.05" />
+    </defs>
+    <g clip-path="url(#p5b86d8103b)">
+     <use xlink:href="#m5ee5403bfe" x="316.707135" y="325.009153" style="fill: #181b20; stroke: #181b20; stroke-width: 1.05" />
+     <use xlink:href="#m5ee5403bfe" x="382.800841" y="324.737151" style="fill: #181b20; stroke: #181b20; stroke-width: 1.05" />
+     <use xlink:href="#m5ee5403bfe" x="448.894548" y="220.736397" style="fill: #181b20; stroke: #181b20; stroke-width: 1.05" />
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p5b86d8103b)">
+     <use xlink:href="#m5ee5403bfe" x="331.908687" y="319.738752" style="fill: #181b20; stroke: #181b20; stroke-width: 1.05" />
+     <use xlink:href="#m5ee5403bfe" x="398.002394" y="313.981232" style="fill: #181b20; stroke: #181b20; stroke-width: 1.05" />
+     <use xlink:href="#m5ee5403bfe" x="464.0961" y="236.762717" style="fill: #181b20; stroke: #181b20; stroke-width: 1.05" />
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p5b86d8103b)">
+     <use xlink:href="#m5ee5403bfe" x="347.11024" y="290.1609" style="fill: #181b20; stroke: #181b20; stroke-width: 1.05" />
+     <use xlink:href="#m5ee5403bfe" x="413.203946" y="290.1609" style="fill: #181b20; stroke: #181b20; stroke-width: 1.05" />
+     <use xlink:href="#m5ee5403bfe" x="479.297653" y="290.1609" style="fill: #181b20; stroke: #181b20; stroke-width: 1.05" />
+    </g>
+   </g>
+   <g id="legend_2">
+    <g id="text_26">
+     <text style="font-size: 8.6px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="311.139645" y="229.915868" transform="rotate(-0 311.139645 229.915868)">Relative edge strengths</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 307.050543 241.330571  L 318.505543 241.330571  L 318.505543 235.800571  L 307.050543 235.800571  z " style="fill: #0072b2; opacity: 0.78" />
+    </g>
+    <g id="text_27">
+     <text style="font-size: 7.9px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="322.060543" y="241.330571" transform="rotate(-0 322.060543 241.330571)">1:0.7:0.05</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 307.050543 252.505368  L 318.505543 252.505368  L 318.505543 246.975368  L 307.050543 246.975368  z " style="fill: #d55e00; opacity: 0.78" />
+    </g>
+    <g id="text_28">
+     <text style="font-size: 7.9px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="322.060543" y="252.505368" transform="rotate(-0 322.060543 252.505368)">1:0.7:0.25</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 372.998262 241.330571  L 384.453262 241.330571  L 384.453262 235.800571  L 372.998262 235.800571  z " style="fill: #009e73; opacity: 0.78" />
+    </g>
+    <g id="text_29">
+     <text style="font-size: 7.9px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="388.008262" y="241.330571" transform="rotate(-0 388.008262 241.330571)">1:1:1</text>
+    </g>
+   </g>
+  </g>
+  <g id="panel-A">
+   <text style="font-weight: 700; font-size: 11.6px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="4.036535" y="16.875031" transform="rotate(-0 4.036535 16.875031)">a</text>
+  </g>
+  <g id="text_30">
+   <text style="font-weight: 600; font-size: 10.25px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="25.732913" y="18.17664" transform="rotate(-0 25.732913 18.17664)">Spanning tree and fundamental cycles</text>
+  </g>
+  <g id="panel-B">
+   <text style="font-weight: 700; font-size: 11.6px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="266.411339" y="16.875031" transform="rotate(-0 266.411339 16.875031)">b</text>
+  </g>
+  <g id="text_31">
+   <text style="font-weight: 600; font-size: 10.25px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="288.107717" y="18.051718" transform="rotate(-0 288.107717 18.051718)">When the gauge is real</text>
+  </g>
+  <g id="panel-C">
+   <text style="font-weight: 700; font-size: 11.6px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="4.036535" y="206.172669" transform="rotate(-0 4.036535 206.172669)">c</text>
+  </g>
+  <g id="text_32">
+   <text style="font-weight: 600; font-size: 10.25px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="25.732913" y="207.349356" transform="rotate(-0 25.732913 207.349356)">Joint weak-coherence limit</text>
+  </g>
+  <g id="panel-D">
+   <text style="font-weight: 700; font-size: 11.6px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="266.411339" y="206.172669" transform="rotate(-0 266.411339 206.172669)">d</text>
+  </g>
+  <g id="text_33">
+   <text style="font-weight: 600; font-size: 10.25px; font-family: 'Arial'; text-anchor: start; fill: #181b20" x="288.107717" y="207.474278" transform="rotate(-0 288.107717 207.474278)">Optimal phase allocation</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pca0d659632">
+   <rect x="38.75074" y="217.83515" width="193.753701" height="107.435339" />
+  </clipPath>
+  <clipPath id="p5b86d8103b">
+   <rect x="301.125543" y="217.83515" width="193.753701" height="107.435339" />
+  </clipPath>
+ </defs>
+<svg version="1.1" width="243.7795276" height="146.5511811" viewBox="0 0 243.77953 146.55118" x="0.0000000" y="25.5118110">
+<defs>
+<clipPath id="ppt-A-clip_1">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 185.057H243.77953V331.6082H0Z" />
+</clipPath>
+<clipPath id="ppt-A-clip_2">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 0H504.6V357.12H0Z" />
+</clipPath>
+<clipPath id="ppt-A-clip_3">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .000091553H504.6V357.1201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_4">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .00018311H504.6V357.12019H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_5">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000003815 .000030518H504.6V357.12004H-.000003815Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_6">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .00015259H504.6V357.12016H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_7">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000007629 .000030518H504.6V357.12004H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_8">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .00015259H504.6V357.12016H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_9">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000022888 .000030518H504.60005V357.12004H.000022888Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_10">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_11_599" d="M.6826172 .4428711C.6578776 .43701173 .6425781 .4285482 .63671877 .41748048 .6308594 .40641276 .6279297 .379069 .6279297 .33544923V.24414063C.6279297 .15592449 .6088867 .0925293 .5708008 .053955079 .53271487 .015380859 .4754232-.0043945314 .39892579-.0053710939V-.20996094H.3178711V-.0053710939C.24007161-.0047200524 .18245442 .013753255 .14501953 .050048829 .10758463 .0863444 .08886719 .14453125 .08886719 .22460938V.33544923C.08886719 .37320964 .08610026 .39916993 .080566409 .41333009 .075032558 .42749024 .05940755 .43733726 .033691408 .4428711V.46679688H.17382813V.23388672C.17382813 .16292317 .1850586 .11279297 .20751953 .083496097 .22998047 .05419922 .2667643 .037597658 .3178711 .033691408V.6743164H.39892579V.033691408C.4539388 .03922526 .49169923 .057047529 .51220706 .0871582 .53271487 .11726888 .54296877 .16682942 .54296877 .23583985V.46679688H.6826172V.4428711Z" />
+<path id="ppt-A-font_11_908" d="M.2524414-.057617189C.2524414-.071614589 .2536621-.08162435 .25610353-.087646488 .25854493-.09366862 .26245118-.09838867 .26782228-.10180664 .27319337-.10522461 .28230796-.107910159 .29516603-.10986328 .30802409-.111816409 .32861329-.11295573 .3569336-.11328125V-.14453125H.079589847V-.11328125C.10660807-.11263021 .12646485-.11140951 .13916016-.10961914 .15185547-.10782877 .16113281-.10522461 .16699219-.10180664 .17285156-.09838867 .17716472-.09366862 .17993164-.087646488 .18269857-.08162435 .18408203-.071614589 .18408203-.057617189V.1640625C.18408203 .17220052 .18253581 .17805989 .17944336 .18164063 .1763509 .18522136 .17171224 .18701172 .16552735 .18701172 .1586914 .18701172 .14819336 .18334961 .1340332 .17602539 .11987305 .16870117 .1015625 .15804036 .07910156 .14404297L.061523439 .17773438 .23242188 .26660157H.25439454C.254069 .26171876 .2536621 .25024415 .25317384 .23217774 .25268556 .21411133 .2524414 .19596355 .2524414 .17773438V-.057617189Z" />
+<clipPath id="ppt-A-clip_12">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .00012207H504.6V357.12013H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_13">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_11_909" d="M.24707031-.08935547C.25846354-.08935547 .26717124-.088785808 .27319337-.087646488 .27921549-.086507167 .28401695-.08479818 .28759767-.08251953 .29117839-.08024088 .29418946-.077311199 .29663087-.07373047 .29907228-.07014974 .30273438-.06233724 .3076172-.05029297H.3413086L.33447267-.14453125H.048339845V-.12597656C.05940755-.10221354 .07438151-.07877604 .09326172-.055664064 .11214193-.032552083 .13427735-.0087890629 .15966797 .015625 .1899414 .044596357 .21142578 .06648763 .2241211 .08129883 .2368164 .09611002 .24625652 .11010742 .2524414 .123291019 .2586263 .13647461 .26171876 .14973958 .26171876 .16308594 .26171876 .18522136 .25545249 .20263672 .24291992 .21533203 .23038738 .22802735 .21240235 .234375 .18896485 .234375 .16878255 .234375 .15161133 .2290039 .13745117 .21826172 .123291019 .20751953 .112467449 .19173177 .10498047 .17089844H.05859375V.2368164C.0875651 .24853516 .11425781 .25691734 .13867188 .2619629 .16308594 .26700846 .18473308 .26953126 .20361328 .26953126 .22932942 .26953126 .25056968 .2667643 .26733399 .26123048 .2840983 .25569663 .29752604 .24845378 .3076172 .23950196 .31770835 .23055013 .32478843 .22005208 .32885743 .20800781 .33292643 .19596355 .33496095 .18359375 .33496095 .17089844 .33496095 .15494792 .33170573 .14005535 .3251953 .1262207 .3186849 .11238607 .30802409 .09741211 .2932129 .08129883 .2784017 .06518555 .25211589 .040039064 .21435547 .005859375 .17399089-.030924479 .14469402-.06266276 .12646485-.08935547H.24707031Z" />
+<clipPath id="ppt-A-clip_14">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000015259 .00015259H504.59999V357.12016H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_15">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000015259 .00015259H504.59999V357.12016H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_16">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_17_24" d="M.041503908 .18847656 .13378906 .19628906C.140625 .15151978 .15649414 .117863979 .18139649 .095321658 .20629883 .07278951 .23632813 .061523439 .27148438 .061523439 .3138021 .061523439 .34960938 .077448528 .37890626 .109298709 .40820313 .14115906 .42285157 .18341573 .42285157 .23606873 .42285157 .28612773 .4087728 .32562257 .38061524 .35455323 .35245768 .3834839 .31559245 .39794923 .27001954 .39794923 .24169922 .39794923 .21614583 .39156596 .19335938 .37879945 .17057292 .36603294 .15266927 .34946696 .13964844 .32910157L.057128908 .33984376 .12646485 .70703127H.48242188V.62402346H.19677735L.15820313 .43115235C.20117188 .46077476 .24625652 .47558595 .29345704 .47558595 .35595704 .47558595 .4086914 .45391337 .45166017 .41056825 .4946289 .36723329 .5161133 .31151835 .5161133 .24342346 .5161133 .17857361 .49723307 .122528079 .45947267 .075286868 .41357423 .017283122 .35091148-.01171875 .27148438-.01171875 .2063802-.01171875 .15323894 .006556193 .11206055 .04310608 .070882167 .07965597 .04736328 .1281128 .041503908 .18847656Z" />
+<clipPath id="ppt-A-clip_18">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000015259 .00012207H504.59999V357.12013H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_19">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000015259 .00012207H504.59999V357.12013H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_20">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_17_23" d="M.3232422 0V.17138672H.0126953129V.25195313L.33935548 .7158203H.4111328V.25195313H.5078125V.17138672H.4111328V0H.3232422M.3232422 .25195313V.57470706L.099121097 .25195313H.3232422Z" />
+<clipPath id="ppt-A-clip_21">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .00015259H504.6V357.12016H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_22">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .00015259H504.6V357.12016H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_23">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_17_20" d="M.3725586 0H.28466798V.5600586C.26350913 .5398763 .23575847 .51969406 .20141602 .49951173 .16707357 .47932945 .13623047 .46419273 .10888672 .45410157V.5390625C.15804036 .5621745 .20100911 .59016928 .23779297 .6230469 .2745768 .6559245 .3006185 .6878255 .31591798 .71875H.3725586V0Z" />
+<clipPath id="ppt-A-clip_24">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000007629 .00012207H504.6V357.12013H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_25">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000007629 .00012207H504.6V357.12013H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_26">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_17_21" d="M.50341799 .084472659V0H.030273438C.029622397 .021148682 .033040365 .041483564 .040527345 .06100464 .052571615 .09321085 .07185873 .124928798 .09838867 .15615845 .12491862 .1873881 .1632487 .22350057 .2133789 .26449586 .29117839 .3282369 .34375 .37872825 .37109376 .41596986 .3984375 .45321147 .41210938 .48841859 .41210938 .5215912 .41210938 .5563914 .3996582 .5857442 .37475587 .60964968 .34985353 .6335551 .3173828 .6455078 .27734376 .6455078 .23502605 .6455078 .20117188 .6328125 .17578125 .6074219 .15039063 .58203127 .13753255 .546875 .13720703 .5019531L.046875 .5112457C.053059896 .5787811 .07633463 .630249 .11669922 .6656494 .1570638 .7010498 .21126302 .71875 .27929688 .71875 .34798179 .71875 .40234376 .69970199 .4423828 .66160586 .48242188 .6235097 .5024414 .57629397 .5024414 .5199585 .5024414 .4913025 .49658204 .46313478 .48486329 .43545533 .47314454 .40777589 .45369468 .3786316 .42651368 .34802247 .39933268 .3174235 .35416667 .27542115 .29101563 .22201538 .23828125 .17779541 .20442708 .14779663 .18945313 .13201905 .17447917 .116251628 .16210938 .10040283 .15234375 .084472659H.50341799Z" />
+<clipPath id="ppt-A-clip_27">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007629 .000091553H504.6V357.1201H.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_28">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007629 .000091553H504.6V357.1201H.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_29">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_17_22" d="M.041992189 .19042969 .12988281 .20214844C.13997396 .15234375 .15714519 .11645508 .18139649 .09448242 .20564778 .072509769 .2351888 .061523439 .27001954 .061523439 .3113607 .061523439 .3462728 .07582092 .37475587 .10441589 .40323893 .13301087 .41748048 .1684316 .41748048 .2106781 .41748048 .25098167 .40429688 .2842102 .3779297 .31036378 .3515625 .3365275 .31803385 .34960938 .27734376 .34960938 .2607422 .34960938 .24007161 .34635417 .21533203 .33984376L.22509766 .4169922C.23095703 .41634117 .23567708 .41601563 .23925781 .41601563 .27669273 .41601563 .31038413 .42569987 .34033204 .44506837 .37027995 .46443687 .3852539 .4942932 .3852539 .53463748 .3852539 .56658938 .37434898 .59305319 .35253907 .61402896 .33072917 .63501486 .30257163 .6455078 .2680664 .6455078 .23388672 .6455078 .20540364 .6347656 .18261719 .61328127 .15983074 .5917969 .1451823 .5595703 .13867188 .51660159L.05078125 .53222659C.061523439 .591451 .0859375 .63734439 .12402344 .6699066 .16210938 .7024689 .20947266 .71875 .26611329 .71875 .30517579 .71875 .34114585 .71039327 .37402345 .6936798 .40690104 .67696639 .43204753 .6541646 .4494629 .62527468 .46687828 .59639486 .47558595 .5657247 .47558595 .53326418 .47558595 .5024312 .46728517 .47435508 .4506836 .44903565 .43408204 .4237264 .40950523 .40360514 .37695313 .38867188 .41927085 .37890626 .45214845 .35864259 .47558595 .32788087 .49902345 .29711915 .5107422 .2586263 .5107422 .21240235 .5107422 .14990235 .48795573 .09692383 .4423828 .053466798 .3968099 .010009766 .33919273-.01171875 .26953126-.01171875 .20670574-.01171875 .15454102 .007044474 .11303711 .044570924 .0715332 .082097377 .047851564 .13071697 .041992189 .19042969Z" />
+<clipPath id="ppt-A-clip_30">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .00012207H504.6V357.12013H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_31">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_17_55" d="M.25927735 0V.63134768H.0234375V.7158203H.5908203V.63134768H.3540039V0H.25927735Z" />
+<path id="ppt-A-font_17_85" d="M.064941409 0V.5185547H.14404297V.4404297C.16422527 .4770101 .18286133 .50112918 .19995117 .51278689 .21704102 .5244446 .23583985 .53027346 .25634767 .53027346 .28597007 .53027346 .31608073 .520874 .3466797 .5020752L.31640626 .42089845C.29492188 .43359376 .2734375 .4399414 .25195313 .4399414 .23274739 .4399414 .2154948 .43415324 .20019531 .4225769 .18489583 .41101075 .17399089 .3949636 .16748047 .37443543 .15771485 .3431549 .15283203 .3089396 .15283203 .27178956V0H.064941409Z" />
+<path id="ppt-A-font_17_72" d="M.42089845 .16699219 .51171877 .15576172C.49739585 .10270182 .47086589 .061523439 .4321289 .032226564 .39339195 .0029296876 .34391276-.01171875 .2836914-.01171875 .20784505-.01171875 .14770508 .01163737 .103271488 .05834961 .05883789 .10506185 .036621095 .17057292 .036621095 .2548828 .036621095 .3421224 .05908203 .40983073 .104003909 .4580078 .14892578 .5061849 .20719402 .53027346 .2788086 .53027346 .34814454 .53027346 .40478517 .5067088 .44873048 .45957948 .49267579 .41246034 .51464846 .34616599 .51464846 .2606964 .51464846 .25549827 .51448568 .247701 .51416018 .23730469H.1274414C.13069661 .1805013 .14680989 .13700359 .17578125 .10681152 .20475261 .07661947 .24088542 .061523439 .2841797 .061523439 .31640626 .061523439 .34391276 .0699056 .36669923 .08666992 .3894857 .10344442 .4075521 .1302185 .42089845 .16699219M.13232422 .31054688H.421875C.41796876 .3534546 .40690104 .38563539 .38867188 .40708924 .3606771 .4403839 .3243815 .45703126 .27978517 .45703126 .23942058 .45703126 .20548503 .44374085 .17797852 .41716004 .150472 .3905894 .1352539 .35505168 .13232422 .31054688Z" />
+<path id="ppt-A-font_17_3" d="M0 0Z" />
+<path id="ppt-A-font_17_71" d="M.40234376 0V.06542969C.36946617 .0139973959 .3211263-.01171875 .25732423-.01171875 .21598308-.01171875 .17797852-.00032552085 .14331055 .022460938 .10864258 .045247396 .08178711 .077067058 .06274414 .11791992 .043701173 .15877278 .034179689 .20572917 .034179689 .25878907 .034179689 .31054688 .04280599 .35750328 .060058595 .3996582 .077311199 .44181315 .1031901 .4741211 .13769531 .49658204 .17220052 .51904299 .21077474 .53027346 .25341798 .53027346 .28466798 .53027346 .3125 .52368167 .33691407 .51049807 .36132813 .49731446 .3811849 .48014323 .39648438 .45898438V.7158203H.48388673V0H.40234376M.12451172 .2590332C.12451172 .1928711 .13850911 .14341228 .1665039 .11065674 .1944987 .07790121 .22753906 .061523439 .265625 .061523439 .30403648 .061523439 .33666993 .077168788 .3635254 .10845947 .39038087 .13976033 .4038086 .18752034 .4038086 .2517395 .4038086 .32243858 .39013673 .3743286 .36279298 .40740968 .33544923 .44049073 .3017578 .45703126 .26171876 .45703126 .22265625 .45703126 .19002278 .4411367 .16381836 .40934754 .13761394 .37756858 .12451172 .32746379 .12451172 .2590332Z" />
+<path id="ppt-A-font_17_74" d="M.049804689-.04296875 .1352539-.055664064C.13883464-.08203125 .14876302-.10123698 .16503906-.11328125 .18684896-.1295573 .21663411-.13769531 .25439454-.13769531 .29508464-.13769531 .3264974-.12953694 .3486328-.113220218 .37076823-.09691366 .3857422-.07407633 .3935547-.044708253 .39811198-.026774088 .40022788 .010904948 .39990235 .06832886 .36149089 .022776286 .3136393 0 .25634767 0 .1850586 0 .12988281 .025716147 .09082031 .07714844 .051757814 .12858074 .032226564 .19026692 .032226564 .26220704 .032226564 .3116862 .041178388 .35734049 .05908203 .39916993 .07698568 .44099937 .10294596 .47330729 .13696289 .49609376 .17097982 .5188802 .2109375 .53027346 .25683595 .53027346 .31803385 .53027346 .3684896 .5053711 .40820313 .4555664V.5185547H.4892578V.070007327C.4892578-.010772705 .48103843-.06801859 .4645996-.10173035 .4481608-.1354421 .42211915-.16206868 .3864746-.1816101 .35083009-.2011617 .30696617-.2109375 .2548828-.2109375 .19303386-.2109375 .1430664-.19698079 .10498047-.16906739 .06689453-.14115398 .048502607-.099121097 .049804689-.04296875M.122558597 .26853944C.122558597 .20067851 .1360677 .15116374 .16308594 .11999512 .19010417 .0888265 .22395833 .07324219 .26464845 .07324219 .30501304 .07324219 .3388672 .08874512 .36621095 .11975098 .3935547 .15075684 .40722657 .19938152 .40722657 .265625 .40722657 .3289388 .3931478 .3766683 .36499024 .40881349 .33683268 .44095866 .30289714 .45703126 .2631836 .45703126 .2241211 .45703126 .19091797 .4412028 .16357422 .4095459 .13623047 .377889 .122558597 .33088685 .122558597 .26853944Z" />
+<clipPath id="ppt-A-clip_32">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .00012207H504.6V357.12013H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_33">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_17_38" d="M.5878906 .25195313 .6826172 .22802735C.66276046 .15006511 .6270345 .09061686 .57543948 .049682619 .5238444 .008748372 .46077476-.01171875 .38623048-.01171875 .30908204-.01171875 .24633789 .0039876305 .19799805 .03540039 .1496582 .06681315 .11287435 .11230469 .087646488 .171875 .06241862 .23144531 .049804689 .29541017 .049804689 .36376954 .049804689 .4383138 .06404623 .5033366 .0925293 .5588379 .12101237 .6143392 .16153972 .65649417 .21411133 .68530276 .26668296 .7141113 .32454429 .7285156 .3876953 .7285156 .4593099 .7285156 .51953127 .71028646 .5683594 .6738281 .6171875 .6373698 .6512044 .5861003 .67041018 .52001956L.57714846 .49804688C.5605469 .55030319 .5364583 .5883484 .5048828 .6121826 .47330729 .63602706 .43359376 .6479492 .3857422 .6479492 .33072917 .6479492 .28474937 .6347402 .24780274 .60832217 .21085613 .58191427 .18489583 .5464528 .16992188 .50193789 .15494792 .45743308 .14746094 .4115448 .14746094 .36427308 .14746094 .30329896 .15633138 .25006614 .17407227 .20457459 .19181316 .15908306 .21940105 .12508647 .25683595 .10258484 .29427085 .080093387 .3347982 .068847659 .37841798 .068847659 .43147788 .068847659 .47639976 .084228519 .5131836 .114990238 .54996749 .14575196 .5748698 .19140625 .5878906 .25195313Z" />
+<path id="ppt-A-font_17_79" d="M.063964847 0V.7158203H.15185547V0H.063964847Z" />
+<path id="ppt-A-font_17_82" d="M.033203126 .25927735C.033203126 .355306 .059895833 .42643229 .11328125 .47265626 .15787761 .5110677 .21223958 .53027346 .2763672 .53027346 .34765626 .53027346 .40592448 .5069173 .45117188 .46020509 .49641929 .41349284 .51904299 .34895835 .51904299 .26660157 .51904299 .1998698 .5090332 .14737956 .48901368 .10913086 .46899415 .070882167 .43986003 .041178388 .40161134 .020019532 .36336265-.0011393229 .3216146-.01171875 .2763672-.01171875 .20377605-.01171875 .1451009 .011555989 .1003418 .05810547 .055582685 .104654949 .033203126 .17171224 .033203126 .25927735M.123535159 .25952149C.123535159 .19335938 .13802083 .14381917 .16699219 .11090088 .19596355 .07798258 .23242188 .061523439 .2763672 .061523439 .31998698 .061523439 .35628257 .078063968 .3852539 .11114502 .41422526 .14422608 .42871095 .19465637 .42871095 .2624359 .42871095 .32632957 .4141439 .3747355 .38500978 .4076538 .35587565 .4405721 .31966148 .45703126 .2763672 .45703126 .23242188 .45703126 .19596355 .44065348 .16699219 .40789796 .13802083 .37514244 .123535159 .3256836 .123535159 .25952149Z" />
+<path id="ppt-A-font_17_86" d="M.030761719 .15527344 .11767578 .16894531C.122558597 .13426717 .1361491 .107691448 .15844727 .08921814 .18074544 .070755008 .21191406 .061523439 .25195313 .061523439 .29231773 .061523439 .32226563 .06967672 .34179688 .08598328 .36132813 .10230001 .37109376 .12143453 .37109376 .14338684 .37109376 .16309102 .36246745 .17859395 .34521485 .18989563 .33317057 .1976471 .30322267 .20749919 .2553711 .2194519 .19091797 .23573812 .14624024 .24982707 .12133789 .26171876 .09643555 .27361045 .077555339 .29006449 .064697269 .31108094 .05183919 .33209739 .045410158 .35531108 .045410158 .38072206 .045410158 .40385438 .05069987 .4252777 .061279298 .44499208 .07185873 .46470643 .08626302 .4810791 .10449219 .4941101 .11816406 .5042114 .13680013 .5127614 .16040039 .51976016 .18400066 .526769 .20930989 .53027346 .23632813 .53027346 .27701823 .53027346 .31274415 .52437338 .34350587 .51257327 .37426759 .50078329 .39697267 .48480735 .4116211 .4646454 .42626954 .44449363 .4363607 .4175415 .44189454 .38378907L.35595704 .3720703C.35205079 .39876304 .34073893 .41959635 .32202149 .4345703 .30330406 .44954429 .27685548 .45703126 .24267578 .45703126 .2023112 .45703126 .17350261 .45038859 .15625 .43710328 .13899739 .42382813 .1303711 .40827943 .1303711 .39045716 .1303711 .37912498 .13395183 .3689219 .14111328 .35984803 .14827474 .35045878 .1595052 .34268699 .17480469 .3365326 .18359375 .33328758 .20947266 .32583619 .2524414 .31417848 .31461589 .29758708 .35799156 .28400675 .38256837 .2734375 .40714518 .26286827 .42643229 .24749756 .4404297 .22732544 .4544271 .2071635 .46142579 .18212383 .46142579 .15220642 .46142579 .12292989 .45288087 .09536234 .43579103 .069503787 .41870118 .043655397 .39404298 .02365621 .3618164 .009506226 .32958985-.0046437585 .2931315-.01171875 .2524414-.01171875 .1850586-.01171875 .13370769 .002319336 .09838867 .030395508 .063069667 .05847168 .040527345 .100097659 .030761719 .15527344Z" />
+<path id="ppt-A-font_17_76" d="M.06640625 .6142578V.7158203H.15429688V.6142578H.06640625M.06640625 0V.5185547H.15429688V0H.06640625Z" />
+<path id="ppt-A-font_17_81" d="M.06591797 0V.5185547H.14501953V.4453125C.18310547 .5019531 .23811849 .53027346 .3100586 .53027346 .3413086 .53027346 .3700358 .5246582 .39624024 .51342776 .42244468 .50219729 .44205729 .48746745 .45507813 .46923829 .46809898 .45100913 .47721354 .42936198 .48242188 .40429688 .4856771 .38802085 .4873047 .35953776 .4873047 .31884767V0H.39941407V.31576539C.39941407 .35161338 .3959961 .37841798 .38916017 .3961792 .38232423 .41394044 .37019859 .42811585 .3527832 .43870545 .33536784 .44929505 .3149414 .45458985 .2915039 .45458985 .254069 .45458985 .22176107 .44269309 .19458008 .41889955 .1673991 .39511619 .1538086 .34998576 .1538086 .2835083V0H.06591797Z" />
+<clipPath id="ppt-A-clip_34">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000030518 .00018311H504.59999V357.12019H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_35">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000030518 .000091553H504.59999V357.1201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_36">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000030518 .000091553H504.59999V357.1201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_37">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .000091553H504.6V357.1201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_38">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .000091553H504.6V357.1201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_39">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_17_53" d="M.07861328 0V.7158203H.3959961C.4597982 .7158203 .5083008 .70939639 .5415039 .69654849 .57470706 .68371078 .601237 .6610362 .62109377 .6285248 .6409505 .59601339 .6508789 .5600891 .6508789 .52075198 .6508789 .47003175 .6344401 .4272766 .6015625 .39248658 .5686849 .3577067 .5179036 .3356018 .44921876 .32617188 .47428385 .31410728 .4933268 .3022054 .50634768 .2904663 .5340169 .26504518 .5602214 .23326111 .58496096 .19511414L.70947268 0H.59033206L.49560548 .14915467C.4679362 .19218445 .44514976 .22510784 .4272461 .2479248 .40934245 .27075196 .39331056 .2867279 .3791504 .29585267 .36499024 .30498759 .35058595 .3113505 .3359375 .3149414 .3251953 .31722007 .3076172 .31835938 .28320313 .31835938H.17333985V0H.07861328M.17333985 .40039063H.37695313C.4202474 .40039063 .45410157 .40485636 .47851563 .41378785 .5029297 .42271934 .5214844 .43701173 .5341797 .45666505 .546875 .47631837 .55322268 .49768067 .55322268 .52075198 .55322268 .5545349 .54093429 .5823059 .5163574 .60406497 .4917806 .62583419 .45296226 .63671877 .39990235 .63671877H.17333985V.40039063Z" />
+<clipPath id="ppt-A-clip_40">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_17_44" d="M.09326172 0V.7158203H.18798828V0H.09326172Z" />
+<path id="ppt-A-font_17_80" d="M.06591797 0V.5185547H.14453125V.44628907C.1608073 .47153727 .18245442 .4918467 .20947266 .5072174 .23649089 .5225881 .2672526 .53027346 .3017578 .53027346 .34016929 .53027346 .37166343 .52233889 .39624024 .5064697 .42081706 .49061076 .43815104 .46843467 .4482422 .4399414 .4892578 .5001628 .54264327 .53027346 .60839846 .53027346 .65983077 .53027346 .69938156 .5160319 .7270508 .48754884 .75472006 .45906578 .7685547 .4152018 .7685547 .35595704V0H.68115237V.3270111C.68115237 .36220805 .678304 .38754273 .6726074 .40301515 .6669108 .4184977 .6565755 .43096415 .64160159 .44041444 .6266276 .44986473 .6090495 .45458985 .5888672 .45458985 .5524089 .45458985 .52213546 .44244895 .49804688 .4181671 .47395835 .39389549 .46191407 .3550364 .46191407 .30158998V0H.37402345V.33728028C.37402345 .37638346 .36686198 .40571086 .35253907 .42526246 .33821617 .44481407 .31477867 .45458985 .28222657 .45458985 .25748698 .45458985 .23461914 .44806925 .21362305 .43502809 .19262696 .42199708 .17740886 .40293376 .16796875 .37783814 .15852864 .3527527 .1538086 .31658427 .1538086 .2693329V0H.06591797Z" />
+<clipPath id="ppt-A-clip_41">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M-.000061035 .000030518H504.59996V357.12004H-.000061035Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_42">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0 .00018311H504.6V357.12019H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-A-clip_43">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_11_3" d="M0 0Z" />
+<path id="ppt-A-font_11_3404" d="M.072753909 .3544922V.4194336H.6743164V.3544922H.072753909M.072753909 .15185547V.21679688H.6743164V.15185547H.072753909M.6948242 .28564454V.28564454Z" />
+<path id="ppt-A-font_11_882" d="M.27148438-.0078125C.20117188-.0078125 .1488444 .019856772 .11450195 .07519531 .08015951 .13053386 .06298828 .21451824 .06298828 .32714845 .06298828 .38704429 .06827799 .4388021 .07885742 .48242188 .08943685 .5260417 .10424805 .5620931 .123291019 .5905762 .14233399 .61905929 .16520183 .6401367 .19189453 .6538086 .21858724 .66748049 .24772136 .6743164 .27929688 .6743164 .35058595 .6743164 .40364585 .6468099 .43847657 .5917969 .47330729 .5367839 .49072267 .45361329 .49072267 .34228517 .49072267 .22705078 .47208659 .13989258 .43481446 .08081055 .39754234 .021728516 .34309898-.0078125 .27148438-.0078125M.15820313 .34179688C.15820313 .23567708 .16805013 .15779622 .18774414 .1081543 .20743816 .05851237 .23795574 .033691408 .27929688 .033691408 .3186849 .033691408 .3479004 .057047529 .36694337 .103759769 .38598634 .150472 .3955078 .22281902 .3955078 .32080079 .3955078 .39567057 .390625 .45629884 .38085938 .50268557 .37109376 .54907229 .35750328 .58235678 .3400879 .60253909 .32267253 .6227214 .30159507 .6328125 .27685548 .6328125 .25439454 .6328125 .2355957 .62613937 .22045899 .61279299 .20532227 .5994466 .19311524 .5802409 .18383789 .5551758 .17456055 .53011068 .16796875 .4995931 .1640625 .46362306 .16015625 .42765299 .15820313 .38704429 .15820313 .34179688Z" />
+<path id="ppt-A-font_11_484" d="M.15185547 .11328125V0H.053222658V.11328125H.15185547Z" />
+<path id="ppt-A-font_11_890" d="M.38671876 .35205079 .3876953 .34570313C.42447917 .33138023 .4523112 .31046549 .4711914 .28295899 .49007163 .25545249 .49951173 .22233074 .49951173 .18359375 .49951173 .14550781 .49039714 .111979167 .47216798 .08300781 .4539388 .054036458 .42749024 .031656904 .39282228 .01586914 .3581543 .00008138021 .31770835-.0078125 .27148438-.0078125 .22819011-.0078125 .19018555-.00056966146 .1574707 .013916016 .12475586 .028401694 .099365238 .049560548 .08129883 .07739258 .06323242 .10522461 .05419922 .13802083 .05419922 .17578125 .05419922 .20410156 .05908203 .22867839 .068847659 .24951172 .07861328 .27034507 .09138998 .28751628 .107177738 .3010254 .12296549 .31453453 .14290364 .3268229 .16699219 .33789063L.16601563 .34423829C.09602865 .37451173 .061035158 .42643229 .061035158 .5 .061035158 .5335286 .07023112 .56347659 .08862305 .58984377 .10701498 .61621096 .1332194 .63688156 .16723633 .65185549 .20125325 .6668294 .2389323 .6743164 .28027345 .6743164 .32714845 .6743164 .36653648 .6677246 .3984375 .654541 .43033854 .6413574 .4543457 .62231448 .47045899 .5974121 .48657228 .57250979 .4946289 .54264327 .4946289 .5078125 .4946289 .47200523 .48583985 .4411621 .46826173 .4152832 .4506836 .3894043 .4235026 .3683268 .38671876 .35205079M.15283203 .50439456C.15283203 .4851888 .15511067 .4671224 .15966797 .4501953 .16422527 .43326823 .17154949 .41861979 .18164063 .40625 .19173177 .39388023 .20483399 .3840332 .22094727 .37670899 .23706055 .36938478 .25683595 .36572267 .28027345 .36572267 .30729167 .36572267 .32999674 .37101237 .34838868 .3815918 .3667806 .39217124 .38045249 .40763346 .3894043 .42797853 .3983561 .44832359 .40283204 .47184245 .40283204 .49853517 .40283204 .52783206 .39754234 .552653 .3869629 .57299807 .37638346 .5933431 .3618164 .60839846 .34326173 .61816409 .32470704 .6279297 .3033854 .6328125 .27929688 .6328125 .23828125 .6328125 .20694988 .6216634 .18530274 .59936526 .1636556 .5770671 .15283203 .54541018 .15283203 .50439456M.14746094 .18408203C.14746094 .16292317 .14990235 .14314778 .15478516 .12475586 .15966797 .10636393 .1673991 .09049479 .17797852 .07714844 .18855794 .063802089 .20214844 .053222658 .21875 .045410158 .23535156 .037597658 .25553385 .033691408 .27929688 .033691408 .3059896 .033691408 .32885743 .03914388 .3479004 .050048829 .36694337 .060953779 .38142906 .07714844 .39135743 .09863281 .4012858 .12011719 .40625 .14550781 .40625 .17480469 .40625 .20605469 .4008789 .23299153 .39013673 .25561524 .37939454 .27823893 .3642578 .29549156 .34472657 .30737306 .3251953 .31925456 .30257163 .3251953 .27685548 .3251953 .25276695 .3251953 .23250325 .3214518 .21606446 .31396485 .19962566 .30647788 .1862793 .29638673 .17602539 .2836914 .16577149 .2709961 .15844727 .25610353 .15405274 .23901367 .1496582 .22192383 .14746094 .20361328 .14746094 .18408203Z" />
+<path id="ppt-A-font_11_885" d="M.07763672 .5283203V.62109377C.11539713 .6389974 .15071614 .65234377 .18359375 .6611328 .21647136 .6699219 .24820964 .6743164 .2788086 .6743164 .31559245 .6743164 .347819 .6686198 .37548829 .65722659 .40315757 .6458333 .4243164 .6294759 .43896485 .6081543 .45361329 .5868327 .4609375 .56136068 .4609375 .5317383 .4609375 .50406906 .45540367 .47973634 .44433595 .45874024 .43326823 .43774415 .4177246 .4194336 .39770509 .4038086 .37768556 .3881836 .35172526 .37288413 .31982423 .35791017V.35351563C.339681 .3499349 .35880534 .3438314 .37719728 .33520509 .3955892 .32657878 .41194663 .3154297 .42626954 .3017578 .44059245 .28808595 .45206706 .27172853 .46069337 .25268556 .46931968 .23364258 .4736328 .21191406 .4736328 .1875 .4736328 .14973958 .46541343 .11621094 .4489746 .08691406 .4325358 .057617189 .4073893 .034505208 .37353517 .017578125 .339681 .0006510417 .2985026-.0078125 .25-.0078125 .2220052-.0078125 .19181316-.004638672 .15942383 .0017089844 .1270345 .008056641 .09733073 .016438803 .0703125 .026855469V.1303711H.12890625C.14029949 .09651693 .15535482 .0719401 .17407227 .056640626 .19278972 .041341146 .21826172 .033691408 .25048829 .033691408 .292806 .033691408 .32478843 .045247396 .34643556 .068359378 .36808268 .09147135 .37890626 .12565105 .37890626 .17089844 .37890626 .21842449 .36458335 .25472007 .3359375 .27978517 .30729167 .30485026 .26529948 .3173828 .20996094 .3173828H.16601563V.36035157C.20996094 .36295573 .24698894 .37141929 .2770996 .3857422 .3072103 .4000651 .32958985 .41845704 .34423829 .44091798 .35888673 .4633789 .36621095 .48860679 .36621095 .51660159 .36621095 .5527344 .35660807 .5805664 .33740235 .60009768 .31819663 .6196289 .2902018 .62939456 .25341798 .62939456 .22281902 .62939456 .19791667 .62109377 .17871094 .6044922 .1595052 .5878906 .14534505 .5625 .13623047 .5283203H.07763672Z" />
+<clipPath id="ppt-A-clip_44">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-A-font_11_590" d="M.14013672 .4008789C.11702474 .4008789 .09830729 .3971354 .083984378 .38964845 .06966146 .38216148 .0538737 .3671875 .036621095 .34472657L.0063476564 .37109376C.034016927 .40983073 .05843099 .43546549 .079589847 .44799806 .100748699 .4605306 .1295573 .46679688 .16601563 .46679688H.5776367V.4008789H.45947267V.107910159C.45947267 .06526693 .4716797 .043945314 .49609376 .043945314 .5100911 .043945314 .52685549 .052083333 .5463867 .068359378L.5654297 .0390625C.5289714 .0078125 .4934896-.0078125 .45898438-.0078125 .4309896-.0078125 .41007487 .0016276041 .39624024 .020507813 .3824056 .03938802 .37548829 .071126308 .37548829 .115722659V.4008789H.22558594V0H.1274414V.023925782C.1476237 .10042318 .15771485 .20361328 .15771485 .3334961V.4008789H.14013672Z" />
+</defs>
+<g clip-path="url(#ppt-A-clip_1)">
+<g clip-path="url(#ppt-A-clip_2)">
+<g clip-path="url(#ppt-A-clip_3)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M0-.0050049H504.63V357.125H0Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-A-clip_4)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M14.173 184.49H238.113V330.19H14.173Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-A-clip_5)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M43.654 239.48 81.411 299.46" />
+</g>
+<g clip-path="url(#ppt-A-clip_6)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M81.411 299.46 127.56 238.18" />
+</g>
+<g clip-path="url(#ppt-A-clip_7)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M127.56 238.18 173.71 299.46" />
+</g>
+<g clip-path="url(#ppt-A-clip_8)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M173.71 299.46 211.46 239.48" />
+</g>
+<g clip-path="url(#ppt-A-clip_9)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-dasharray="4.56,3.42" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#d55e00" d="M127.56 238.18 43.654 239.48" />
+</g>
+<g clip-path="url(#ppt-A-clip_10)">
+<use data-text="ψ" xlink:href="#ppt-A-font_11_599" transform="matrix(9.24,0,0,-9.24,80.424,84.09816)" fill="#d55e00" />
+<use data-text="₁" xlink:href="#ppt-A-font_11_908" transform="matrix(9.24,0,0,-9.24,87.023967,84.09816)" fill="#d55e00" />
+</g>
+<g clip-path="url(#ppt-A-clip_12)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-dasharray="4.56,3.42" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#d55e00" d="M211.46 239.48 127.56 238.18" />
+</g>
+<g clip-path="url(#ppt-A-clip_13)">
+<use data-text="ψ" xlink:href="#ppt-A-font_11_599" transform="matrix(9.24,0,0,-9.24,164.35,84.09816)" fill="#d55e00" />
+<use data-text="₂" xlink:href="#ppt-A-font_11_909" transform="matrix(9.24,0,0,-9.24,170.94997,84.09816)" fill="#d55e00" />
+</g>
+<g clip-path="url(#ppt-A-clip_14)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M205.8 239.48C205.8 242.61 208.33 245.15 211.46 245.15 214.6 245.15 217.13 242.61 217.13 239.48 217.13 236.35 214.6 233.81 211.46 233.81 208.33 233.81 205.8 236.35 205.8 239.48Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-A-clip_15)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M205.8 239.48C205.8 242.61 208.33 245.15 211.46 245.15 214.6 245.15 217.13 242.61 217.13 239.48 217.13 236.35 214.6 233.81 211.46 233.81 208.33 233.81 205.8 236.35 205.8 239.48Z" />
+</g>
+<g clip-path="url(#ppt-A-clip_16)">
+<use data-text="5" xlink:href="#ppt-A-font_17_24" transform="matrix(8.064,0,0,-8.064,209.26,95.34816)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-A-clip_18)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M168.04 299.46C168.04 302.59 170.58 305.13 173.71 305.13 176.84 305.13 179.38 302.59 179.38 299.46 179.38 296.33 176.84 293.79 173.71 293.79 170.58 293.79 168.04 296.33 168.04 299.46Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-A-clip_19)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M168.04 299.46C168.04 302.59 170.58 305.13 173.71 305.13 176.84 305.13 179.38 302.59 179.38 299.46 179.38 296.33 176.84 293.79 173.71 293.79 170.58 293.79 168.04 296.33 168.04 299.46Z" />
+</g>
+<g clip-path="url(#ppt-A-clip_20)">
+<use data-text="4" xlink:href="#ppt-A-font_17_23" transform="matrix(8.064,0,0,-8.064,171.48,35.348146)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-A-clip_21)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M37.984 239.48C37.984 242.61 40.522 245.15 43.654 245.15 46.785 245.15 49.323 242.61 49.323 239.48 49.323 236.35 46.785 233.81 43.654 233.81 40.522 233.81 37.984 236.35 37.984 239.48Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-A-clip_22)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M37.984 239.48C37.984 242.61 40.522 245.15 43.654 245.15 46.785 245.15 49.323 242.61 49.323 239.48 49.323 236.35 46.785 233.81 43.654 233.81 40.522 233.81 37.984 236.35 37.984 239.48Z" />
+</g>
+<g clip-path="url(#ppt-A-clip_23)">
+<use data-text="1" xlink:href="#ppt-A-font_17_20" transform="matrix(8.064,0,0,-8.064,41.4,95.34816)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-A-clip_24)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M75.742 299.46C75.742 302.59 78.28 305.13 81.411 305.13 84.542 305.13 87.08 302.59 87.08 299.46 87.08 296.33 84.542 293.79 81.411 293.79 78.28 293.79 75.742 296.33 75.742 299.46Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-A-clip_25)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M75.742 299.46C75.742 302.59 78.28 305.13 81.411 305.13 84.542 305.13 87.08 302.59 87.08 299.46 87.08 296.33 84.542 293.79 81.411 293.79 78.28 293.79 75.742 296.33 75.742 299.46Z" />
+</g>
+<g clip-path="url(#ppt-A-clip_26)">
+<use data-text="2" xlink:href="#ppt-A-font_17_21" transform="matrix(8.064,0,0,-8.064,79.152,35.348146)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-A-clip_27)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M121.89 238.18C121.89 241.31 124.43 243.85 127.56 243.85 130.69 243.85 133.23 241.31 133.23 238.18 133.23 235.05 130.69 232.51 127.56 232.51 124.43 232.51 121.89 235.05 121.89 238.18Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-A-clip_28)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M121.89 238.18C121.89 241.31 124.43 243.85 127.56 243.85 130.69 243.85 133.23 241.31 133.23 238.18 133.23 235.05 130.69 232.51 127.56 232.51 124.43 232.51 121.89 235.05 121.89 238.18Z" />
+</g>
+<g clip-path="url(#ppt-A-clip_29)">
+<use data-text="3" xlink:href="#ppt-A-font_17_22" transform="matrix(8.04,0,0,-8.04,125.33,96.66815)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-A-clip_30)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width="1.15" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M42.52 200.36H56.693" />
+</g>
+<g clip-path="url(#ppt-A-clip_31)">
+<use data-text="T" xlink:href="#ppt-A-font_17_55" transform="matrix(8.4,0,0,-8.4,59.544,134.30815)" fill="#555d69" />
+<use data-text="r" xlink:href="#ppt-A-font_17_85" transform="matrix(8.4,0,0,-8.4,64.6932,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-A-font_17_72" transform="matrix(8.4,0,0,-8.4,67.4568,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-A-font_17_72" transform="matrix(8.4,0,0,-8.4,72.127208,134.30815)" fill="#555d69" />
+<use data-text=" " xlink:href="#ppt-A-font_17_3" transform="matrix(8.4,0,0,-8.4,76.79761,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-A-font_17_72" transform="matrix(8.4,0,0,-8.4,78.973209,134.30815)" fill="#555d69" />
+<use data-text="d" xlink:href="#ppt-A-font_17_71" transform="matrix(8.4,0,0,-8.4,83.64361,134.30815)" fill="#555d69" />
+<use data-text="g" xlink:href="#ppt-A-font_17_74" transform="matrix(8.4,0,0,-8.4,88.31401,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-A-font_17_72" transform="matrix(8.4,0,0,-8.4,93.00121,134.30815)" fill="#555d69" />
+</g>
+<g clip-path="url(#ppt-A-clip_32)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width="1.15" stroke-linecap="butt" stroke-dasharray="4.6,3.45" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#d55e00" d="M136.06 200.36H150.24" />
+</g>
+<g clip-path="url(#ppt-A-clip_33)">
+<use data-text="C" xlink:href="#ppt-A-font_17_38" transform="matrix(8.4,0,0,-8.4,153.1,134.30815)" fill="#555d69" />
+<use data-text="l" xlink:href="#ppt-A-font_17_79" transform="matrix(8.4,0,0,-8.4,159.21521,134.30815)" fill="#555d69" />
+<use data-text="o" xlink:href="#ppt-A-font_17_82" transform="matrix(8.4,0,0,-8.4,161.13042,134.30815)" fill="#555d69" />
+<use data-text="s" xlink:href="#ppt-A-font_17_86" transform="matrix(8.4,0,0,-8.4,165.80081,134.30815)" fill="#555d69" />
+<use data-text="i" xlink:href="#ppt-A-font_17_76" transform="matrix(8.4,0,0,-8.4,170.00081,134.30815)" fill="#555d69" />
+<use data-text="n" xlink:href="#ppt-A-font_17_81" transform="matrix(8.4,0,0,-8.4,171.92443,134.30815)" fill="#555d69" />
+<use data-text="g" xlink:href="#ppt-A-font_17_74" transform="matrix(8.4,0,0,-8.4,176.59482,134.30815)" fill="#555d69" />
+<use data-text=" " xlink:href="#ppt-A-font_17_3" transform="matrix(8.4,0,0,-8.4,181.16442,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-A-font_17_72" transform="matrix(8.4,0,0,-8.4,183.44081,134.30815)" fill="#555d69" />
+<use data-text="d" xlink:href="#ppt-A-font_17_71" transform="matrix(8.4,0,0,-8.4,188.1112,134.30815)" fill="#555d69" />
+<use data-text="g" xlink:href="#ppt-A-font_17_74" transform="matrix(8.4,0,0,-8.4,192.7816,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-A-font_17_72" transform="matrix(8.4,0,0,-8.4,197.4688,134.30815)" fill="#555d69" />
+</g>
+<g clip-path="url(#ppt-A-clip_34)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M266.46 184.49H496.07V330.19H266.46Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-A-clip_35)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M334.49 266.41C334.49 291.46 354.79 311.77 379.84 311.77 404.89 311.77 425.2 291.46 425.2 266.41 425.2 241.36 404.89 221.06 379.84 221.06 354.79 221.06 334.49 241.36 334.49 266.41Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-A-clip_36)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M334.49 266.41C334.49 291.46 354.79 311.77 379.84 311.77 404.89 311.77 425.2 291.46 425.2 266.41 425.2 241.36 404.89 221.06 379.84 221.06 354.79 221.06 334.49 241.36 334.49 266.41Z" />
+</g>
+<g clip-path="url(#ppt-A-clip_37)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M308.98 266.41H450.71" />
+</g>
+<g clip-path="url(#ppt-A-clip_38)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" stroke-width=".62" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#bbc5cf" d="M379.84 319.7V212.55" />
+</g>
+<g clip-path="url(#ppt-A-clip_39)">
+<use data-text="R" xlink:href="#ppt-A-font_17_53" transform="matrix(8.52,0,0,-8.52,452.47,72.38815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-A-font_17_72" transform="matrix(8.52,0,0,-8.52,458.59004,72.38815)" fill="#555d69" />
+</g>
+<g clip-path="url(#ppt-A-clip_40)">
+<use data-text="I" xlink:href="#ppt-A-font_17_44" transform="matrix(8.544,0,0,-8.544,387.41,14.518158)" fill="#555d69" />
+<use data-text="m" xlink:href="#ppt-A-font_17_80" transform="matrix(8.544,0,0,-8.544,389.81004,14.518158)" fill="#555d69" />
+</g>
+<g clip-path="url(#ppt-A-clip_41)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M380.31 265.98 410.11 298.56 409.17 299.42 379.37 266.84ZM409.41 294.24 410.45 299.88 404.92 298.34C404.58 298.25 404.38 297.9 404.48 297.56 404.57 297.22 404.93 297.02 405.27 297.11L409.81 298.38 409.01 299.11 408.15 294.47C408.09 294.12 408.32 293.79 408.67 293.72 409.02 293.66 409.35 293.89 409.41 294.24Z" fill="#d55e00" />
+</g>
+<g clip-path="url(#ppt-A-clip_42)">
+<path transform="matrix(1,0,0,-1,0,331.60816)" d="M379.84 267.05H335.69V265.77H379.84ZM339.35 269.45 334.48 266.41 339.35 263.37C339.65 263.18 340.05 263.27 340.23 263.57 340.42 263.87 340.33 264.27 340.03 264.45L336.03 266.95V265.87L340.03 268.37C340.33 268.56 340.42 268.95 340.23 269.25 340.05 269.55 339.65 269.64 339.35 269.45Z" fill="#009e73" />
+</g>
+<g clip-path="url(#ppt-A-clip_43)">
+<use data-text="ψ" xlink:href="#ppt-A-font_11_599" transform="matrix(9.36,0,0,-9.36,413.95,32.638154)" fill="#d55e00" />
+<use data-text="₁" xlink:href="#ppt-A-font_11_908" transform="matrix(9.36,0,0,-9.36,420.67985,32.638154)" fill="#d55e00" />
+<use data-text=" " xlink:href="#ppt-A-font_11_3" transform="matrix(9.36,0,0,-9.36,424.48936,32.638154)" fill="#d55e00" />
+<use data-text="=" xlink:href="#ppt-A-font_11_3404" transform="matrix(9.36,0,0,-9.36,426.42689,32.638154)" fill="#d55e00" />
+<use data-text=" " xlink:href="#ppt-A-font_11_3" transform="matrix(9.36,0,0,-9.36,433.39073,32.638154)" fill="#d55e00" />
+<use data-text="0" xlink:href="#ppt-A-font_11_882" transform="matrix(9.36,0,0,-9.36,435.44993,32.638154)" fill="#d55e00" />
+<use data-text="." xlink:href="#ppt-A-font_11_484" transform="matrix(9.36,0,0,-9.36,440.58857,32.638154)" fill="#d55e00" />
+<use data-text="8" xlink:href="#ppt-A-font_11_890" transform="matrix(9.36,0,0,-9.36,442.50736,32.638154)" fill="#d55e00" />
+<use data-text="3" xlink:href="#ppt-A-font_11_885" transform="matrix(9.36,0,0,-9.36,447.6928,32.638154)" fill="#d55e00" />
+</g>
+<g clip-path="url(#ppt-A-clip_44)">
+<use data-text="ψ" xlink:href="#ppt-A-font_11_599" transform="matrix(9.36,0,0,-9.36,316.7,80.56816)" fill="#009e73" />
+<use data-text="₂" xlink:href="#ppt-A-font_11_909" transform="matrix(9.36,0,0,-9.36,323.42985,80.56816)" fill="#009e73" />
+<use data-text=" " xlink:href="#ppt-A-font_11_3" transform="matrix(9.36,0,0,-9.36,327.23936,80.56816)" fill="#009e73" />
+<use data-text="=" xlink:href="#ppt-A-font_11_3404" transform="matrix(9.36,0,0,-9.36,329.17689,80.56816)" fill="#009e73" />
+<use data-text=" " xlink:href="#ppt-A-font_11_3" transform="matrix(9.36,0,0,-9.36,336.14073,80.56816)" fill="#009e73" />
+<use data-text="π" xlink:href="#ppt-A-font_11_590" transform="matrix(9.36,0,0,-9.36,338.19993,80.56816)" fill="#009e73" />
+</g>
+</g>
+</g>
+</svg><svg version="1.1" width="242.3622047" height="146.5511811" viewBox="0 0 242.3622 146.55118" x="262.2047244" y="25.5118110">
+<defs>
+<clipPath id="ppt-B-clip_1">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M262.2047 185.057H504.56694V331.6082H262.2047Z" />
+</clipPath>
+<clipPath id="ppt-B-clip_2">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 0H504.6V357.12H0Z" />
+</clipPath>
+<clipPath id="ppt-B-clip_3">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .000091553H504.6V357.1201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_4">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .00018311H504.6V357.12019H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_5">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000003815 .000030518H504.6V357.12004H-.000003815Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_6">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .00015259H504.6V357.12016H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_7">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000007629 .000030518H504.6V357.12004H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_8">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .00015259H504.6V357.12016H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_9">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000022888 .000030518H504.60005V357.12004H.000022888Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_10">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_11_599" d="M.6826172 .4428711C.6578776 .43701173 .6425781 .4285482 .63671877 .41748048 .6308594 .40641276 .6279297 .379069 .6279297 .33544923V.24414063C.6279297 .15592449 .6088867 .0925293 .5708008 .053955079 .53271487 .015380859 .4754232-.0043945314 .39892579-.0053710939V-.20996094H.3178711V-.0053710939C.24007161-.0047200524 .18245442 .013753255 .14501953 .050048829 .10758463 .0863444 .08886719 .14453125 .08886719 .22460938V.33544923C.08886719 .37320964 .08610026 .39916993 .080566409 .41333009 .075032558 .42749024 .05940755 .43733726 .033691408 .4428711V.46679688H.17382813V.23388672C.17382813 .16292317 .1850586 .11279297 .20751953 .083496097 .22998047 .05419922 .2667643 .037597658 .3178711 .033691408V.6743164H.39892579V.033691408C.4539388 .03922526 .49169923 .057047529 .51220706 .0871582 .53271487 .11726888 .54296877 .16682942 .54296877 .23583985V.46679688H.6826172V.4428711Z" />
+<path id="ppt-B-font_11_908" d="M.2524414-.057617189C.2524414-.071614589 .2536621-.08162435 .25610353-.087646488 .25854493-.09366862 .26245118-.09838867 .26782228-.10180664 .27319337-.10522461 .28230796-.107910159 .29516603-.10986328 .30802409-.111816409 .32861329-.11295573 .3569336-.11328125V-.14453125H.079589847V-.11328125C.10660807-.11263021 .12646485-.11140951 .13916016-.10961914 .15185547-.10782877 .16113281-.10522461 .16699219-.10180664 .17285156-.09838867 .17716472-.09366862 .17993164-.087646488 .18269857-.08162435 .18408203-.071614589 .18408203-.057617189V.1640625C.18408203 .17220052 .18253581 .17805989 .17944336 .18164063 .1763509 .18522136 .17171224 .18701172 .16552735 .18701172 .1586914 .18701172 .14819336 .18334961 .1340332 .17602539 .11987305 .16870117 .1015625 .15804036 .07910156 .14404297L.061523439 .17773438 .23242188 .26660157H.25439454C.254069 .26171876 .2536621 .25024415 .25317384 .23217774 .25268556 .21411133 .2524414 .19596355 .2524414 .17773438V-.057617189Z" />
+<clipPath id="ppt-B-clip_12">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .00012207H504.6V357.12013H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_13">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_11_909" d="M.24707031-.08935547C.25846354-.08935547 .26717124-.088785808 .27319337-.087646488 .27921549-.086507167 .28401695-.08479818 .28759767-.08251953 .29117839-.08024088 .29418946-.077311199 .29663087-.07373047 .29907228-.07014974 .30273438-.06233724 .3076172-.05029297H.3413086L.33447267-.14453125H.048339845V-.12597656C.05940755-.10221354 .07438151-.07877604 .09326172-.055664064 .11214193-.032552083 .13427735-.0087890629 .15966797 .015625 .1899414 .044596357 .21142578 .06648763 .2241211 .08129883 .2368164 .09611002 .24625652 .11010742 .2524414 .123291019 .2586263 .13647461 .26171876 .14973958 .26171876 .16308594 .26171876 .18522136 .25545249 .20263672 .24291992 .21533203 .23038738 .22802735 .21240235 .234375 .18896485 .234375 .16878255 .234375 .15161133 .2290039 .13745117 .21826172 .123291019 .20751953 .112467449 .19173177 .10498047 .17089844H.05859375V.2368164C.0875651 .24853516 .11425781 .25691734 .13867188 .2619629 .16308594 .26700846 .18473308 .26953126 .20361328 .26953126 .22932942 .26953126 .25056968 .2667643 .26733399 .26123048 .2840983 .25569663 .29752604 .24845378 .3076172 .23950196 .31770835 .23055013 .32478843 .22005208 .32885743 .20800781 .33292643 .19596355 .33496095 .18359375 .33496095 .17089844 .33496095 .15494792 .33170573 .14005535 .3251953 .1262207 .3186849 .11238607 .30802409 .09741211 .2932129 .08129883 .2784017 .06518555 .25211589 .040039064 .21435547 .005859375 .17399089-.030924479 .14469402-.06266276 .12646485-.08935547H.24707031Z" />
+<clipPath id="ppt-B-clip_14">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000015259 .00015259H504.59999V357.12016H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_15">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000015259 .00015259H504.59999V357.12016H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_16">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_17_24" d="M.041503908 .18847656 .13378906 .19628906C.140625 .15151978 .15649414 .117863979 .18139649 .095321658 .20629883 .07278951 .23632813 .061523439 .27148438 .061523439 .3138021 .061523439 .34960938 .077448528 .37890626 .109298709 .40820313 .14115906 .42285157 .18341573 .42285157 .23606873 .42285157 .28612773 .4087728 .32562257 .38061524 .35455323 .35245768 .3834839 .31559245 .39794923 .27001954 .39794923 .24169922 .39794923 .21614583 .39156596 .19335938 .37879945 .17057292 .36603294 .15266927 .34946696 .13964844 .32910157L.057128908 .33984376 .12646485 .70703127H.48242188V.62402346H.19677735L.15820313 .43115235C.20117188 .46077476 .24625652 .47558595 .29345704 .47558595 .35595704 .47558595 .4086914 .45391337 .45166017 .41056825 .4946289 .36723329 .5161133 .31151835 .5161133 .24342346 .5161133 .17857361 .49723307 .122528079 .45947267 .075286868 .41357423 .017283122 .35091148-.01171875 .27148438-.01171875 .2063802-.01171875 .15323894 .006556193 .11206055 .04310608 .070882167 .07965597 .04736328 .1281128 .041503908 .18847656Z" />
+<clipPath id="ppt-B-clip_18">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000015259 .00012207H504.59999V357.12013H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_19">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000015259 .00012207H504.59999V357.12013H-.000015259Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_20">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_17_23" d="M.3232422 0V.17138672H.0126953129V.25195313L.33935548 .7158203H.4111328V.25195313H.5078125V.17138672H.4111328V0H.3232422M.3232422 .25195313V.57470706L.099121097 .25195313H.3232422Z" />
+<clipPath id="ppt-B-clip_21">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .00015259H504.6V357.12016H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_22">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .00015259H504.6V357.12016H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_23">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_17_20" d="M.3725586 0H.28466798V.5600586C.26350913 .5398763 .23575847 .51969406 .20141602 .49951173 .16707357 .47932945 .13623047 .46419273 .10888672 .45410157V.5390625C.15804036 .5621745 .20100911 .59016928 .23779297 .6230469 .2745768 .6559245 .3006185 .6878255 .31591798 .71875H.3725586V0Z" />
+<clipPath id="ppt-B-clip_24">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000007629 .00012207H504.6V357.12013H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_25">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000007629 .00012207H504.6V357.12013H-.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_26">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_17_21" d="M.50341799 .084472659V0H.030273438C.029622397 .021148682 .033040365 .041483564 .040527345 .06100464 .052571615 .09321085 .07185873 .124928798 .09838867 .15615845 .12491862 .1873881 .1632487 .22350057 .2133789 .26449586 .29117839 .3282369 .34375 .37872825 .37109376 .41596986 .3984375 .45321147 .41210938 .48841859 .41210938 .5215912 .41210938 .5563914 .3996582 .5857442 .37475587 .60964968 .34985353 .6335551 .3173828 .6455078 .27734376 .6455078 .23502605 .6455078 .20117188 .6328125 .17578125 .6074219 .15039063 .58203127 .13753255 .546875 .13720703 .5019531L.046875 .5112457C.053059896 .5787811 .07633463 .630249 .11669922 .6656494 .1570638 .7010498 .21126302 .71875 .27929688 .71875 .34798179 .71875 .40234376 .69970199 .4423828 .66160586 .48242188 .6235097 .5024414 .57629397 .5024414 .5199585 .5024414 .4913025 .49658204 .46313478 .48486329 .43545533 .47314454 .40777589 .45369468 .3786316 .42651368 .34802247 .39933268 .3174235 .35416667 .27542115 .29101563 .22201538 .23828125 .17779541 .20442708 .14779663 .18945313 .13201905 .17447917 .116251628 .16210938 .10040283 .15234375 .084472659H.50341799Z" />
+<clipPath id="ppt-B-clip_27">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007629 .000091553H504.6V357.1201H.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_28">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007629 .000091553H504.6V357.1201H.000007629Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_29">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_17_22" d="M.041992189 .19042969 .12988281 .20214844C.13997396 .15234375 .15714519 .11645508 .18139649 .09448242 .20564778 .072509769 .2351888 .061523439 .27001954 .061523439 .3113607 .061523439 .3462728 .07582092 .37475587 .10441589 .40323893 .13301087 .41748048 .1684316 .41748048 .2106781 .41748048 .25098167 .40429688 .2842102 .3779297 .31036378 .3515625 .3365275 .31803385 .34960938 .27734376 .34960938 .2607422 .34960938 .24007161 .34635417 .21533203 .33984376L.22509766 .4169922C.23095703 .41634117 .23567708 .41601563 .23925781 .41601563 .27669273 .41601563 .31038413 .42569987 .34033204 .44506837 .37027995 .46443687 .3852539 .4942932 .3852539 .53463748 .3852539 .56658938 .37434898 .59305319 .35253907 .61402896 .33072917 .63501486 .30257163 .6455078 .2680664 .6455078 .23388672 .6455078 .20540364 .6347656 .18261719 .61328127 .15983074 .5917969 .1451823 .5595703 .13867188 .51660159L.05078125 .53222659C.061523439 .591451 .0859375 .63734439 .12402344 .6699066 .16210938 .7024689 .20947266 .71875 .26611329 .71875 .30517579 .71875 .34114585 .71039327 .37402345 .6936798 .40690104 .67696639 .43204753 .6541646 .4494629 .62527468 .46687828 .59639486 .47558595 .5657247 .47558595 .53326418 .47558595 .5024312 .46728517 .47435508 .4506836 .44903565 .43408204 .4237264 .40950523 .40360514 .37695313 .38867188 .41927085 .37890626 .45214845 .35864259 .47558595 .32788087 .49902345 .29711915 .5107422 .2586263 .5107422 .21240235 .5107422 .14990235 .48795573 .09692383 .4423828 .053466798 .3968099 .010009766 .33919273-.01171875 .26953126-.01171875 .20670574-.01171875 .15454102 .007044474 .11303711 .044570924 .0715332 .082097377 .047851564 .13071697 .041992189 .19042969Z" />
+<clipPath id="ppt-B-clip_30">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .00012207H504.6V357.12013H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_31">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_17_55" d="M.25927735 0V.63134768H.0234375V.7158203H.5908203V.63134768H.3540039V0H.25927735Z" />
+<path id="ppt-B-font_17_85" d="M.064941409 0V.5185547H.14404297V.4404297C.16422527 .4770101 .18286133 .50112918 .19995117 .51278689 .21704102 .5244446 .23583985 .53027346 .25634767 .53027346 .28597007 .53027346 .31608073 .520874 .3466797 .5020752L.31640626 .42089845C.29492188 .43359376 .2734375 .4399414 .25195313 .4399414 .23274739 .4399414 .2154948 .43415324 .20019531 .4225769 .18489583 .41101075 .17399089 .3949636 .16748047 .37443543 .15771485 .3431549 .15283203 .3089396 .15283203 .27178956V0H.064941409Z" />
+<path id="ppt-B-font_17_72" d="M.42089845 .16699219 .51171877 .15576172C.49739585 .10270182 .47086589 .061523439 .4321289 .032226564 .39339195 .0029296876 .34391276-.01171875 .2836914-.01171875 .20784505-.01171875 .14770508 .01163737 .103271488 .05834961 .05883789 .10506185 .036621095 .17057292 .036621095 .2548828 .036621095 .3421224 .05908203 .40983073 .104003909 .4580078 .14892578 .5061849 .20719402 .53027346 .2788086 .53027346 .34814454 .53027346 .40478517 .5067088 .44873048 .45957948 .49267579 .41246034 .51464846 .34616599 .51464846 .2606964 .51464846 .25549827 .51448568 .247701 .51416018 .23730469H.1274414C.13069661 .1805013 .14680989 .13700359 .17578125 .10681152 .20475261 .07661947 .24088542 .061523439 .2841797 .061523439 .31640626 .061523439 .34391276 .0699056 .36669923 .08666992 .3894857 .10344442 .4075521 .1302185 .42089845 .16699219M.13232422 .31054688H.421875C.41796876 .3534546 .40690104 .38563539 .38867188 .40708924 .3606771 .4403839 .3243815 .45703126 .27978517 .45703126 .23942058 .45703126 .20548503 .44374085 .17797852 .41716004 .150472 .3905894 .1352539 .35505168 .13232422 .31054688Z" />
+<path id="ppt-B-font_17_3" d="M0 0Z" />
+<path id="ppt-B-font_17_71" d="M.40234376 0V.06542969C.36946617 .0139973959 .3211263-.01171875 .25732423-.01171875 .21598308-.01171875 .17797852-.00032552085 .14331055 .022460938 .10864258 .045247396 .08178711 .077067058 .06274414 .11791992 .043701173 .15877278 .034179689 .20572917 .034179689 .25878907 .034179689 .31054688 .04280599 .35750328 .060058595 .3996582 .077311199 .44181315 .1031901 .4741211 .13769531 .49658204 .17220052 .51904299 .21077474 .53027346 .25341798 .53027346 .28466798 .53027346 .3125 .52368167 .33691407 .51049807 .36132813 .49731446 .3811849 .48014323 .39648438 .45898438V.7158203H.48388673V0H.40234376M.12451172 .2590332C.12451172 .1928711 .13850911 .14341228 .1665039 .11065674 .1944987 .07790121 .22753906 .061523439 .265625 .061523439 .30403648 .061523439 .33666993 .077168788 .3635254 .10845947 .39038087 .13976033 .4038086 .18752034 .4038086 .2517395 .4038086 .32243858 .39013673 .3743286 .36279298 .40740968 .33544923 .44049073 .3017578 .45703126 .26171876 .45703126 .22265625 .45703126 .19002278 .4411367 .16381836 .40934754 .13761394 .37756858 .12451172 .32746379 .12451172 .2590332Z" />
+<path id="ppt-B-font_17_74" d="M.049804689-.04296875 .1352539-.055664064C.13883464-.08203125 .14876302-.10123698 .16503906-.11328125 .18684896-.1295573 .21663411-.13769531 .25439454-.13769531 .29508464-.13769531 .3264974-.12953694 .3486328-.113220218 .37076823-.09691366 .3857422-.07407633 .3935547-.044708253 .39811198-.026774088 .40022788 .010904948 .39990235 .06832886 .36149089 .022776286 .3136393 0 .25634767 0 .1850586 0 .12988281 .025716147 .09082031 .07714844 .051757814 .12858074 .032226564 .19026692 .032226564 .26220704 .032226564 .3116862 .041178388 .35734049 .05908203 .39916993 .07698568 .44099937 .10294596 .47330729 .13696289 .49609376 .17097982 .5188802 .2109375 .53027346 .25683595 .53027346 .31803385 .53027346 .3684896 .5053711 .40820313 .4555664V.5185547H.4892578V.070007327C.4892578-.010772705 .48103843-.06801859 .4645996-.10173035 .4481608-.1354421 .42211915-.16206868 .3864746-.1816101 .35083009-.2011617 .30696617-.2109375 .2548828-.2109375 .19303386-.2109375 .1430664-.19698079 .10498047-.16906739 .06689453-.14115398 .048502607-.099121097 .049804689-.04296875M.122558597 .26853944C.122558597 .20067851 .1360677 .15116374 .16308594 .11999512 .19010417 .0888265 .22395833 .07324219 .26464845 .07324219 .30501304 .07324219 .3388672 .08874512 .36621095 .11975098 .3935547 .15075684 .40722657 .19938152 .40722657 .265625 .40722657 .3289388 .3931478 .3766683 .36499024 .40881349 .33683268 .44095866 .30289714 .45703126 .2631836 .45703126 .2241211 .45703126 .19091797 .4412028 .16357422 .4095459 .13623047 .377889 .122558597 .33088685 .122558597 .26853944Z" />
+<clipPath id="ppt-B-clip_32">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .00012207H504.6V357.12013H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_33">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_17_38" d="M.5878906 .25195313 .6826172 .22802735C.66276046 .15006511 .6270345 .09061686 .57543948 .049682619 .5238444 .008748372 .46077476-.01171875 .38623048-.01171875 .30908204-.01171875 .24633789 .0039876305 .19799805 .03540039 .1496582 .06681315 .11287435 .11230469 .087646488 .171875 .06241862 .23144531 .049804689 .29541017 .049804689 .36376954 .049804689 .4383138 .06404623 .5033366 .0925293 .5588379 .12101237 .6143392 .16153972 .65649417 .21411133 .68530276 .26668296 .7141113 .32454429 .7285156 .3876953 .7285156 .4593099 .7285156 .51953127 .71028646 .5683594 .6738281 .6171875 .6373698 .6512044 .5861003 .67041018 .52001956L.57714846 .49804688C.5605469 .55030319 .5364583 .5883484 .5048828 .6121826 .47330729 .63602706 .43359376 .6479492 .3857422 .6479492 .33072917 .6479492 .28474937 .6347402 .24780274 .60832217 .21085613 .58191427 .18489583 .5464528 .16992188 .50193789 .15494792 .45743308 .14746094 .4115448 .14746094 .36427308 .14746094 .30329896 .15633138 .25006614 .17407227 .20457459 .19181316 .15908306 .21940105 .12508647 .25683595 .10258484 .29427085 .080093387 .3347982 .068847659 .37841798 .068847659 .43147788 .068847659 .47639976 .084228519 .5131836 .114990238 .54996749 .14575196 .5748698 .19140625 .5878906 .25195313Z" />
+<path id="ppt-B-font_17_79" d="M.063964847 0V.7158203H.15185547V0H.063964847Z" />
+<path id="ppt-B-font_17_82" d="M.033203126 .25927735C.033203126 .355306 .059895833 .42643229 .11328125 .47265626 .15787761 .5110677 .21223958 .53027346 .2763672 .53027346 .34765626 .53027346 .40592448 .5069173 .45117188 .46020509 .49641929 .41349284 .51904299 .34895835 .51904299 .26660157 .51904299 .1998698 .5090332 .14737956 .48901368 .10913086 .46899415 .070882167 .43986003 .041178388 .40161134 .020019532 .36336265-.0011393229 .3216146-.01171875 .2763672-.01171875 .20377605-.01171875 .1451009 .011555989 .1003418 .05810547 .055582685 .104654949 .033203126 .17171224 .033203126 .25927735M.123535159 .25952149C.123535159 .19335938 .13802083 .14381917 .16699219 .11090088 .19596355 .07798258 .23242188 .061523439 .2763672 .061523439 .31998698 .061523439 .35628257 .078063968 .3852539 .11114502 .41422526 .14422608 .42871095 .19465637 .42871095 .2624359 .42871095 .32632957 .4141439 .3747355 .38500978 .4076538 .35587565 .4405721 .31966148 .45703126 .2763672 .45703126 .23242188 .45703126 .19596355 .44065348 .16699219 .40789796 .13802083 .37514244 .123535159 .3256836 .123535159 .25952149Z" />
+<path id="ppt-B-font_17_86" d="M.030761719 .15527344 .11767578 .16894531C.122558597 .13426717 .1361491 .107691448 .15844727 .08921814 .18074544 .070755008 .21191406 .061523439 .25195313 .061523439 .29231773 .061523439 .32226563 .06967672 .34179688 .08598328 .36132813 .10230001 .37109376 .12143453 .37109376 .14338684 .37109376 .16309102 .36246745 .17859395 .34521485 .18989563 .33317057 .1976471 .30322267 .20749919 .2553711 .2194519 .19091797 .23573812 .14624024 .24982707 .12133789 .26171876 .09643555 .27361045 .077555339 .29006449 .064697269 .31108094 .05183919 .33209739 .045410158 .35531108 .045410158 .38072206 .045410158 .40385438 .05069987 .4252777 .061279298 .44499208 .07185873 .46470643 .08626302 .4810791 .10449219 .4941101 .11816406 .5042114 .13680013 .5127614 .16040039 .51976016 .18400066 .526769 .20930989 .53027346 .23632813 .53027346 .27701823 .53027346 .31274415 .52437338 .34350587 .51257327 .37426759 .50078329 .39697267 .48480735 .4116211 .4646454 .42626954 .44449363 .4363607 .4175415 .44189454 .38378907L.35595704 .3720703C.35205079 .39876304 .34073893 .41959635 .32202149 .4345703 .30330406 .44954429 .27685548 .45703126 .24267578 .45703126 .2023112 .45703126 .17350261 .45038859 .15625 .43710328 .13899739 .42382813 .1303711 .40827943 .1303711 .39045716 .1303711 .37912498 .13395183 .3689219 .14111328 .35984803 .14827474 .35045878 .1595052 .34268699 .17480469 .3365326 .18359375 .33328758 .20947266 .32583619 .2524414 .31417848 .31461589 .29758708 .35799156 .28400675 .38256837 .2734375 .40714518 .26286827 .42643229 .24749756 .4404297 .22732544 .4544271 .2071635 .46142579 .18212383 .46142579 .15220642 .46142579 .12292989 .45288087 .09536234 .43579103 .069503787 .41870118 .043655397 .39404298 .02365621 .3618164 .009506226 .32958985-.0046437585 .2931315-.01171875 .2524414-.01171875 .1850586-.01171875 .13370769 .002319336 .09838867 .030395508 .063069667 .05847168 .040527345 .100097659 .030761719 .15527344Z" />
+<path id="ppt-B-font_17_76" d="M.06640625 .6142578V.7158203H.15429688V.6142578H.06640625M.06640625 0V.5185547H.15429688V0H.06640625Z" />
+<path id="ppt-B-font_17_81" d="M.06591797 0V.5185547H.14501953V.4453125C.18310547 .5019531 .23811849 .53027346 .3100586 .53027346 .3413086 .53027346 .3700358 .5246582 .39624024 .51342776 .42244468 .50219729 .44205729 .48746745 .45507813 .46923829 .46809898 .45100913 .47721354 .42936198 .48242188 .40429688 .4856771 .38802085 .4873047 .35953776 .4873047 .31884767V0H.39941407V.31576539C.39941407 .35161338 .3959961 .37841798 .38916017 .3961792 .38232423 .41394044 .37019859 .42811585 .3527832 .43870545 .33536784 .44929505 .3149414 .45458985 .2915039 .45458985 .254069 .45458985 .22176107 .44269309 .19458008 .41889955 .1673991 .39511619 .1538086 .34998576 .1538086 .2835083V0H.06591797Z" />
+<clipPath id="ppt-B-clip_34">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000030518 .00018311H504.59999V357.12019H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_35">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000030518 .000091553H504.59999V357.1201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_36">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000030518 .000091553H504.59999V357.1201H-.000030518Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_37">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .000091553H504.6V357.1201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_38">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .000091553H504.6V357.1201H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_39">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_17_53" d="M.07861328 0V.7158203H.3959961C.4597982 .7158203 .5083008 .70939639 .5415039 .69654849 .57470706 .68371078 .601237 .6610362 .62109377 .6285248 .6409505 .59601339 .6508789 .5600891 .6508789 .52075198 .6508789 .47003175 .6344401 .4272766 .6015625 .39248658 .5686849 .3577067 .5179036 .3356018 .44921876 .32617188 .47428385 .31410728 .4933268 .3022054 .50634768 .2904663 .5340169 .26504518 .5602214 .23326111 .58496096 .19511414L.70947268 0H.59033206L.49560548 .14915467C.4679362 .19218445 .44514976 .22510784 .4272461 .2479248 .40934245 .27075196 .39331056 .2867279 .3791504 .29585267 .36499024 .30498759 .35058595 .3113505 .3359375 .3149414 .3251953 .31722007 .3076172 .31835938 .28320313 .31835938H.17333985V0H.07861328M.17333985 .40039063H.37695313C.4202474 .40039063 .45410157 .40485636 .47851563 .41378785 .5029297 .42271934 .5214844 .43701173 .5341797 .45666505 .546875 .47631837 .55322268 .49768067 .55322268 .52075198 .55322268 .5545349 .54093429 .5823059 .5163574 .60406497 .4917806 .62583419 .45296226 .63671877 .39990235 .63671877H.17333985V.40039063Z" />
+<clipPath id="ppt-B-clip_40">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_17_44" d="M.09326172 0V.7158203H.18798828V0H.09326172Z" />
+<path id="ppt-B-font_17_80" d="M.06591797 0V.5185547H.14453125V.44628907C.1608073 .47153727 .18245442 .4918467 .20947266 .5072174 .23649089 .5225881 .2672526 .53027346 .3017578 .53027346 .34016929 .53027346 .37166343 .52233889 .39624024 .5064697 .42081706 .49061076 .43815104 .46843467 .4482422 .4399414 .4892578 .5001628 .54264327 .53027346 .60839846 .53027346 .65983077 .53027346 .69938156 .5160319 .7270508 .48754884 .75472006 .45906578 .7685547 .4152018 .7685547 .35595704V0H.68115237V.3270111C.68115237 .36220805 .678304 .38754273 .6726074 .40301515 .6669108 .4184977 .6565755 .43096415 .64160159 .44041444 .6266276 .44986473 .6090495 .45458985 .5888672 .45458985 .5524089 .45458985 .52213546 .44244895 .49804688 .4181671 .47395835 .39389549 .46191407 .3550364 .46191407 .30158998V0H.37402345V.33728028C.37402345 .37638346 .36686198 .40571086 .35253907 .42526246 .33821617 .44481407 .31477867 .45458985 .28222657 .45458985 .25748698 .45458985 .23461914 .44806925 .21362305 .43502809 .19262696 .42199708 .17740886 .40293376 .16796875 .37783814 .15852864 .3527527 .1538086 .31658427 .1538086 .2693329V0H.06591797Z" />
+<clipPath id="ppt-B-clip_41">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M-.000061035 .000030518H504.59996V357.12004H-.000061035Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_42">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0 .00018311H504.6V357.12019H0Z" clip-rule="evenodd" />
+</clipPath>
+<clipPath id="ppt-B-clip_43">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_11_3" d="M0 0Z" />
+<path id="ppt-B-font_11_3404" d="M.072753909 .3544922V.4194336H.6743164V.3544922H.072753909M.072753909 .15185547V.21679688H.6743164V.15185547H.072753909M.6948242 .28564454V.28564454Z" />
+<path id="ppt-B-font_11_882" d="M.27148438-.0078125C.20117188-.0078125 .1488444 .019856772 .11450195 .07519531 .08015951 .13053386 .06298828 .21451824 .06298828 .32714845 .06298828 .38704429 .06827799 .4388021 .07885742 .48242188 .08943685 .5260417 .10424805 .5620931 .123291019 .5905762 .14233399 .61905929 .16520183 .6401367 .19189453 .6538086 .21858724 .66748049 .24772136 .6743164 .27929688 .6743164 .35058595 .6743164 .40364585 .6468099 .43847657 .5917969 .47330729 .5367839 .49072267 .45361329 .49072267 .34228517 .49072267 .22705078 .47208659 .13989258 .43481446 .08081055 .39754234 .021728516 .34309898-.0078125 .27148438-.0078125M.15820313 .34179688C.15820313 .23567708 .16805013 .15779622 .18774414 .1081543 .20743816 .05851237 .23795574 .033691408 .27929688 .033691408 .3186849 .033691408 .3479004 .057047529 .36694337 .103759769 .38598634 .150472 .3955078 .22281902 .3955078 .32080079 .3955078 .39567057 .390625 .45629884 .38085938 .50268557 .37109376 .54907229 .35750328 .58235678 .3400879 .60253909 .32267253 .6227214 .30159507 .6328125 .27685548 .6328125 .25439454 .6328125 .2355957 .62613937 .22045899 .61279299 .20532227 .5994466 .19311524 .5802409 .18383789 .5551758 .17456055 .53011068 .16796875 .4995931 .1640625 .46362306 .16015625 .42765299 .15820313 .38704429 .15820313 .34179688Z" />
+<path id="ppt-B-font_11_484" d="M.15185547 .11328125V0H.053222658V.11328125H.15185547Z" />
+<path id="ppt-B-font_11_890" d="M.38671876 .35205079 .3876953 .34570313C.42447917 .33138023 .4523112 .31046549 .4711914 .28295899 .49007163 .25545249 .49951173 .22233074 .49951173 .18359375 .49951173 .14550781 .49039714 .111979167 .47216798 .08300781 .4539388 .054036458 .42749024 .031656904 .39282228 .01586914 .3581543 .00008138021 .31770835-.0078125 .27148438-.0078125 .22819011-.0078125 .19018555-.00056966146 .1574707 .013916016 .12475586 .028401694 .099365238 .049560548 .08129883 .07739258 .06323242 .10522461 .05419922 .13802083 .05419922 .17578125 .05419922 .20410156 .05908203 .22867839 .068847659 .24951172 .07861328 .27034507 .09138998 .28751628 .107177738 .3010254 .12296549 .31453453 .14290364 .3268229 .16699219 .33789063L.16601563 .34423829C.09602865 .37451173 .061035158 .42643229 .061035158 .5 .061035158 .5335286 .07023112 .56347659 .08862305 .58984377 .10701498 .61621096 .1332194 .63688156 .16723633 .65185549 .20125325 .6668294 .2389323 .6743164 .28027345 .6743164 .32714845 .6743164 .36653648 .6677246 .3984375 .654541 .43033854 .6413574 .4543457 .62231448 .47045899 .5974121 .48657228 .57250979 .4946289 .54264327 .4946289 .5078125 .4946289 .47200523 .48583985 .4411621 .46826173 .4152832 .4506836 .3894043 .4235026 .3683268 .38671876 .35205079M.15283203 .50439456C.15283203 .4851888 .15511067 .4671224 .15966797 .4501953 .16422527 .43326823 .17154949 .41861979 .18164063 .40625 .19173177 .39388023 .20483399 .3840332 .22094727 .37670899 .23706055 .36938478 .25683595 .36572267 .28027345 .36572267 .30729167 .36572267 .32999674 .37101237 .34838868 .3815918 .3667806 .39217124 .38045249 .40763346 .3894043 .42797853 .3983561 .44832359 .40283204 .47184245 .40283204 .49853517 .40283204 .52783206 .39754234 .552653 .3869629 .57299807 .37638346 .5933431 .3618164 .60839846 .34326173 .61816409 .32470704 .6279297 .3033854 .6328125 .27929688 .6328125 .23828125 .6328125 .20694988 .6216634 .18530274 .59936526 .1636556 .5770671 .15283203 .54541018 .15283203 .50439456M.14746094 .18408203C.14746094 .16292317 .14990235 .14314778 .15478516 .12475586 .15966797 .10636393 .1673991 .09049479 .17797852 .07714844 .18855794 .063802089 .20214844 .053222658 .21875 .045410158 .23535156 .037597658 .25553385 .033691408 .27929688 .033691408 .3059896 .033691408 .32885743 .03914388 .3479004 .050048829 .36694337 .060953779 .38142906 .07714844 .39135743 .09863281 .4012858 .12011719 .40625 .14550781 .40625 .17480469 .40625 .20605469 .4008789 .23299153 .39013673 .25561524 .37939454 .27823893 .3642578 .29549156 .34472657 .30737306 .3251953 .31925456 .30257163 .3251953 .27685548 .3251953 .25276695 .3251953 .23250325 .3214518 .21606446 .31396485 .19962566 .30647788 .1862793 .29638673 .17602539 .2836914 .16577149 .2709961 .15844727 .25610353 .15405274 .23901367 .1496582 .22192383 .14746094 .20361328 .14746094 .18408203Z" />
+<path id="ppt-B-font_11_885" d="M.07763672 .5283203V.62109377C.11539713 .6389974 .15071614 .65234377 .18359375 .6611328 .21647136 .6699219 .24820964 .6743164 .2788086 .6743164 .31559245 .6743164 .347819 .6686198 .37548829 .65722659 .40315757 .6458333 .4243164 .6294759 .43896485 .6081543 .45361329 .5868327 .4609375 .56136068 .4609375 .5317383 .4609375 .50406906 .45540367 .47973634 .44433595 .45874024 .43326823 .43774415 .4177246 .4194336 .39770509 .4038086 .37768556 .3881836 .35172526 .37288413 .31982423 .35791017V.35351563C.339681 .3499349 .35880534 .3438314 .37719728 .33520509 .3955892 .32657878 .41194663 .3154297 .42626954 .3017578 .44059245 .28808595 .45206706 .27172853 .46069337 .25268556 .46931968 .23364258 .4736328 .21191406 .4736328 .1875 .4736328 .14973958 .46541343 .11621094 .4489746 .08691406 .4325358 .057617189 .4073893 .034505208 .37353517 .017578125 .339681 .0006510417 .2985026-.0078125 .25-.0078125 .2220052-.0078125 .19181316-.004638672 .15942383 .0017089844 .1270345 .008056641 .09733073 .016438803 .0703125 .026855469V.1303711H.12890625C.14029949 .09651693 .15535482 .0719401 .17407227 .056640626 .19278972 .041341146 .21826172 .033691408 .25048829 .033691408 .292806 .033691408 .32478843 .045247396 .34643556 .068359378 .36808268 .09147135 .37890626 .12565105 .37890626 .17089844 .37890626 .21842449 .36458335 .25472007 .3359375 .27978517 .30729167 .30485026 .26529948 .3173828 .20996094 .3173828H.16601563V.36035157C.20996094 .36295573 .24698894 .37141929 .2770996 .3857422 .3072103 .4000651 .32958985 .41845704 .34423829 .44091798 .35888673 .4633789 .36621095 .48860679 .36621095 .51660159 .36621095 .5527344 .35660807 .5805664 .33740235 .60009768 .31819663 .6196289 .2902018 .62939456 .25341798 .62939456 .22281902 .62939456 .19791667 .62109377 .17871094 .6044922 .1595052 .5878906 .14534505 .5625 .13623047 .5283203H.07763672Z" />
+<clipPath id="ppt-B-clip_44">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M.000007519 0H504.6V357.12H.000007519Z" clip-rule="evenodd" />
+</clipPath>
+<path id="ppt-B-font_11_590" d="M.14013672 .4008789C.11702474 .4008789 .09830729 .3971354 .083984378 .38964845 .06966146 .38216148 .0538737 .3671875 .036621095 .34472657L.0063476564 .37109376C.034016927 .40983073 .05843099 .43546549 .079589847 .44799806 .100748699 .4605306 .1295573 .46679688 .16601563 .46679688H.5776367V.4008789H.45947267V.107910159C.45947267 .06526693 .4716797 .043945314 .49609376 .043945314 .5100911 .043945314 .52685549 .052083333 .5463867 .068359378L.5654297 .0390625C.5289714 .0078125 .4934896-.0078125 .45898438-.0078125 .4309896-.0078125 .41007487 .0016276041 .39624024 .020507813 .3824056 .03938802 .37548829 .071126308 .37548829 .115722659V.4008789H.22558594V0H.1274414V.023925782C.1476237 .10042318 .15771485 .20361328 .15771485 .3334961V.4008789H.14013672Z" />
+</defs>
+<g clip-path="url(#ppt-B-clip_1)">
+<g clip-path="url(#ppt-B-clip_2)">
+<g clip-path="url(#ppt-B-clip_3)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M0-.0050049H504.63V357.125H0Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-B-clip_4)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M14.173 184.49H238.113V330.19H14.173Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-B-clip_5)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M43.654 239.48 81.411 299.46" />
+</g>
+<g clip-path="url(#ppt-B-clip_6)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M81.411 299.46 127.56 238.18" />
+</g>
+<g clip-path="url(#ppt-B-clip_7)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M127.56 238.18 173.71 299.46" />
+</g>
+<g clip-path="url(#ppt-B-clip_8)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M173.71 299.46 211.46 239.48" />
+</g>
+<g clip-path="url(#ppt-B-clip_9)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-dasharray="4.56,3.42" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#d55e00" d="M127.56 238.18 43.654 239.48" />
+</g>
+<g clip-path="url(#ppt-B-clip_10)">
+<use data-text="ψ" xlink:href="#ppt-B-font_11_599" transform="matrix(9.24,0,0,-9.24,-181.78067,84.09816)" fill="#d55e00" />
+<use data-text="₁" xlink:href="#ppt-B-font_11_908" transform="matrix(9.24,0,0,-9.24,-175.18073,84.09816)" fill="#d55e00" />
+</g>
+<g clip-path="url(#ppt-B-clip_12)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width="1.14" stroke-linecap="butt" stroke-dasharray="4.56,3.42" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#d55e00" d="M211.46 239.48 127.56 238.18" />
+</g>
+<g clip-path="url(#ppt-B-clip_13)">
+<use data-text="ψ" xlink:href="#ppt-B-font_11_599" transform="matrix(9.24,0,0,-9.24,-97.854679,84.09816)" fill="#d55e00" />
+<use data-text="₂" xlink:href="#ppt-B-font_11_909" transform="matrix(9.24,0,0,-9.24,-91.254718,84.09816)" fill="#d55e00" />
+</g>
+<g clip-path="url(#ppt-B-clip_14)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M205.8 239.48C205.8 242.61 208.33 245.15 211.46 245.15 214.6 245.15 217.13 242.61 217.13 239.48 217.13 236.35 214.6 233.81 211.46 233.81 208.33 233.81 205.8 236.35 205.8 239.48Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-B-clip_15)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M205.8 239.48C205.8 242.61 208.33 245.15 211.46 245.15 214.6 245.15 217.13 242.61 217.13 239.48 217.13 236.35 214.6 233.81 211.46 233.81 208.33 233.81 205.8 236.35 205.8 239.48Z" />
+</g>
+<g clip-path="url(#ppt-B-clip_16)">
+<use data-text="5" xlink:href="#ppt-B-font_17_24" transform="matrix(8.064,0,0,-8.064,-52.944688,95.34816)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-B-clip_18)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M168.04 299.46C168.04 302.59 170.58 305.13 173.71 305.13 176.84 305.13 179.38 302.59 179.38 299.46 179.38 296.33 176.84 293.79 173.71 293.79 170.58 293.79 168.04 296.33 168.04 299.46Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-B-clip_19)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M168.04 299.46C168.04 302.59 170.58 305.13 173.71 305.13 176.84 305.13 179.38 302.59 179.38 299.46 179.38 296.33 176.84 293.79 173.71 293.79 170.58 293.79 168.04 296.33 168.04 299.46Z" />
+</g>
+<g clip-path="url(#ppt-B-clip_20)">
+<use data-text="4" xlink:href="#ppt-B-font_17_23" transform="matrix(8.064,0,0,-8.064,-90.724689,35.348146)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-B-clip_21)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M37.984 239.48C37.984 242.61 40.522 245.15 43.654 245.15 46.785 245.15 49.323 242.61 49.323 239.48 49.323 236.35 46.785 233.81 43.654 233.81 40.522 233.81 37.984 236.35 37.984 239.48Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-B-clip_22)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M37.984 239.48C37.984 242.61 40.522 245.15 43.654 245.15 46.785 245.15 49.323 242.61 49.323 239.48 49.323 236.35 46.785 233.81 43.654 233.81 40.522 233.81 37.984 236.35 37.984 239.48Z" />
+</g>
+<g clip-path="url(#ppt-B-clip_23)">
+<use data-text="1" xlink:href="#ppt-B-font_17_20" transform="matrix(8.064,0,0,-8.064,-220.80469,95.34816)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-B-clip_24)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M75.742 299.46C75.742 302.59 78.28 305.13 81.411 305.13 84.542 305.13 87.08 302.59 87.08 299.46 87.08 296.33 84.542 293.79 81.411 293.79 78.28 293.79 75.742 296.33 75.742 299.46Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-B-clip_25)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M75.742 299.46C75.742 302.59 78.28 305.13 81.411 305.13 84.542 305.13 87.08 302.59 87.08 299.46 87.08 296.33 84.542 293.79 81.411 293.79 78.28 293.79 75.742 296.33 75.742 299.46Z" />
+</g>
+<g clip-path="url(#ppt-B-clip_26)">
+<use data-text="2" xlink:href="#ppt-B-font_17_21" transform="matrix(8.064,0,0,-8.064,-183.05268,35.348146)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-B-clip_27)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M121.89 238.18C121.89 241.31 124.43 243.85 127.56 243.85 130.69 243.85 133.23 241.31 133.23 238.18 133.23 235.05 130.69 232.51 127.56 232.51 124.43 232.51 121.89 235.05 121.89 238.18Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-B-clip_28)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M121.89 238.18C121.89 241.31 124.43 243.85 127.56 243.85 130.69 243.85 133.23 241.31 133.23 238.18 133.23 235.05 130.69 232.51 127.56 232.51 124.43 232.51 121.89 235.05 121.89 238.18Z" />
+</g>
+<g clip-path="url(#ppt-B-clip_29)">
+<use data-text="3" xlink:href="#ppt-B-font_17_22" transform="matrix(8.04,0,0,-8.04,-136.87468,96.66815)" fill="#181b20" />
+</g>
+<g clip-path="url(#ppt-B-clip_30)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width="1.15" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#0072b2" d="M42.52 200.36H56.693" />
+</g>
+<g clip-path="url(#ppt-B-clip_31)">
+<use data-text="T" xlink:href="#ppt-B-font_17_55" transform="matrix(8.4,0,0,-8.4,-202.66068,134.30815)" fill="#555d69" />
+<use data-text="r" xlink:href="#ppt-B-font_17_85" transform="matrix(8.4,0,0,-8.4,-197.51148,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-B-font_17_72" transform="matrix(8.4,0,0,-8.4,-194.74788,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-B-font_17_72" transform="matrix(8.4,0,0,-8.4,-190.07749,134.30815)" fill="#555d69" />
+<use data-text=" " xlink:href="#ppt-B-font_17_3" transform="matrix(8.4,0,0,-8.4,-185.40708,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-B-font_17_72" transform="matrix(8.4,0,0,-8.4,-183.23148,134.30815)" fill="#555d69" />
+<use data-text="d" xlink:href="#ppt-B-font_17_71" transform="matrix(8.4,0,0,-8.4,-178.56107,134.30815)" fill="#555d69" />
+<use data-text="g" xlink:href="#ppt-B-font_17_74" transform="matrix(8.4,0,0,-8.4,-173.89067,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-B-font_17_72" transform="matrix(8.4,0,0,-8.4,-169.20346,134.30815)" fill="#555d69" />
+</g>
+<g clip-path="url(#ppt-B-clip_32)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width="1.15" stroke-linecap="butt" stroke-dasharray="4.6,3.45" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#d55e00" d="M136.06 200.36H150.24" />
+</g>
+<g clip-path="url(#ppt-B-clip_33)">
+<use data-text="C" xlink:href="#ppt-B-font_17_38" transform="matrix(8.4,0,0,-8.4,-109.104679,134.30815)" fill="#555d69" />
+<use data-text="l" xlink:href="#ppt-B-font_17_79" transform="matrix(8.4,0,0,-8.4,-102.98947,134.30815)" fill="#555d69" />
+<use data-text="o" xlink:href="#ppt-B-font_17_82" transform="matrix(8.4,0,0,-8.4,-101.074268,134.30815)" fill="#555d69" />
+<use data-text="s" xlink:href="#ppt-B-font_17_86" transform="matrix(8.4,0,0,-8.4,-96.40387,134.30815)" fill="#555d69" />
+<use data-text="i" xlink:href="#ppt-B-font_17_76" transform="matrix(8.4,0,0,-8.4,-92.20387,134.30815)" fill="#555d69" />
+<use data-text="n" xlink:href="#ppt-B-font_17_81" transform="matrix(8.4,0,0,-8.4,-90.28026,134.30815)" fill="#555d69" />
+<use data-text="g" xlink:href="#ppt-B-font_17_74" transform="matrix(8.4,0,0,-8.4,-85.60986,134.30815)" fill="#555d69" />
+<use data-text=" " xlink:href="#ppt-B-font_17_3" transform="matrix(8.4,0,0,-8.4,-81.04027,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-B-font_17_72" transform="matrix(8.4,0,0,-8.4,-78.76387,134.30815)" fill="#555d69" />
+<use data-text="d" xlink:href="#ppt-B-font_17_71" transform="matrix(8.4,0,0,-8.4,-74.093479,134.30815)" fill="#555d69" />
+<use data-text="g" xlink:href="#ppt-B-font_17_74" transform="matrix(8.4,0,0,-8.4,-69.42308,134.30815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-B-font_17_72" transform="matrix(8.4,0,0,-8.4,-64.735889,134.30815)" fill="#555d69" />
+</g>
+<g clip-path="url(#ppt-B-clip_34)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M266.46 184.49H496.07V330.19H266.46Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-B-clip_35)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M334.49 266.41C334.49 291.46 354.79 311.77 379.84 311.77 404.89 311.77 425.2 291.46 425.2 266.41 425.2 241.36 404.89 221.06 379.84 221.06 354.79 221.06 334.49 241.36 334.49 266.41Z" fill="#ffffff" fill-rule="evenodd" />
+</g>
+<g clip-path="url(#ppt-B-clip_36)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M334.49 266.41C334.49 291.46 354.79 311.77 379.84 311.77 404.89 311.77 425.2 291.46 425.2 266.41 425.2 241.36 404.89 221.06 379.84 221.06 354.79 221.06 334.49 241.36 334.49 266.41Z" />
+</g>
+<g clip-path="url(#ppt-B-clip_37)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width=".65" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#555d69" d="M308.98 266.41H450.71" />
+</g>
+<g clip-path="url(#ppt-B-clip_38)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" stroke-width=".62" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#bbc5cf" d="M379.84 319.7V212.55" />
+</g>
+<g clip-path="url(#ppt-B-clip_39)">
+<use data-text="R" xlink:href="#ppt-B-font_17_53" transform="matrix(8.52,0,0,-8.52,190.26532,72.38815)" fill="#555d69" />
+<use data-text="e" xlink:href="#ppt-B-font_17_72" transform="matrix(8.52,0,0,-8.52,196.38535,72.38815)" fill="#555d69" />
+</g>
+<g clip-path="url(#ppt-B-clip_40)">
+<use data-text="I" xlink:href="#ppt-B-font_17_44" transform="matrix(8.544,0,0,-8.544,125.20532,14.518158)" fill="#555d69" />
+<use data-text="m" xlink:href="#ppt-B-font_17_80" transform="matrix(8.544,0,0,-8.544,127.60535,14.518158)" fill="#555d69" />
+</g>
+<g clip-path="url(#ppt-B-clip_41)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M380.31 265.98 410.11 298.56 409.17 299.42 379.37 266.84ZM409.41 294.24 410.45 299.88 404.92 298.34C404.58 298.25 404.38 297.9 404.48 297.56 404.57 297.22 404.93 297.02 405.27 297.11L409.81 298.38 409.01 299.11 408.15 294.47C408.09 294.12 408.32 293.79 408.67 293.72 409.02 293.66 409.35 293.89 409.41 294.24Z" fill="#d55e00" />
+</g>
+<g clip-path="url(#ppt-B-clip_42)">
+<path transform="matrix(1,0,0,-1,-262.20469,331.60816)" d="M379.84 267.05H335.69V265.77H379.84ZM339.35 269.45 334.48 266.41 339.35 263.37C339.65 263.18 340.05 263.27 340.23 263.57 340.42 263.87 340.33 264.27 340.03 264.45L336.03 266.95V265.87L340.03 268.37C340.33 268.56 340.42 268.95 340.23 269.25 340.05 269.55 339.65 269.64 339.35 269.45Z" fill="#009e73" />
+</g>
+<g clip-path="url(#ppt-B-clip_43)">
+<use data-text="ψ" xlink:href="#ppt-B-font_11_599" transform="matrix(9.36,0,0,-9.36,151.74533,32.638154)" fill="#d55e00" />
+<use data-text="₁" xlink:href="#ppt-B-font_11_908" transform="matrix(9.36,0,0,-9.36,158.47516,32.638154)" fill="#d55e00" />
+<use data-text=" " xlink:href="#ppt-B-font_11_3" transform="matrix(9.36,0,0,-9.36,162.28467,32.638154)" fill="#d55e00" />
+<use data-text="=" xlink:href="#ppt-B-font_11_3404" transform="matrix(9.36,0,0,-9.36,164.2222,32.638154)" fill="#d55e00" />
+<use data-text=" " xlink:href="#ppt-B-font_11_3" transform="matrix(9.36,0,0,-9.36,171.18604,32.638154)" fill="#d55e00" />
+<use data-text="0" xlink:href="#ppt-B-font_11_882" transform="matrix(9.36,0,0,-9.36,173.24524,32.638154)" fill="#d55e00" />
+<use data-text="." xlink:href="#ppt-B-font_11_484" transform="matrix(9.36,0,0,-9.36,178.38388,32.638154)" fill="#d55e00" />
+<use data-text="8" xlink:href="#ppt-B-font_11_890" transform="matrix(9.36,0,0,-9.36,180.30268,32.638154)" fill="#d55e00" />
+<use data-text="3" xlink:href="#ppt-B-font_11_885" transform="matrix(9.36,0,0,-9.36,185.48813,32.638154)" fill="#d55e00" />
+</g>
+<g clip-path="url(#ppt-B-clip_44)">
+<use data-text="ψ" xlink:href="#ppt-B-font_11_599" transform="matrix(9.36,0,0,-9.36,54.49533,80.56816)" fill="#009e73" />
+<use data-text="₂" xlink:href="#ppt-B-font_11_909" transform="matrix(9.36,0,0,-9.36,61.22516,80.56816)" fill="#009e73" />
+<use data-text=" " xlink:href="#ppt-B-font_11_3" transform="matrix(9.36,0,0,-9.36,65.03467,80.56816)" fill="#009e73" />
+<use data-text="=" xlink:href="#ppt-B-font_11_3404" transform="matrix(9.36,0,0,-9.36,66.9722,80.56816)" fill="#009e73" />
+<use data-text=" " xlink:href="#ppt-B-font_11_3" transform="matrix(9.36,0,0,-9.36,73.936038,80.56816)" fill="#009e73" />
+<use data-text="π" xlink:href="#ppt-B-font_11_590" transform="matrix(9.36,0,0,-9.36,75.99524,80.56816)" fill="#009e73" />
+</g>
+</g>
+</g>
+</svg></svg>

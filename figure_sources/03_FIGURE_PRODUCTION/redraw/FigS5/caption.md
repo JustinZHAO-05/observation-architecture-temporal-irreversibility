@@ -1,0 +1,5 @@
+**Figure S5. Finite-window mechanism and reversible-null behavior.**
+(a) Exact expected detrended Hann spectra and imaginary coherency cycles for the 125-ms differential-delay example, at four window lengths. Dashed curves give the population cross-spectrum and zero imaginary cycle. Exact expectations are displayed on each window's discrete frequency grid.
+(b) The magnitude of the expected 10-Hz imaginary cycle at six window lengths for delays of 25, 125 and 500 ms. The dashed line uses the analytic coefficient for the 125-ms delay.
+(c) Top: the scaled cycle magnitude divided by the corresponding leading coefficient $a_2$. Bottom: $T^4Q_{\rm bias}$, divided by its numerical value at 32 s for each delay. Colors match (b). The archived 12-channel expected score is the mean squared expected imaginary cycle.
+(d) Nominal one-sided sign-flip p values for four randomized reversible filter controls (240 records per regime) and the frozen first 99 records of the structured reversible model ($p=8\times10^{-5}$). The dashed line marks 0.05. Each point is one group test under its own simulation design. The 500 structured-record scores are included in the data.

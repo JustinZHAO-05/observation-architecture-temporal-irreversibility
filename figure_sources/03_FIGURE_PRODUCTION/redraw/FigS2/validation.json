@@ -1,0 +1,74 @@
+{
+  "canvas_mm": [
+    178.0,
+    126.0
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4205,
+    2977
+  ],
+  "panels": {
+    "A": {
+      "A.csv": {
+        "rows": 3,
+        "sha256": "af22bd8cef2d5250f362afb9b568cb80f66dec2fddd011a3d78681a883b0d03c"
+      }
+    },
+    "B": {
+      "B.npz": {
+        "array_shapes": {
+          "target_covariance": [
+            48,
+            48
+          ],
+          "serialized_covariance": [
+            48,
+            48
+          ],
+          "residual": [
+            48,
+            48
+          ]
+        },
+        "sha256": "7dceacd3560480e072e82858dab01d3b3e38e3d6defab40fe708b89b44bf10f0"
+      }
+    },
+    "C": {
+      "C.npz": {
+        "array_shapes": {
+          "omega_rad_sample": [
+            501
+          ],
+          "target_spectrum": [
+            501,
+            3,
+            3
+          ],
+          "serialized_spectrum": [
+            501,
+            3,
+            3
+          ],
+          "target_im_cycle": [
+            501
+          ],
+          "serialized_im_cycle": [
+            501
+          ],
+          "spectrum_difference_frobenius": [
+            501
+          ]
+        },
+        "sha256": "0d56ce00dc039840908bdc92c3b76e4e1e76c0fc1bb43278681a10fddb42760e"
+      }
+    }
+  },
+  "sha256": {
+    "FigS2.pdf": "7443faa53e031cd2ade94036b6ddee9fb12ae870a468906d9335704d8694877f",
+    "FigS2.png": "3e95c9ce8d2bb9dcabbb226706ccb64be2379237201f85c5cd5f0aff72e33f26",
+    "FigS2.pptx": "83e51824013f1571ec5d5170c7f081b666043e01aa826ea48a0104dab1224dcc",
+    "FigS2.svg": "f7f3674c93e92c12548a89bce75172bc03261bcc120483f99cc5df0a7989ed30"
+  }
+}

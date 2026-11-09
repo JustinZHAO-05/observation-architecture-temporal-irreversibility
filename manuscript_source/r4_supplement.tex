@@ -1,0 +1,103 @@
+\section{Relation to spectral realization and neighboring observation models}
+Classical spectral factorization supplies $S=FF^*$ with a target-dependent causal matrix filter and white innovations. The polynomial case gives a finite moving-average realization. Those are established existence results, used here with attribution~\cite{ephremidze2007,ephremidze2014}. The main representation theorem asks a more constrained operator question: $H=[I,e^{-i\omega}I]$ is fixed for every target, and the target dependence is assigned to a positive-definite, real even latent spectrum of dimension $2d$. The finite-order extension preserves this fixed operator and obtains a finite-order latent spectrum by approximation inside the exact observation constraint.
+
+The white-latent sine-skew model gives an explicit moving-average representation that isolates the observation mechanism. The new full-law theorem fixes the one-sample mixing operator while placing target dependence in a reversible latent spectrum. The dimension $2d$ is a sufficient constructive choice; optimal latent dimensionality remains a separate question.
+
+\begin{table}[ht]\small
+\caption{Model-class comparison used to delimit the contribution.}
+\begin{tabularx}{\linewidth}{p{.23\linewidth}XX}\toprule
+Work or framework & Relevant question & Distinction in the present study\\\midrule
+Matrix spectral factorization & Causal realization using a target-dependent full matrix filter & Fixed one-sample observation operator; positive-definite reversible latent spectrum\\
+Incomplete-observation irreversibility~\cite{lucente2022} & Information lost when only part of a nonequilibrium system is recorded & Exact full multivariate Gaussian observation law shared with a reversible latent model\\
+Delayed GPFA and non-reversible GP priors~\cite{gokcen2015,rutten2020} & Fitting structured neural latent processes & Characterizing all target laws admitted by a specified latent-observation class\\
+Cross-spectral hidden-drive witness~\cite{bi2026} & A witness for hidden dynamics in a specified channel-separable model & A reversal-specific phase minimization and fixed-operator latent equivalence\\
+Directional time-series inference~\cite{bhandari2026} & Identification and testing of observable directional structure & Attributing observed reversal asymmetry to latent dynamics under alternative operators\\
+Two-branch alias calibration~\cite{xu2026} & A fixed three-channel two-alias map with bounded residual phase uncertainty & Arbitrary observed dimension, fixed one-step delay, and equality of complete process laws\\\bottomrule
+\end{tabularx}
+\end{table}
+
+The comparison specifies operator constraints, latent classes, and inferential targets. Classical factorization, delayed latent-variable fitting, and the fixed-operator representation theorem answer distinct mathematical questions. The accompanying source audit records literature coverage and relates the fixed-operator theorem to classical spectral factorization, latent dynamical models, and two-branch calibration.
+
+\section{Finite-order reversible latent models}
+The proof in the main Appendix constructs polynomial $V_m$ by Fej\'er approximation and imposes $Q_m=-\cos\omega V_m+Y/(2\sin\omega)$ and $P_m=R+(2\cos^2\omega-1)V_m$. These relations preserve the target spectrum algebraically at every approximation order. Positivity, rather than reconstruction error, determines the required order.
+
+We generated 72 target spectra: dimensions $d=2,3,6$, target moving-average orders $q=1,2,3$, and eight independently generated coefficient sets per dimension--order combination. Coefficients were Gaussian with scale $1/\sqrt{d(q+1)}$; the zeroth coefficient received $1.2I$, and independent output white noise added $0.5I$ to the target spectrum. The latent approximation degrees were tried in the fixed sequence $2,4,8,16,32,64,128,256$. A 4,096-frequency grid was used initially. A positive sampled minimum with an insufficient derivative allowance triggered a denser verification grid when the estimated requirement was at most 32,768 points. Every attempted degree and grid is retained in \path{results/finite_support_attempts.csv}.
+
+All 72 targets admitted a polynomial lift with a positive all-frequency diagnostic margin. Accepted latent covariance orders ranged from 4 to 34. The maximum relative Frobenius reconstruction discrepancy was $1.2169978\times10^{-15}$. One of the targets required grid refinement to establish positivity of the chosen candidate. These checks establish feasible finite latent orders and independently verify the existence construction.
+
+A separate coefficient-domain calculation reconstructed the output lag sequence from the saved latent coefficients using
+\[
+\Gamma_y(\ell)=G_{uu}(\ell)+G_{vv}(\ell)+G_{uv}(\ell+1)+G_{vu}(\ell-1).
+\]
+Its maximum discrepancy was $4.44\times10^{-16}$. Constructing the complete latent block covariance and applying the observation matrix for a 20-sample record gave maximum discrepancy $6.66\times10^{-16}$. These checks use different computational representations of the observation identity.
+
+\begin{figure}[ht]\centering\includegraphics[width=\linewidth]{supp_figures/figS13.pdf}
+\caption{Finite-order reversible latent realizations. (a) Accepted latent covariance support for target orders 1--3, grouped by observed dimension. There are eight targets in each dimension--order cell; overlapping points are possible. (b) Relative reconstruction error against the derivative-corrected positivity margin. All 72 margins are positive. The displayed orders are feasible construction orders.}\end{figure}
+
+\section{Broadband resource optimization and endpoint behavior}
+For $S_\beta=g[I_2+i\beta\sin\omega J]$, the main Appendix constructs a full-frequency optimizer and continuous strictly positive-definite approximating spectra. The latent observation gain and the one-sample delay remain fixed. The color function used in the numerical study is
+\[
+ g_a(\omega)=\frac{1-a^2}{1-2a\cos\omega+a^2},
+ \qquad a\in\{0,0.4,0.8\}.
+\]
+Its mean over the frequency circle is one. We used $\beta=0.2,0.5,0.8,0.9,0.99$, giving 15 parameter settings. Adaptive quadrature split the circle at $-\pi/2,0,\pi/2$, the points relevant to the absolute cosine and endpoint limits. Both absolute and relative tolerances were $10^{-11}$. Separate reconstruction checks used 2,049 frequency points per setting.
+
+The minimum total trace ratio at $\beta=0.8$ is $0.854239$ for $a=0$ and $0.829345$ for $a=0.8$. These correspond to reductions of approximately 14.6\% and 17.1\% from the simple feasible common-filtered white-latent representation, whose trace ratio is one. The largest reconstruction discrepancy was $1.78\times10^{-15}$. At semidefinite optima, floating-point eigenvalues reached $-3.14\times10^{-14}$; the analytic construction places the spectrum on the positive-semidefinite boundary.
+
+A discontinuity of the minimizing cross-block parameter at $\cos\omega=0$ is allowed in the measurable spectral class. The explicit cutoff-and-mixture construction in the Appendix shows that continuous strictly positive-definite feasible spectra approach the same cost. The broadband proof explicitly constructs measurable optimal spectra and continuous strictly positive-definite approximations, thereby establishing the integrated optimum for the stated class. Its causal realization class permits unrestricted square-summable factor order; optimization at a prescribed order is a different constraint.
+
+\begin{figure}[ht]\centering\includegraphics[width=\linewidth]{supp_figures/figS14.pdf}
+\caption{Broadband hidden-power optimum in the rotational family. (a) Minimum integrated latent-to-observed trace ratio at five asymmetry strengths and three scalar spectral-color settings. The dashed line is a simple feasible representation of cost one. (b) Pointwise optimal ratios along $b(\omega)=\beta\sin\omega$ have finite endpoint limits. The value is continuous even though a selected optimal matrix cross-block can jump at $\cos\omega=0$.}\end{figure}
+
+\section{Unknown-shape independent calibration experiments}
+\subsection{Calibration and test inputs}
+The calibration rule receives a record, dimension, lag cutoff, frequency grid, error level, and a deterministic relative covariance-tail envelope. The true covariance, normalized spectrum, scale, and spectral maximum remain unknown to the calibration procedure. The rule returns an upper bound only when its deterministic denominator is positive; otherwise it returns infinity and the test certificate is zero.
+
+For finite-support experiments the observed spectrum was a real instantaneous mixture of $I-ib\sin\omega K_3$, with
+\[
+ M=\begin{pmatrix}1&0&0\\0.12&1.05&0\\0&-0.10&0.95\end{pmatrix}.
+\]
+Each independent pair received a random scale with log scale uniform on $[-0.5,0.5]$. Calibration used the structural finite-support assumption $L=1$, $\tau_L=0$, while jointly inferring spectral-scale information across unknown $M$, scale, and $b$. Calibration lengths were $1,024$, $4,096$, $16,384$, and $65,536$; test lengths were $32,768$, $131,072$, and $262,144$. The three strength conditions were $b=0,0.65,0.9$, with 120 independent pairs in each. Calibration and test innovations were generated separately. Within a pair, different lengths reuse prefixes and are dependent.
+
+We allocated $\alpha_c=\alpha_t=0.025$. The calibration grid had 128 equally spaced frequencies. Test frequencies were $\pi/6,\pi/3,\pi/2,2\pi/3,5\pi/6$. The implemented denominator uses a valid Gershgorin refinement of the general factor 3 when positive lower bounds on diagonal powers are available, as documented in the source function \texttt{certificate}; otherwise it uses the universal factor.
+
+Oracle sensitivity arms used a generating-model upper bound multiplied by $0.5,1$, or $2$. The factor-0.5 arm is deliberately outside the claimed guarantee whenever it underestimates the true maximum. These controls are labeled separately in the CSV and are not pooled as calibration-certified results.
+
+\subsection{Infinite correlation and power cost}
+The colored experiments applied a common variance-normalized AR filter with actual pole $a=0.3$ or $0.6$. Calibration received only the corresponding upper bound $\rho=0.4$ or $0.65$, with $L=10$ or $24$, and the relative tail formula proved in the main Appendix. Each pole--strength condition ($b=0$ or $0.9$) contained 60 independent pairs. Calibration length was 131,072, test lengths were 131,072 and 524,288, and $F_c=\max(128,16L)$. Filter simulation used 256 burn-in samples; the residual initialization effect at the largest actual pole is below double-precision numerical relevance.
+
+The complete study comprises 600 independent calibration--test pairs, 1,680 calibration analyses, and 8,520 test analyses including sensitivity arms. Among calibrations, 360 short-record cases abstained; all 1,320 finite bounds exceeded the population maximum on a 4,097-point diagnostic grid. The diagnostic true maximum is never passed into the estimator. Formal continuous-frequency coverage follows from the theorem, while these numerical comparisons check implementation. All valid-calibration null cases returned zero lower bounds; every certificate stayed below the known population triangle bound.
+
+At $b=0.9$, a test length of 32,768 yielded 0/120 positives for $m\le16,384$ and 120/120 for $m=65,536$. At $N=131,072$, $m=16,384$ produced 120/120 positives. At $b=0.65$, $m=16,384$ also produced 120/120 positives for $N\ge131,072$, while all tested calibrations returned zero at $N=32,768$. The colored alternatives returned zero certificates through the largest test length. These long-correlation cases quantify the loss of detection power caused by conservative global bounds in asymmetric alternatives.
+
+\subsection{Misspecified dependence class}
+An additional stress experiment used a reversible correlated Gaussian AR process with pole 0.8 and innovation correlation matrix
+\[
+ R_0=\begin{pmatrix}1&0.65&0.5\\0.65&1&0.7\\0.5&0.7&1\end{pmatrix},
+\]
+followed by channel delays $(0,1,3)$. Exact population triangle products remain real. We compared the false assumption $L=1,\tau_L=0$ with the valid setting $L=48$ and $\tau_L=2(0.8)^{49-3}/(1-0.8)$. Eighty independent pairs used $m=65,536$ and $N=131,072$. Every misspecified spectral envelope failed to cover; every valid-tail envelope covered. Both arms returned zero positive certificates at that finite sample size. The experiment separates two outcomes: spectral-envelope validity and the power of the resulting certificate.
+
+The population lag-1 truncation has a nonzero imaginary cycle even where the truncated matrix remains positive definite. In the infinite-record limit, incorrectly setting the truncation error to zero can therefore produce a spurious positive certificate. Figure~S17 displays this deterministic diagnostic at frequencies with positive-definite truncated spectra. Finite-sample rejection counts are reported separately in the paired stress study.
+
+\begin{figure}[ht]\centering\includegraphics[width=\linewidth]{supp_figures/figS15.pdf}
+\caption{Calibration validity and sensitivity. (a) Coverage under finite-support and AR--MA classes, and an 80-pair stress test contrasting misspecified lag-1 support (0/80 covered) with a valid tail envelope (80/80 covered); abstention cases are excluded from finite-bound coverage calculations. (b) Weaker-signal positive lower bounds at three nested test lengths with 120 independent pairs, $b=0.65$, and $m=16,384$. Boxes show quartiles and medians; whiskers extend to 1.5 interquartile ranges. All values, including zeros and extremes, remain in the source data.}\end{figure}
+
+\section{Controlled observation transformations of a real EEG record}
+We independently reprocessed the archived raw EDF example S011R01 using 12 channels: F3, F4, FZ, C3, C4, CZ, P3, P4, PZ, O1, O2, and OZ. Twenty-four two-second windows began at $2,4,\ldots,24$ and $34,36,\ldots,56$ seconds. Linear detrending and Hann tapering preceded Fourier transformation. Pooling all windows gave positive-definite 12-channel estimates at 57 frequency bins spanning 2--30 Hz; the largest condition number was approximately 2,029. Transformations shared the same windows.
+
+Eighty diagonal frequency responses combined independent gains, one-pole responses, and delays of zero to eight samples. They were applied directly to the estimated spectrum. The largest normalized triangle-product discrepancy was $1.2246\times10^{-15}$. Eighty independently drawn real orthogonal rotations preserved raw reversal density, with maximum relative discrepancy $7.9238\times10^{-14}$, while generally changing the triangle products. The additional common-average transformation used all 64 recorded EEG channels before selecting the 12 analyzed coordinates. It is neither a square invertible transformation on those 12 channels nor an independent temporal filter.
+
+One biological recording supplies the estimated spectrum; 161 controlled transformations test mathematical identities on that fixed input. The transformed empirical spectra verify the known observation-level identities. Post-window spectral transformations and causal time-domain filtering are distinct operations; the latter is governed by the finite-bandwidth analysis.
+
+\begin{figure}[ht]\centering\includegraphics[width=\linewidth]{supp_figures/figS16.pdf}
+\caption{Transformation laws on a single archived EEG recording. (a) Maximum change of normalized triangle products under 80 diagonal frequency responses and 80 orthogonal channel rotations. (b) Corresponding relative changes in raw Gaussian reversal density. The two operators preserve different quantities. All transformations act on one estimated EEG spectrum; the biological sample is a single recording.}\end{figure}
+
+\begin{figure}[ht]\centering\includegraphics[width=\linewidth]{supp_figures/figS17.pdf}
+\caption{A deterministic consequence of an incorrect covariance-support assumption. (a) The full delayed reversible-source spectrum has real triangle products, whereas its lag-1 truncation has a nonzero imaginary cycle. (b) Feeding that truncation into a zero-error lower-bound formula produces a spurious positive result; both panels retain frequencies with positive-definite truncated spectra. The plotted truncation diagnostic uses the population spectrum. The finite-sample stress trials in the text returned zero certificates in both arms, despite the difference in spectral coverage.}\end{figure}
+
+\section{Independent numerical validation and reproducibility}
+The new scripts use explicit fixed seeds and preserve every per-repetition output, failed candidate polynomial degree, and abstaining calibration. The main calculations are in \texttt{theory\_extensions.py}, \texttt{calibration\_unknown\_shape.py}, and \texttt{controlled\_observations.py}. The separate \texttt{independent\_audit.py} checks the same claims using different algebraic representations rather than calling the main plotting helpers.
+
+Twenty full time-kernel versus lag-loop spectral comparisons had maximum discrepancy $1.22\times10^{-15}$. A coefficient-domain finite-order reconstruction and a complete 20-sample block covariance check had discrepancies $4.44\times10^{-16}$ and $6.66\times10^{-16}$. Twelve 70-digit computations checked the cancellation-sensitive joint-limit identity, with maximum difference $3.89\times10^{-54}$. In 150 independently generated positive-definite matrix cases, real-rotation invariance held within relative discrepancy $6.56\times10^{-15}$ and no triangle bound exceeded the complete-vector raw reversal density. The audit also reconciled the 8,520 test rows, 1,680 calibration rows, and 1,320 finite calibrations. These checks use independent computational implementations and separate algebraic representations.
+
+All numerical results are accompanied by fixed seeds, per-repetition source tables, and a SHA-256 manifest. The plots separate independent random matrices, repeated frequency evaluations, independently calibrated records, and nested trajectory lengths. Source data for the initial analyses are archived under \texttt{inputs}; the additional experiment records are under \texttt{results}.

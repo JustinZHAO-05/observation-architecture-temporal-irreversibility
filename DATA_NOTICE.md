@@ -1,9 +1,9 @@
-# Data provenance
+# Data availability and provenance
 
-- Empirical source: PhysioNet EEG Motor Movement/Imagery Dataset, version 1.0.0, DOI [10.13026/C28G6P](https://doi.org/10.13026/C28G6P).
-- Original EDF data are downloaded from PhysioNet, not redistributed here.
-- The prepared project release contains derived spectral-cycle arrays, participant-level tables, numerical simulation results, source code, model configurations and figure-source data.
-- A research release manifest and source indexes are included in the separate upload bundle; upload that bundle before asserting that the online repository contains all of the reproducibility files.
-- Author: Yanzhe Zhao, School of Future Technology, Tianjin University.
+- Primary empirical source: PhysioNet EEGMMIDB v1.0.0, DOI 10.13026/C28G6P. Raw EDF files are obtained from PhysioNet and excluded from this repository.
+- Derived EEG cycle arrays and participant tables are redistributed as authored analysis outputs, with source citations preserved.
+- Simulated data, model configurations, figure-ready tables, validation reports, and Python source are organized by research round.
+- `provenance/RELEASE_SHA256.csv` records the release snapshot.
+- Refer to paper + supplement for statistical assumptions and exact observational regime.
 
-No software/data reuse license has yet been selected by the author.
+The repository is intended for access to the code, derived numerical outputs, and figure input data. No DOI has been assigned to this source version.

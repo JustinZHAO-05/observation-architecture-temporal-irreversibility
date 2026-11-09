@@ -1,0 +1,8 @@
+{
+  "frozen_at_utc": "2026-11-06T18:26:52.650704+00:00",
+  "protocol_sha256": "735182a4aa88b16ef9c59bba978099af52172273cd93ec5d0ae6ad47d72bbcce",
+  "empirical_data_seen": [
+    "S001R01"
+  ],
+  "holdout_subjects": "S011-S109"
+}

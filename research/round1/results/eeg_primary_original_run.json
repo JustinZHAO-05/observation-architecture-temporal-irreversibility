@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-11-06T18:31:37.844478+00:00",
+  "completed_utc": "2026-11-06T18:36:04.631509+00:00",
+  "wall_seconds": 266.7870265649981,
+  "arguments": {
+    "subjects": "1-109",
+    "mode": "primary",
+    "reference": "original",
+    "causal_filters": false,
+    "download_only": false
+  },
+  "n_records": 218,
+  "status_counts": {
+    "ok": 177,
+    "insufficient_clean_epochs": 41
+  }
+}

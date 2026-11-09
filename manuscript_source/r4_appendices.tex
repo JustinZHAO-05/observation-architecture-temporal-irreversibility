@@ -1,0 +1,105 @@
+\section{Finite-order reversible representations}\label{app:finiteorderR4}
+\textbf{Proposition 5 (Finite-covariance-support lift).}
+Let $S$ be a strictly positive-definite spectral trigonometric polynomial of a real stationary process. There is a strictly positive-definite, real, even spectral trigonometric polynomial $G$ of dimension $2d$ such that $HGH^*=S$, with the same $H=[I,e^{-i\omega}I]$ as in Theorem~1. Thus the latent process can be chosen to have finite covariance support and a finite-order causal moving-average realization.
+
+\emph{Proof.} Write $S=R+iY$, of degree $q$. Real-process symmetry makes $R$ an even cosine polynomial and $Y$ an odd sine polynomial. The identity $\sin(\ell\omega)/\sin\omega=U_{\ell-1}(\cos\omega)$, including its continuous endpoint limits, makes $J=Y/(2\sin\omega)$ an even matrix polynomial. Theorem~1 supplies a continuous real even $V_0$ for which
+\begin{equation}
+ G[V]=\begin{pmatrix}
+ R+(2\cos^2\omega-1)V&-\cos\omega V+J\\
+ -\cos\omega V-J&V
+ \end{pmatrix}
+\end{equation}
+is positive definite when $V=V_0$. On the compact frequency circle its smallest eigenvalue has a positive minimum $\delta_0$. Approximate $V_0$ uniformly by its real symmetric even Fej\'er polynomials $V_m$. The observation identity holds for \emph{every} $V$, so $HG[V_m]H^*=S$ exactly. Moreover,
+\begin{equation}
+ \sup_\omega\|G[V_m]-G[V_0]\|_2\le
+ 2\sup_\omega\|V_m-V_0\|_2\longrightarrow0.
+\end{equation}
+For sufficiently large $m$ the right-hand side is smaller than $\delta_0$, establishing strict positivity. The degree of $G[V_m]$ is at most $\max(q,m+2)$. The polynomial matrix Fej\'er--Riesz theorem then supplies a causal polynomial spectral factor~\cite{ephremidze2007,ephremidze2014}; the real coefficient symmetry permits a real Gaussian moving-average realization. The real even spectrum establishes statistical reversibility. This proves the proposition. The finite order may depend on the target and its positivity margin; no target-independent order or minimum latent dimension is asserted.
+
+For numerical validation, a candidate polynomial $G(\omega)=G_0+2\sum_{\ell=1}^{r}G_\ell\cos(\ell\omega)$ has derivative bound $D_G=2\sum_{\ell=1}^{r}\ell\|G_\ell\|_2$. On an $F_g$-point equispaced grid,
+\begin{equation}
+ \inf_\omega\lambda_{\min}G(\omega)\ge
+ \min_j\lambda_{\min}G(\omega_j)-\frac{\pi D_G}{F_g}.
+\end{equation}
+The reported numerical margins use this global allowance. They are floating-point diagnostics rather than interval-arithmetic proofs; the preceding existence argument is analytic.
+
+\section{Broadband optimal spectral trace in the rotational family}\label{app:broadbandR4}
+Consider the full spectrum
+\begin{equation}\label{eq:broadtarget}
+ S_\beta(\omega)=g(\omega)[I_2+i\beta\sin\omega J],
+ \qquad 0<\beta<1,
+\end{equation}
+where $g$ is positive, continuous, and even. The observation remains $H=[I,e^{-i\omega}I]$ with unit gains. The admissible latent spectra are real even integrable positive-semidefinite matrices satisfying $HGH^*=S_\beta$ almost everywhere. Define
+\begin{equation}\label{eq:fbeta}
+ f_\beta(\omega)=\frac{1+\beta^2\cos^2\omega}
+ {1+|\cos\omega|\sqrt{1-\beta^2\sin^2\omega}}.
+\end{equation}
+\textbf{Proposition 6 (Broadband optimum).} In this class,
+\begin{equation}\label{eq:broadopt}
+ \min_G\frac{\int_{-\pi}^{\pi}\operatorname{tr}G\,d\omega}
+ {\int_{-\pi}^{\pi}\operatorname{tr}S_\beta\,d\omega}
+ =\frac{\int_{-\pi}^{\pi}g f_\beta\,d\omega}
+ {\int_{-\pi}^{\pi}g\,d\omega}.
+\end{equation}
+The same value is the infimum over continuous, strictly positive-definite latent spectra admitting causal square-summable spectral factors.
+
+\emph{Proof.} The pointwise optimum of Theorem~2 gives $\operatorname{tr}G\ge 2g f_\beta$ almost everywhere. An explicit measurable optimizer attains this inequality. With $c=\cos\omega$, put $t=f_\beta$, $p=v=t/2$, $j=\beta/2$, and $q=(1-t)/(2c)$ for $c\ne0$. Set
+\begin{equation}
+ G_*=g\begin{pmatrix}pI&qI+jJ\\qI-jJ&vI\end{pmatrix}.
+\end{equation}
+At $c=0$, take $t=1,q=0$. This matrix is bounded, real, even, positive semidefinite, and satisfies the observation identity. Integrating proves the minimum. The limiting values at $\sin\omega=0$ can be used without changing the process law or the integral. At exactly zero delay and zero antisymmetric component, an unconstrained pointwise optimum is $1/2$; continuity along $b=\beta\sin\omega$ instead selects $(1+\beta^2)/2$. These isolated frequency values have zero measure.
+
+The optimal value is continuous in $\omega$, whereas the optimizer's scalar $q$ has different one-sided limits at $\cos\omega=0$. To obtain continuous strictly positive-definite approximations, use the feasible reference
+\begin{equation}
+ G_{\rm ref}=\frac{g}{2}\begin{pmatrix}I&\beta J\\-\beta J&I\end{pmatrix}>0.
+\end{equation}
+Let $\chi_\delta$ be an even continuous cutoff that vanishes when $|\cos\omega|\le\delta$ and equals one when $|\cos\omega|\ge2\delta$, and let $\varepsilon_\delta>0$ decrease to zero. Then
+\begin{equation}
+ G_\delta=(1-\varepsilon_\delta)\chi_\delta G_*
+ +[1-(1-\varepsilon_\delta)\chi_\delta]G_{\rm ref}
+\end{equation}
+is continuous, strictly positive definite and exactly feasible. Dominated convergence gives convergence of its integrated trace to the minimum. Each such spectrum has integrable log determinant and hence a causal square-summable matrix spectral factor~\cite{ephremidze2007}. This establishes the infimum in the continuous class. The admissible class here allows unrestricted causal factor order; a prescribed latent-order or anatomical constraint defines a further optimization problem.
+
+\section{Independent calibration with unknown spectral shape}\label{app:unknowncalR4}
+Let $B_*:=\sup_\omega\lambda_{\max}S(\omega)<\infty$ be unknown. The calibration model supplies a deterministic relative tail constraint
+\begin{equation}\label{eq:relativetailR4}
+ \max_{i,j}\sum_{|\ell|>L}|\Gamma_{ij}(\ell)|\le\tau_L B_*.
+\end{equation}
+It supplies neither the normalized spectrum nor its covariance matrices. Let a calibration record have length $m$ and let $F_c>\pi L$ grid frequencies and $L$ be fixed before analysis. Define
+\begin{align}
+ c_L&=1-\pi L/F_c,\\
+ \nu_c&=\log(2d^2F_c/\alpha_c),\\
+ r_c&=2[\sqrt{V_{m,L}\nu_c}+V_{m,L}\nu_c],\\
+ A_c&=\max_j\|\widehat S^{\rm cal}_L(\omega_j)\|_2.
+\end{align}
+The norm in $A_c$ is the largest absolute eigenvalue; the empirical matrix may be indefinite.
+
+\textbf{Proposition 7 (Self-consistent spectral upper bound).} If
+\begin{equation}
+ \Delta_c=c_L-d r_c-d c_L\tau_L>0,
+\end{equation}
+then
+\begin{equation}\label{eq:calUappendix}
+ U_B=A_c/\Delta_c
+\end{equation}
+satisfies $\Pr(B_*\le U_B)\ge1-\alpha_c$. When $\Delta_c\le0$, the procedure returns $U_B=+\infty$ and abstains from a positive certificate.
+
+\emph{Proof.} Apply the Gaussian spectral concentration argument using the true, unknown $B_*$ solely in the proof. On an event of probability at least $1-\alpha_c$, the entrywise all-frequency sampling error is at most $B_*r_c/c_L$. Adding the relative tail gives an operator-norm error no larger than $dB_*(r_c/c_L+\tau_L)$. The empirical spectrum is a Hermitian matrix trigonometric polynomial, so the scalar Bernstein inequality applied to all unit-vector quadratic forms gives $\sup_\omega\|\widehat S_L^{\rm cal}(\omega)\|_2\le A_c/c_L$. Therefore
+\begin{equation}
+ B_*\le \frac{A_c}{c_L}+dB_*\left(\frac{r_c}{c_L}+\tau_L\right).
+\end{equation}
+Rearranging proves the stated bound. Subtracting an estimated constant mean adds the deterministic bias allowance $3B_*V_{m,L}$; replace $\tau_L$ by $\tau_L+3V_{m,L}$ in the denominator for that version.
+
+For a statistically independent test record, use $B=U_B$ and $T_L=\tau_LU_B$ in the original certificate at error level $\alpha_t$. Conditional on a calibration record for which $U_B\ge B_*$, the test bound has failure probability at most $\alpha_t$. Consequently the joint failure probability is at most $\alpha_c+\alpha_t$. This covers estimation of the global spectrum scale and shape within a specified dependence class. It does not estimate an unrestricted covariance tail from finite data.
+
+\subsection{Two verifiable dependence classes}
+For a process with covariance support at most $q\le L$, choose $\tau_L=0$. In a second class, begin with $M[I-ib\sin\omega K]M^T$, $\|K\|_2=1$, and pass every channel through the same variance-normalized scalar AR filter of pole $a$, with $|a|\le\rho<1$. Its lag-zero covariance is $MM^T$ because the lag-one input covariance is skew. For positive lags,
+\begin{equation}
+ \Gamma_y(\ell)=a^\ell MM^T+
+ \tfrac b2(1-a^2)a^{\ell-1}MKM^T.
+\end{equation}
+Since $B_*\ge\|\Gamma_y(0)\|_2$ and $\|MKM^T\|_2\le\|MM^T\|_2$, a valid relative tail is
+\begin{equation}\label{eq:arTailR4}
+ \tau_L=\left[\frac{2\rho}{1-\rho}+1+\rho\right]\rho^L.
+\end{equation}
+Here $a,b,M$, and the overall scale can all be unknown to calibration. The pole bound and model class remain structural inputs. Calibration and test samples must describe the same stationary law; model mismatch invalidates that premise.

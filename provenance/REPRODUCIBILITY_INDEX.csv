@@ -1,0 +1,28 @@
+figure,figure_pdf,data_archive,numerical_source,generation_script
+Fig. 1,manuscript/figures/fig01.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/Fig1/,03_FIGURE_PRODUCTION/redraw/Fig1/reproduce/assemble.py
+Fig. 2,manuscript/figures/fig02.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/Fig2/,03_FIGURE_PRODUCTION/redraw/Fig2/reproduce/assemble.py
+Fig. 3,manuscript/figures/fig03.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/Fig3/,03_FIGURE_PRODUCTION/redraw/Fig3/reproduce/assemble.py
+Fig. 4,manuscript/figures/fig04.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/Fig4/,03_FIGURE_PRODUCTION/redraw/Fig4/reproduce/assemble.py
+Fig. 5,manuscript/figures/fig05.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/Fig5/,03_FIGURE_PRODUCTION/redraw/Fig5/reproduce/assemble.py
+Fig. 6,manuscript/figures/fig06.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/Fig6/,03_FIGURE_PRODUCTION/redraw/Fig6/reproduce/assemble.py
+Fig. 7,manuscript/figures/fig_calibration_R4.pdf,R5.1 project,results/unknown_shape_calibration_replicates.csv; results/unknown_shape_test_replicates.csv,src/make_r5_figures.py
+Fig. 8,manuscript/figures/fig07.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/Fig7/,03_FIGURE_PRODUCTION/redraw/Fig7/reproduce/assemble.py
+Fig. S1,manuscript/supp_figures/figS01.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/FigS1/,03_FIGURE_PRODUCTION/redraw/supplement_reproduce/build.py
+Fig. S2,manuscript/supp_figures/figS02.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/FigS2/,03_FIGURE_PRODUCTION/redraw/supplement_reproduce/build.py
+Fig. S3,manuscript/supp_figures/figS03.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/FigS3/,03_FIGURE_PRODUCTION/redraw/supplement_reproduce/build.py
+Fig. S4,manuscript/supp_figures/figS04.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/FigS4/,03_FIGURE_PRODUCTION/redraw/supplement_reproduce/build.py
+Fig. S5,manuscript/supp_figures/figS05.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/FigS5/,03_FIGURE_PRODUCTION/redraw/supplement_reproduce/build.py
+Fig. S6,manuscript/supp_figures/figS06.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/FigS6/,03_FIGURE_PRODUCTION/redraw/supplement_reproduce/build.py
+Fig. S7,manuscript/supp_figures/figS07.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/FigS7/,03_FIGURE_PRODUCTION/redraw/supplement_reproduce/build.py
+Fig. S8,manuscript/supp_figures/figS08.pdf,PRE_Figures_Tables_Reproducibility.zip,03_FIGURE_PRODUCTION/generated_data/FigS8/,03_FIGURE_PRODUCTION/redraw/supplement_reproduce/build.py
+Fig. S9,manuscript/supp_figures/figS09.pdf,R5.1 project,results/white_latent_lift.csv,src/make_r5_figures.py
+Fig. S10,manuscript/supp_figures/figS10.pdf,R5.1 project,results/joint_low_frequency.csv,src/make_r5_legacy_supp_figures.py
+Fig. S11,manuscript/supp_figures/figS11.pdf,R5.1 project,results/compact_kernel_mechanism_ablation.csv,src/make_r5_legacy_supp_figures.py
+Fig. S12,manuscript/supp_figures/figS12.pdf,R5.1 project,results/independent_scale_calibration.csv,src/make_r5_legacy_supp_figures.py
+Fig. S13,manuscript/supp_figures/figS13.pdf,R5.1 project,results/finite_support_lifts.csv; results/finite_support_attempts.csv,src/make_r5_figures.py
+Fig. S14,manuscript/supp_figures/figS14.pdf,R5.1 project,results/broadband_optima.csv; results/broadband_pointwise_curves.csv,src/make_r5_figures.py
+Fig. S15,manuscript/supp_figures/figS15.pdf,R5.1 project,results/misspecification_stress.csv; results/unknown_shape_test_replicates.csv,src/make_r5_figures.py
+Fig. S16,manuscript/supp_figures/figS16.pdf,R5.1 project,results/eeg_known_transformations.csv,src/make_r5_figures.py
+Fig. S17,manuscript/supp_figures/figS17.pdf,R5.1 project,results/misspecification_population_limit.csv,src/make_r5_figures.py
+Theory and numerical experiments,manuscript/source/main.tex,PRE_R4_Full_Research_and_Submission_Package_2026-11-09.zip,PRE_R4/src/; PRE_R4/results/; PRE_R4/inputs/01_RESEARCH/,PRE_R4/src/theory_extensions.py; PRE_R4/src/calibration_unknown_shape.py
+Source-table index,manuscript/source/supplement.tex,PRE_Figures_Tables_Reproducibility.zip,tables/TABLE_SOURCE_INDEX.csv,03_FIGURE_PRODUCTION/delivery/build_tables_and_captions.py

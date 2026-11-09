@@ -1,0 +1,12 @@
+{
+  "matched_complete_window_records": 113,
+  "matched_subjects": 71,
+  "original_EO_records": 52,
+  "original_EC_records": 61,
+  "max_float32_archive_score_difference": 2.38739941444549e-12,
+  "archive_sha256": {
+    "original": "954b83bfef3378db454ec180f8f6edd9ecbbc801d3262bf5f1648c352935c549",
+    "average": "081c0c4f99814c51ae91ec18aec08a77b946bdc4305788884858d0816a9238b8"
+  },
+  "scope": "Exploratory post-holdout analysis of archived imaginary-cycle arrays; same 12+12 windows under both references; no raw EDF recomputation."
+}

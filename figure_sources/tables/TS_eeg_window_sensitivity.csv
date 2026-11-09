@@ -1,0 +1,3 @@
+﻿Sensitivity,Condition,N,Mean Q,95% subject-bootstrap interval,Holm p
+4-second window,Open,64,5.5308e-5,"[2.4288e-5, 8.5545e-5]",0.00046
+4-second window,Closed,76,1.0680e-4,"[7.5198e-5, 1.3780e-4]",0.00004

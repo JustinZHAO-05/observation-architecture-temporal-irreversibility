@@ -1,0 +1,10 @@
+{
+  "broadband_settings": 15,
+  "max_broadband_reconstruction_error": 1.7764193643395963e-15,
+  "min_optimal_latent_eigenvalue": -3.1396559633273615e-14,
+  "finite_order_targets": 72,
+  "certified_positive": 72,
+  "max_latent_order": 34,
+  "max_reconstruction_error": 1.2169978318064799e-15,
+  "seconds": 11.444280862
+}

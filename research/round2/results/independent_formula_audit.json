@@ -1,0 +1,14 @@
+{
+  "kernel_checks": 27,
+  "max_kernel_error": 8.940803847189904e-16,
+  "max_Frobenius_identity_error": 4.440892098500626e-16,
+  "perturbation_cases": 2500,
+  "positive_certificates": 1713,
+  "max_certificate_minus_true_bound": -5.6971531317262614e-09,
+  "max_product_error_minus_envelope": -2.1708839382088362e-10,
+  "unknown_mean_cases": 300,
+  "unknown_mean_all_covered": true,
+  "unknown_mean_max_error_over_radius": 0.2835130238169885,
+  "weak_signal_separation_cases": 450,
+  "separation_failures": 0
+}

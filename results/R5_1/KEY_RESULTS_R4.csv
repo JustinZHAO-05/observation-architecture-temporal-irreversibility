@@ -1,0 +1,15 @@
+quantity,value,unit,source
+finite_order_targets,72,independent targets,finite_support_lifts.csv
+finite_order_relative_error_max,1.2169978318064799e-15,relative Frobenius,finite_support_lifts.csv
+finite_order_degree_min,4,covariance lag,finite_support_lifts.csv
+finite_order_degree_max,34,covariance lag,finite_support_lifts.csv
+broadband_ratio_beta08_flat,0.854239,latent/observed integrated trace,broadband_optima.csv
+broadband_ratio_beta08_pole08,0.829345,latent/observed integrated trace,broadband_optima.csv
+independent_record_pairs,600,pairs,calibration_run.json
+test_analyses,8520,nested and control analyses,unknown_shape_test_replicates.csv
+calibration_analyses,1680,analyses,unknown_shape_calibration_replicates.csv
+finite_calibration_bounds,1320,bounds,calibration_coverage_summary.csv
+calibration_abstentions,360,cases,calibration_coverage_summary.csv
+known_transformations,161,numeric transforms of one recording,eeg_known_transformations.csv
+diagonal_cycle_error_max,1.2245722530534945e-15,absolute,observation_controls_summary.json
+orthogonal_reversal_relative_error_max,7.923750811045337e-14,relative,observation_controls_summary.json

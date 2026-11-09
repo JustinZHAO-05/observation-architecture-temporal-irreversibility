@@ -1,0 +1,3 @@
+cohort,n,mean_difference,ci_low,ci_high,p,status
+holdout,83,0.00012494959913963318,8.596510279108614e-05,0.00016370716137249937,2e-05,exploratory_condition_difference
+pilot,8,0.00012045966809739725,-9.700749240004943e-06,0.0002562532247634115,0.13166,exploratory_condition_difference

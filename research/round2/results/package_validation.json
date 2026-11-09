@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "python_sources_compile": true,
+    "fixed_grid_count": true,
+    "fixed_grid_independent_units": true,
+    "null_analysis_count": true,
+    "all_finite_envelopes_cover": true,
+    "all_fixed_bounds_below_population_bound": true,
+    "power_summary_reconciles": true,
+    "rate_analysis_count": true,
+    "rate_independent_units": true,
+    "rate_lower_sum_below_population_bound": true,
+    "exact_record_equality": true,
+    "EEG_pair_rows": true,
+    "EEG_matched_records": true,
+    "EEG_unique_people": true,
+    "input_hash_original": true,
+    "input_hash_average": true,
+    "EEG_means_reconcile": true,
+    "LP_analytic_inside_numeric_bracket": true,
+    "LP_upper_covariances_PSD": true,
+    "six_PNG_figures_exist": true,
+    "no_font_files_bundled": true
+  },
+  "passed": 21,
+  "total": 21,
+  "all_passed": true
+}

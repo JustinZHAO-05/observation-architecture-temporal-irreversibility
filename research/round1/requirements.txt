@@ -1,0 +1,12 @@
+# Versions installed for the completed study (Python 3.12).
+# Core numerical analysis and figures:
+numpy==2.3.5
+scipy==1.17.0
+pandas==2.2.3
+matplotlib==3.10.8
+
+# PDF export / rendered-page inspection. The numerical study can run without
+# reportlab and PyMuPDF; use reproduce_all.py --skip-pdf in that case.
+reportlab==4.4.9
+Pillow==13.0.0
+PyMuPDF==1.26.6

@@ -1,0 +1,8 @@
+{
+  "analyses": 384,
+  "independent_long_trajectories": 128,
+  "all_dense_grid_checks_covered": true,
+  "all_rate_bounds_below_population_triangle_integral": true,
+  "exact_observed_KL_rate": 2.588314677411236,
+  "seconds": 17.09064444799992
+}

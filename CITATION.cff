@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite the research manuscript and the project repository if you use these materials."
-title: "Observation architecture and the identifiability of temporal irreversibility: code and numerical data"
+message: "If you use this code or dataset, please cite the related manuscript and the public project repository."
+title: "Observation architecture and the identifiability of temporal irreversibility: research code and data"
 authors:
   - family-names: "Zhao"
     given-names: "Yanzhe"

@@ -1,0 +1,67 @@
+{
+  "canvas_mm": [
+    178.0,
+    126.0
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4204,
+    2976
+  ],
+  "panels": {
+    "A": {
+      "A_1s.csv": {
+        "rows": 29,
+        "sha256": "bb0d4f38fc4f90cb5323616c35d3634d7533e9c70a3a3062075a5e52185c3594"
+      },
+      "A_2s.csv": {
+        "rows": 57,
+        "sha256": "2fc3b0fe608d7ee241e486476daef8018e3ad6072cd5807bde7b89e19c18015f"
+      },
+      "A_4s.csv": {
+        "rows": 113,
+        "sha256": "a10734283f780470d9d93646b89b83f40b2116be4d8ff87738d0ed4ecdd8dbe3"
+      },
+      "A_8s.csv": {
+        "rows": 225,
+        "sha256": "7c289120b33e24715e13e437518dc31e2aad89f4bd8b29fc393485b45dce6463"
+      },
+      "A_population.csv": {
+        "rows": 801,
+        "sha256": "62f14571262af094dcc2ac1d3a7fc1374d10e9e776bc4115b2af5ccef4e884b6"
+      }
+    },
+    "B": {
+      "B.csv": {
+        "rows": 18,
+        "sha256": "af1558f1c26d267324f257b830ce516cab94b70a7281d35910773944e769c830"
+      }
+    },
+    "C": {
+      "C.csv": {
+        "rows": 18,
+        "sha256": "e949f02ab869aea6a190e96a5be61db870477d6d177b47f996c5865ba3f74775"
+      }
+    },
+    "D": {
+      "D.csv": {
+        "rows": 5,
+        "sha256": "7c6e6a1e7c48b58ee76488aea19f7f13cb3d009a75241a300fe8b9c741899bf3"
+      },
+      "D_randomized_records.csv": {
+        "rows": 960,
+        "sha256": "99685f144ce1c3a4fad62e9370fb4f63f00594290fe2441f224893312e708ba3"
+      },
+      "D_structured_records.csv": {
+        "rows": 500,
+        "sha256": "39826e375325dc869747bdc1a8be61b38d081f675c67e550eaa399bd1ac98d2d"
+      }
+    }
+  },
+  "sha256": {
+    "FigS5.pdf": "ea9568253b7c39bd06613a993245ff2e46b06c597a15f97b1e9daee0d9ee5ffa",
+    "FigS5.png": "72e5e48519a75fee6a2edd2c8fdcccc7e6571e8abb822048fc9b2b26a71e43be",
+    "FigS5.svg": "fd738dd67683a066de75f193f49fd5b968f32106ec85dda9689bb4e17ce1756b"
+  }
+}

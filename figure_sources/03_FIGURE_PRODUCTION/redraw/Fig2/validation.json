@@ -1,0 +1,40 @@
+{
+  "canvas_mm": [
+    178,
+    150
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4205,
+    3544
+  ],
+  "pptx": {
+    "native_shapes": 84,
+    "native_groups": 16,
+    "editable_equations": 18,
+    "vector_data_panels": 3,
+    "page_mm": [
+      178.0205,
+      150.01875
+    ]
+  },
+  "scientific": {
+    "b": 0.9,
+    "draw_seed": 26110802,
+    "samples_per_channel": 32,
+    "frequencies": 513,
+    "max_covariance_difference": 0.0,
+    "max_spectral_difference": 2.245934655996687e-16,
+    "max_cycle_difference": 1.6653345369377348e-16,
+    "peak_imaginary_cycle_magnitude": 0.14029611541307913,
+    "latent_reversal_rate": 0.0,
+    "observed_reversal_rate": 2.588314677411236
+  },
+  "sha256": {
+    "Fig2.pdf": "235f75360b055a7d2f3a90077737f935cece7f389239d4481f26b9652bf9d220",
+    "Fig2.pptx": "928b38ecd49faa1bea456e54fe2dae64f1c0c3b3c8ad6a611894f3aaf5dac1ab",
+    "Fig2.svg": "015dc3d81aa7a40747be55f321717512e0878437a22c870f00b0547f40ce35be",
+    "Fig2.png": "0517ebea96e071e1d97dcd730deb0a889d5c6dd6701224f5b4326240fbfeaf60"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "canvas_mm": [
+    178.0,
+    126.0
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4204,
+    2976
+  ],
+  "panels": {
+    "A": {
+      "A.csv": {
+        "rows": 32,
+        "sha256": "c133c9d878ae9fcb350c92a674587a4bad7f2b005a62ab43e6b8f2b4f2f0c020"
+      }
+    },
+    "B": {
+      "B.csv": {
+        "rows": 32,
+        "sha256": "c133c9d878ae9fcb350c92a674587a4bad7f2b005a62ab43e6b8f2b4f2f0c020"
+      }
+    },
+    "C": {
+      "C.csv": {
+        "rows": 32,
+        "sha256": "c133c9d878ae9fcb350c92a674587a4bad7f2b005a62ab43e6b8f2b4f2f0c020"
+      },
+      "C_slsqp.csv": {
+        "rows": 32,
+        "sha256": "efaa03d28547e1f3688235fb6434671b3755c6688c0a5f6460c301f0d4675dfb"
+      }
+    },
+    "D": {
+      "D.npz": {
+        "array_shapes": {
+          "b": [
+            131
+          ],
+          "theta_rad": [
+            151
+          ],
+          "minimum_trace_ratio": [
+            131,
+            151
+          ]
+        },
+        "sha256": "7a40cb6424016782791f857e82c125730eb06d65372080d2f5be5d9f7935aeb9"
+      }
+    }
+  },
+  "sha256": {
+    "FigS4.pdf": "649a74e5815a9c718219e94b2e6cfedfd3c12743c94d8fee61aec0329795437f",
+    "FigS4.png": "7b3c133ffc8a01f8db41b2d3887c571bdd7687938d1c2f6c6595d455ea7154fe",
+    "FigS4.svg": "530b7bcb3c6f449170443b173f67acbc31e539176ec4e0b6d9acda7aa32944f0"
+  }
+}

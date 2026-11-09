@@ -1,0 +1,8 @@
+serialization done_s 0.01716181600204436
+conditional_bound done_s 0.07805030899908161
+window 16 elapsed_s 0.4463187889996334
+window 32 elapsed_s 1.7736205580004025
+leakage done_s 2.2227043640014017
+sharpness done_s 0.7858305870031472
+projection done_s 0.28342011100176023
+conditioning done_s 0.007233870004711207

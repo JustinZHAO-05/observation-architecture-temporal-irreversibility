@@ -1,0 +1,43 @@
+{
+  "canvas_mm": [
+    178.0,
+    126.0
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4204,
+    2976
+  ],
+  "panels": {
+    "A": {
+      "A.csv": {
+        "rows": 90,
+        "sha256": "6707a7676928fe45a5fdfd391d8a1b9c70617189797e27082dbcb53bbc378ea6"
+      }
+    },
+    "B": {
+      "B.csv": {
+        "rows": 90,
+        "sha256": "6707a7676928fe45a5fdfd391d8a1b9c70617189797e27082dbcb53bbc378ea6"
+      }
+    },
+    "C": {
+      "C.csv": {
+        "rows": 90,
+        "sha256": "6707a7676928fe45a5fdfd391d8a1b9c70617189797e27082dbcb53bbc378ea6"
+      }
+    },
+    "D": {
+      "D.csv": {
+        "rows": 600,
+        "sha256": "07cff11acc709b1afdb7f93aca5e448bc98874ef82f5cc0389ec3aabea7cd357"
+      }
+    }
+  },
+  "sha256": {
+    "FigS3.pdf": "9ccb4030aef2184da7796207d01fccc479ccb7a6b90b57ccf2ff00bdde54a951",
+    "FigS3.png": "b928b72aa6323d40036bd1313b31f98ffbcb6d8320b0aaa84d218970ed65ca83",
+    "FigS3.svg": "789e27519ee95fc4992fc0cf7299fa9552589f62c6b6d77b50781a21858331b4"
+  }
+}

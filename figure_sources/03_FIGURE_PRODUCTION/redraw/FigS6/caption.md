@@ -1,0 +1,5 @@
+**Figure S6. Confidence envelopes and their numerical validity.**
+(a) Representative known-mean MA(1) spectrum, estimated from the same $N=524{,}288$ trajectory as Fig. 6a. The band gives the simultaneous radius $\epsilon$ for the imaginary cross-spectrum.
+(b) Unknown-mean extension, checked by replaying 300 global-centering simulations (100 independent records per length). The largest normalized error is 0.284. The dashed line is the theoretical threshold.
+(c) All 2,500 seeded Hermitian perturbations. The diagonal marks the population triangle bound. There were 1,713 positive certificates and all certificates were below their population bound, including trials with indefinite estimates. Both axes retain zero with symmetric-log scaling.
+(d) Theoretical simultaneous coverage corresponds to an error-to-radius ratio at most one. Every one of the 7,680 fixed-grid analyses was within that threshold. They use 1,920 independent long trajectories, with nested lengths within each model–delay setting. The CDF pools lengths and delays descriptively. The nominal coverage level is 95%.

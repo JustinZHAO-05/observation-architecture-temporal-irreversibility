@@ -1,0 +1,51 @@
+{
+  "canvas_mm": [
+    178,
+    158
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4205,
+    3733
+  ],
+  "pptx": {
+    "native_groups": 3,
+    "editable_equations": 8,
+    "vector_data_layers": 4,
+    "native_window_marks": 48,
+    "page_mm": [
+      178.0205,
+      158.00036111111112
+    ]
+  },
+  "scientific": {
+    "matched_records": 113,
+    "unique_participants": 71,
+    "eyes_open": 52,
+    "eyes_closed": 61,
+    "paired_participants": 42,
+    "reference_records": 226,
+    "ratio_of_group_means": {
+      "1": 5.16020025477787,
+      "2": 2.6328999056915174
+    },
+    "max_q_product_error": 1.0842021724855044e-19,
+    "edf_sha256": "374dfa06c6df18e3bd324f4c8aefa462bacb6bf9dcbfe8d58ae6e84ed2bbc443",
+    "asset_md5": "d2a0637fb2064d7065354d012f377fcc",
+    "example_angle_deg": 80.57185149828919,
+    "sampling_hz": 160,
+    "analysis_channels": 12,
+    "car_channels": 64,
+    "windows_per_half": 12,
+    "bootstrap_seed": 743109,
+    "bootstrap_draws": 20000,
+    "full_cycle_archive_checked": true
+  },
+  "sha256": {
+    "Fig7.pdf": "79c1f1263e00f90b11beceb5b121cd23e504419cfa42a33cdb1bea31d354ccb9",
+    "Fig7.pptx": "ea3eb272fb56860dd1f56a7215860073dbdf9a0a83a2271c91566a26be74d926",
+    "Fig7.svg": "ca4b5ad63826e221e5ba616a13bfd4a938cc4ce7bc8be0103586d957cba76ac6",
+    "Fig7.png": "f3812340f7688a58ac7c0baf7256d32d2cda5b50246d06bb47ae3d0ad53a3e03"
+  }
+}

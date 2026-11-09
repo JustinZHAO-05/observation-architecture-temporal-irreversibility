@@ -1,0 +1,18 @@
+9 November 2026
+
+Dear Editors of Physical Review E,
+
+Please consider “Observation architecture and the identifiability of temporal irreversibility” by Yanzhe Zhao as a Regular Article.
+
+The manuscript studies how temporal filtering and spatial mixing determine what a multivariate time series reveals about the time-reversal properties of its latent source. Its principal result is a constructive representation theorem: every continuously differentiable positive-definite real Gaussian spectrum admits an exactly equivalent observation of a reversible latent process of twice the observed dimension, with a fixed mixing matrix and one sample of differential delay. A finite-order extension preserves this observation operator while restricting the latent covariance support to be finite.
+
+We also derive a sharp pointwise resource requirement and a broadband integrated optimum in a rotational spectral family. These results distinguish complete statistical equivalence from the spectral resources required to realize it. For the narrower channelwise filtering architecture, we establish a quantitative cycle-based lower bound and develop a finite-record confidence construction. A new independent calibration rule does not require the normalized spectral shape, provided a quantitative dependence-class envelope is supplied. The numerical study reports both successful certification and its conservative behavior under long correlations. Controlled EEG transformations and a matched-window cohort illustration connect the observation-level results to neural signal analysis.
+
+The paper addresses inverse problems in nonequilibrium stochastic dynamics, observation geometry, and statistical inference. We believe these topics fit the statistical and biological physics readership of Physical Review E. The main Appendices provide complete proofs; Supplemental Material, code, source data, fixed seeds and a checksum manifest accompany the submission.
+
+Correspondence:
+Yanzhe Zhao
+School of Future Technology, Tianjin University
+justinzhaoyz@outlook.com
+
+Author completion before submission: confirm the journal's exclusivity, authorship, conflict-of-interest, data-availability and AI-use declarations. This draft intentionally makes no unverified declaration on those matters.

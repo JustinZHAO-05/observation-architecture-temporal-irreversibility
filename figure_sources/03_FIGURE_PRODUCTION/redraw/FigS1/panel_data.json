@@ -1,0 +1,15 @@
+{
+  "A": [
+    "A.csv"
+  ],
+  "B": [
+    "B.csv"
+  ],
+  "C": [
+    "C.csv",
+    "C_full_scan.csv"
+  ],
+  "D": [
+    "D.csv"
+  ]
+}

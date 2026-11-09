@@ -1,0 +1,8 @@
+{
+  "analyses": 7680,
+  "independent_long_trajectories": 1920,
+  "all_envelopes_cover": true,
+  "all_certificates_below_population_analytic_bound": true,
+  "null_rejections": 0,
+  "seconds": 12.189945357
+}

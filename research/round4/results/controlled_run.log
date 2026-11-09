@@ -1,0 +1,42 @@
+{
+  "eeg": {
+    "record": "S011R01",
+    "n_biological_records": 1,
+    "windows": 24,
+    "channels": [
+      "F3",
+      "F4",
+      "FZ",
+      "C3",
+      "C4",
+      "CZ",
+      "P3",
+      "P4",
+      "PZ",
+      "O1",
+      "O2",
+      "OZ"
+    ],
+    "frequencies": 57,
+    "transform_realizations": 161,
+    "max_original_condition": 2028.8850574583098,
+    "diagonal_max_cycle_error": 1.2245722530534945e-15,
+    "orthogonal_max_relative_raw_error": 7.923750811045337e-14
+  },
+  "stress": [
+    {
+      "condition": "misspecified_finite_support",
+      "n": 80,
+      "positive": 0,
+      "coverage": 0.0,
+      "median_lower": 0.0
+    },
+    {
+      "condition": "valid_tail_envelope",
+      "n": 80,
+      "positive": 0,
+      "coverage": 1.0,
+      "median_lower": 0.0
+    }
+  ]
+}

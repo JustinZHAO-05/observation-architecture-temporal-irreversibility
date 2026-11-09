@@ -1,0 +1,8 @@
+﻿Quantity,Result
+Observed / latent dimensions,3 / 6
+Observation delay,1 sample
+Maximum covariance difference for the complete 32-point record,0.0 in double precision
+Maximum spectral difference on 513 frequencies,$2.25\times10^{-16}$
+Minimum latent spectral eigenvalue on that grid,0.0475
+Maximum absolute imaginary triangle,0.140296
+Maximum observed reversal density,8.526316

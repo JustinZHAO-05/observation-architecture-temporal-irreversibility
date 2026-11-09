@@ -1,0 +1,30 @@
+{
+  "matrix_tests": {
+    "n_cases": 540,
+    "max_invariance_error": 1.8670653977139894e-16,
+    "min_analytic_bound_margin": 5.554859488750198e-07
+  },
+  "networks": {
+    "n_conditions": 192,
+    "max_cycle_change": 9.278184649471119e-17,
+    "reversible_filtered_pair_mean": 0.10683496058160978,
+    "reversible_filtered_cycle_max": 2.081713192174464e-17
+  },
+  "counterexamples": {
+    "feedforward_chain": {
+      "max_closure_imag": 2.4262467376969757e-17,
+      "mean_reversal_density": 1.080954041320177
+    },
+    "filter_then_mix": {
+      "max_source_closure_imag": 1.0204993882785886e-17,
+      "max_sensor_closure_imag": 0.08233957611075951,
+      "max_lower_bound": 0.027689979224854167
+    },
+    "sparse_four_cycle": {
+      "max_triangle_imag": 0.0,
+      "four_cycle_imag": 0.00050625,
+      "min_eigenvalue": 0.7228361402466139
+    }
+  },
+  "wall_seconds": 7.598298191005597
+}

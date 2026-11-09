@@ -1,0 +1,47 @@
+{
+  "canvas_mm": [
+    178,
+    116
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4205,
+    2741
+  ],
+  "pptx": {
+    "native_groups": 10,
+    "native_shapes": 96,
+    "editable_equations": 7,
+    "vector_data_panels": 3,
+    "page_mm": [
+      178.0205,
+      116.01980555555555
+    ]
+  },
+  "scientific": {
+    "frequencies": 257,
+    "phasor_frequency_rad_sample": 1.5707963267948966,
+    "maximum_closure_phase_difference_rad": 4.440892098500626e-16,
+    "maximum_cycle_product_difference": 2.5788518451458537e-17,
+    "phase_scan_count": 181,
+    "maximum_numeric_interval_width": 2.5604934839051907e-12,
+    "weak_limit_count": 32,
+    "weak_path_first_ratio_bracket": [
+      0.964714450510293,
+      0.9664099513877638
+    ],
+    "optimization_seed": 26110904,
+    "weak_edge_example_phase_shares": [
+      0.33333333333333326,
+      0.7155553232118939,
+      0.9698944879750859
+    ]
+  },
+  "sha256": {
+    "Fig4.pdf": "b68a6b91c8952f33f32945b080511b38610da9ae9b5ace46d9444fc4297706cd",
+    "Fig4.pptx": "cf9455795930e5c221631975a3ca76ce5f2586e13934ffaec12dcdc9d371d78a",
+    "Fig4.svg": "e0ffb1046bbb0b33a1489965e884ccbc378b23e811d6ee151dc3dc44722390ef",
+    "Fig4.png": "71269276729006c2c6a4851eff32cc1c6a3cf00afd39eb03a8cfb32ab1bfb6dd"
+  }
+}

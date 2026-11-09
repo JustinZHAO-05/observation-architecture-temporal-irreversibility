@@ -1,0 +1,17 @@
+{
+  "A": [
+    "A.csv",
+    "A_null_cells.csv"
+  ],
+  "B": [
+    "B.csv",
+    "B_replicates.csv"
+  ],
+  "C": [
+    "C.csv",
+    "C_summary.csv"
+  ],
+  "D": [
+    "D.csv"
+  ]
+}

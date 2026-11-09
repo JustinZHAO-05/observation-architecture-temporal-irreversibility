@@ -1,0 +1,21 @@
+{
+  "networks": 90,
+  "frequency_points_per_network": 83,
+  "max_general_relative_error": 5.827582633977253e-14,
+  "min_general_latent_eigenvalue": 0.020649737907416463,
+  "exact_example": {
+    "b": 0.9,
+    "observed_channels": 3,
+    "latent_channels": 6,
+    "latent_covariance_support": 2,
+    "observation_delay": 1,
+    "record_length": 32,
+    "k": 0.4525,
+    "max_full_record_covariance_difference": 0.0,
+    "max_spectral_difference": 2.245934655996687e-16,
+    "min_latent_spectral_eigenvalue": 0.047499999999999674,
+    "max_abs_imaginary_cycle": 0.14029611541307913,
+    "max_observed_reversal": 8.526315789473692
+  },
+  "seconds": 1.26096039600003
+}

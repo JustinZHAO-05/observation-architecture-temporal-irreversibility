@@ -1,0 +1,20 @@
+{
+  "A": [
+    "A_1s.csv",
+    "A_2s.csv",
+    "A_4s.csv",
+    "A_8s.csv",
+    "A_population.csv"
+  ],
+  "B": [
+    "B.csv"
+  ],
+  "C": [
+    "C.csv"
+  ],
+  "D": [
+    "D.csv",
+    "D_randomized_records.csv",
+    "D_structured_records.csv"
+  ]
+}

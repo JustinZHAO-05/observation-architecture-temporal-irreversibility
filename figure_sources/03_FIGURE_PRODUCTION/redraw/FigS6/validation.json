@@ -1,0 +1,68 @@
+{
+  "canvas_mm": [
+    178.0,
+    126.0
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4204,
+    2976
+  ],
+  "panels": {
+    "A": {
+      "A.npz": {
+        "array_shapes": {
+          "omega_rad_sample": [
+            2048
+          ],
+          "true_spectrum": [
+            2048,
+            3,
+            3
+          ],
+          "estimated_spectrum": [
+            2048,
+            3,
+            3
+          ],
+          "uniform_radius": [],
+          "B": [],
+          "T_L": [],
+          "N": [],
+          "L": [],
+          "alpha": [],
+          "seed": []
+        },
+        "sha256": "57172f4789f8d812ccc63aa8332dca0004483eb7573a6420c128661cab4aafad"
+      }
+    },
+    "B": {
+      "B.csv": {
+        "rows": 300,
+        "sha256": "ee1bbeebcd99d5057f34dde3d08c5b185d7c13f385aa58e1b4805b85dc03d6b7"
+      }
+    },
+    "C": {
+      "C.csv": {
+        "rows": 2500,
+        "sha256": "0682e97d3620bbd0016f067ee56c8ec10e07a838bd9b27392f012dbf67d3e3d7"
+      }
+    },
+    "D": {
+      "D.csv": {
+        "rows": 7680,
+        "sha256": "6a45358586b3fa3ac4944993d5cd44638e1c7550d873281eebd386a4d4b9644a"
+      },
+      "D_cells.csv": {
+        "rows": 60,
+        "sha256": "0d00c6e30a3d22b4e901d4ed412c0207573958d01bcd2396b48a1c61fbf32cb9"
+      }
+    }
+  },
+  "sha256": {
+    "FigS6.pdf": "4cc6af9473fff9f8ee5b51c6e2f3e3e84137ce6951081b83784ad9891b391be8",
+    "FigS6.png": "2a145e4fb8ecd8df2855b15e6fa39a728466983630fbd30e22f43c799586e7b0",
+    "FigS6.svg": "b0e9b96dd644880856e3a8f2a8327e02c057f43bf6d4b6398a14c43ce2840ca3"
+  }
+}

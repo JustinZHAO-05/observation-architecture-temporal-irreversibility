@@ -1,0 +1,20 @@
+{
+  "cost_cases": 32,
+  "optimizer_successes": 7,
+  "max_relative_cost_error": 0.0003168633900928132,
+  "min_fitted_eigenvalue": -0.0004457164875214998,
+  "max_constraint_error": 6.783465744240132e-14,
+  "power_ratio_b08_theta005": 160.433587604617,
+  "exact_coordinate_example": {
+    "raw_E_original": 8.526315789473692,
+    "raw_E_rotated": 8.526315789473696,
+    "triangle_lower_original": 0.049861495844875356,
+    "triangle_lower_rotated": 2.748229074375279e-35,
+    "imaginary_cycle_original": -0.14029611541307913,
+    "imaginary_cycle_rotated": -3.206280385283512e-34,
+    "orthogonality_error": 2.220446049250313e-16
+  },
+  "seconds": 3.413126557000055,
+  "random_rotations": 600,
+  "max_raw_E_rotation_error": 1.5987211554602254e-14
+}

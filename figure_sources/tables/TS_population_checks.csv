@@ -1,0 +1,7 @@
+﻿Validation,Scope,Observed result
+Random positive-definite matrices,"540 matrices; dimensions 3, 8, 24, 64",Maximum cycle-invariance error 1.87e-16
+Stable linear stochastic network ensemble,"192 conditions; dimensions 3, 8, 24, 64; 12 networks per dimension; 4 asymmetry levels",Maximum cycle change after causal pole/delay filters 9.28e-17
+Reversible members of the network ensemble,48 symmetric networks,Mean filtered pairwise imaginary-coherency RMS 0.1068; maximum cycle RMS 2.08e-17
+Independent mathematical implementation,300 random 3 by 3 matrices,No violation of the triangle inequality; minimum numerical margin 6.82e-7
+Phase optimization certificates,"480 matrices; dimensions 2, 3, 8, 24",Numerical intervals reported explicitly; higher-dimensional gaps retained
+Wick-moment calculation,All six pairings; Monte Carlo at 5 replica counts,Exact algebra agrees to 5.55e-17; simulations agree within sampling error

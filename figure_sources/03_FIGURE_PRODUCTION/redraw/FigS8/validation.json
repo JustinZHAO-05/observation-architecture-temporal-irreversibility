@@ -1,0 +1,55 @@
+{
+  "canvas_mm": [
+    178.0,
+    126.0
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4204,
+    2976
+  ],
+  "panels": {
+    "A": {
+      "A.csv": {
+        "rows": 218,
+        "sha256": "d97e49f171ec6a65b0aafdc60bfdb14036fa6ce544920bcd3b5aa9884209cda7"
+      },
+      "A_stages.csv": {
+        "rows": 4,
+        "sha256": "bba554762d446838ccc5e15d15c18fd0eb0cfcb2d503a2251b76e593c31f20ed"
+      }
+    },
+    "B": {
+      "B.csv": {
+        "rows": 8,
+        "sha256": "8d60094d5c453b9dd7e480f0e5cd474f4604fa53d8a4a28b5c85075d354b639a"
+      },
+      "B_membership.csv": {
+        "rows": 198,
+        "sha256": "6e636d952204fa7d7d5337c0f2ef29448ca9bb8abebead59342bae38fb94b1dd"
+      }
+    },
+    "C": {
+      "C.csv": {
+        "rows": 71,
+        "sha256": "a65d7c7e5133e8e69b06a62b2435fef827e521adc92cea4dbb7a8e5e2c2b1fe4"
+      },
+      "C_record_differences.csv": {
+        "rows": 113,
+        "sha256": "57bff83913390e4c37c5ecfa8f2ac52c71b4a9e10b3625fa1104c626e9d7f59e"
+      }
+    },
+    "D": {
+      "D.csv": {
+        "rows": 226,
+        "sha256": "f0854cd916f3bb0958b12752ae0574ba526a3e26ede95f3d5ad033063ca568ad"
+      }
+    }
+  },
+  "sha256": {
+    "FigS8.pdf": "341dce11822740de51cc7ba23436fdf50e7c5d7986946d4f6b66e0430ed501d6",
+    "FigS8.png": "ffc9a3fe09555f85c2ab8d5216d1cfef9b71a8373588f153fb88a8b32889b0f2",
+    "FigS8.svg": "fb493dcfa7d70bd790d3c55f62e91d998b79b013f28a7029ced264f165991728"
+  }
+}

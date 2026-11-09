@@ -1,0 +1,55 @@
+{
+  "canvas_mm": [
+    178,
+    125
+  ],
+  "vector_pdf": true,
+  "png_dpi": 600,
+  "png_pixels": [
+    4205,
+    2953
+  ],
+  "pptx": {
+    "native_groups": 4,
+    "native_shapes": 13,
+    "editable_equations": 2,
+    "vector_data_panels": 3,
+    "page_mm": [
+      178.0205,
+      125.01563888888889
+    ]
+  },
+  "scientific": {
+    "power_analyses": 7680,
+    "power_independent_long_trajectories": 1920,
+    "null_analyses": 3072,
+    "null_independent_long_trajectories": 768,
+    "null_positive": 0,
+    "rate_analyses": 384,
+    "rate_independent_long_trajectories": 128,
+    "rate_replicates_per_cell": 64,
+    "rate_quantiles": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "jitter_seed": 26110906,
+    "population_triangle_integral": 0.0297697654205264,
+    "replay_seed": 713420,
+    "replay_N": 524288,
+    "replay_L": 1,
+    "replay_B": 1.9,
+    "replay_T_L": 0.0,
+    "replay_alpha": 0.05,
+    "replay_integral_cells": 2048,
+    "replay_uniform_radius": 0.03351696893563648,
+    "replay_cell_variation": 0.0007985103989884096,
+    "replay_rate": 0.008317420581973704
+  },
+  "sha256": {
+    "Fig6.pdf": "158dcd53146627910f7c631d3b45054c9dfc82be0004f8a0584bcb5d0e7c0fbc",
+    "Fig6.pptx": "176b837faa22b95b5d96834e2e0697919ba24c37dec31038f93c37e89605a4ee",
+    "Fig6.svg": "5d587ab0d049b279eda86e399152e544b5adaa5c6f7ec297d6ec4cde7a3a1d87",
+    "Fig6.png": "ec821c04c4f0b2bcbfa7004cba3acc0ca164ab69492e73f2fcc01ee702d0fe15"
+  }
+}
