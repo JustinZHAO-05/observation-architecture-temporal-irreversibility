@@ -7,3 +7,7 @@ Files are grouped by research round to preserve the original experiment record. 
 ## November 15, 2026 — manuscript prose revision
 
 The main manuscript PDF and its LaTeX sources incorporate the author-requested prose, caption, and appendix revisions. Equations, scientific results, underlying data, and supplemental material remain in their existing research context. The repository checksum manifest has been updated for the revised files.
+
+## November 17, 2026 — preprint supplement
+
+Added a preprint copy of the supplemental material; its scientific content matches the existing supplement and its introductory journal reference is generalized.
